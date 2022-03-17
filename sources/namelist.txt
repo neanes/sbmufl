@@ -115,6 +115,7 @@ Based: AGL For New Fonts
 0xE0FC argon
 0xE0FD diargon
 0xE0FE triargon
+0xE100 gorgonYporroi
 0xE120 agogiPoliArgi
 0xE121 agogiArgoteri
 0xE122 agogiArgi
@@ -214,8 +215,8 @@ Based: AGL For New Fonts
 0xE204 yfesisGenikiAbove
 0xE205 yfesisGenikiBelow
 0xE210 barlineSingle
-0xE211 barlineSingle
-0xE212 barlineDouble
+0xE211 barlineDouble
+0xE212 barlineTheseos
 0xE213 barlineShortSingle
 0xE214 barlineShortDouble
 0xE215 barlineShortTheseos
