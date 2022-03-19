@@ -84,8 +84,8 @@ Based: AGL For New Fonts
 0xE0A5 heteron
 0xE0A6 heteronConnecting
 0xE0A7 endofonon
-0xE0B0 yfenTop
-0xE0B1 yfenBottom
+0xE0B0 yfenAbove
+0xE0B1 yfenBelow
 0xE0C0 stavros
 0xE0C1 breath
 0xE0D0 klasmaAbove
@@ -272,6 +272,7 @@ Based: AGL For New Fonts
 0xE2E8 modeOligonYpsili
 0xE2E9 modeElafron
 0xE2EA modeRunningElafron
+0xE2EB modeOligonKentimataBelow
 0xE2F0 modePlagal
 0xE2F1 modeWordEchos
 0xE2F2 modeWordVarys
