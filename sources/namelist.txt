@@ -119,7 +119,7 @@ Based: AGL For New Fonts
 0xE120 agogiPoliArgi
 0xE121 agogiArgoteri
 0xE122 agogiArgi
-0xE123 agogiMetri
+0xE123 agogiMetria
 0xE124 agogiMesi
 0xE125 agogiGorgi
 0xE126 agogiGorgoteri
