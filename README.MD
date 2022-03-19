@@ -39,7 +39,7 @@ Each category contains extra unused space to allow for future expansion.
 
 ## List of Glyphs
 
-See the [full list of glyphs](./docs/glyph_table.md).
+See the [full list of glyphs](./docs/glyph_table.md). This list does not currently render correctly within Github's website. TODO: move this table to a separate webpage.
 
 ## Example
 
