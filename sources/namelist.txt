@@ -259,7 +259,6 @@ Based: AGL For New Fonts
 0xE2C8 modePlagalSecond
 0xE2D0 modeVarys
 0xE2D1 modeVarys2
-0xE2D2 modeProtovarys
 0xE2D8 modePlagalFourth
 0xE2E0 modeNi
 0xE2E1 modePa
