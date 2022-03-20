@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1646795337
-ModificationTime: 1647749982
+ModificationTime: 1647753896
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3186,7 +3186,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<763.719 995.029> 469.5 28.5<408.041 448.657 951.611 1056.74> 607 123<970 1142.44>
 VStem: 1105.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 857 240 basechar 0
+AnchorPoint: "psifiston" 854 140 basechar 0
 AnchorPoint: "measure-number" 172 1073 basechar 0
 AnchorPoint: "ison-indicator" 714 1049 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3195,7 +3195,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 298 1040 basechar 0
 AnchorPoint: "fthora-top" 734 846 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3298,8 +3298,8 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 214 636 basechar 0
 AnchorPoint: "fthora-top" 656 600 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "psifiston" 787 240 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3357,7 +3357,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<761.719 992.868> 469.5 28.5<406.502 446.671 949.611 1054.74> 636 114<164.26 1218.87>
 VStem: 1103.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 820 240 basechar 0
+AnchorPoint: "psifiston" 860 140 basechar 0
 AnchorPoint: "measure-number" 172 953 basechar 0
 AnchorPoint: "ison-indicator" 724 1049 basechar 0
 AnchorPoint: "apli" 785 -80 basechar 0
@@ -3365,7 +3365,7 @@ AnchorPoint: "antikenoma" 713 62 basechar 0
 AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 214 916 basechar 0
 AnchorPoint: "fthora-top" 734 846 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 LayerCount: 2
 Fore
@@ -3450,7 +3450,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1049 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3459,7 +3459,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 158 670 basechar 0
 AnchorPoint: "fthora-top" 528 922 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3533,7 +3533,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3542,7 +3542,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 214 676 basechar 0
 AnchorPoint: "fthora-top" 594 868 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3627,7 +3627,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<225.709 308.188> 1190 32<641.32 679.933>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3636,7 +3636,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 194 956 basechar 0
 AnchorPoint: "fthora-top" 958 648 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3721,7 +3721,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 800 29<431.784 473.917> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3730,7 +3730,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 214 676 basechar 0
 AnchorPoint: "fthora-top" 482 890 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3831,7 +3831,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 641 26<477.26 518.917> 790 19<559.08 633.875> 1243 27<943.51 978.934>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3840,7 +3840,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 214 676 basechar 0
 AnchorPoint: "fthora-top" 1020 680 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3941,7 +3941,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 455 32<533.995 587.781> 469.5 28.5<328.502 368.671 871.611 976.738> 787 24<222.611 297.379>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 953 basechar 0
 AnchorPoint: "ison-indicator" 664 997 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3951,7 +3951,7 @@ AnchorPoint: "fthora-top" 489 911 basechar 0
 AnchorPoint: "note-top" 202 942 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 802 879 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4033,7 +4033,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 595 28.5<278.262 383.389 886.329 926.498> 920.5 39<338.797 569.561>
 VStem: 80 149<684.031 829.995> 1031 149<262.036 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1103 basechar 0
 AnchorPoint: "ison-indicator" 660 1049 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -4043,7 +4043,7 @@ AnchorPoint: "fthora-top" 489 1051 basechar 0
 AnchorPoint: "note-top" 202 1102 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4145,7 +4145,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 489 22<579.767 625.733> 590 28.5<278.262 383.389 886.329 926.498> 783 21<299.095 362.761> 916 38.5<340.132 567.839>
 VStem: 80 149<679.031 824.54> 1030.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1103 basechar 0
 AnchorPoint: "ison-indicator" 644 1037 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -4155,7 +4155,7 @@ AnchorPoint: "fthora-top" 489 1031 basechar 0
 AnchorPoint: "note-top" 202 1042 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4281,7 +4281,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1243 basechar 0
 AnchorPoint: "ison-indicator" 650 1133 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -4291,7 +4291,7 @@ AnchorPoint: "fthora-top" 649 971 basechar 0
 AnchorPoint: "note-top" 202 1242 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5571,7 +5571,7 @@ AnchorPoint: "fthora-top" 759 911 basechar 0
 AnchorPoint: "note-top" 502 972 basechar 0
 AnchorPoint: "diesis" 754 147 basechar 0
 AnchorPoint: "yfesis" 1222 911 basechar 0
-AnchorPoint: "psifiston" 1086 222 basechar 0
+AnchorPoint: "psifiston" 1072 129 basechar 0
 AnchorPoint: "klasma-bottom" 1260 53 basechar 0
 LayerCount: 2
 Fore
@@ -5839,7 +5839,7 @@ VWidth: 345
 Flags: W
 HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<747.208 793.807>
 VStem: 962.5 139<252.126 389.617>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 745 140 basechar 0
 AnchorPoint: "measure-number" 172 663 basechar 0
 AnchorPoint: "ison-indicator" 664 997 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -5849,7 +5849,7 @@ AnchorPoint: "fthora-top" 689 781 basechar 0
 AnchorPoint: "note-top" 202 942 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 936 857 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6407,7 +6407,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 313 29<592.871 640.233> 469.5 28.5<328.502 368.671 871.611 976.738> 612 22<312.095 378.125> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1243 basechar 0
 AnchorPoint: "ison-indicator" 650 1133 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -6417,7 +6417,7 @@ AnchorPoint: "fthora-top" 649 971 basechar 0
 AnchorPoint: "note-top" 202 1242 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7184,7 +7184,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1389 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -7193,7 +7193,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 227 927 basechar 0
 AnchorPoint: "fthora-top" 192 750 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7337,7 +7337,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<796.709 879.379> 681 26<437.386 472.283> 864 19<456.08 532.781> 1190 32<1212.32 1250.93> 1316 27<840.593 876.449>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1389 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -7346,7 +7346,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 207 913 basechar 0
 AnchorPoint: "fthora-top" 192 750 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7474,7 +7474,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188> 681 26<512.386 547.285> 864 19<603.584 679.429> 1190 32<519.297 557.449> 1316 27<987.51 1022.93>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 187 1293 basechar 0
 AnchorPoint: "ison-indicator" 664 1389 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -7483,7 +7483,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 132 1142 basechar 0
 AnchorPoint: "fthora-top" 1086 648 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7611,7 +7611,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 133 1273 basechar 0
 AnchorPoint: "ison-indicator" 664 1389 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -7620,7 +7620,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 132 1272 basechar 0
 AnchorPoint: "fthora-top" 1224 1296 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7791,7 +7791,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188 464.709 547.379 840.709 923.188> 1190 32<519.297 557.449 880.32 918.933 1256.32 1294.93>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 193 1280 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -7800,7 +7800,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 132 1142 basechar 0
 AnchorPoint: "fthora-top" 834 1282 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8441,7 +8441,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<227.017 304.739 828.011 904.218> 1195 30<624.898 660.934 1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 853 basechar 0
 AnchorPoint: "ison-indicator" 664 1299 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -8450,7 +8450,7 @@ AnchorPoint: "fthora-bottom" 352 162 basechar 0
 AnchorPoint: "note-top" 213 960 basechar 0
 AnchorPoint: "fthora-top" 204 842 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8657,7 +8657,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1483 basechar 0
 AnchorPoint: "ison-indicator" 650 1423 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -8667,7 +8667,7 @@ AnchorPoint: "fthora-top" 649 1221 basechar 0
 AnchorPoint: "note-top" 202 1482 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8805,10 +8805,10 @@ StartChar: petastiChamiliElafronApostrofos
 Encoding: 57448 57448 104
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 133.5 38<683.719 914.868> 463 29<562.871 610.964> 469.5 28.5<328.502 368.671 560.767 616.905 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 762 21<282.58 345.807> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 172 1483 basechar 0
 AnchorPoint: "ison-indicator" 650 1423 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -8818,7 +8818,7 @@ AnchorPoint: "fthora-top" 649 1261 basechar 0
 AnchorPoint: "note-top" 202 1482 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8981,7 +8981,7 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 332.5 28.5<328.502 368.671 871.611 976.738> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
-AnchorPoint: "psifiston" 760 87 basechar 0
+AnchorPoint: "psifiston" 784 1 basechar 0
 AnchorPoint: "measure-number" 172 1333 basechar 0
 AnchorPoint: "ison-indicator" 650 1293 basechar 0
 AnchorPoint: "apli" 765 -250 basechar 0
@@ -8991,7 +8991,7 @@ AnchorPoint: "fthora-top" 649 1101 basechar 0
 AnchorPoint: "note-top" 202 1332 basechar 0
 AnchorPoint: "diesis" 464 4 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
-AnchorPoint: "klasma-bottom" 800 -93 basechar 0
+AnchorPoint: "klasma-bottom" 800 -63 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9125,7 +9125,7 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 178 29<592.871 640.233> 332.5 28.5<328.502 368.671 871.611 976.738> 477 21<312.095 375.807> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
-AnchorPoint: "psifiston" 760 87 basechar 0
+AnchorPoint: "psifiston" 781 2 basechar 0
 AnchorPoint: "measure-number" 172 1333 basechar 0
 AnchorPoint: "ison-indicator" 650 1293 basechar 0
 AnchorPoint: "apli" 765 -250 basechar 0
@@ -9135,7 +9135,7 @@ AnchorPoint: "fthora-top" 649 1101 basechar 0
 AnchorPoint: "note-top" 202 1332 basechar 0
 AnchorPoint: "diesis" 464 4 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
-AnchorPoint: "klasma-bottom" 800 -93 basechar 0
+AnchorPoint: "klasma-bottom" 800 -65 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11155,7 +11155,7 @@ StartChar: oligonKentimataBelow.alt
 Encoding: 61440 61440 147
 Width: 1465
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "fthora-bottom" 384 160 basechar 0
@@ -11347,14 +11347,14 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "psifiston" 787 240 basechar 0
+AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measure-number" 173 1240 basechar 0
 AnchorPoint: "ison-indicator" 664 1389 basechar 0
 AnchorPoint: "fthora-top" 1224 1296 basechar 0
 AnchorPoint: "note-top" 132 1272 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "fthora-bottom" 352 162 basechar 0
-AnchorPoint: "klasma-bottom" 800 53 basechar 0
+AnchorPoint: "klasma-bottom" 800 83 basechar 0
 AnchorPoint: "antikenoma" 713 62 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
 LayerCount: 2
