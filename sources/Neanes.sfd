@@ -4387,7 +4387,7 @@ StartChar: kentima
 Encoding: 57472 57472 66
 Width: 279
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 418 29<-41.6787 0.88916>
 VStem: -42 303
 LayerCount: 2
@@ -4416,7 +4416,7 @@ StartChar: kentimata
 Encoding: 57473 57473 67
 Width: 738
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 423 29<85.7838 128.574 394.26 436.917>
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "gorgon-bottom" 354 96 basechar 0
@@ -4469,7 +4469,7 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "ison-indicator" 710 1117 basechar 0
@@ -4549,7 +4549,7 @@ StartChar: oligonIsonKentimata
 Encoding: 57476 57476 69
 Width: 1964
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 1487.23 1521.76>
 AnchorPoint: "measure-number" 194 961 basechar 0
 AnchorPoint: "ison-indicator" 710 1157 basechar 0
@@ -4666,7 +4666,7 @@ StartChar: oligonApostrofosKentimata
 Encoding: 57479 57479 70
 Width: 1627
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<177.719 1453.04> 450 32<408.995 462.511> 645 26<859.729 894.249 1130.23 1164.25> 783 23<97.6112 165.711>
 AnchorPoint: "measure-number" 172 1013 basechar 0
 AnchorPoint: "ison-indicator" 707 1107 basechar 0
@@ -4770,7 +4770,7 @@ StartChar: oligonYporroiKentimata
 Encoding: 57480 57480 71
 Width: 1627
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<177.719 1443.04> 645 26<859.729 894.249 1130.23 1164.25> 693 27<537.713 582.292>
 AnchorPoint: "measure-number" 172 943 basechar 0
 AnchorPoint: "ison-indicator" 713 1147 basechar 0
@@ -4867,7 +4867,7 @@ StartChar: oligonRunningElafronKentimata
 Encoding: 57482 57482 72
 Width: 2201
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<363.258 1990.04> 456 27<242.767 290.495> 465 22<660.951 738.905 1188.25 1215.54> 645 26<1496.23 1531.28 1766.73 1800.76> 737 21<-7.90503 52.9037> 757 34.5<701.461 905.936>
 VStem: 469 132<540.506 677.252>
 AnchorPoint: "measure-number" 662 913 basechar 0
@@ -5012,7 +5012,7 @@ StartChar: oligonElafronKentimata
 Encoding: 57481 57481 73
 Width: 2077
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
 AnchorPoint: "measure-number" 172 1043 basechar 0
@@ -5137,7 +5137,7 @@ StartChar: oligonKentimataBelow
 Encoding: 57474 57474 74
 Width: 1515
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -5919,7 +5919,7 @@ StartChar: oligonElafronApostrofosKentimata
 Encoding: 57483 57483 82
 Width: 2077
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<265.719 1878.12> 426 22<579.767 625.733> 487 25<290.604 383.389 886.329 917.315> 645 26<1301.73 1336.25 1572.23 1606.76> 720 21<299.095 362.519> 813.5 38<340.132 571.281>
 VStem: 80 149<577.031 722.964>
 AnchorPoint: "measure-number" 172 1013 basechar 0
@@ -6068,7 +6068,7 @@ StartChar: oligonChamiliKentimata
 Encoding: 57484 57484 83
 Width: 1995
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<270.719 1799.18> 531 31<588.542 781 899 1039.09> 645 26<1216.73 1251.25 1487.23 1521.76>
 AnchorPoint: "measure-number" 172 993 basechar 0
 AnchorPoint: "ison-indicator" 710 1010 basechar 0
@@ -6190,7 +6190,7 @@ StartChar: oligonKentimataYpsiliLeft
 Encoding: 57477 57477 84
 Width: 1532
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<352.137 386.764 622.606 656.764> 1132 31<1461.32 1499.93>
 AnchorPoint: "measure-number" 164 847 basechar 0
 AnchorPoint: "ison-indicator" 710 1177 basechar 0
@@ -6297,7 +6297,7 @@ StartChar: oligonKentimataYpsiliRight
 Encoding: 57478 57478 85
 Width: 1515
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<206.422 285.189> 686 25<634.242 668.497 904.819 938.966> 1132 31<622.221 659.934>
 AnchorPoint: "measure-number" 174 983 basechar 0
 AnchorPoint: "ison-indicator" 710 1207 basechar 0
@@ -9618,7 +9618,6 @@ EndChar
 StartChar: oligonKentimaMiddle
 Encoding: 57346 57346 113
 Width: 1794
-Flags: H
 HStem: 246 121<182.719 1326.04> 418 29<1473.32 1515.89>
 VStem: 1473 303
 AnchorPoint: "measure-number" 172 753 basechar 0
@@ -11156,7 +11155,7 @@ StartChar: oligonKentimataBelow.alt
 Encoding: 61440 61440 147
 Width: 1465
 VWidth: 345
-Flags: HWO
+Flags: WO
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "fthora-bottom" 384 160 basechar 0
