@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1646795337
-ModificationTime: 1647753896
+ModificationTime: 1647798276
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -87,12 +87,12 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57470 7 5
+WinInfo: 8197 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "mode-top" "'mark' Mark Positioning lookup 0-1" "ison-indicator" "'mark' Mark Positioning lookup 0-1" "measure-number" "'mark' Mark Positioning lookup 0-1" "heteron-connecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalon-connecting" "'mark' Mark Positioning lookup 0-1" "martyria-top" "'mark' Mark Positioning lookup 0-1" "martyria-bottom" "'mark' Mark Positioning lookup 0-1" "note-top" "'mark' Mark Positioning lookup 0-1" "fthora-bottom" "'mark' Mark Positioning lookup 0-1" "fthora-top" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgon-yporroi" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgon-bottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasma-top" "'mark' Mark Positioning lookup 0-1" "klasma-bottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgon-top" "'mark' Mark Positioning lookup 0-1"
-BeginChars: 1114112 321
+BeginChars: 1114112 322
 
 StartChar: u1D046
 Encoding: 118854 118854 0
@@ -1464,7 +1464,7 @@ AnchorPoint: "fthora-bottom" 420 107 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-top" 793 487 basechar 0
-AnchorPoint: "gorgon-top" 780 459 basechar 0
+AnchorPoint: "gorgon-top" 780 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -1535,7 +1535,7 @@ AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-top" 793 487 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
-AnchorPoint: "gorgon-top" 780 459 basechar 0
+AnchorPoint: "gorgon-top" 780 500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1589,7 +1589,7 @@ AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-top" 383 487 basechar 0
 AnchorPoint: "klasma-bottom" 785 160 basechar 0
-AnchorPoint: "gorgon-top" 1138 471 basechar 0
+AnchorPoint: "gorgon-top" 1138 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -1660,7 +1660,7 @@ AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-top" 433 480 basechar 0
 AnchorPoint: "klasma-bottom" 785 160 basechar 0
-AnchorPoint: "gorgon-top" 708 459 basechar 0
+AnchorPoint: "gorgon-top" 708 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -1742,7 +1742,7 @@ AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-top" 1040 500 basechar 0
 AnchorPoint: "klasma-bottom" 785 160 basechar 0
-AnchorPoint: "gorgon-top" 1102 457 basechar 0
+AnchorPoint: "gorgon-top" 1102 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -1922,7 +1922,7 @@ AnchorPoint: "fthora-bottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-bottom" 785 160 basechar 0
-AnchorPoint: "gorgon-top" 1138 459 basechar 0
+AnchorPoint: "gorgon-top" 1138 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -2018,7 +2018,7 @@ AnchorPoint: "fthora-bottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "klasma-bottom" 785 160 basechar 0
-AnchorPoint: "gorgon-top" 757 459 basechar 0
+AnchorPoint: "gorgon-top" 757 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
 Fore
@@ -5139,6 +5139,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
+AnchorPoint: "apli" 803 -227 basechar 0
 AnchorPoint: "measure-number" 172 753 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "ison-indicator" 710 877 basechar 0
@@ -6545,10 +6546,10 @@ AnchorPoint: "antikenoma" 301 101 basechar 0
 AnchorPoint: "note-top" 170 643 basechar 0
 AnchorPoint: "fthora-top" 386 642 basechar 0
 AnchorPoint: "fthora-bottom" 340 99 basechar 0
-AnchorPoint: "gorgon-top" 400 527 basechar 0
+AnchorPoint: "gorgon-top" 400 567 basechar 0
 AnchorPoint: "diesis" 233 100 basechar 0
 AnchorPoint: "yfesis" 648 557 basechar 0
-AnchorPoint: "klasma-top" 353 516 basechar 0
+AnchorPoint: "klasma-top" 353 567 basechar 0
 LayerCount: 2
 Fore
 Refer: 10 118865 N 1 0 0 1 0 0 2
@@ -8805,7 +8806,7 @@ StartChar: petastiChamiliElafronApostrofos
 Encoding: 57448 57448 104
 Width: 1236
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 133.5 38<683.719 914.868> 463 29<562.871 610.964> 469.5 28.5<328.502 368.671 560.767 616.905 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 762 21<282.58 345.807> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
 AnchorPoint: "psifiston" 795 140 basechar 0
@@ -11882,7 +11883,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: hapli
+StartChar: apli
 Encoding: 57554 57554 161
 Width: 0
 VWidth: 345
@@ -20583,6 +20584,13 @@ SplineSet
  524.666992188 -179.333007812 429.333007812 -264 314 -320 c 0
  198.666992188 -376 74.3330078125 -404.666992188 -59 -406 c 0
 EndSplineSet
+EndChar
+
+StartChar: zwj
+Encoding: 8205 8205 321
+Width: 0
+Flags: WO
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

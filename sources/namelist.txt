@@ -90,7 +90,7 @@ Based: AGL For New Fonts
 0xE0C1 breath
 0xE0D0 klasmaAbove
 0xE0D1 klasmaBelow
-0xE0D2 hapli
+0xE0D2 apli
 0xE0D3 dipli
 0xE0D4 tripli
 0xE0D5 tetrapli
