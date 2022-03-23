@@ -28,7 +28,8 @@ Each category contains extra unused space to allow for future expansion.
 | Characters of Temporal Division     | U+E0F0 | U+E11F |
 | Characters of Tempo                 | U+E120 | U+E12F |
 | Martyria of the Notes               | U+E130 | U+E18F |
-| Signs of Alteration                 | U+E190 | U+E20F |
+| Fthores                             | U+E190 | U+E1EF |
+| Signs of Alteration                 | U+E1F0 | U+E20F |
 | Characters of Rhythm                | U+E210 | U+E24F |
 | Note Indicators                     | U+E250 | U+E25F |
 | Ison Indicators                     | U+E260 | U+E27F |
@@ -39,40 +40,4 @@ Each category contains extra unused space to allow for future expansion.
 
 ## List of Glyphs
 
-See the [full list of glyphs](glyph-table.md).
-
-## Example
-
-An example font is included in the `fonts` directory.
-
-## Guidelines
-
-This section contains guidelines on how to implement a SBMuFL-compatible OpenType font.
-
-UNDER CONSTRUCTION
-
-### Characters of Quality
-
-Characters of quality should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
-
-Certain qualitative characters may either appear below a single quantitative character, or appear between two quantative characters, functioning as a tie. These characters should be implemented as separate glyphs with separate anchor points.
-
-### Characters of Temporal Augmentation
-
-Characters of temporal augmentation should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
-
-Some signs can appear both above and a below a quantitative character, and so two versions of the signs must be included in the layout.
-
-### Characters of Temporal Division
-
-Characters of temporal division should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
-
-Some signs can appear both above and a below a quantitative character, and so two versions of the signs must be included in the layout.
-
-### Martyria of the Notes
-
-A martyrium consists of two signs: a letter indicating the note and a martyrical sign.
-
-The note letter should be treated as a normal glyph, while the martyrical sign should be treated as a mark and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
-
-Since the note letter may appear on either the top or the bottom of the martyrium, the layout contains both top and bottom version of the notes, as well as top and bottom versions of the martyrial signs.
+See the [full list of glyphs](tables/index.md).

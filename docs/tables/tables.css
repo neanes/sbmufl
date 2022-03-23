@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Neanes;
+  src: url("../_media/Neanes.otf");
+}
+
+.neanes {
+  font-family: Neanes;
+  font-size: 20pt;
+}
+
+.code-point {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 3px 20px;
+  border: 1px gray solid;
+}
+
+td .neanes {
+  display: flex;
+  justify-content: center;
+}
