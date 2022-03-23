@@ -247,13 +247,11 @@ Based: AGL For New Fonts
 0xE26A isonIndicatorZoHigh
 0xE280 gorthmikon
 0xE281 pelastikon
-0xE2A0 modeFirstDelta
-0xE2A1 modeFirstYpsili
+0xE2A0 modeFirst
 0xE2A8 modeSecond
 0xE2B0 modeThird
 0xE2B1 modeThirdNana
-0xE2B8 modeFourthDelta
-0xE2B9 modeFourthYpsili
+0xE2B8 modeFourth
 0xE2BA modeLegetos
 0xE2C0 modePlagalFirst
 0xE2C8 modePlagalSecond
@@ -286,3 +284,5 @@ Based: AGL For New Fonts
 0xF000 oligonKentimataBelow.alt
 0xF001 oligonKentimataAbove.alt
 0xF002 antikenoma.alt
+0xF003 modeFirst.salt01
+0xF004 modeFourth.salt01
