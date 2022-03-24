@@ -269,7 +269,6 @@ Based: AGL For New Fonts
 0xE2E8 modeOligonYpsili
 0xE2E9 modeElafron
 0xE2EA modeRunningElafron
-0xE2EB modeOligonKentimataBelow
 0xE2F0 modePlagal
 0xE2F1 modeWordEchos
 0xE2F2 modeWordVarys
@@ -281,8 +280,9 @@ Based: AGL For New Fonts
 0xE2F8 modeBetaCapital
 0xE2F9 modeGammaCapital
 0xE2FA modeDeltaCapital
-0xF000 oligonKentimataBelow.alt
-0xF001 oligonKentimataAbove.alt
-0xF002 antikenoma.alt
+0xF000 oligonKentimataBelow.alt01
+0xF001 oligonKentimataAbove.alt01
+0xF002 antikenoma.alt01
 0xF003 modeFirst.salt01
 0xF004 modeFourth.salt01
+0xF005 oligonKentimataBelow.alt02
