@@ -36,7 +36,7 @@ Each category contains extra unused space to allow for future expansion.
 | Letters                             | U+E280 | U+E29F |
 | Martyria of the Tones               | U+E2A0 | U+E42F |
 | Reserved for Future Use             | U+E430 | U+EFFF |
-| Free Space                          | U+F000 | U+FFFF |
+| Free Space                          | U+F000 | U+F8FF |
 
 ## List of Glyphs
 
