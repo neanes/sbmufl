@@ -5,7 +5,7 @@
 <table>
 <tr>
     <td>
-        <span class="neanes">&#xE000</span>
+        <span class="neanes">&#xE000;</span>
     </td>
     <td>
         <div class="code-point">
@@ -18,7 +18,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE001</span>
+        <span class="neanes">&#xE001;</span>
     </td>
     <td>
         <div class="code-point">
@@ -31,7 +31,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE002</span>
+        <span class="neanes">&#xE002;</span>
     </td>
     <td>
         <div class="code-point">
@@ -44,7 +44,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE003</span>
+        <span class="neanes">&#xE003;</span>
     </td>
     <td>
         <div class="code-point">
@@ -57,7 +57,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE004</span>
+        <span class="neanes">&#xE004;</span>
     </td>
     <td>
         <div class="code-point">
@@ -70,7 +70,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE005</span>
+        <span class="neanes">&#xE005;</span>
     </td>
     <td>
         <div class="code-point">
@@ -83,7 +83,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE006</span>
+        <span class="neanes">&#xE006;</span>
     </td>
     <td>
         <div class="code-point">
@@ -96,7 +96,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE007</span>
+        <span class="neanes">&#xE007;</span>
     </td>
     <td>
         <div class="code-point">
@@ -109,7 +109,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE008</span>
+        <span class="neanes">&#xE008;</span>
     </td>
     <td>
         <div class="code-point">
@@ -122,7 +122,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE009</span>
+        <span class="neanes">&#xE009;</span>
     </td>
     <td>
         <div class="code-point">
@@ -135,7 +135,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00A</span>
+        <span class="neanes">&#xE00A;</span>
     </td>
     <td>
         <div class="code-point">
@@ -148,7 +148,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00B</span>
+        <span class="neanes">&#xE00B;</span>
     </td>
     <td>
         <div class="code-point">
@@ -161,7 +161,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00C</span>
+        <span class="neanes">&#xE00C;</span>
     </td>
     <td>
         <div class="code-point">
@@ -174,7 +174,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00D</span>
+        <span class="neanes">&#xE00D;</span>
     </td>
     <td>
         <div class="code-point">
@@ -187,7 +187,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00E</span>
+        <span class="neanes">&#xE00E;</span>
     </td>
     <td>
         <div class="code-point">
@@ -200,7 +200,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE00F</span>
+        <span class="neanes">&#xE00F;</span>
     </td>
     <td>
         <div class="code-point">
@@ -213,7 +213,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE010</span>
+        <span class="neanes">&#xE010;</span>
     </td>
     <td>
         <div class="code-point">
@@ -226,7 +226,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE011</span>
+        <span class="neanes">&#xE011;</span>
     </td>
     <td>
         <div class="code-point">
@@ -239,7 +239,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE012</span>
+        <span class="neanes">&#xE012;</span>
     </td>
     <td>
         <div class="code-point">
@@ -252,7 +252,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE013</span>
+        <span class="neanes">&#xE013;</span>
     </td>
     <td>
         <div class="code-point">
@@ -265,7 +265,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE014</span>
+        <span class="neanes">&#xE014;</span>
     </td>
     <td>
         <div class="code-point">
@@ -278,7 +278,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE015</span>
+        <span class="neanes">&#xE015;</span>
     </td>
     <td>
         <div class="code-point">
@@ -291,7 +291,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE020</span>
+        <span class="neanes">&#xE020;</span>
     </td>
     <td>
         <div class="code-point">
@@ -304,7 +304,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE021</span>
+        <span class="neanes">&#xE021;</span>
     </td>
     <td>
         <div class="code-point">
@@ -317,7 +317,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE022</span>
+        <span class="neanes">&#xE022;</span>
     </td>
     <td>
         <div class="code-point">
@@ -330,7 +330,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE023</span>
+        <span class="neanes">&#xE023;</span>
     </td>
     <td>
         <div class="code-point">
@@ -343,7 +343,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE024</span>
+        <span class="neanes">&#xE024;</span>
     </td>
     <td>
         <div class="code-point">
@@ -356,7 +356,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE025</span>
+        <span class="neanes">&#xE025;</span>
     </td>
     <td>
         <div class="code-point">
@@ -369,7 +369,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE026</span>
+        <span class="neanes">&#xE026;</span>
     </td>
     <td>
         <div class="code-point">
@@ -382,7 +382,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE027</span>
+        <span class="neanes">&#xE027;</span>
     </td>
     <td>
         <div class="code-point">
@@ -395,7 +395,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE028</span>
+        <span class="neanes">&#xE028;</span>
     </td>
     <td>
         <div class="code-point">
@@ -408,7 +408,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE029</span>
+        <span class="neanes">&#xE029;</span>
     </td>
     <td>
         <div class="code-point">
@@ -421,7 +421,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02A</span>
+        <span class="neanes">&#xE02A;</span>
     </td>
     <td>
         <div class="code-point">
@@ -434,7 +434,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02B</span>
+        <span class="neanes">&#xE02B;</span>
     </td>
     <td>
         <div class="code-point">
@@ -447,7 +447,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02C</span>
+        <span class="neanes">&#xE02C;</span>
     </td>
     <td>
         <div class="code-point">
@@ -460,7 +460,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02D</span>
+        <span class="neanes">&#xE02D;</span>
     </td>
     <td>
         <div class="code-point">
@@ -473,7 +473,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02E</span>
+        <span class="neanes">&#xE02E;</span>
     </td>
     <td>
         <div class="code-point">
@@ -486,7 +486,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE02F</span>
+        <span class="neanes">&#xE02F;</span>
     </td>
     <td>
         <div class="code-point">
@@ -499,7 +499,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE040</span>
+        <span class="neanes">&#xE040;</span>
     </td>
     <td>
         <div class="code-point">
@@ -512,7 +512,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE041</span>
+        <span class="neanes">&#xE041;</span>
     </td>
     <td>
         <div class="code-point">
@@ -525,7 +525,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE042</span>
+        <span class="neanes">&#xE042;</span>
     </td>
     <td>
         <div class="code-point">
@@ -538,7 +538,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE043</span>
+        <span class="neanes">&#xE043;</span>
     </td>
     <td>
         <div class="code-point">
@@ -551,7 +551,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE044</span>
+        <span class="neanes">&#xE044;</span>
     </td>
     <td>
         <div class="code-point">
@@ -564,7 +564,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE045</span>
+        <span class="neanes">&#xE045;</span>
     </td>
     <td>
         <div class="code-point">
@@ -577,7 +577,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE046</span>
+        <span class="neanes">&#xE046;</span>
     </td>
     <td>
         <div class="code-point">
@@ -590,7 +590,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE047</span>
+        <span class="neanes">&#xE047;</span>
     </td>
     <td>
         <div class="code-point">
@@ -603,7 +603,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE048</span>
+        <span class="neanes">&#xE048;</span>
     </td>
     <td>
         <div class="code-point">
@@ -616,7 +616,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE049</span>
+        <span class="neanes">&#xE049;</span>
     </td>
     <td>
         <div class="code-point">
@@ -629,7 +629,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE04A</span>
+        <span class="neanes">&#xE04A;</span>
     </td>
     <td>
         <div class="code-point">
@@ -642,7 +642,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE04B</span>
+        <span class="neanes">&#xE04B;</span>
     </td>
     <td>
         <div class="code-point">
@@ -655,7 +655,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE04C</span>
+        <span class="neanes">&#xE04C;</span>
     </td>
     <td>
         <div class="code-point">
@@ -668,7 +668,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE04D</span>
+        <span class="neanes">&#xE04D;</span>
     </td>
     <td>
         <div class="code-point">
@@ -681,7 +681,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE04E</span>
+        <span class="neanes">&#xE04E;</span>
     </td>
     <td>
         <div class="code-point">
@@ -694,7 +694,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE060</span>
+        <span class="neanes">&#xE060;</span>
     </td>
     <td>
         <div class="code-point">
@@ -707,7 +707,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE061</span>
+        <span class="neanes">&#xE061;</span>
     </td>
     <td>
         <div class="code-point">
@@ -720,7 +720,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE062</span>
+        <span class="neanes">&#xE062;</span>
     </td>
     <td>
         <div class="code-point">
@@ -733,7 +733,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE063</span>
+        <span class="neanes">&#xE063;</span>
     </td>
     <td>
         <div class="code-point">
@@ -746,7 +746,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE064</span>
+        <span class="neanes">&#xE064;</span>
     </td>
     <td>
         <div class="code-point">
@@ -759,7 +759,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE065</span>
+        <span class="neanes">&#xE065;</span>
     </td>
     <td>
         <div class="code-point">
@@ -772,7 +772,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE066</span>
+        <span class="neanes">&#xE066;</span>
     </td>
     <td>
         <div class="code-point">
@@ -785,7 +785,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE067</span>
+        <span class="neanes">&#xE067;</span>
     </td>
     <td>
         <div class="code-point">
@@ -798,7 +798,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE068</span>
+        <span class="neanes">&#xE068;</span>
     </td>
     <td>
         <div class="code-point">
@@ -811,7 +811,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE069</span>
+        <span class="neanes">&#xE069;</span>
     </td>
     <td>
         <div class="code-point">
@@ -824,7 +824,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE06A</span>
+        <span class="neanes">&#xE06A;</span>
     </td>
     <td>
         <div class="code-point">
@@ -837,7 +837,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE080</span>
+        <span class="neanes">&#xE080;</span>
     </td>
     <td>
         <div class="code-point">
@@ -850,7 +850,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE081</span>
+        <span class="neanes">&#xE081;</span>
     </td>
     <td>
         <div class="code-point">
@@ -863,7 +863,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE082</span>
+        <span class="neanes">&#xE082;</span>
     </td>
     <td>
         <div class="code-point">
@@ -876,7 +876,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE083</span>
+        <span class="neanes">&#xE083;</span>
     </td>
     <td>
         <div class="code-point">
@@ -889,7 +889,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE084</span>
+        <span class="neanes">&#xE084;</span>
     </td>
     <td>
         <div class="code-point">
@@ -902,7 +902,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE085</span>
+        <span class="neanes">&#xE085;</span>
     </td>
     <td>
         <div class="code-point">
@@ -915,7 +915,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE086</span>
+        <span class="neanes">&#xE086;</span>
     </td>
     <td>
         <div class="code-point">
@@ -928,7 +928,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE087</span>
+        <span class="neanes">&#xE087;</span>
     </td>
     <td>
         <div class="code-point">
@@ -941,7 +941,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE088</span>
+        <span class="neanes">&#xE088;</span>
     </td>
     <td>
         <div class="code-point">
@@ -954,7 +954,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE089</span>
+        <span class="neanes">&#xE089;</span>
     </td>
     <td>
         <div class="code-point">
@@ -967,7 +967,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE08A</span>
+        <span class="neanes">&#xE08A;</span>
     </td>
     <td>
         <div class="code-point">
@@ -980,7 +980,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE08B</span>
+        <span class="neanes">&#xE08B;</span>
     </td>
     <td>
         <div class="code-point">
@@ -993,7 +993,7 @@
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE08C</span>
+        <span class="neanes">&#xE08C;</span>
     </td>
     <td>
         <div class="code-point">

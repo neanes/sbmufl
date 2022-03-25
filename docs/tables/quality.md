@@ -7,7 +7,7 @@ These characters are sometimes referred to as hypostases or mutes.
 <table>
 <tr>
     <td>
-        <span class="neanes">&#xE0A0</span>
+        <span class="neanes">&#xE0A0;</span>
     </td>
     <td>
         <div class="code-point">
@@ -20,7 +20,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A1</span>
+        <span class="neanes">&#xE0A1;</span>
     </td>
     <td>
         <div class="code-point">
@@ -33,7 +33,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A2</span>
+        <span class="neanes">&#xE0A2;</span>
     </td>
     <td>
         <div class="code-point">
@@ -46,7 +46,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A3</span>
+        <span class="neanes">&#xE0A3;</span>
     </td>
     <td>
         <div class="code-point">
@@ -59,7 +59,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A4</span>
+        <span class="neanes">&#xE0A4;</span>
     </td>
     <td>
         <div class="code-point">
@@ -72,7 +72,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A5</span>
+        <span class="neanes">&#xE0A5;</span>
     </td>
     <td>
         <div class="code-point">
@@ -85,7 +85,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A6</span>
+        <span class="neanes">&#xE0A6;</span>
     </td>
     <td>
         <div class="code-point">
@@ -98,7 +98,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0A7</span>
+        <span class="neanes">&#xE0A7;</span>
     </td>
     <td>
         <div class="code-point">
@@ -111,7 +111,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0B0</span>
+        <span class="neanes">&#xE0B0;</span>
     </td>
     <td>
         <div class="code-point">
@@ -124,7 +124,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0B1</span>
+        <span class="neanes">&#xE0B1;</span>
     </td>
     <td>
         <div class="code-point">
@@ -137,7 +137,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0C0</span>
+        <span class="neanes">&#xE0C0;</span>
     </td>
     <td>
         <div class="code-point">
@@ -150,7 +150,7 @@ These characters are sometimes referred to as hypostases or mutes.
 </tr>
 <tr>
     <td>
-        <span class="neanes">&#xE0C1</span>
+        <span class="neanes">&#xE0C1;</span>
     </td>
     <td>
         <div class="code-point">

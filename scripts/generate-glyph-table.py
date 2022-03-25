@@ -44,7 +44,7 @@ while line:
     code_point = words[0].removeprefix('0x')
     html = f'''<tr>
     <td>
-        <span class="neanes">&#x{code_point}</span>
+        <span class="neanes">&#x{code_point};</span>
     </td>
     <td>
         <div class="code-point">
