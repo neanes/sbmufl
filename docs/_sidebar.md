@@ -12,3 +12,5 @@
 - - [Ison Indicators](tables/ison.md)
 - - [Letters](tables/letters.md)
 - - [Martyria of the Tones](tables/martyria-tones.md)
+- [SBMuFL Metadata](sbmufl-metadata.md)
+- [Font-specific Metadata](font-metadata.md)

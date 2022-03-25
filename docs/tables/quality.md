@@ -169,4 +169,8 @@ Characters of quality should be treated as marks and positioned using the Mark-t
 
 Certain qualitative characters may either appear below a single quantitative character, or appear between two quantative characters, functioning as a tie. These characters should be implemented as separate glyphs with separate anchor points.
 
+Ties should be written between the characters that are being tied.
+
+`ison` + `omalonConnecting` + `ison`
+
 </body></html>
