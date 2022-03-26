@@ -156,7 +156,7 @@ Based: AGL For New Fonts
 0xE157 martyriaHardChromaticPaBelow
 0xE158 martyriaHardChromaticDiBelow
 0xE159 martyriaSoftChromaticDiBelow
-0xE15A martyriaHardChromaticKeBelow
+0xE15A martyriaSoftChromaticKeBelow
 0xE15B martyriaZygosBelow
 0xE170 martyriaZoAbove
 0xE171 martyriaDeltaAbove

@@ -4182,7 +4182,7 @@
         0.138
       ]
     },
-    "martyriaHardChromaticKeBelow": {
+    "martyriaSoftChromaticKeBelow": {
       "martyriaBottom": [
         0.002,
         0.263
@@ -4955,7 +4955,7 @@
     "martyriaHardChromaticPaBelow": 0.0,
     "martyriaHardChromaticDiBelow": 0.0,
     "martyriaSoftChromaticDiBelow": 0.0,
-    "martyriaHardChromaticKeBelow": 0.0,
+    "martyriaSoftChromaticKeBelow": 0.0,
     "martyriaZygosBelow": 0.0,
     "martyriaZoAbove": 0.0,
     "martyriaDeltaAbove": 0.0,
@@ -6598,7 +6598,7 @@
         -0.18633778047108654
       ]
     },
-    "martyriaHardChromaticKeBelow": {
+    "martyriaSoftChromaticKeBelow": {
       "bBoxNE": [
         0.21519488153134927,
         0.22887878049096191
