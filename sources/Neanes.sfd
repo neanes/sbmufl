@@ -50,9 +50,9 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lo
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'rclt' Required Contextual Alternates lookup 3-1" 3 3 1 1
-  Class: 567 petastiIson petasti petastiOligon petastiKentima petastiYpsiliRight petastiYpsiliLeft petastiYpsiliKentimaRight petastiYpsiliKentimaMiddle petastiDoubleYpsili petastiDoubleYpsiliKentimata petastiDoubleYpsiliKentimaRight petastiDoubleYpsiliKentimaLeft petastiTripleYpsili petastiTripleYpsiliKentimata petastiTripleYpsiliKentima petastiApostrofos petastiYporroi petastiElafron petastiRunningElafron petastiElafronApostrofos petastiChamili petastiChamiliApostrofos petastiChamiliElafron petastiChamiliElafronApostrofos petastiDoubleChamili petastiDoubleChamiliApostrofos
+  Class: 567 petastiIson petasti petastiOligon petastiKentima petastiYpsiliRight petastiYpsiliLeft petastiKentimaYpsiliRight petastiKentimaYpsiliMiddle petastiDoubleYpsili petastiKentimataDoubleYpsili petastiKentimaDoubleYpsiliRight petastiKentimaDoubleYpsiliLeft petastiTripleYpsili petastiKentimataTripleYpsili petastiKentimaTripleYpsili petastiApostrofos petastiYporroi petastiElafron petastiRunningElafron petastiElafronApostrofos petastiChamili petastiChamiliApostrofos petastiChamiliElafron petastiChamiliElafronApostrofos petastiDoubleChamili petastiDoubleChamiliApostrofos
   Class: 10 antikenoma
-  BClass: 567 petastiIson petasti petastiOligon petastiKentima petastiYpsiliRight petastiYpsiliLeft petastiYpsiliKentimaRight petastiYpsiliKentimaMiddle petastiDoubleYpsili petastiDoubleYpsiliKentimata petastiDoubleYpsiliKentimaRight petastiDoubleYpsiliKentimaLeft petastiTripleYpsili petastiTripleYpsiliKentimata petastiTripleYpsiliKentima petastiApostrofos petastiYporroi petastiElafron petastiRunningElafron petastiElafronApostrofos petastiChamili petastiChamiliApostrofos petastiChamiliElafron petastiChamiliElafronApostrofos petastiDoubleChamili petastiDoubleChamiliApostrofos
+  BClass: 567 petastiIson petasti petastiOligon petastiKentima petastiYpsiliRight petastiYpsiliLeft petastiKentimaYpsiliRight petastiKentimaYpsiliMiddle petastiDoubleYpsili petastiKentimataDoubleYpsili petastiKentimaDoubleYpsiliRight petastiKentimaDoubleYpsiliLeft petastiTripleYpsili petastiKentimataTripleYpsili petastiKentimaTripleYpsili petastiApostrofos petastiYporroi petastiElafron petastiRunningElafron petastiElafronApostrofos petastiChamili petastiChamiliApostrofos petastiChamiliElafron petastiChamiliElafronApostrofos petastiDoubleChamili petastiDoubleChamiliApostrofos
   BClass: 10 antikenoma
  1 1 0
   ClsList: 2
@@ -1802,7 +1802,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonYpsiliKentimaRight
+StartChar: oligonKentimaYpsiliRight
 Encoding: 57351 57351 39
 Width: 1515
 VWidth: 345
@@ -1900,7 +1900,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonYpsiliKentimaMiddle
+StartChar: oligonKentimaYpsiliMiddle
 Encoding: 57352 57352 40
 Width: 1515
 VWidth: 345
@@ -2105,7 +2105,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonDoubleYpsiliKentimata
+StartChar: oligonKentimataDoubleYpsili
 Encoding: 57354 57354 42
 Width: 1596
 VWidth: 345
@@ -3713,7 +3713,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiYpsiliKentimaRight
+StartChar: petastiKentimaYpsiliRight
 Encoding: 57414 57414 60
 Width: 1234
 VWidth: 345
@@ -3823,7 +3823,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiYpsiliKentimaMiddle
+StartChar: petastiKentimaYpsiliMiddle
 Encoding: 57415 57415 61
 Width: 1236
 VWidth: 345
@@ -5217,7 +5217,7 @@ EndSplineSet
 Substitution2: "subs-1" oligonKentimataBelow.alt01
 EndChar
 
-StartChar: oligonTripleYpsiliKentima
+StartChar: oligonKentimaTripleYpsili
 Encoding: 57359 57359 75
 Width: 1580
 VWidth: 345
@@ -6554,7 +6554,7 @@ Fore
 Refer: 10 118865 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: oligonTripleYpsiliKentimata
+StartChar: oligonKentimataTripleYpsili
 Encoding: 57358 57358 88
 Width: 1580
 VWidth: 345
@@ -7177,7 +7177,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiDoubleYpsiliKentimata
+StartChar: petastiKentimataDoubleYpsili
 Encoding: 57417 57417 92
 Width: 1439
 VWidth: 345
@@ -7330,7 +7330,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiDoubleYpsiliKentimaRight
+StartChar: petastiKentimaDoubleYpsiliRight
 Encoding: 57418 57418 93
 Width: 1313
 VWidth: 345
@@ -7467,7 +7467,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiDoubleYpsiliKentimaLeft
+StartChar: petastiKentimaDoubleYpsiliLeft
 Encoding: 57419 57419 94
 Width: 1236
 VWidth: 345
@@ -7604,7 +7604,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiTripleYpsiliKentimata
+StartChar: petastiKentimataTripleYpsili
 Encoding: 57421 57421 95
 Width: 1439
 VWidth: 345
@@ -7932,7 +7932,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonDoubleYpsiliKentimaRight
+StartChar: oligonKentimaDoubleYpsiliRight
 Encoding: 57355 57355 97
 Width: 1577
 VWidth: 345
@@ -8055,7 +8055,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonDoubleYpsiliKentimaLeft
+StartChar: oligonKentimaDoubleYpsiliLeft
 Encoding: 57356 57356 98
 Width: 1517
 VWidth: 345
@@ -11340,7 +11340,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: petastiTripleYpsiliKentima
+StartChar: petastiKentimaTripleYpsili
 Encoding: 57422 57422 150
 Width: 1439
 VWidth: 345

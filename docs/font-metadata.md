@@ -127,10 +127,10 @@ This section contains the advance widths of all the glyphs.
     "oligonKentimaAbove": 1.515,
     "oligonYpsiliRight": 1.515,
     "oligonYpsiliLeft": 1.515,
-    "oligonYpsiliKentimaRight": 1.515,
-    "oligonYpsiliKentimaMiddle": 1.515,
+    "oligonKentimaYpsiliRight": 1.515,
+    "oligonKentimaYpsiliMiddle": 1.515,
     "oligonDoubleYpsili": 1.515,
-    "oligonDoubleYpsiliKentimata": 1.596,
+    "oligonKentimataDoubleYpsili": 1.596,
     ...
   },
   ...

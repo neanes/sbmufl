@@ -103,7 +103,7 @@
             U+E007
         </div>
         <div class="glyph-name">
-            oligonYpsiliKentimaRight
+            oligonKentimaYpsiliRight
         </div>
     </td>
 </tr>
@@ -116,7 +116,7 @@
             U+E008
         </div>
         <div class="glyph-name">
-            oligonYpsiliKentimaMiddle
+            oligonKentimaYpsiliMiddle
         </div>
     </td>
 </tr>
@@ -142,7 +142,7 @@
             U+E00A
         </div>
         <div class="glyph-name">
-            oligonDoubleYpsiliKentimata
+            oligonKentimataDoubleYpsili
         </div>
     </td>
 </tr>
@@ -155,7 +155,7 @@
             U+E00B
         </div>
         <div class="glyph-name">
-            oligonDoubleYpsiliKentimaRight
+            oligonKentimaDoubleYpsiliRight
         </div>
     </td>
 </tr>
@@ -168,7 +168,7 @@
             U+E00C
         </div>
         <div class="glyph-name">
-            oligonDoubleYpsiliKentimaLeft
+            oligonKentimaDoubleYpsiliLeft
         </div>
     </td>
 </tr>
@@ -194,7 +194,7 @@
             U+E00E
         </div>
         <div class="glyph-name">
-            oligonTripleYpsiliKentimata
+            oligonKentimataTripleYpsili
         </div>
     </td>
 </tr>
@@ -207,7 +207,7 @@
             U+E00F
         </div>
         <div class="glyph-name">
-            oligonTripleYpsiliKentima
+            oligonKentimaTripleYpsili
         </div>
     </td>
 </tr>
@@ -584,7 +584,7 @@
             U+E046
         </div>
         <div class="glyph-name">
-            petastiYpsiliKentimaRight
+            petastiKentimaYpsiliRight
         </div>
     </td>
 </tr>
@@ -597,7 +597,7 @@
             U+E047
         </div>
         <div class="glyph-name">
-            petastiYpsiliKentimaMiddle
+            petastiKentimaYpsiliMiddle
         </div>
     </td>
 </tr>
@@ -623,7 +623,7 @@
             U+E049
         </div>
         <div class="glyph-name">
-            petastiDoubleYpsiliKentimata
+            petastiKentimataDoubleYpsili
         </div>
     </td>
 </tr>
@@ -636,7 +636,7 @@
             U+E04A
         </div>
         <div class="glyph-name">
-            petastiDoubleYpsiliKentimaRight
+            petastiKentimaDoubleYpsiliRight
         </div>
     </td>
 </tr>
@@ -649,7 +649,7 @@
             U+E04B
         </div>
         <div class="glyph-name">
-            petastiDoubleYpsiliKentimaLeft
+            petastiKentimaDoubleYpsiliLeft
         </div>
     </td>
 </tr>
@@ -675,7 +675,7 @@
             U+E04D
         </div>
         <div class="glyph-name">
-            petastiTripleYpsiliKentimata
+            petastiKentimataTripleYpsili
         </div>
     </td>
 </tr>
@@ -688,7 +688,7 @@
             U+E04E
         </div>
         <div class="glyph-name">
-            petastiTripleYpsiliKentima
+            petastiKentimaTripleYpsili
         </div>
     </td>
 </tr>
@@ -909,7 +909,7 @@
             U+E085
         </div>
         <div class="glyph-name">
-            oligonKentimataYpsiliLeft
+            oligonKentimataYpsiliRight
         </div>
     </td>
 </tr>
@@ -922,7 +922,7 @@
             U+E086
         </div>
         <div class="glyph-name">
-            oligonKentimataYpsiliRight
+            oligonKentimataYpsiliLeft
         </div>
     </td>
 </tr>
