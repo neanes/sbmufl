@@ -73,11 +73,11 @@ class SbmuflFont(object):
         self.font.close()
 
     def export_font(self, filename=None, *args, **kwargs):
-        filename = filename or self.font.fontname.lower() + '.otf'
+        filename = filename or self.font.fontname + '.otf'
         self.font.generate(filename, *args, **kwargs)
 
     def export_metadata(self, filename=None, indent=2, **kwargs):
-        filename = filename or self.font.fontname.lower() + '.metadata.json'
+        filename = filename or self.font.fontname + '.metadata.json'
 
         with open(filename, 'w') as outfile:
             json.dump(self.generate_metadata(),
