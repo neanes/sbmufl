@@ -1869,6 +1869,10 @@
         0.87,
         0.113
       ],
+      "gorgonYporroi": [
+        0.61,
+        0.793
+      ],
       "gorgonTop": [
         1.207,
         0.733
@@ -4774,6 +4778,12 @@
     },
     "modeRunningElafron": {
       "modeTop": [
+        0.0,
+        0.8
+      ]
+    },
+    "gorgonYporroi": {
+      "gorgonYporroi": [
         0.0,
         0.8
       ]
