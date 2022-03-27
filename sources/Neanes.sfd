@@ -13873,7 +13873,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: martyriaHardChromaticKeAbove
+StartChar: martyriaSoftChromaticKeAbove
 Encoding: 57722 57722 199
 Width: 0
 Flags: W

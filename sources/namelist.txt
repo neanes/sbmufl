@@ -168,7 +168,7 @@ Based: AGL For New Fonts
 0xE177 martyriaHardChromaticPaAbove
 0xE178 martyriaHardChromaticDiAbove
 0xE179 martyriaSoftChromaticDiAbove
-0xE17A martyriaHardChromaticKeAbove
+0xE17A martyriaSoftChromaticKeAbove
 0xE17B martyriaZygosAbove
 0xE190 fthoraDiatonicNiLowAbove
 0xE191 fthoraDiatonicPaAbove
