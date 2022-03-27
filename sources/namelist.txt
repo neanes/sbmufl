@@ -115,7 +115,15 @@ Based: AGL For New Fonts
 0xE0FC argon
 0xE0FD diargon
 0xE0FE triargon
-0xE100 gorgonYporroi
+0xE100 gorgonSecondary
+0xE101 gorgonDottedLeftSecondary
+0xE102 gorgonDottedRightSecondary
+0xE103 digorgonSecondary
+0xE104 digorgonDottedLeftBelowSecondary
+0xE105 digorgonDottedRightSecondary
+0xE106 trigorgonSecondary
+0xE107 trigorgonDottedLeftBelowSecondary
+0xE108 trigorgonDottedRightSecondary
 0xE120 agogiPoliArgi
 0xE121 agogiArgoteri
 0xE122 agogiArgi

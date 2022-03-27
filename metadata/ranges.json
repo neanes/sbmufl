@@ -137,7 +137,15 @@
       "argon",
       "diargon",
       "triargon",
-      "gorgonYporroi"
+      "gorgonSecondary",
+      "gorgonDottedLeftSecondary",
+      "gorgonDottedRightSecondary",
+      "digorgonSecondary",
+      "digorgonDottedLeftBelowSecondary",
+      "digorgonDottedRightSecondary",
+      "trigorgonSecondary",
+      "trigorgonDottedLeftBelowSecondary",
+      "trigorgonDottedRightSecondary"
     ],
     "rangeStart": "U+E0F0",
     "rangeEnd": "U+E11F"

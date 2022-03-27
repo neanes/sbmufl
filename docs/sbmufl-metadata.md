@@ -92,7 +92,7 @@ This file defines the distinct ranges into which groups are organized.
             "argon",
             "diargon",
             "triargon",
-            "gorgonYporroi"
+            ...
         ],
         "rangeStart": "U+E0F0",
         "rangeEnd": "U+E11F"

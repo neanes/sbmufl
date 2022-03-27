@@ -390,8 +390,32 @@
     "alternateCodepoint": "U+1D099",
     "codepoint": "U+E0FE"
   },
-  "gorgonYporroi": {
+  "gorgonSecondary": {
     "codepoint": "U+E100"
+  },
+ "gorgonDottedLeftSecondary": {
+    "codepoint": "U+E101"
+  },
+  "gorgonDottedRightSecondary": {
+    "codepoint": "U+E102"
+  },
+  "digorgonSecondary": {
+    "codepoint": "U+E103"
+  },
+  "digorgonDottedLeftBelowSecondary": {
+    "codepoint": "U+E104"
+  },
+  "digorgonDottedRightSecondary": {
+    "codepoint": "U+E105"
+  },
+  "trigorgonSecondary": {
+    "codepoint": "U+E106"
+  },
+  "trigorgonDottedLeftBelowSecondary": {
+    "codepoint": "U+E107"
+  },
+  "trigorgonDottedRightSecondary": {
+    "codepoint": "U+E108"
   },
   "agogiPoliArgi": {
     "alternateCodepoint": "U+1D09A",

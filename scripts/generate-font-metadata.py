@@ -11,7 +11,7 @@ class SbmuflFont(object):
         'fthoraBottom',
         'gorgonTop',
         'gorgonBottom',
-        'gorgonYporroi',
+        'gorgonSecondary',
         'isonIndicator',
         'heteron',
         'klasmaTop',
