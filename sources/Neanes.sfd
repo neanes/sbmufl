@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1646795337
-ModificationTime: 1648436596
+ModificationTime: 1648523562
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 58030 7 5
+WinInfo: 57365 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2326,8 +2326,9 @@ StartChar: apostrofosSyndesmos
 Encoding: 57378 57378 44
 Width: 1177
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
+AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
 AnchorPoint: "isonIndicator" 630 895 basechar 0
 AnchorPoint: "noteTop" 194 699 basechar 0
@@ -6540,7 +6541,7 @@ HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
 AnchorPoint: "measureNumber" 172 783 basechar 0
 AnchorPoint: "isonIndicator" 366 885 basechar 0
 AnchorPoint: "gorgonBottom" 287 93 basechar 0
-AnchorPoint: "apli" 316 -42 basechar 0
+AnchorPoint: "apli" 500 -42 basechar 0
 AnchorPoint: "antikenoma" 301 101 basechar 0
 AnchorPoint: "noteTop" 170 643 basechar 0
 AnchorPoint: "fthoraTop" 386 642 basechar 0
@@ -19078,7 +19079,7 @@ Encoding: 58042 58042 293
 Width: 1505
 VWidth: 345
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: 464 42<1300.27 1388> 568 83.5<779.012 855.083> 573 48<1252.76 1384.49> 776 66<1275.45 1382.72> 793 49<697.504 769 786.824 882.156>
 VStem: 254.818 71<348.918 438.062> 360 70<571 809.678> 586 73<854 924.933> 751 27<637.651 781.438> 1120 35<682.428 774.929> 1199 21<650.008 727.531> 1396 25<519.407 572.718>
 LayerCount: 2
