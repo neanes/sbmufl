@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1646795337
-ModificationTime: 1648523562
+ModificationTime: 1648525161
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2250,6 +2250,7 @@ Width: 1277
 VWidth: 345
 Flags: W
 HStem: -226 32<1144.99 1197.78> 95 31<814.096 998.326> 252 117<773.316 1038.61>
+AnchorPoint: "apli" 1244 -424 basechar 0
 AnchorPoint: "measureNumber" 172 773 basechar 0
 AnchorPoint: "isonIndicator" 630 895 basechar 0
 AnchorPoint: "noteTop" 322 661 basechar 0
@@ -2326,7 +2327,7 @@ StartChar: apostrofosSyndesmos
 Encoding: 57378 57378 44
 Width: 1177
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
 AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
@@ -6542,7 +6543,7 @@ AnchorPoint: "measureNumber" 172 783 basechar 0
 AnchorPoint: "isonIndicator" 366 885 basechar 0
 AnchorPoint: "gorgonBottom" 287 93 basechar 0
 AnchorPoint: "apli" 500 -42 basechar 0
-AnchorPoint: "antikenoma" 301 101 basechar 0
+AnchorPoint: "antikenoma" 461 101 basechar 0
 AnchorPoint: "noteTop" 170 643 basechar 0
 AnchorPoint: "fthoraTop" 386 642 basechar 0
 AnchorPoint: "fthoraBottom" 340 99 basechar 0
