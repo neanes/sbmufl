@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1646795337
-ModificationTime: 1648612252
+ModificationTime: 1648785130
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57365 7 5
+WinInfo: 57393 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3187,6 +3187,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<763.719 995.029> 469.5 28.5<408.041 448.657 951.611 1056.74> 607 123<970 1142.44>
 VStem: 1105.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1179 915 basechar 0
 AnchorPoint: "psifiston" 854 140 basechar 0
 AnchorPoint: "measureNumber" 172 1073 basechar 0
 AnchorPoint: "isonIndicator" 714 1049 basechar 0
@@ -3291,6 +3292,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "measureNumber" 172 743 basechar 0
 AnchorPoint: "isonIndicator" 664 1049 basechar 0
 AnchorPoint: "apli" 765 -80 basechar 0
@@ -3358,6 +3360,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<761.719 992.868> 469.5 28.5<406.502 446.671 949.611 1054.74> 636 114<164.26 1218.87>
 VStem: 1103.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 991 basechar 0
 AnchorPoint: "psifiston" 860 140 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
 AnchorPoint: "isonIndicator" 724 1049 basechar 0
@@ -3451,6 +3454,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1049 basechar 0
@@ -3534,6 +3538,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -3628,6 +3633,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<225.709 308.188> 1190 32<641.32 679.933>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -3722,6 +3728,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 800 29<431.784 473.917> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -3832,6 +3839,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 641 26<477.26 518.917> 790 19<559.08 633.875> 1243 27<943.51 978.934>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -7186,6 +7194,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1220 627 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1389 basechar 0
@@ -7339,6 +7348,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<796.709 879.379> 681 26<437.386 472.283> 864 19<456.08 532.781> 1190 32<1212.32 1250.93> 1316 27<840.593 876.449>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1389 basechar 0
@@ -7476,6 +7486,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188> 681 26<512.386 547.285> 864 19<603.584 679.429> 1190 32<519.297 557.449> 1316 27<987.51 1022.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 187 1293 basechar 0
 AnchorPoint: "isonIndicator" 664 1389 basechar 0
@@ -7613,6 +7624,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1227 600 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 133 1273 basechar 0
 AnchorPoint: "isonIndicator" 664 1389 basechar 0
@@ -7793,6 +7805,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188 464.709 547.379 840.709 923.188> 1190 32<519.297 557.449 880.32 918.933 1256.32 1294.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1193 660 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 193 1280 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -8443,6 +8456,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<227.017 304.739 828.011 904.218> 1195 30<624.898 660.934 1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 664 1299 basechar 0
@@ -11346,9 +11360,10 @@ StartChar: petastiKentimaTripleYpsili
 Encoding: 57422 57422 150
 Width: 1439
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfesis" 1213 613 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 173 1240 basechar 0
 AnchorPoint: "isonIndicator" 664 1389 basechar 0
