@@ -19,9 +19,9 @@ XUID: [1021 151 880831689 20337]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 0
+OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1648785130
+ModificationTime: 1649022993
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -29,16 +29,16 @@ LineGap: 0
 VLineGap: 0
 OS2TypoAscent: 1400
 OS2TypoAOffset: 0
-OS2TypoDescent: 466
+OS2TypoDescent: -466
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1400
 OS2WinAOffset: 0
-OS2WinDescent: -466
+OS2WinDescent: 466
 OS2WinDOffset: 0
 HheadAscent: 1400
 HheadAOffset: 0
-HheadDescent: 466
+HheadDescent: -466
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 3 0 0 "'salt' Stylistic Alternatives in Byzantine Music lookup 4" { "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1"  } ['salt' ('DFLT' <'dflt' > 'byzm' <'dflt' > ) ]
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57393 7 5
+WinInfo: 57344 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1516,7 +1516,7 @@ StartChar: oligon
 Encoding: 57345 57345 35
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<182.719 1326.04>
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
@@ -11360,7 +11360,7 @@ StartChar: petastiKentimaTripleYpsili
 Encoding: 57422 57422 150
 Width: 1439
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
 AnchorPoint: "yfesis" 1213 613 basechar 0
