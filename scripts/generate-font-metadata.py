@@ -14,6 +14,7 @@ class SbmuflFont(object):
         'gorgonSecondary',
         'isonIndicator',
         'heteron',
+        'heteronConnecting',
         'klasmaTop',
         'klasmaBottom',
         'martyriaTop',
@@ -233,7 +234,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 2:
         print(
-            "USAGE: ffpython generate-font-metadata.py <relative/path/to/font.sfd> [relative/path/to/glpyhnames.json]")
+            "USAGE: ffpython generate-font-metadata.py <relative/path/to/font.sfd> [relative/path/to/glyphnames.json]")
         exit(1)
 
     with SbmuflFont(*sys.argv[1:]) as font:
