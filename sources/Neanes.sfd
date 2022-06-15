@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1649022993
+ModificationTime: 1655264245
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57344 7 5
+WinInfo: 57498 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1516,7 +1516,7 @@ StartChar: oligon
 Encoding: 57345 57345 35
 Width: 1515
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 121<182.719 1326.04>
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
@@ -2427,7 +2427,7 @@ AnchorPoint: "antikenoma" 1191 101 basechar 0
 AnchorPoint: "noteTop" 742 703 basechar 0
 AnchorPoint: "fthoraTop" 1098 660 basechar 0
 AnchorPoint: "fthoraBottom" 1139 70 basechar 0
-AnchorPoint: "gorgonTop" 1147 553 basechar 0
+AnchorPoint: "gorgonTop" 1147 580 basechar 0
 AnchorPoint: "diesis" 937 20 basechar 0
 AnchorPoint: "yfesis" 1490 536 basechar 0
 AnchorPoint: "klasmaTop" 1060 570 basechar 0
@@ -2520,7 +2520,7 @@ AnchorPoint: "antikenoma" 566 70 basechar 0
 AnchorPoint: "noteTop" 242 703 basechar 0
 AnchorPoint: "fthoraTop" 518 660 basechar 0
 AnchorPoint: "fthoraBottom" 609 70 basechar 0
-AnchorPoint: "gorgonTop" 627 553 basechar 0
+AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
 AnchorPoint: "klasmaTop" 560 570 basechar 0
@@ -2590,7 +2590,7 @@ AnchorPoint: "antikenoma" 581 -29 basechar 0
 AnchorPoint: "noteTop" 232 703 basechar 0
 AnchorPoint: "fthoraTop" 518 660 basechar 0
 AnchorPoint: "fthoraBottom" 609 -30 basechar 0
-AnchorPoint: "gorgonTop" 627 553 basechar 0
+AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
 AnchorPoint: "klasmaTop" 560 570 basechar 0
@@ -4435,7 +4435,7 @@ AnchorPoint: "fthoraBottom" 465 97 basechar 0
 AnchorPoint: "fthoraTop" 227 759 basechar 0
 AnchorPoint: "diesis" 333 93 basechar 0
 AnchorPoint: "yfesis" 624 551 basechar 0
-AnchorPoint: "gorgonTop" 443 505 basechar 0
+AnchorPoint: "gorgonTop" 453 547 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6545,8 +6545,9 @@ StartChar: apostrofos
 Encoding: 57377 57377 87
 Width: 703
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
+AnchorPoint: "heteronConnecting" 731 125 basechar 0
 AnchorPoint: "measureNumber" 172 783 basechar 0
 AnchorPoint: "isonIndicator" 366 885 basechar 0
 AnchorPoint: "gorgonBottom" 287 93 basechar 0
@@ -6555,7 +6556,7 @@ AnchorPoint: "antikenoma" 461 101 basechar 0
 AnchorPoint: "noteTop" 170 643 basechar 0
 AnchorPoint: "fthoraTop" 386 642 basechar 0
 AnchorPoint: "fthoraBottom" 340 99 basechar 0
-AnchorPoint: "gorgonTop" 400 567 basechar 0
+AnchorPoint: "gorgonTop" 400 580 basechar 0
 AnchorPoint: "diesis" 233 100 basechar 0
 AnchorPoint: "yfesis" 648 557 basechar 0
 AnchorPoint: "klasmaTop" 353 567 basechar 0
