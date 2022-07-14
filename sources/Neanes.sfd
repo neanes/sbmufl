@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57498 7 5
+WinInfo: 57463 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -6196,7 +6196,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonKentimataYpsiliLeft
+StartChar: oligonKentimataYpsiliRight
 Encoding: 57477 57477 84
 Width: 1532
 VWidth: 345
@@ -6303,7 +6303,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oligonKentimataYpsiliRight
+StartChar: oligonKentimataYpsiliLeft
 Encoding: 57478 57478 85
 Width: 1515
 VWidth: 345
@@ -6545,7 +6545,7 @@ StartChar: apostrofos
 Encoding: 57377 57377 87
 Width: 703
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
 AnchorPoint: "heteronConnecting" 731 125 basechar 0
 AnchorPoint: "measureNumber" 172 783 basechar 0
