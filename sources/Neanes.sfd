@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1655264245
+ModificationTime: 1658114587
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57463 7 5
+WinInfo: 57365 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2327,7 +2327,7 @@ StartChar: apostrofosSyndesmos
 Encoding: 57378 57378 44
 Width: 1177
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
 AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
@@ -2335,7 +2335,7 @@ AnchorPoint: "isonIndicator" 630 895 basechar 0
 AnchorPoint: "noteTop" 194 699 basechar 0
 AnchorPoint: "fthoraTop" 587 642 basechar 0
 AnchorPoint: "fthoraBottom" 373 93 basechar 0
-AnchorPoint: "gorgonTop" 457 635 basechar 0
+AnchorPoint: "gorgonTop" 938 193 basechar 0
 AnchorPoint: "diesis" 333 127 basechar 0
 LayerCount: 2
 Fore
