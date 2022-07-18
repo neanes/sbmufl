@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1658114587
+ModificationTime: 1658115433
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2327,7 +2327,7 @@ StartChar: apostrofosSyndesmos
 Encoding: 57378 57378 44
 Width: 1177
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
 AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
@@ -6545,7 +6545,7 @@ StartChar: apostrofos
 Encoding: 57377 57377 87
 Width: 703
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
 AnchorPoint: "heteronConnecting" 731 125 basechar 0
 AnchorPoint: "measureNumber" 172 783 basechar 0
@@ -6559,7 +6559,7 @@ AnchorPoint: "fthoraBottom" 340 99 basechar 0
 AnchorPoint: "gorgonTop" 400 580 basechar 0
 AnchorPoint: "diesis" 233 100 basechar 0
 AnchorPoint: "yfesis" 648 557 basechar 0
-AnchorPoint: "klasmaTop" 353 567 basechar 0
+AnchorPoint: "klasmaTop" 408 567 basechar 0
 LayerCount: 2
 Fore
 Refer: 10 118865 N 1 0 0 1 0 0 2
