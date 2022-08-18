@@ -909,7 +909,7 @@
             U+E085
         </div>
         <div class="glyph-name">
-            oligonKentimataYpsiliRight
+            oligonKentimaMiddleKentimata
         </div>
     </td>
 </tr>
@@ -922,7 +922,7 @@
             U+E086
         </div>
         <div class="glyph-name">
-            oligonKentimataYpsiliLeft
+            oligonYpsiliRightKentimata
         </div>
     </td>
 </tr>
@@ -935,7 +935,7 @@
             U+E087
         </div>
         <div class="glyph-name">
-            oligonApostrofosKentimata
+            oligonYpsiliLeftKentimata
         </div>
     </td>
 </tr>
@@ -948,7 +948,7 @@
             U+E088
         </div>
         <div class="glyph-name">
-            oligonYporroiKentimata
+            oligonApostrofosKentimata
         </div>
     </td>
 </tr>
@@ -961,7 +961,7 @@
             U+E089
         </div>
         <div class="glyph-name">
-            oligonElafronKentimata
+            oligonYporroiKentimata
         </div>
     </td>
 </tr>
@@ -974,7 +974,7 @@
             U+E08A
         </div>
         <div class="glyph-name">
-            oligonRunningElafronKentimata
+            oligonElafronKentimata
         </div>
     </td>
 </tr>
@@ -987,7 +987,7 @@
             U+E08B
         </div>
         <div class="glyph-name">
-            oligonElafronApostrofosKentimata
+            oligonRunningElafronKentimata
         </div>
     </td>
 </tr>
@@ -998,6 +998,19 @@
     <td>
         <div class="code-point">
             U+E08C
+        </div>
+        <div class="glyph-name">
+            oligonElafronApostrofosKentimata
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE08D;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E08D
         </div>
         <div class="glyph-name">
             oligonChamiliKentimata
