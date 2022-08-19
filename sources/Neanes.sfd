@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1660787403
+ModificationTime: 1660882475
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4886,9 +4886,10 @@ StartChar: oligonElafronKentimata
 Encoding: 57482 57482 72
 Width: 2077
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
+AnchorPoint: "gorgonTop" 1647 733 basechar 0
 AnchorPoint: "measureNumber" 172 1043 basechar 0
 AnchorPoint: "isonIndicator" 710 1057 basechar 0
 AnchorPoint: "antikenoma" 1093 153 basechar 0
@@ -4898,7 +4899,6 @@ AnchorPoint: "fthoraTop" 1523 825 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1829 761 basechar 0
 AnchorPoint: "psifiston" 1140 113 basechar 0
-AnchorPoint: "gorgonTop" 1519 738 basechar 0
 LayerCount: 2
 Fore
 SplineSet
