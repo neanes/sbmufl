@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1660882475
+ModificationTime: 1666919859
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57463 7 5
+WinInfo: 57470 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4558,8 +4558,9 @@ StartChar: oligonIsonKentimata
 Encoding: 57476 57476 69
 Width: 1964
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "gorgonSecondary" 685 866 basechar 0
 AnchorPoint: "measureNumber" 194 961 basechar 0
 AnchorPoint: "isonIndicator" 710 1157 basechar 0
 AnchorPoint: "antikenoma" 1053 113 basechar 0
@@ -4784,6 +4785,7 @@ Width: 1627
 VWidth: 345
 Flags: W
 HStem: 246 121<177.719 1453.04> 450 32<408.995 462.511> 645 26<859.729 894.249 1130.23 1164.25> 783 23<97.6112 165.711>
+AnchorPoint: "gorgonSecondary" 410 874 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
 AnchorPoint: "isonIndicator" 707 1107 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -4886,7 +4888,7 @@ StartChar: oligonElafronKentimata
 Encoding: 57482 57482 72
 Width: 2077
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
 AnchorPoint: "gorgonTop" 1647 733 basechar 0
