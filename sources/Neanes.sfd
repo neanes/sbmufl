@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1669050394
+ModificationTime: 1669057458
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2396,10 +2396,11 @@ VWidth: 345
 Flags: W
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
+AnchorPoint: "heteronConnecting" 304 -62 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
 AnchorPoint: "isonIndicator" 212 885 basechar 0
 AnchorPoint: "heteron" 316 -86 basechar 0
-AnchorPoint: "apli" 161 -28 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
 AnchorPoint: "antikenoma" 197 100 basechar 0
 AnchorPoint: "noteTop" 156 675 basechar 0
 AnchorPoint: "fthoraTop" 308 609 basechar 0
@@ -3187,6 +3188,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<763.719 995.029> 469.5 28.5<408.041 448.657 951.611 1056.74> 607 123<970 1142.44>
 VStem: 1105.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1179 915 basechar 0
 AnchorPoint: "psifiston" 854 140 basechar 0
 AnchorPoint: "measureNumber" 172 1073 basechar 0
@@ -3292,6 +3294,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "measureNumber" 172 743 basechar 0
 AnchorPoint: "isonIndicator" 664 1049 basechar 0
@@ -3360,6 +3363,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<761.719 992.868> 469.5 28.5<406.502 446.671 949.611 1054.74> 636 114<164.26 1218.87>
 VStem: 1103.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 991 basechar 0
 AnchorPoint: "psifiston" 860 140 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
@@ -3454,6 +3458,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3538,6 +3543,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3633,6 +3639,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<225.709 308.188> 1190 32<641.32 679.933>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3728,6 +3735,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 800 29<431.784 473.917> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3839,6 +3847,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 641 26<477.26 518.917> 790 19<559.08 633.875> 1243 27<943.51 978.934>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3950,6 +3959,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 455 32<533.995 587.781> 469.5 28.5<328.502 368.671 871.611 976.738> 787 24<222.611 297.379>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
 AnchorPoint: "isonIndicator" 664 997 basechar 0
@@ -4042,6 +4052,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 595 28.5<278.262 383.389 886.329 926.498> 920.5 39<338.797 569.561>
 VStem: 80 149<684.031 829.995> 1031 149<262.036 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
 AnchorPoint: "isonIndicator" 660 1049 basechar 0
@@ -4154,6 +4165,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 489 22<579.767 625.733> 590 28.5<278.262 383.389 886.329 926.498> 783 21<299.095 362.761> 916 38.5<340.132 567.839>
 VStem: 80 149<679.031 824.54> 1030.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
 AnchorPoint: "isonIndicator" 644 1037 basechar 0
@@ -4290,6 +4302,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
 AnchorPoint: "isonIndicator" 650 1133 basechar 0
@@ -4478,8 +4491,9 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "omalonConnecting" 1590 130 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 710 1117 basechar 0
@@ -4561,6 +4575,7 @@ Width: 1964
 VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "heteronConnecting" 2000 132 basechar 0
 AnchorPoint: "gorgonSecondary" 685 866 basechar 0
 AnchorPoint: "measureNumber" 194 961 basechar 0
 AnchorPoint: "isonIndicator" 710 1157 basechar 0
@@ -4679,6 +4694,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<206.422 285.189> 686 25<634.242 668.497 904.819 938.966> 1132 31<622.221 659.934>
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 174 983 basechar 0
 AnchorPoint: "isonIndicator" 710 1207 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -4786,6 +4802,7 @@ Width: 1627
 VWidth: 345
 Flags: W
 HStem: 246 121<177.719 1453.04> 450 32<408.995 462.511> 645 26<859.729 894.249 1130.23 1164.25> 783 23<97.6112 165.711>
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "gorgonSecondary" 410 874 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
 AnchorPoint: "isonIndicator" 707 1107 basechar 0
@@ -4892,6 +4909,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
+AnchorPoint: "heteronConnecting" 2050 132 basechar 0
 AnchorPoint: "gorgonTop" 1647 733 basechar 0
 AnchorPoint: "measureNumber" 172 1043 basechar 0
 AnchorPoint: "isonIndicator" 710 1057 basechar 0
@@ -5016,6 +5034,7 @@ Width: 1627
 VWidth: 345
 Flags: W
 HStem: 246 121<177.719 1443.04> 645 26<859.729 894.249 1130.23 1164.25> 693 27<537.713 582.292>
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 713 1147 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -5111,8 +5130,10 @@ StartChar: oligonKentimataBelow
 Encoding: 57474 57474 74
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
+AnchorPoint: "heteron" 1087 227 basechar 0
+AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
 AnchorPoint: "apli" 803 -227 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -5537,6 +5558,7 @@ VWidth: 345
 Flags: W
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
+AnchorPoint: "heteronConnecting" 1586 52 basechar 0
 AnchorPoint: "measureNumber" 173 920 basechar 0
 AnchorPoint: "isonIndicator" 832 999 basechar 0
 AnchorPoint: "apli" 1095 -80 basechar 0
@@ -5814,6 +5836,7 @@ VWidth: 345
 Flags: W
 HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<747.208 793.807>
 VStem: 962.5 139<252.126 389.617>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 745 140 basechar 0
 AnchorPoint: "measureNumber" 172 663 basechar 0
 AnchorPoint: "isonIndicator" 664 997 basechar 0
@@ -5897,6 +5920,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<363.258 1990.04> 456 27<242.767 290.495> 465 22<660.951 738.905 1188.25 1215.54> 645 26<1496.23 1531.28 1766.73 1800.76> 737 21<-7.90503 52.9037> 757 34.5<701.461 905.936>
 VStem: 469 132<540.506 677.252>
+AnchorPoint: "heteronConnecting" 2150 132 basechar 0
 AnchorPoint: "measureNumber" 662 913 basechar 0
 AnchorPoint: "isonIndicator" 710 1077 basechar 0
 AnchorPoint: "antikenoma" 1253 153 basechar 0
@@ -6042,6 +6066,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<265.719 1878.12> 426 22<579.767 625.733> 487 25<290.604 383.389 886.329 917.315> 645 26<1301.73 1336.25 1572.23 1606.76> 720 21<299.095 362.519> 813.5 38<340.132 571.281>
 VStem: 80 149<577.031 722.964>
+AnchorPoint: "heteronConnecting" 2050 132 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
 AnchorPoint: "isonIndicator" 710 1010 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6191,6 +6216,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1306.04> 418 29<1423.32 1465.89> 671 26<502.137 536.249 772.094 807.249>
 VStem: 1423 303
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 710 1117 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6215,6 +6241,7 @@ Width: 1532
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<352.137 386.764 622.606 656.764> 1132 31<1461.32 1499.93>
+AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 164 847 basechar 0
 AnchorPoint: "isonIndicator" 710 1177 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6323,6 +6350,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 313 29<592.871 640.233> 469.5 28.5<328.502 368.671 871.611 976.738> 612 22<312.095 378.125> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
 AnchorPoint: "isonIndicator" 650 1133 basechar 0
@@ -6646,7 +6674,7 @@ HStem: -201 28<588.766 634.808> -96 22<324.715 406.905 856.251 883.545> 98 21<32
 VStem: 137 132<-20.9994 116.383>
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1144 -74 basechar 0
+AnchorPoint: "heteronConnecting" 1144 -240 basechar 0
 AnchorPoint: "omalonConnecting" 1160 -180 basechar 0
 AnchorPoint: "apli" 575 -320 basechar 0
 AnchorPoint: "antikenoma" 572 -232 basechar 0
@@ -6973,7 +7001,7 @@ Flags: W
 HStem: -93 29<592.871 640.233> 207 21<312.095 375.807> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1013 -20 basechar 0
+AnchorPoint: "heteronConnecting" 1013 -180 basechar 0
 AnchorPoint: "omalonConnecting" 1087 -113 basechar 0
 AnchorPoint: "apli" 575 -230 basechar 0
 AnchorPoint: "antikenoma" 581 -120 basechar 0
@@ -7101,6 +7129,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1220 627 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -7255,6 +7284,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<796.709 879.379> 681 26<437.386 472.283> 864 19<456.08 532.781> 1190 32<1212.32 1250.93> 1316 27<840.593 876.449>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -7393,6 +7423,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188> 681 26<512.386 547.285> 864 19<603.584 679.429> 1190 32<519.297 557.449> 1316 27<987.51 1022.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 187 1293 basechar 0
@@ -7531,6 +7562,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1227 600 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 133 1273 basechar 0
@@ -7712,6 +7744,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188 464.709 547.379 840.709 923.188> 1190 32<519.297 557.449 880.32 918.933 1256.32 1294.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1193 660 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 193 1280 basechar 0
@@ -8363,6 +8396,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<227.017 304.739 828.011 904.218> 1195 30<624.898 660.934 1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -8580,6 +8614,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
 AnchorPoint: "isonIndicator" 650 1423 basechar 0
@@ -8731,6 +8766,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 463 29<562.871 610.964> 469.5 28.5<328.502 368.671 560.767 616.905 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 762 21<282.58 345.807> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
 AnchorPoint: "isonIndicator" 650 1423 basechar 0
@@ -8904,6 +8940,7 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 332.5 28.5<328.502 368.671 871.611 976.738> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
+AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
 AnchorPoint: "psifiston" 784 1 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
 AnchorPoint: "isonIndicator" 650 1293 basechar 0
@@ -9048,6 +9085,7 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 178 29<592.871 640.233> 332.5 28.5<328.502 368.671 871.611 976.738> 477 21<312.095 375.807> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
+AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
 AnchorPoint: "psifiston" 781 2 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
 AnchorPoint: "isonIndicator" 650 1293 basechar 0
@@ -11270,6 +11308,7 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "heteronConnecting" 1316 52 basechar 0
 AnchorPoint: "yfesis" 1213 613 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 173 1240 basechar 0
@@ -21297,6 +21336,7 @@ Width: 1995
 VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1799.18> 531 31<588.542 781 899 1039.09> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "heteronConnecting" 2000 132 basechar 0
 AnchorPoint: "measureNumber" 172 993 basechar 0
 AnchorPoint: "isonIndicator" 710 1010 basechar 0
 AnchorPoint: "antikenoma" 1100 173 basechar 0
