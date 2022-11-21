@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1666919859
+ModificationTime: 1669050394
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4478,8 +4478,9 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
+AnchorPoint: "omalonConnecting" 1590 130 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 710 1117 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -4558,7 +4559,7 @@ StartChar: oligonIsonKentimata
 Encoding: 57476 57476 69
 Width: 1964
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 1487.23 1521.76>
 AnchorPoint: "gorgonSecondary" 685 866 basechar 0
 AnchorPoint: "measureNumber" 194 961 basechar 0
