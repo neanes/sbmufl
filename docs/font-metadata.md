@@ -188,3 +188,30 @@ This section contains the ligatures in the font and the component glyphs in the 
   ...
 }
 ```
+
+## optionalGlyphs
+
+This section contains the optional glyphs in the font in the range of U+F000 - U+F8FF. If OpenType support is unavailable, this section can be used to implement optional glyphs such as stylistic alternates.
+
+```js
+{
+  ...
+  "optionalGlyphs": {
+    "oligonKentimataBelow.alt01": {
+      "codepoint": "U+F000"
+    },
+    "oligonKentimataAbove.alt01": {
+      "codepoint": "U+F001"
+    },
+    "antikenoma.alt01": {
+      "codepoint": "U+F002"
+    },
+    "modeFirst.salt01": {
+      "codepoint": "U+F003"
+    },
+    ...
+  },
+  ...
+}
+
+```

@@ -60,8 +60,8 @@ class SbmuflFont(object):
         return False
 
     def __iter__(self):
-        # Standard SBMuFL characters are encoded from U+E000 to U+EFFF.
-        return (char for char in self.font.glyphs() if 57344 <= char.unicode <= 61439)
+        # Standard SBMuFL characters are encoded from U+E000 to U+F8FF.
+        return (char for char in self.font.glyphs() if 57344 <= char.unicode <= 63743)
 
     def __getitem__(self, glyphname):
         return self.font[glyphname]
@@ -138,6 +138,10 @@ class _SbmuflMetadata(object):
         advance_widths = self.advance_widths()
         if advance_widths:
             d['glyphAdvanceWidths'] = advance_widths
+
+        optional_glyphs = self.optional_glyphs()
+        if optional_glyphs:
+            d['optionalGlyphs'] = optional_glyphs
 
         bounding_boxes = self.bounding_boxes()
         if bounding_boxes:
@@ -227,6 +231,17 @@ class _SbmuflMetadata(object):
             all_advance_widths[char_name] = (char.width / self.font.em)
 
         return all_advance_widths
+
+    def optional_glyphs(self):
+        all_optional_glyphs = {}
+        for char in self.font:
+            if (char.unicode >= 61439):
+                char_name = self.font.canonical_glyphname(char)
+                all_optional_glyphs[char_name] = {
+                    'codepoint': SbmuflFont.format_codepoint(char.unicode),
+                }
+
+        return all_optional_glyphs
 
 
 if __name__ == "__main__":
