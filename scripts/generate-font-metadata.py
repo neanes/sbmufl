@@ -4,6 +4,8 @@ import json
 
 class SbmuflFont(object):
     valid_anchor_names = (
+        'agogi',
+        'agogiAboveFthora',
         'antikenoma',
         'apli',
         'diesis',

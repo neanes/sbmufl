@@ -133,6 +133,14 @@ Based: AGL For New Fonts
 0xE125 agogiGorgi
 0xE126 agogiGorgoteri
 0xE127 agogiPoliGorgi
+0xE128 agogiPoliArgiAbove
+0xE129 agogiArgoteriAbove
+0xE12A agogiArgiAbove
+0xE12B agogiMetriaAbove
+0xE12C agogiMesiAbove
+0xE12D agogiGorgiAbove
+0xE12E agogiGorgoteriAbove
+0xE12F agogiPoliGorgiAbove
 0xE130 martyriaNoteZoLow
 0xE131 martyriaNoteNiLow
 0xE132 martyriaNotePaLow
