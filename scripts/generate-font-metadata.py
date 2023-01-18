@@ -19,6 +19,7 @@ class SbmuflFont(object):
         'heteronConnecting',
         'klasmaTop',
         'klasmaBottom',
+        'koronis',
         'martyriaTop',
         'martyriaBottom',
         'measureNumber',
