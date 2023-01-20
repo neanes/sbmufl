@@ -28,6 +28,8 @@ class SbmuflFont(object):
         'omalon',
         'omalonConnecting',
         'psifiston',
+        'yfenAbove',
+        'yfenBelow',
         'yfesis',
     )
 

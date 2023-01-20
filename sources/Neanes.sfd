@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1673971917
+ModificationTime: 1674250047
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,11 +89,11 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57337 7 5
+WinInfo: 57330 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
+AnchorClass2: "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 341
 
 StartChar: u1D046
@@ -1382,8 +1382,10 @@ StartChar: ison
 Encoding: 57344 57344 33
 Width: 1524
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 123<1036.67 1330.87>
+AnchorPoint: "yfenAbove" 930 641 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1453,6 +1455,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
+AnchorPoint: "yfenAbove" 930 641 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1523,6 +1527,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04>
+AnchorPoint: "yfenAbove" 930 641 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1580,6 +1586,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 755 28<571.906 614.043>
+AnchorPoint: "yfenAbove" 930 911 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 891 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1653,6 +1661,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 1132 31<1403.3 1440.93>
+AnchorPoint: "yfenAbove" 930 1203 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1737,6 +1747,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106> 1132 31<636.32 674.933>
+AnchorPoint: "yfenAbove" 930 1285 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 951 855 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 213 827 basechar 0
@@ -1821,6 +1833,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 755 28<571.906 614.043> 1132 31<1403.3 1440.93>
+AnchorPoint: "yfenAbove" 930 1202 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -1921,6 +1935,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 645 22<619.619 656.909> 790 19<671.08 745.04> 1243 27<1055.51 1090.93>
+AnchorPoint: "yfenAbove" 930 1403 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 275 835 basechar 0
 AnchorPoint: "klasmaTop" 353 487 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -2019,6 +2035,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106 987.535 1066.59> 1132 31<636.32 674.933 1403.3 1440.93>
+AnchorPoint: "yfenAbove" 930 1271 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1261 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 160 800 basechar 0
@@ -2129,6 +2147,8 @@ Width: 1596
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1041.42 1120.19> 671 26<352.137 386.764 622.606 656.764> 848 17<486.093 557.48> 1132 31<1457.22 1494.93> 1248 24<852.553 886.449>
+AnchorPoint: "yfenAbove" 930 1371 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1371 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 875 basechar 0
@@ -2270,6 +2290,8 @@ Width: 1277
 VWidth: 345
 Flags: W
 HStem: -226 32<1144.99 1197.78> 95 31<814.096 998.326> 252 117<773.316 1038.61>
+AnchorPoint: "yfenAbove" 690 891 basechar 0
+AnchorPoint: "yfenBelow" 754 -236 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "apli" 1244 -424 basechar 0
 AnchorPoint: "measureNumber" 172 773 basechar 0
@@ -2350,6 +2372,8 @@ Width: 1177
 VWidth: 345
 Flags: W
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
+AnchorPoint: "yfenAbove" 930 891 basechar 0
+AnchorPoint: "yfenBelow" 929 -530 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
@@ -2418,6 +2442,8 @@ VWidth: 345
 Flags: W
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -150 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
 AnchorPoint: "heteronConnecting" 304 -62 basechar 0
@@ -2443,6 +2469,8 @@ VWidth: 345
 Flags: W
 HStem: 131 30<330.933 381.941> 138 23<328.798 377.492 826.006 895.904> 445 23<48.0957 118.16> 466.5 38.5<853.132 1082.08>
 VStem: 593 148<230.031 374.932>
+AnchorPoint: "yfenAbove" 1060 891 basechar 0
+AnchorPoint: "yfenBelow" 1109 -190 basechar 0
 AnchorPoint: "koronis" 1030 746 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
 AnchorPoint: "measureNumber" 172 653 basechar 0
@@ -2537,6 +2565,8 @@ VWidth: 345
 Flags: W
 HStem: 140 25<292.995 383.389> 466.5 38.5<340.132 569.561>
 VStem: 80 149<230.031 375.995>
+AnchorPoint: "yfenAbove" 650 901 basechar 0
+AnchorPoint: "yfenBelow" 659 -190 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 613 basechar 0
@@ -2610,6 +2640,8 @@ VWidth: 345
 Flags: W
 HStem: 35 22<579.767 625.733> 140 25<292.995 383.389> 329 21<299.095 362.761> 466.5 38.5<340.132 569.561>
 VStem: 80 149<230.031 375.995>
+AnchorPoint: "yfenAbove" 630 891 basechar 0
+AnchorPoint: "yfenBelow" 659 -190 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 643 basechar 0
@@ -2705,6 +2737,8 @@ Width: 1113
 VWidth: 345
 Flags: W
 HStem: -93 29<592.871 640.233> 207 21<312.095 375.807> 290 30<594.953 788 905 1044.16>
+AnchorPoint: "yfenAbove" 630 921 basechar 0
+AnchorPoint: "yfenBelow" 659 -400 basechar 0
 AnchorPoint: "koronis" 720 910 basechar 0
 AnchorPoint: "endofonon" 632 -257 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -2796,6 +2830,8 @@ Width: 1113
 VWidth: 345
 Flags: W
 HStem: 290 30<594.953 788 905 1044.16>
+AnchorPoint: "yfenAbove" 630 921 basechar 0
+AnchorPoint: "yfenBelow" 659 -100 basechar 0
 AnchorPoint: "koronis" 770 916 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -2867,6 +2903,8 @@ VWidth: 345
 Flags: W
 HStem: 140 25<292.995 383.389> 466.5 38.5<340.132 569.561> 591 30<623.953 817 936 1075.09>
 VStem: 80 149<230.031 375.995>
+AnchorPoint: "yfenAbove" 630 1301 basechar 0
+AnchorPoint: "yfenBelow" 659 -200 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
@@ -2981,6 +3019,8 @@ VWidth: 345
 Flags: W
 HStem: 35 22<579.767 625.733> 140 25<292.995 383.389> 329 21<299.095 362.761> 466.5 38.5<340.132 569.561> 591 30<623.953 817 936 1075.09>
 VStem: 80 149<230.031 375.995>
+AnchorPoint: "yfenAbove" 630 1251 basechar 0
+AnchorPoint: "yfenBelow" 659 -230 basechar 0
 AnchorPoint: "koronis" 770 1216 basechar 0
 AnchorPoint: "endofonon" 632 -107 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
@@ -3118,6 +3158,8 @@ Width: 1107
 VWidth: 345
 Flags: W
 HStem: 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
+AnchorPoint: "yfenAbove" 630 1241 basechar 0
+AnchorPoint: "yfenBelow" 659 -120 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
@@ -3228,6 +3270,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<763.719 995.029> 469.5 28.5<408.041 448.657 951.611 1056.74> 607 123<970 1142.44>
 VStem: 1105.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1049 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3336,6 +3380,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1049 basechar 0
+AnchorPoint: "yfenBelow" 769 -80 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3407,6 +3453,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<761.719 992.868> 469.5 28.5<406.502 446.671 949.611 1054.74> 636 114<164.26 1218.87>
 VStem: 1103.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1049 basechar 0
+AnchorPoint: "yfenBelow" 789 -80 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3504,6 +3552,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1049 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3591,6 +3641,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1309 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 430 876 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3689,6 +3741,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<225.709 308.188> 1190 32<641.32 679.933>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1299 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 925 807 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3787,6 +3841,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 800 29<431.784 473.917> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1299 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 599 969 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -3901,6 +3957,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 641 26<477.26 518.917> 790 19<559.08 633.875> 1243 27<943.51 978.934>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1299 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 313 963 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -4015,6 +4073,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 455 32<533.995 587.781> 469.5 28.5<328.502 368.671 871.611 976.738> 787 24<222.611 297.379>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1049 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -4110,6 +4170,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 595 28.5<278.262 383.389 886.329 926.498> 920.5 39<338.797 569.561>
 VStem: 80 149<684.031 829.995> 1031 149<262.036 407.969>
+AnchorPoint: "yfenAbove" 712 1109 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -4225,6 +4287,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 489 22<579.767 625.733> 590 28.5<278.262 383.389 886.329 926.498> 783 21<299.095 362.761> 916 38.5<340.132 567.839>
 VStem: 80 149<679.031 824.54> 1030.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 702 1089 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -4364,6 +4428,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 782 1229 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -4504,6 +4570,8 @@ Width: 738
 VWidth: 345
 Flags: W
 HStem: 423 29<85.7838 128.574 394.26 436.917>
+AnchorPoint: "yfenAbove" 413 875 basechar 0
+AnchorPoint: "yfenBelow" 459 -80 basechar 0
 AnchorPoint: "endofonon" 452 -277 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "gorgonBottom" 354 96 basechar 0
@@ -4558,6 +4626,8 @@ Width: 1465
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
+AnchorPoint: "yfenAbove" 930 901 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 772 -47 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "omalonConnecting" 1590 130 basechar 0
@@ -4641,6 +4711,8 @@ Width: 1964
 VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "yfenAbove" 1350 961 basechar 0
+AnchorPoint: "yfenBelow" 1389 -40 basechar 0
 AnchorPoint: "endofonon" 1102 -77 basechar 0
 AnchorPoint: "heteronConnecting" 2000 132 basechar 0
 AnchorPoint: "gorgonSecondary" 685 866 basechar 0
@@ -4761,6 +4833,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<206.422 285.189> 686 25<634.242 668.497 904.819 938.966> 1132 31<622.221 659.934>
+AnchorPoint: "yfenAbove" 930 1201 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 174 983 basechar 0
@@ -4870,6 +4944,8 @@ Width: 1627
 VWidth: 345
 Flags: W
 HStem: 246 121<177.719 1453.04> 450 32<408.995 462.511> 645 26<859.729 894.249 1130.23 1164.25> 783 23<97.6112 165.711>
+AnchorPoint: "yfenAbove" 930 1111 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 862 -37 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "gorgonSecondary" 410 874 basechar 0
@@ -4978,6 +5054,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
+AnchorPoint: "yfenAbove" 1280 1061 basechar 0
+AnchorPoint: "yfenBelow" 1349 -40 basechar 0
 AnchorPoint: "endofonon" 1142 -37 basechar 0
 AnchorPoint: "heteronConnecting" 2050 132 basechar 0
 AnchorPoint: "gorgonTop" 1647 733 basechar 0
@@ -5104,6 +5182,8 @@ Width: 1627
 VWidth: 345
 Flags: W
 HStem: 246 121<177.719 1443.04> 645 26<859.729 894.249 1130.23 1164.25> 693 27<537.713 582.292>
+AnchorPoint: "yfenAbove" 930 1141 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 852 -37 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -5201,8 +5281,10 @@ StartChar: oligonKentimataBelow
 Encoding: 57474 57474 74
 Width: 1515
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
+AnchorPoint: "yfenAbove" 930 641 basechar 0
+AnchorPoint: "yfenBelow" 929 -200 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
@@ -5292,6 +5374,8 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<1041.41 1076.45>
+AnchorPoint: "yfenAbove" 930 1461 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
@@ -5444,6 +5528,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 470 124<886.833 1204.01>
+AnchorPoint: "yfenAbove" 930 911 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -5537,6 +5623,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 502 28.5<336.922 441.904 945.329 985.003> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
+AnchorPoint: "yfenAbove" 930 1091 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -5637,6 +5725,8 @@ VWidth: 345
 Flags: W
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
+AnchorPoint: "yfenAbove" 932 1049 basechar 0
+AnchorPoint: "yfenBelow" 1029 -170 basechar 0
 AnchorPoint: "koronis" 833 1041 basechar 0
 AnchorPoint: "endofonon" 1052 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1586 52 basechar 0
@@ -5771,6 +5861,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 468 31<690.964 742.974> 800 24<379.096 450.104>
+AnchorPoint: "yfenAbove" 930 911 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -5850,6 +5942,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 704 31<1038 1084.38>
+AnchorPoint: "yfenAbove" 930 971 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -5921,6 +6015,8 @@ VWidth: 345
 Flags: W
 HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<747.208 793.807>
 VStem: 962.5 139<252.126 389.617>
+AnchorPoint: "yfenAbove" 702 1049 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -6007,6 +6103,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<363.258 1990.04> 456 27<242.767 290.495> 465 22<660.951 738.905 1188.25 1215.54> 645 26<1496.23 1531.28 1766.73 1800.76> 737 21<-7.90503 52.9037> 757 34.5<701.461 905.936>
 VStem: 469 132<540.506 677.252>
+AnchorPoint: "yfenAbove" 1320 1061 basechar 0
+AnchorPoint: "yfenBelow" 1389 -40 basechar 0
 AnchorPoint: "endofonon" 1212 -37 basechar 0
 AnchorPoint: "heteronConnecting" 2150 132 basechar 0
 AnchorPoint: "measureNumber" 662 913 basechar 0
@@ -6154,6 +6252,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<265.719 1878.12> 426 22<579.767 625.733> 487 25<290.604 383.389 886.329 917.315> 645 26<1301.73 1336.25 1572.23 1606.76> 720 21<299.095 362.519> 813.5 38<340.132 571.281>
 VStem: 80 149<577.031 722.964>
+AnchorPoint: "yfenAbove" 1240 1061 basechar 0
+AnchorPoint: "yfenBelow" 1269 -40 basechar 0
 AnchorPoint: "endofonon" 1122 -37 basechar 0
 AnchorPoint: "heteronConnecting" 2050 132 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
@@ -6305,6 +6405,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1306.04> 418 29<1423.32 1465.89> 671 26<502.137 536.249 772.094 807.249>
 VStem: 1423 303
+AnchorPoint: "yfenAbove" 930 1101 basechar 0
+AnchorPoint: "yfenBelow" 1109 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -6331,6 +6433,8 @@ Width: 1532
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<352.137 386.764 622.606 656.764> 1132 31<1461.32 1499.93>
+AnchorPoint: "yfenAbove" 930 1251 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "heteronConnecting" 1594 132 basechar 0
 AnchorPoint: "measureNumber" 164 847 basechar 0
@@ -6441,6 +6545,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 313 29<592.871 640.233> 469.5 28.5<328.502 368.671 871.611 976.738> 612 22<312.095 378.125> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 782 1229 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -6574,6 +6680,8 @@ Width: 703
 VWidth: 345
 Flags: W
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
+AnchorPoint: "yfenAbove" 470 891 basechar 0
+AnchorPoint: "yfenBelow" 509 -220 basechar 0
 AnchorPoint: "koronis" 370 891 basechar 0
 AnchorPoint: "endofonon" 502 -126 basechar 0
 AnchorPoint: "heteronConnecting" 731 125 basechar 0
@@ -6600,6 +6708,8 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<442.137 477.249 712.667 747.764> 859 19<593.08 669.429> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<977.51 1012.93>
+AnchorPoint: "yfenAbove" 930 1461 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
@@ -6769,6 +6879,8 @@ VWidth: 345
 Flags: W
 HStem: -201 28<588.766 634.808> -96 22<324.715 406.905 856.251 883.545> 98 21<325.58 385.169> 195.5 34<371.611 573.936> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
 VStem: 137 132<-20.9994 116.383>
+AnchorPoint: "yfenAbove" 630 1231 basechar 0
+AnchorPoint: "yfenBelow" 659 -520 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "endofonon" 632 -347 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
@@ -6947,6 +7059,8 @@ VWidth: 345
 Flags: W
 HStem: -96 22<324.715 406.905 856.251 883.545> 195.5 34<371.611 573.936> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
 VStem: 137 132<-20.9994 116.383>
+AnchorPoint: "yfenAbove" 630 1231 basechar 0
+AnchorPoint: "yfenBelow" 659 -410 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -267 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
@@ -7100,6 +7214,8 @@ Width: 1107
 VWidth: 345
 Flags: W
 HStem: -93 29<592.871 640.233> 207 21<312.095 375.807> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
+AnchorPoint: "yfenAbove" 630 1231 basechar 0
+AnchorPoint: "yfenBelow" 659 -410 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "endofonon" 632 -297 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
@@ -7232,6 +7348,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1419 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 235 1333 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -7389,6 +7507,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<796.709 879.379> 681 26<437.386 472.283> 864 19<456.08 532.781> 1190 32<1212.32 1250.93> 1316 27<840.593 876.449>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1449 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 340 1330 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -7530,6 +7650,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188> 681 26<512.386 547.285> 864 19<603.584 679.429> 1190 32<519.297 557.449> 1316 27<987.51 1022.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1449 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 670 1460 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -7671,6 +7793,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1439 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -7855,6 +7979,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188 464.709 547.379 840.709 923.188> 1190 32<519.297 557.449 880.32 918.933 1256.32 1294.93>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1379 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 1313 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -8006,6 +8132,8 @@ Width: 1577
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<472.606 507.249> 859 19<490.229 566.998> 1132 31<1461.32 1499.93> 1311 27<875.412 910.449>
+AnchorPoint: "yfenAbove" 930 1441 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -8131,6 +8259,8 @@ Width: 1517
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934> 1311 27<1041.41 1076.45>
+AnchorPoint: "yfenAbove" 930 1441 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
@@ -8256,6 +8386,8 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 582.422 661.189 1045.71 1125.18> 1132 31<534.297 571.934 998.221 1035.93 1461.32 1499.93>
+AnchorPoint: "yfenAbove" 930 1281 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1281 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
@@ -8393,6 +8525,8 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 443 27<638.736 684.969> 502 28.5<336.922 441.904 945.329 985.003> 718 19<383.58 439.156> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
+AnchorPoint: "yfenAbove" 930 1091 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
@@ -8517,6 +8651,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<227.017 304.739 828.011 904.218> 1195 30<624.898 660.934 1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
+AnchorPoint: "yfenAbove" 792 1299 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 867 1283 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -8641,6 +8777,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 531 31<678.542 872 989 1128.16>
+AnchorPoint: "yfenAbove" 930 1031 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 513 basechar 0
@@ -8739,6 +8877,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 782 1429 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -8893,6 +9033,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 463 29<562.871 610.964> 469.5 28.5<328.502 368.671 560.767 616.905 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 762 21<282.58 345.807> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 782 1429 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -9069,6 +9211,8 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 332.5 28.5<328.502 368.671 871.611 976.738> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
+AnchorPoint: "yfenAbove" 782 1289 basechar 0
+AnchorPoint: "yfenBelow" 729 -300 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
@@ -9216,6 +9360,8 @@ VWidth: 345
 Flags: W
 HStem: -2 37<683.719 912.23> 178 29<592.871 640.233> 332.5 28.5<328.502 368.671 871.611 976.738> 477 21<312.095 375.807> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
+AnchorPoint: "yfenAbove" 782 1289 basechar 0
+AnchorPoint: "yfenBelow" 729 -300 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "endofonon" 772 -287 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
@@ -9714,6 +9860,8 @@ Encoding: 57346 57346 113
 Width: 1794
 HStem: 246 121<182.719 1326.04> 418 29<1473.32 1515.89>
 VStem: 1473 303
+AnchorPoint: "yfenAbove" 930 641 basechar 0
+AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -9848,6 +9996,8 @@ Width: 1006
 VWidth: 345
 Flags: W
 HStem: 224 26<511.754 699 805 931.189> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
+AnchorPoint: "yfenAbove" 630 1321 basechar 0
+AnchorPoint: "yfenBelow" 659 -210 basechar 0
 AnchorPoint: "koronis" 670 1330 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1363 basechar 0
@@ -11465,6 +11615,8 @@ VWidth: 345
 Flags: W
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
+AnchorPoint: "yfenAbove" 792 1439 basechar 0
+AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "heteronConnecting" 1316 52 basechar 0
@@ -20675,7 +20827,7 @@ LayerCount: 2
 Fore
 SplineSet
 45 920 m 0
- 45 891.333007812 29.6669921875 877 -1 877 c 0
+ 45 891.333007812 29.6669921875 877 -1 877 c 4
  -33 877 -48.6669921875 891.333007812 -48 920 c 0
  -48 946 -32.3330078125 959 -1 959 c 0
  29.6669921875 959 45 946 45 920 c 0
@@ -20822,6 +20974,7 @@ Width: 0
 VWidth: 345
 Flags: W
 HStem: 1220 95<-206.714 127.958>
+AnchorPoint: "yfenAbove" -589 951 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -20845,6 +20998,7 @@ Width: 0
 VWidth: 345
 Flags: W
 HStem: -406 95<-208.956 127.881>
+AnchorPoint: "yfenBelow" -593 -43 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21515,6 +21669,8 @@ Width: 1995
 VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1799.18> 531 31<588.542 781 899 1039.09> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "yfenAbove" 1260 1061 basechar 0
+AnchorPoint: "yfenBelow" 1299 -40 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
 AnchorPoint: "heteronConnecting" 2000 132 basechar 0
 AnchorPoint: "measureNumber" 172 993 basechar 0
