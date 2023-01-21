@@ -141,8 +141,8 @@ class _SbmuflMetadata(object):
         d['fontVersion'] = self.font.version
 
         d['metrics'] = {
-            'winAscent': self.font.os2_winascent,
-            'winDescent': self.font.os2_windescent
+            'winAscent': self.font.os2_winascent / self.font.em,
+            'winDescent': self.font.os2_windescent / self.font.em
         }
 
         anchors = self.anchors()
