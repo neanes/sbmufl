@@ -9,6 +9,7 @@ class SbmuflFont(object):
         'antikenoma',
         'apli',
         'diesis',
+        'endofonon',
         'fthoraTop',
         'fthoraBottom',
         'gorgonTop',
