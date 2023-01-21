@@ -122,6 +122,14 @@ class SbmuflFont(object):
     def em(self):
         return self.font.em
 
+    @ property
+    def os2_winascent(self):
+        return self.font.os2_winascent
+
+    @ property
+    def os2_windescent(self):
+        return self.font.os2_windescent
+
 
 class _SbmuflMetadata(object):
     def __init__(self, font):
@@ -131,6 +139,11 @@ class _SbmuflMetadata(object):
         d = {}
         d['fontName'] = self.font.fontname
         d['fontVersion'] = self.font.version
+
+        d['metrics'] = {
+            'winAscent': self.font.os2_winascent,
+            'winDescent': self.font.os2_windescent
+        }
 
         anchors = self.anchors()
         if anchors:
