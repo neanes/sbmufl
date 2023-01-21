@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1674329598
+ModificationTime: 1674331646
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57330 7 5
+WinInfo: 61439 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1525,7 +1525,7 @@ StartChar: oligon
 Encoding: 57345 57345 35
 Width: 1515
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 121<182.719 1326.04>
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -5285,7 +5285,7 @@ Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -200 basechar 0
-AnchorPoint: "koronis" 783 801 basechar 0
+AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
@@ -5300,7 +5300,7 @@ AnchorPoint: "noteTop" 262 561 basechar 0
 AnchorPoint: "fthoraBottom" 384 160 basechar 0
 AnchorPoint: "fthoraTop" 743 515 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 893 487 basechar 0
+AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "gorgonTop" 763 505 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
@@ -11423,8 +11423,9 @@ StartChar: oligonKentimataBelow.alt01
 Encoding: 61440 61440 147
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
+AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "fthoraBottom" 384 160 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
