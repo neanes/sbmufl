@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1674250047
+ModificationTime: 1674329598
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1382,7 +1382,7 @@ StartChar: ison
 Encoding: 57344 57344 33
 Width: 1524
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 246 123<1036.67 1330.87>
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -1525,11 +1525,11 @@ StartChar: oligon
 Encoding: 57345 57345 35
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<182.719 1326.04>
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
-AnchorPoint: "koronis" 783 801 basechar 0
+AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
@@ -1545,7 +1545,7 @@ AnchorPoint: "fthoraTop" 788 507 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 873 487 basechar 0
+AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
 AnchorPoint: "gorgonTop" 780 500 basechar 0
 LayerCount: 2
