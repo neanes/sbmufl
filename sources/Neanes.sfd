@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1674331646
+ModificationTime: 1674626649
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,12 +89,12 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 61439 7 5
+WinInfo: 57344 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
-BeginChars: 1114112 341
+BeginChars: 1114112 340
 
 StartChar: u1D046
 Encoding: 118854 118854 0
@@ -10609,15 +10609,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE016
-Encoding: 57366 57366 123
-Width: 1000
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: digorgonDottedLeftAbove
-Encoding: 57590 57590 124
+Encoding: 57590 57590 123
 Width: 0
 VWidth: 345
 Flags: W
@@ -10673,7 +10666,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteZoLow
-Encoding: 57648 57648 125
+Encoding: 57648 57648 124
 Width: 783
 VWidth: 345
 Flags: W
@@ -10732,7 +10725,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteNiLow
-Encoding: 57649 57649 126
+Encoding: 57649 57649 125
 Width: 731
 VWidth: 345
 Flags: W
@@ -10774,7 +10767,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNotePaLow
-Encoding: 57650 57650 127
+Encoding: 57650 57650 126
 Width: 737
 VWidth: 345
 Flags: W
@@ -10827,7 +10820,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteVouLow
-Encoding: 57651 57651 128
+Encoding: 57651 57651 127
 Width: 701
 VWidth: 345
 Flags: W
@@ -10873,7 +10866,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteGaLow
-Encoding: 57652 57652 129
+Encoding: 57652 57652 128
 Width: 692
 VWidth: 345
 Flags: W
@@ -10900,7 +10893,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteDiLow
-Encoding: 57653 57653 130
+Encoding: 57653 57653 129
 Width: 738
 VWidth: 345
 Flags: W
@@ -10923,7 +10916,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteKeLow
-Encoding: 57654 57654 131
+Encoding: 57654 57654 130
 Width: 744
 VWidth: 345
 Flags: W
@@ -10975,7 +10968,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteZo
-Encoding: 57655 57655 132
+Encoding: 57655 57655 131
 Width: 783
 VWidth: 345
 Flags: W
@@ -11034,7 +11027,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNotePa
-Encoding: 57657 57657 133
+Encoding: 57657 57657 132
 Width: 737
 VWidth: 345
 Flags: W
@@ -11087,7 +11080,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteNi
-Encoding: 57656 57656 134
+Encoding: 57656 57656 133
 Width: 731
 VWidth: 345
 Flags: W
@@ -11129,7 +11122,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteVou
-Encoding: 57658 57658 135
+Encoding: 57658 57658 134
 Width: 701
 VWidth: 345
 Flags: W
@@ -11175,7 +11168,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteNiHigh
-Encoding: 57663 57663 136
+Encoding: 57663 57663 135
 Width: 879
 VWidth: 345
 Flags: W
@@ -11186,13 +11179,13 @@ AnchorPoint: "martyriaBottom" 487 -30 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 731 0 2
-Refer: 134 57656 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 731 0 2
+Refer: 133 57656 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteNi martyriaTick
 EndChar
 
 StartChar: martyriaNoteGa
-Encoding: 57659 57659 137
+Encoding: 57659 57659 136
 Width: 692
 VWidth: 345
 Flags: W
@@ -11219,7 +11212,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteDi
-Encoding: 57660 57660 138
+Encoding: 57660 57660 137
 Width: 738
 VWidth: 345
 Flags: W
@@ -11242,7 +11235,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteKe
-Encoding: 57661 57661 139
+Encoding: 57661 57661 138
 Width: 746
 VWidth: 345
 Flags: W
@@ -11294,7 +11287,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNoteZoHigh
-Encoding: 57662 57662 140
+Encoding: 57662 57662 139
 Width: 931
 VWidth: 345
 Flags: W
@@ -11305,13 +11298,13 @@ AnchorPoint: "martyriaBottom" 527 -33 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 783 0 2
-Refer: 132 57655 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 783 0 2
+Refer: 131 57655 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteZo martyriaTick
 EndChar
 
 StartChar: martyriaNotePaHigh
-Encoding: 57664 57664 141
+Encoding: 57664 57664 140
 Width: 885
 VWidth: 345
 Flags: W
@@ -11322,13 +11315,13 @@ AnchorPoint: "martyriaBottom" 520 -47 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 737 0 2
-Refer: 133 57657 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 737 0 2
+Refer: 132 57657 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNotePa martyriaTick
 EndChar
 
 StartChar: martyriaNoteVouHigh
-Encoding: 57665 57665 142
+Encoding: 57665 57665 141
 Width: 849
 VWidth: 345
 Flags: W
@@ -11339,13 +11332,13 @@ AnchorPoint: "martyriaBottom" 453 -40 basechar 0
 AnchorPoint: "fthoraTop" 517 456 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 701 0 2
-Refer: 135 57658 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 701 0 2
+Refer: 134 57658 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteVou martyriaTick
 EndChar
 
 StartChar: martyriaNoteGaHigh
-Encoding: 57666 57666 143
+Encoding: 57666 57666 142
 Width: 840
 VWidth: 345
 Flags: W
@@ -11356,13 +11349,13 @@ AnchorPoint: "martyriaBottom" 493 -27 basechar 0
 AnchorPoint: "fthoraTop" 517 436 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 692 0 2
-Refer: 137 57659 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 692 0 2
+Refer: 136 57659 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteGa martyriaTick
 EndChar
 
 StartChar: martyriaNoteDiHigh
-Encoding: 57667 57667 144
+Encoding: 57667 57667 143
 Width: 886
 VWidth: 345
 Flags: W
@@ -11373,13 +11366,13 @@ AnchorPoint: "martyriaBottom" 533 -27 basechar 0
 AnchorPoint: "fthoraTop" 540 454 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 738 0 2
-Refer: 138 57660 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 738 0 2
+Refer: 137 57660 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteDi martyriaTick
 EndChar
 
 StartChar: martyriaNoteKeHigh
-Encoding: 57668 57668 145
+Encoding: 57668 57668 144
 Width: 894
 VWidth: 345
 Flags: W
@@ -11390,13 +11383,13 @@ AnchorPoint: "fthoraTop" 517 376 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
 LayerCount: 2
 Fore
-Refer: 146 57669 N 1 0 0 1 746 0 2
-Refer: 139 57661 N 1 0 0 1 0 0 2
+Refer: 145 57669 N 1 0 0 1 746 0 2
+Refer: 138 57661 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2-1" martyriaNoteKe martyriaTick
 EndChar
 
 StartChar: martyriaTick
-Encoding: 57669 57669 146
+Encoding: 57669 57669 145
 Width: 148
 VWidth: 345
 Flags: W
@@ -11420,7 +11413,7 @@ EndSplineSet
 EndChar
 
 StartChar: oligonKentimataBelow.alt01
-Encoding: 61440 61440 147
+Encoding: 61440 61440 146
 Width: 1465
 VWidth: 345
 Flags: WO
@@ -11500,7 +11493,7 @@ EndSplineSet
 EndChar
 
 StartChar: oligonKentimataAbove.alt01
-Encoding: 61441 61441 148
+Encoding: 61441 61441 147
 Width: 1465
 VWidth: 345
 Flags: W
@@ -11570,7 +11563,7 @@ EndSplineSet
 EndChar
 
 StartChar: antikenoma.alt01
-Encoding: 61442 61442 149
+Encoding: 61442 61442 148
 Width: 0
 VWidth: 345
 Flags: W
@@ -11610,7 +11603,7 @@ EndSplineSet
 EndChar
 
 StartChar: petastiKentimaTripleYpsili
-Encoding: 57422 57422 150
+Encoding: 57422 57422 149
 Width: 1439
 VWidth: 345
 Flags: W
@@ -11780,7 +11773,7 @@ EndSplineSet
 EndChar
 
 StartChar: vareia
-Encoding: 57504 57504 151
+Encoding: 57504 57504 150
 Width: 534
 VWidth: 345
 Flags: W
@@ -11813,7 +11806,7 @@ EndSplineSet
 EndChar
 
 StartChar: psifiston
-Encoding: 57505 57505 152
+Encoding: 57505 57505 151
 Width: 0
 VWidth: 345
 Flags: W
@@ -11856,7 +11849,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1" ps
 EndChar
 
 StartChar: antikenoma
-Encoding: 57506 57506 153
+Encoding: 57506 57506 152
 Width: 0
 VWidth: 345
 Flags: W
@@ -11895,7 +11888,7 @@ Substitution2: "subs-1" antikenoma.alt01
 EndChar
 
 StartChar: omalon
-Encoding: 57507 57507 154
+Encoding: 57507 57507 153
 Width: 0
 VWidth: 345
 Flags: W
@@ -11932,7 +11925,7 @@ EndSplineSet
 EndChar
 
 StartChar: omalonConnecting
-Encoding: 57508 57508 155
+Encoding: 57508 57508 154
 Width: 0
 VWidth: 345
 Flags: W
@@ -11969,7 +11962,7 @@ EndSplineSet
 EndChar
 
 StartChar: heteron
-Encoding: 57509 57509 156
+Encoding: 57509 57509 155
 Width: 0
 VWidth: 345
 Flags: W
@@ -12014,7 +12007,7 @@ EndSplineSet
 EndChar
 
 StartChar: heteronConnecting
-Encoding: 57510 57510 157
+Encoding: 57510 57510 156
 Width: 0
 VWidth: 345
 Flags: W
@@ -12060,7 +12053,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1" he
 EndChar
 
 StartChar: stavros
-Encoding: 57536 57536 158
+Encoding: 57536 57536 157
 Width: 457
 VWidth: 345
 Flags: W
@@ -12094,7 +12087,7 @@ EndSplineSet
 EndChar
 
 StartChar: klasmaAbove
-Encoding: 57552 57552 159
+Encoding: 57552 57552 158
 Width: 0
 VWidth: 345
 Flags: W
@@ -12127,7 +12120,7 @@ EndSplineSet
 EndChar
 
 StartChar: klasmaBelow
-Encoding: 57553 57553 160
+Encoding: 57553 57553 159
 Width: 0
 VWidth: 345
 Flags: W
@@ -12160,7 +12153,7 @@ EndSplineSet
 EndChar
 
 StartChar: apli
-Encoding: 57554 57554 161
+Encoding: 57554 57554 160
 Width: 0
 VWidth: 345
 Flags: W
@@ -12189,7 +12182,7 @@ EndSplineSet
 EndChar
 
 StartChar: dipli
-Encoding: 57555 57555 162
+Encoding: 57555 57555 161
 Width: 0
 VWidth: 345
 Flags: W
@@ -12232,7 +12225,7 @@ EndSplineSet
 EndChar
 
 StartChar: tripli
-Encoding: 57556 57556 163
+Encoding: 57556 57556 162
 Width: 0
 VWidth: 345
 Flags: W
@@ -12290,7 +12283,7 @@ EndSplineSet
 EndChar
 
 StartChar: tetrapli
-Encoding: 57557 57557 164
+Encoding: 57557 57557 163
 Width: 0
 VWidth: 345
 Flags: W
@@ -12363,7 +12356,7 @@ EndSplineSet
 EndChar
 
 StartChar: leimma1
-Encoding: 57568 57568 165
+Encoding: 57568 57568 164
 Width: 610
 VWidth: 345
 Flags: W
@@ -12412,7 +12405,7 @@ EndSplineSet
 EndChar
 
 StartChar: leimma2
-Encoding: 57569 57569 166
+Encoding: 57569 57569 165
 Width: 781
 VWidth: 345
 Flags: W
@@ -12475,7 +12468,7 @@ EndSplineSet
 EndChar
 
 StartChar: leimma3
-Encoding: 57570 57570 167
+Encoding: 57570 57570 166
 Width: 976
 VWidth: 345
 Flags: W
@@ -12553,7 +12546,7 @@ EndSplineSet
 EndChar
 
 StartChar: leimma4
-Encoding: 57571 57571 168
+Encoding: 57571 57571 167
 Width: 1166
 VWidth: 345
 Flags: W
@@ -12646,7 +12639,7 @@ EndSplineSet
 EndChar
 
 StartChar: digorgonDottedRight
-Encoding: 57591 57591 169
+Encoding: 57591 57591 168
 Width: 0
 VWidth: 345
 Flags: W
@@ -12703,7 +12696,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgon
-Encoding: 57592 57592 170
+Encoding: 57592 57592 169
 Width: 0
 VWidth: 345
 Flags: W
@@ -12756,7 +12749,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonDottedLeftBelow
-Encoding: 57593 57593 171
+Encoding: 57593 57593 170
 Width: 0
 VWidth: 345
 Flags: W
@@ -12824,7 +12817,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonDottedLeftAbove
-Encoding: 57594 57594 172
+Encoding: 57594 57594 171
 Width: 0
 VWidth: 345
 Flags: W
@@ -12892,7 +12885,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonDottedRight
-Encoding: 57595 57595 173
+Encoding: 57595 57595 172
 Width: 0
 VWidth: 345
 Flags: W
@@ -12960,7 +12953,7 @@ EndSplineSet
 EndChar
 
 StartChar: argon
-Encoding: 57596 57596 174
+Encoding: 57596 57596 173
 Width: 0
 VWidth: 345
 Flags: W
@@ -12991,7 +12984,7 @@ EndSplineSet
 EndChar
 
 StartChar: diargon
-Encoding: 57597 57597 175
+Encoding: 57597 57597 174
 Width: 0
 VWidth: 345
 Flags: W
@@ -13031,7 +13024,7 @@ EndSplineSet
 EndChar
 
 StartChar: triargon
-Encoding: 57598 57598 176
+Encoding: 57598 57598 175
 Width: 0
 VWidth: 345
 Flags: W
@@ -13073,7 +13066,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaZoBelow
-Encoding: 57680 57680 177
+Encoding: 57680 57680 176
 Width: 0
 VWidth: 345
 Flags: W
@@ -13123,7 +13116,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaDeltaBelow
-Encoding: 57681 57681 178
+Encoding: 57681 57681 177
 Width: 0
 VWidth: 345
 Flags: W
@@ -13183,7 +13176,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaAlphaBelow
-Encoding: 57682 57682 179
+Encoding: 57682 57682 178
 Width: 0
 VWidth: 345
 Flags: W
@@ -13224,7 +13217,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaLegetosBelow
-Encoding: 57683 57683 180
+Encoding: 57683 57683 179
 Width: 0
 VWidth: 345
 Flags: W
@@ -13262,7 +13255,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNanaBelow
-Encoding: 57684 57684 181
+Encoding: 57684 57684 180
 Width: 0
 VWidth: 345
 Flags: W
@@ -13312,7 +13305,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaDeltaDottedBelow
-Encoding: 57685 57685 182
+Encoding: 57685 57685 181
 Width: 0
 VWidth: 345
 Flags: W
@@ -13382,7 +13375,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaAlphaDottedBelow
-Encoding: 57686 57686 183
+Encoding: 57686 57686 182
 Width: 0
 VWidth: 345
 Flags: W
@@ -13433,7 +13426,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaHardChromaticPaBelow
-Encoding: 57687 57687 184
+Encoding: 57687 57687 183
 Width: 0
 VWidth: 345
 Flags: W
@@ -13469,7 +13462,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaHardChromaticDiBelow
-Encoding: 57688 57688 185
+Encoding: 57688 57688 184
 Width: 0
 VWidth: 345
 Flags: W
@@ -13511,7 +13504,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaSoftChromaticDiBelow
-Encoding: 57689 57689 186
+Encoding: 57689 57689 185
 Width: 0
 VWidth: 345
 Flags: W
@@ -13558,7 +13551,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaSoftChromaticKeBelow
-Encoding: 57690 57690 187
+Encoding: 57690 57690 186
 Width: 0
 Flags: W
 HStem: 896 26<-49.9792 44.4144> 1107 25<-48.7502 43.5385>
@@ -13611,7 +13604,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaZygosBelow
-Encoding: 57691 57691 188
+Encoding: 57691 57691 187
 Width: 0
 Flags: W
 HStem: -114 26<-44.7064 49.9817> 98 26<-43.6787 49.3496>
@@ -13664,7 +13657,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaZoAbove
-Encoding: 57712 57712 189
+Encoding: 57712 57712 188
 Width: 0
 VWidth: 345
 Flags: W
@@ -13714,7 +13707,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaDeltaAbove
-Encoding: 57713 57713 190
+Encoding: 57713 57713 189
 Width: 0
 VWidth: 345
 Flags: W
@@ -13774,7 +13767,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaAlphaAbove
-Encoding: 57714 57714 191
+Encoding: 57714 57714 190
 Width: 0
 VWidth: 345
 Flags: W
@@ -13815,7 +13808,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaLegetosAbove
-Encoding: 57715 57715 192
+Encoding: 57715 57715 191
 Width: 0
 VWidth: 345
 Flags: W
@@ -13853,7 +13846,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaNanaAbove
-Encoding: 57716 57716 193
+Encoding: 57716 57716 192
 Width: 0
 VWidth: 345
 Flags: W
@@ -13903,7 +13896,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaDeltaDottedAbove
-Encoding: 57717 57717 194
+Encoding: 57717 57717 193
 Width: 0
 VWidth: 345
 Flags: W
@@ -13973,7 +13966,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaAlphaDottedAbove
-Encoding: 57718 57718 195
+Encoding: 57718 57718 194
 Width: 0
 VWidth: 345
 Flags: W
@@ -14026,7 +14019,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaHardChromaticPaAbove
-Encoding: 57719 57719 196
+Encoding: 57719 57719 195
 Width: 0
 VWidth: 345
 Flags: W
@@ -14062,7 +14055,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaHardChromaticDiAbove
-Encoding: 57720 57720 197
+Encoding: 57720 57720 196
 Width: 0
 VWidth: 345
 Flags: W
@@ -14104,7 +14097,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaSoftChromaticDiAbove
-Encoding: 57721 57721 198
+Encoding: 57721 57721 197
 Width: 0
 VWidth: 345
 Flags: W
@@ -14151,7 +14144,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaSoftChromaticKeAbove
-Encoding: 57722 57722 199
+Encoding: 57722 57722 198
 Width: 0
 Flags: W
 HStem: -104 26<-49.9792 44.4144> 107 25<-48.7502 43.5385>
@@ -14204,7 +14197,7 @@ EndSplineSet
 EndChar
 
 StartChar: martyriaZygosAbove
-Encoding: 57723 57723 200
+Encoding: 57723 57723 199
 Width: 0
 Flags: W
 HStem: 906 26<-44.7064 49.9817> 1118 26<-43.6787 49.3496>
@@ -14257,7 +14250,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicNiLowAbove
-Encoding: 57744 57744 201
+Encoding: 57744 57744 200
 Width: 0
 Flags: W
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
@@ -14309,7 +14302,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicPaAbove
-Encoding: 57745 57745 202
+Encoding: 57745 57745 201
 Width: 0
 Flags: W
 HStem: 1014 26<-47.1909 46.8635>
@@ -14346,7 +14339,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicVouAbove
-Encoding: 57746 57746 203
+Encoding: 57746 57746 202
 Width: 0
 Flags: W
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
@@ -14401,7 +14394,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicGaAbove
-Encoding: 57747 57747 204
+Encoding: 57747 57747 203
 Width: 0
 Flags: W
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
@@ -14440,7 +14433,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicDiAbove
-Encoding: 57748 57748 205
+Encoding: 57748 57748 204
 Width: 0
 Flags: W
 HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
@@ -14480,7 +14473,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicKeAbove
-Encoding: 57749 57749 206
+Encoding: 57749 57749 205
 Width: 0
 Flags: W
 HStem: 802 25<-45.6833 46.3909>
@@ -14516,7 +14509,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicZoAbove
-Encoding: 57750 57750 207
+Encoding: 57750 57750 206
 Width: 0
 Flags: W
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
@@ -14587,7 +14580,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicNiHighAbove
-Encoding: 57751 57751 208
+Encoding: 57751 57751 207
 Width: 0
 Flags: W
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
@@ -14646,7 +14639,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraHardChromaticPaAbove
-Encoding: 57752 57752 209
+Encoding: 57752 57752 208
 Width: 0
 Flags: W
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
@@ -14705,7 +14698,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraHardChromaticDiAbove
-Encoding: 57753 57753 210
+Encoding: 57753 57753 209
 Width: 0
 Flags: W
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
@@ -14745,7 +14738,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraSoftChromaticDiAbove
-Encoding: 57754 57754 211
+Encoding: 57754 57754 210
 Width: 0
 Flags: W
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
@@ -14805,7 +14798,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraSoftChromaticKeAbove
-Encoding: 57755 57755 212
+Encoding: 57755 57755 211
 Width: 0
 Flags: W
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
@@ -14859,7 +14852,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraEnharmonicAbove
-Encoding: 57756 57756 213
+Encoding: 57756 57756 212
 Width: 0
 Flags: W
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
@@ -14905,7 +14898,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaZygosAbove
-Encoding: 57757 57757 214
+Encoding: 57757 57757 213
 Width: 0
 Flags: W
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
@@ -14959,7 +14952,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaKlitonAbove
-Encoding: 57758 57758 215
+Encoding: 57758 57758 214
 Width: 0
 Flags: W
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
@@ -15011,7 +15004,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicNiLowBelow
-Encoding: 57792 57792 216
+Encoding: 57792 57792 215
 Width: 0
 Flags: W
 HStem: -106 27<66.129 88.6998> -103.5 92.5<103.688 152.757> 19 25<-91.8469 0.51283> 228 25<-91.4949 0.51283>
@@ -15062,7 +15055,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicPaBelow
-Encoding: 57793 57793 217
+Encoding: 57793 57793 216
 Width: 0
 VWidth: 200
 Flags: W
@@ -15098,7 +15091,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicVouBelow
-Encoding: 57794 57794 218
+Encoding: 57794 57794 217
 Width: 0
 VWidth: 200
 Flags: W
@@ -15153,7 +15146,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicGaBelow
-Encoding: 57795 57795 219
+Encoding: 57795 57795 218
 Width: 0
 VWidth: 200
 Flags: W
@@ -15192,7 +15185,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicDiBelow
-Encoding: 57796 57796 220
+Encoding: 57796 57796 219
 Width: 0
 VWidth: 200
 Flags: W
@@ -15232,7 +15225,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicKeBelow
-Encoding: 57797 57797 221
+Encoding: 57797 57797 220
 Width: 0
 VWidth: 200
 Flags: W
@@ -15268,7 +15261,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicZoBelow
-Encoding: 57798 57798 222
+Encoding: 57798 57798 221
 Width: 0
 VWidth: 200
 Flags: W
@@ -15339,7 +15332,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraDiatonicNiHighBelow
-Encoding: 57799 57799 223
+Encoding: 57799 57799 222
 Width: 0
 VWidth: 200
 Flags: W
@@ -15398,7 +15391,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraHardChromaticPaBelow
-Encoding: 57800 57800 224
+Encoding: 57800 57800 223
 Width: 0
 VWidth: 200
 Flags: W
@@ -15457,7 +15450,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraHardChromaticDiBelow
-Encoding: 57801 57801 225
+Encoding: 57801 57801 224
 Width: 0
 VWidth: 200
 Flags: W
@@ -15497,7 +15490,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraSoftChromaticDiBelow
-Encoding: 57802 57802 226
+Encoding: 57802 57802 225
 Width: 0
 VWidth: 200
 Flags: W
@@ -15557,7 +15550,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraSoftChromaticKeBelow
-Encoding: 57803 57803 227
+Encoding: 57803 57803 226
 Width: 0
 VWidth: 200
 Flags: W
@@ -15611,7 +15604,7 @@ EndSplineSet
 EndChar
 
 StartChar: fthoraEnharmonicBelow
-Encoding: 57804 57804 228
+Encoding: 57804 57804 227
 Width: 0
 VWidth: 200
 Flags: W
@@ -15657,7 +15650,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaZygosBelow
-Encoding: 57805 57805 229
+Encoding: 57805 57805 228
 Width: 0
 VWidth: 200
 Flags: W
@@ -15711,7 +15704,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaKlitonBelow
-Encoding: 57806 57806 230
+Encoding: 57806 57806 229
 Width: 0
 VWidth: 200
 Flags: W
@@ -15763,7 +15756,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesis2
-Encoding: 57840 57840 231
+Encoding: 57840 57840 230
 Width: 0
 Flags: W
 HStem: 290 24<-63.637 25.8165> 492 25<-64.3935 27.4842>
@@ -15800,7 +15793,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesis4
-Encoding: 57841 57841 232
+Encoding: 57841 57841 231
 Width: 0
 Flags: W
 HStem: 354 25<-81.9631 9.17496> 560 25<-80.8523 9.21251>
@@ -15847,7 +15840,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesis6
-Encoding: 57842 57842 233
+Encoding: 57842 57842 232
 Width: 0
 Flags: W
 HStem: 324 26<-112.12 -18.8392> 532 25<-111.32 -19.9004>
@@ -15903,7 +15896,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesis8
-Encoding: 57843 57843 234
+Encoding: 57843 57843 233
 Width: 0
 VWidth: 345
 Flags: W
@@ -15971,7 +15964,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesis2
-Encoding: 57856 57856 235
+Encoding: 57856 57856 234
 Width: 0
 Flags: W
 HStem: 546 25<-45.9977 44.8165> 752 24<-43.9577 43.7252>
@@ -16008,7 +16001,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesis4
-Encoding: 57857 57857 236
+Encoding: 57857 57857 235
 Width: 0
 Flags: W
 HStem: 524 25<32.4338 124.931> 729 25<33.0045 124.14>
@@ -16055,7 +16048,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesis6
-Encoding: 57858 57858 237
+Encoding: 57858 57858 236
 Width: 0
 Flags: W
 HStem: 547 25<11.6005 103.645> 754 25<11.9962 103.712>
@@ -16111,7 +16104,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesis8
-Encoding: 57859 57859 238
+Encoding: 57859 57859 237
 Width: 0
 VWidth: 345
 Flags: W
@@ -16179,7 +16172,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesisGenikiAbove
-Encoding: 57844 57844 239
+Encoding: 57844 57844 238
 Width: 0
 Flags: W
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
@@ -16226,7 +16219,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesisGenikiAbove
-Encoding: 57860 57860 240
+Encoding: 57860 57860 239
 Width: 0
 Flags: W
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
@@ -16273,7 +16266,7 @@ EndSplineSet
 EndChar
 
 StartChar: diesisGenikiBelow
-Encoding: 57845 57845 241
+Encoding: 57845 57845 240
 Width: 0
 VWidth: 200
 Flags: W
@@ -16321,7 +16314,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfesisGenikiBelow
-Encoding: 57861 57861 242
+Encoding: 57861 57861 241
 Width: 0
 VWidth: 200
 Flags: W
@@ -16369,7 +16362,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorNi
-Encoding: 57936 57936 243
+Encoding: 57936 57936 242
 Width: 0
 Flags: W
 HStem: 1075 57<-120.131 -73.5187>
@@ -16407,7 +16400,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorPa
-Encoding: 57937 57937 244
+Encoding: 57937 57937 243
 Width: 0
 Flags: W
 HStem: 1015 76<24.4375 45.4375 58.3834 150.17> 1019 82<-118.36 45.4375>
@@ -16457,7 +16450,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorVou
-Encoding: 57938 57938 245
+Encoding: 57938 57938 244
 Width: 0
 Flags: W
 HStem: 1053 27<8.3539 57.4269>
@@ -16499,7 +16492,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorGa
-Encoding: 57939 57939 246
+Encoding: 57939 57939 245
 Width: 0
 Flags: W
 VStem: -141 66<809 1034.67> 71 70<1076 1142.87>
@@ -16523,7 +16516,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorDi
-Encoding: 57940 57940 247
+Encoding: 57940 57940 246
 Width: 0
 Flags: W
 HStem: 800 30<-105 77>
@@ -16544,7 +16537,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorKe
-Encoding: 57941 57941 248
+Encoding: 57941 57941 247
 Width: 0
 Flags: W
 HStem: 1075 57<-143.236 -72.4442>
@@ -16592,7 +16585,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteIndicatorZo
-Encoding: 57942 57942 249
+Encoding: 57942 57942 248
 Width: 0
 Flags: W
 VStem: 113.5 40<859 915.618>
@@ -16633,7 +16626,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaSpathiBelow
-Encoding: 57807 57807 250
+Encoding: 57807 57807 249
 Width: 0
 VWidth: 200
 Flags: W
@@ -16708,7 +16701,7 @@ EndSplineSet
 EndChar
 
 StartChar: chroaSpathiAbove
-Encoding: 57759 57759 251
+Encoding: 57759 57759 250
 Width: 0
 Flags: W
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
@@ -16783,7 +16776,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber3
-Encoding: 57889 57889 252
+Encoding: 57889 57889 251
 Width: 0
 VWidth: 345
 Flags: W
@@ -16828,7 +16821,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber4
-Encoding: 57890 57890 253
+Encoding: 57890 57890 252
 Width: 0
 VWidth: 345
 Flags: W
@@ -16858,7 +16851,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber5
-Encoding: 57891 57891 254
+Encoding: 57891 57891 253
 Width: 0
 VWidth: 345
 Flags: W
@@ -16895,7 +16888,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber6
-Encoding: 57892 57892 255
+Encoding: 57892 57892 254
 Width: 0
 VWidth: 345
 Flags: W
@@ -16939,7 +16932,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber7
-Encoding: 57893 57893 256
+Encoding: 57893 57893 255
 Width: 0
 VWidth: 345
 Flags: W
@@ -16965,7 +16958,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber8
-Encoding: 57894 57894 257
+Encoding: 57894 57894 256
 Width: 0
 VWidth: 345
 Flags: W
@@ -17015,7 +17008,7 @@ EndSplineSet
 EndChar
 
 StartChar: measureNumber2
-Encoding: 57888 57888 258
+Encoding: 57888 57888 257
 Width: 0
 VWidth: 345
 Flags: W
@@ -17052,7 +17045,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorDiLow
-Encoding: 57953 57953 259
+Encoding: 57953 57953 258
 Width: 0
 VWidth: 345
 Flags: W
@@ -17108,7 +17101,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorUnison
-Encoding: 57952 57952 260
+Encoding: 57952 57952 259
 Width: 0
 VWidth: 345
 Flags: W
@@ -17151,7 +17144,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorKeLow
-Encoding: 57954 57954 261
+Encoding: 57954 57954 260
 Width: 0
 VWidth: 345
 Flags: W
@@ -17207,7 +17200,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorZo
-Encoding: 57955 57955 262
+Encoding: 57955 57955 261
 Width: 0
 VWidth: 345
 Flags: W
@@ -17248,7 +17241,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorNi
-Encoding: 57956 57956 263
+Encoding: 57956 57956 262
 Width: 0
 VWidth: 345
 Flags: W
@@ -17288,7 +17281,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorPa
-Encoding: 57957 57957 264
+Encoding: 57957 57957 263
 Width: 0
 VWidth: 345
 Flags: W
@@ -17329,7 +17322,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorVou
-Encoding: 57958 57958 265
+Encoding: 57958 57958 264
 Width: 0
 VWidth: 345
 Flags: W
@@ -17386,7 +17379,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorGa
-Encoding: 57959 57959 266
+Encoding: 57959 57959 265
 Width: 0
 VWidth: 345
 Flags: W
@@ -17426,7 +17419,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorDi
-Encoding: 57960 57960 267
+Encoding: 57960 57960 266
 Width: 0
 VWidth: 345
 Flags: W
@@ -17468,7 +17461,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorKe
-Encoding: 57961 57961 268
+Encoding: 57961 57961 267
 Width: 0
 VWidth: 345
 Flags: W
@@ -17510,7 +17503,7 @@ EndSplineSet
 EndChar
 
 StartChar: isonIndicatorZoHigh
-Encoding: 57962 57962 269
+Encoding: 57962 57962 268
 Width: 0
 VWidth: 345
 Flags: W
@@ -17565,7 +17558,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeThirdNana
-Encoding: 58033 58033 270
+Encoding: 58033 58033 269
 Width: 1020
 VWidth: 345
 Flags: W
@@ -17624,7 +17617,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeThird
-Encoding: 58032 58032 271
+Encoding: 58032 58032 270
 Width: 2612
 VWidth: 345
 Flags: W
@@ -17747,7 +17740,7 @@ EndSplineSet
 EndChar
 
 StartChar: modePlagalFirst
-Encoding: 58048 58048 272
+Encoding: 58048 58048 271
 Width: 945
 VWidth: 345
 Flags: W
@@ -17798,7 +17791,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeFourth
-Encoding: 58040 58040 273
+Encoding: 58040 58040 272
 Width: 980
 VWidth: 345
 Flags: W
@@ -17896,7 +17889,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1" mo
 EndChar
 
 StartChar: modeOligonYpsili
-Encoding: 58088 58088 274
+Encoding: 58088 58088 273
 Width: 0
 VWidth: 345
 Flags: W
@@ -17957,7 +17950,7 @@ EndSplineSet
 EndChar
 
 StartChar: modePlagalSecond
-Encoding: 58056 58056 275
+Encoding: 58056 58056 274
 Width: 1232
 VWidth: 345
 Flags: W
@@ -18002,7 +17995,7 @@ EndSplineSet
 EndChar
 
 StartChar: modePlagalFourth
-Encoding: 58072 58072 276
+Encoding: 58072 58072 275
 Width: 930
 VWidth: 345
 Flags: W
@@ -18071,7 +18064,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeNi
-Encoding: 58080 58080 277
+Encoding: 58080 58080 276
 Width: 1238
 VWidth: 345
 Flags: W
@@ -18149,7 +18142,7 @@ EndSplineSet
 EndChar
 
 StartChar: modePa
-Encoding: 58081 58081 278
+Encoding: 58081 58081 277
 Width: 1245
 VWidth: 345
 Flags: W
@@ -18239,7 +18232,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: modeAlphaCapital
-Encoding: 58103 58103 279
+Encoding: 58103 58103 278
 Width: 1083
 VWidth: 345
 Flags: W
@@ -18292,7 +18285,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeBetaCapital
-Encoding: 58104 58104 280
+Encoding: 58104 58104 279
 Width: 1048
 VWidth: 345
 Flags: W
@@ -18359,7 +18352,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeGammaCapital
-Encoding: 58105 58105 281
+Encoding: 58105 58105 280
 Width: 1117
 VWidth: 345
 Flags: W
@@ -18407,7 +18400,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeDeltaCapital
-Encoding: 58106 58106 282
+Encoding: 58106 58106 281
 Width: 1063
 VWidth: 345
 Flags: W
@@ -18441,7 +18434,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeVarys
-Encoding: 58064 58064 283
+Encoding: 58064 58064 282
 Width: 1485
 VWidth: 345
 Flags: W
@@ -18508,7 +18501,7 @@ EndSplineSet
 EndChar
 
 StartChar: modePlagal
-Encoding: 58096 58096 284
+Encoding: 58096 58096 283
 Width: 775
 VWidth: 345
 Flags: W
@@ -18587,7 +18580,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeWordVarys
-Encoding: 58098 58098 285
+Encoding: 58098 58098 284
 Width: 2099
 VWidth: 345
 Flags: W
@@ -18784,7 +18777,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeAlpha
-Encoding: 58099 58099 286
+Encoding: 58099 58099 285
 Width: 1019
 VWidth: 345
 Flags: W
@@ -18851,7 +18844,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeBeta
-Encoding: 58100 58100 287
+Encoding: 58100 58100 286
 Width: 1009
 VWidth: 345
 Flags: W
@@ -18920,7 +18913,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeWordEchos
-Encoding: 58097 58097 288
+Encoding: 58097 58097 287
 Width: 1588
 VWidth: 345
 Flags: W
@@ -19065,7 +19058,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeGamma
-Encoding: 58101 58101 289
+Encoding: 58101 58101 288
 Width: 1060
 VWidth: 345
 Flags: W
@@ -19127,7 +19120,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeDelta
-Encoding: 58102 58102 290
+Encoding: 58102 58102 289
 Width: 1000
 VWidth: 345
 Flags: W
@@ -19188,7 +19181,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeFirst
-Encoding: 58016 58016 291
+Encoding: 58016 58016 290
 Width: 980
 VWidth: 345
 Flags: W
@@ -19267,7 +19260,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1" mo
 EndChar
 
 StartChar: modeSecond
-Encoding: 58024 58024 292
+Encoding: 58024 58024 291
 Width: 1770
 VWidth: 345
 Flags: W
@@ -19368,7 +19361,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeLegetos
-Encoding: 58042 58042 293
+Encoding: 58042 58042 292
 Width: 1505
 VWidth: 345
 InSpiro: 1
@@ -19842,7 +19835,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeVarys2
-Encoding: 58065 58065 294
+Encoding: 58065 58065 293
 Width: 783
 VWidth: 345
 Flags: W
@@ -19934,7 +19927,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeVou
-Encoding: 58082 58082 295
+Encoding: 58082 58082 294
 Width: 1128
 VWidth: 345
 Flags: W
@@ -20026,7 +20019,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeGa
-Encoding: 58083 58083 296
+Encoding: 58083 58083 295
 Width: 1132
 VWidth: 345
 Flags: W
@@ -20104,7 +20097,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeDi
-Encoding: 58084 58084 297
+Encoding: 58084 58084 296
 Width: 1073
 VWidth: 345
 Flags: W
@@ -20147,7 +20140,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeKe
-Encoding: 58085 58085 298
+Encoding: 58085 58085 297
 Width: 1198
 VWidth: 345
 Flags: W
@@ -20246,7 +20239,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeZo
-Encoding: 58086 58086 299
+Encoding: 58086 58086 298
 Width: 1289
 VWidth: 345
 Flags: W
@@ -20317,7 +20310,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeOligonKentimaAbove
-Encoding: 58087 58087 300
+Encoding: 58087 58087 299
 Width: 0
 VWidth: 345
 Flags: W
@@ -20374,7 +20367,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeElafron
-Encoding: 58089 58089 301
+Encoding: 58089 58089 300
 Width: 0
 VWidth: 345
 Flags: W
@@ -20432,7 +20425,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeRunningElafron
-Encoding: 58090 58090 302
+Encoding: 58090 58090 301
 Width: 0
 VWidth: 345
 Flags: W
@@ -20513,7 +20506,7 @@ EndSplineSet
 EndChar
 
 StartChar: gorthmikon
-Encoding: 57984 57984 303
+Encoding: 57984 57984 302
 Width: 612
 VWidth: 345
 Flags: W
@@ -20569,7 +20562,7 @@ EndSplineSet
 EndChar
 
 StartChar: pelastikon
-Encoding: 57985 57985 304
+Encoding: 57985 57985 303
 Width: 620
 VWidth: 345
 Flags: W
@@ -20611,7 +20604,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineSingle
-Encoding: 57872 57872 305
+Encoding: 57872 57872 304
 Width: 208
 VWidth: 345
 Flags: W
@@ -20634,7 +20627,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineDouble
-Encoding: 57873 57873 306
+Encoding: 57873 57873 305
 Width: 0
 VWidth: 345
 Flags: W
@@ -20666,7 +20659,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineTheseos
-Encoding: 57874 57874 307
+Encoding: 57874 57874 306
 Width: 208
 VWidth: 345
 Flags: W
@@ -20701,7 +20694,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineShortSingle
-Encoding: 57875 57875 308
+Encoding: 57875 57875 307
 Width: 0
 VWidth: 345
 Flags: W
@@ -20723,7 +20716,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineShortDouble
-Encoding: 57876 57876 309
+Encoding: 57876 57876 308
 Width: 0
 VWidth: 345
 Flags: W
@@ -20754,7 +20747,7 @@ EndSplineSet
 EndChar
 
 StartChar: barlineShortTheseos
-Encoding: 57877 57877 310
+Encoding: 57877 57877 309
 Width: 0
 VWidth: 345
 Flags: W
@@ -20789,7 +20782,7 @@ EndSplineSet
 EndChar
 
 StartChar: breath
-Encoding: 57537 57537 311
+Encoding: 57537 57537 310
 Width: 214
 VWidth: 345
 Flags: W
@@ -20817,7 +20810,7 @@ EndSplineSet
 EndChar
 
 StartChar: koronis
-Encoding: 57558 57558 312
+Encoding: 57558 57558 311
 Width: 0
 VWidth: 345
 Flags: W
@@ -20847,7 +20840,7 @@ EndSplineSet
 EndChar
 
 StartChar: leimmaDot
-Encoding: 57572 57572 313
+Encoding: 57572 57572 312
 Width: 233
 VWidth: 345
 Flags: W
@@ -20874,7 +20867,7 @@ EndSplineSet
 EndChar
 
 StartChar: gorgonSecondary
-Encoding: 57600 57600 314
+Encoding: 57600 57600 313
 Width: 0
 Flags: W
 HStem: 977.5 38<-84.5 162.174>
@@ -20904,7 +20897,7 @@ EndSplineSet
 EndChar
 
 StartChar: endofonon
-Encoding: 57511 57511 315
+Encoding: 57511 57511 314
 Width: 0
 VWidth: 345
 Flags: W
@@ -20970,7 +20963,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfenAbove
-Encoding: 57520 57520 316
+Encoding: 57520 57520 315
 Width: 0
 VWidth: 345
 Flags: W
@@ -20994,7 +20987,7 @@ EndSplineSet
 EndChar
 
 StartChar: yfenBelow
-Encoding: 57521 57521 317
+Encoding: 57521 57521 316
 Width: 0
 VWidth: 345
 Flags: W
@@ -21018,7 +21011,7 @@ EndSplineSet
 EndChar
 
 StartChar: ZWJ
-Encoding: 8205 8205 318
+Encoding: 8205 8205 317
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -21027,7 +21020,7 @@ LayerCount: 2
 EndChar
 
 StartChar: modeFirst.salt01
-Encoding: 61443 61443 319
+Encoding: 61443 61443 318
 Width: 945
 VWidth: 345
 Flags: W
@@ -21085,7 +21078,7 @@ EndSplineSet
 EndChar
 
 StartChar: modeFourth.salt01
-Encoding: 61444 61444 320
+Encoding: 61444 61444 319
 Width: 930
 VWidth: 345
 Flags: W
@@ -21161,7 +21154,7 @@ EndSplineSet
 EndChar
 
 StartChar: oligonKentimataBelow.alt02
-Encoding: 61445 61445 321
+Encoding: 61445 61445 320
 Width: 1750
 VWidth: 345
 Flags: W
@@ -21230,7 +21223,7 @@ EndSplineSet
 EndChar
 
 StartChar: gorgonDottedLeftSecondary
-Encoding: 57601 57601 322
+Encoding: 57601 57601 321
 Width: 0
 VWidth: 345
 Flags: W
@@ -21276,7 +21269,7 @@ EndSplineSet
 EndChar
 
 StartChar: gorgonDottedRightSecondary
-Encoding: 57602 57602 323
+Encoding: 57602 57602 322
 Width: 0
 VWidth: 345
 Flags: W
@@ -21322,7 +21315,7 @@ EndSplineSet
 EndChar
 
 StartChar: digorgonSecondary
-Encoding: 57603 57603 324
+Encoding: 57603 57603 323
 Width: 0
 VWidth: 345
 Flags: W
@@ -21363,7 +21356,7 @@ EndSplineSet
 EndChar
 
 StartChar: digorgonDottedLeftBelowSecondary
-Encoding: 57604 57604 325
+Encoding: 57604 57604 324
 Width: 0
 VWidth: 345
 Flags: W
@@ -21419,7 +21412,7 @@ EndSplineSet
 EndChar
 
 StartChar: digorgonDottedRightSecondary
-Encoding: 57605 57605 326
+Encoding: 57605 57605 325
 Width: 0
 VWidth: 345
 Flags: W
@@ -21476,7 +21469,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonSecondary
-Encoding: 57606 57606 327
+Encoding: 57606 57606 326
 Width: 0
 VWidth: 345
 Flags: W
@@ -21529,7 +21522,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonDottedLeftBelowSecondary
-Encoding: 57607 57607 328
+Encoding: 57607 57607 327
 Width: 0
 VWidth: 345
 Flags: W
@@ -21597,7 +21590,7 @@ EndSplineSet
 EndChar
 
 StartChar: trigorgonDottedRightSecondary
-Encoding: 57608 57608 329
+Encoding: 57608 57608 328
 Width: 0
 VWidth: 345
 Flags: W
@@ -21665,7 +21658,7 @@ EndSplineSet
 EndChar
 
 StartChar: oligonChamiliKentimata
-Encoding: 57485 57485 330
+Encoding: 57485 57485 329
 Width: 1995
 VWidth: 345
 Flags: W
@@ -21791,7 +21784,7 @@ EndSplineSet
 EndChar
 
 StartChar: psifiston.salt01
-Encoding: 61446 61446 331
+Encoding: 61446 61446 330
 Width: 0
 VWidth: 345
 Flags: W
@@ -21832,7 +21825,7 @@ EndSplineSet
 EndChar
 
 StartChar: heteronConnecting.salt01
-Encoding: 61447 61447 332
+Encoding: 61447 61447 331
 Width: 0
 VWidth: 345
 Flags: W
@@ -21878,7 +21871,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiPoliArgiAbove
-Encoding: 57640 57640 333
+Encoding: 57640 57640 332
 Width: 766
 VWidth: 345
 Flags: W
@@ -21974,7 +21967,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiArgoteriAbove
-Encoding: 57641 57641 334
+Encoding: 57641 57641 333
 Width: 766
 VWidth: 345
 Flags: W
@@ -22057,7 +22050,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiArgiAbove
-Encoding: 57642 57642 335
+Encoding: 57642 57642 334
 Width: 766
 VWidth: 345
 Flags: W
@@ -22136,7 +22129,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiMetriaAbove
-Encoding: 57643 57643 336
+Encoding: 57643 57643 335
 Width: 608
 VWidth: 345
 Flags: W
@@ -22210,7 +22203,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiMesiAbove
-Encoding: 57644 57644 337
+Encoding: 57644 57644 336
 Width: 709
 VWidth: 345
 Flags: W
@@ -22302,7 +22295,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiGorgiAbove
-Encoding: 57645 57645 338
+Encoding: 57645 57645 337
 Width: 618
 VWidth: 345
 Flags: W
@@ -22377,7 +22370,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiGorgoteriAbove
-Encoding: 57646 57646 339
+Encoding: 57646 57646 338
 Width: 826
 VWidth: 345
 Flags: W
@@ -22457,7 +22450,7 @@ EndSplineSet
 EndChar
 
 StartChar: agogiPoliGorgiAbove
-Encoding: 57647 57647 340
+Encoding: 57647 57647 339
 Width: 1020
 VWidth: 345
 Flags: W
