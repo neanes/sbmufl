@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1674626649
+ModificationTime: 1676945424
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57344 7 5
+WinInfo: 57456 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -5054,6 +5054,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1878.12> 489 28.5<279.922 384.904 888.329 928.003> 645 26<1301.73 1336.25 1572.23 1606.76> 815 38.5<342.132 568.839>
 VStem: 81 149<578.031 723.54>
+AnchorPoint: "gorgonSecondary" 638 939 basechar 0
 AnchorPoint: "yfenAbove" 1280 1061 basechar 0
 AnchorPoint: "yfenBelow" 1349 -40 basechar 0
 AnchorPoint: "endofonon" 1142 -37 basechar 0
@@ -6103,6 +6104,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<363.258 1990.04> 456 27<242.767 290.495> 465 22<660.951 738.905 1188.25 1215.54> 645 26<1496.23 1531.28 1766.73 1800.76> 737 21<-7.90503 52.9037> 757 34.5<701.461 905.936>
 VStem: 469 132<540.506 677.252>
+AnchorPoint: "gorgonSecondary" 948 889 basechar 0
 AnchorPoint: "yfenAbove" 1320 1061 basechar 0
 AnchorPoint: "yfenBelow" 1389 -40 basechar 0
 AnchorPoint: "endofonon" 1212 -37 basechar 0
@@ -6252,6 +6254,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<265.719 1878.12> 426 22<579.767 625.733> 487 25<290.604 383.389 886.329 917.315> 645 26<1301.73 1336.25 1572.23 1606.76> 720 21<299.095 362.519> 813.5 38<340.132 571.281>
 VStem: 80 149<577.031 722.964>
+AnchorPoint: "gorgonSecondary" 638 939 basechar 0
 AnchorPoint: "yfenAbove" 1240 1061 basechar 0
 AnchorPoint: "yfenBelow" 1269 -40 basechar 0
 AnchorPoint: "endofonon" 1122 -37 basechar 0
@@ -11416,7 +11419,7 @@ StartChar: oligonKentimataBelow.alt01
 Encoding: 61440 61440 146
 Width: 1465
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
@@ -21663,6 +21666,7 @@ Width: 1995
 VWidth: 345
 Flags: W
 HStem: 246 121<270.719 1799.18> 531 31<588.542 781 899 1039.09> 645 26<1216.73 1251.25 1487.23 1521.76>
+AnchorPoint: "gorgonSecondary" 795 910 basechar 0
 AnchorPoint: "yfenAbove" 1260 1061 basechar 0
 AnchorPoint: "yfenBelow" 1299 -40 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
