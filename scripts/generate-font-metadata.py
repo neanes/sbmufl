@@ -11,6 +11,8 @@ class SbmuflFont(object):
         'diesis',
         'endofonon',
         'fthoraTop',
+        'fthoraTopSecondary',
+        'fthoraTopTertiary',
         'fthoraBottom',
         'gorgonTop',
         'gorgonBottom',
@@ -32,6 +34,8 @@ class SbmuflFont(object):
         'yfenAbove',
         'yfenBelow',
         'yfesis',
+        'yfesisSecondary',
+        'yfesisTertiary',
     )
 
     @ staticmethod
