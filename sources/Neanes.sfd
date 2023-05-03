@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1683081859
+ModificationTime: 1683089732
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57582 7 5
+WinInfo: 57372 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2466,9 +2466,11 @@ StartChar: runningElafron
 Encoding: 57381 57381 46
 Width: 1752
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 131 30<330.933 381.941> 138 23<328.798 377.492 826.006 895.904> 445 23<48.0957 118.16> 466.5 38.5<853.132 1082.08>
 VStem: 593 148<230.031 374.932>
+AnchorPoint: "fthoraTopSecondary" 290 665 basechar 0
+AnchorPoint: "yfesisSecondary" 388 570 basechar 0
 AnchorPoint: "yfenAbove" 1060 891 basechar 0
 AnchorPoint: "yfenBelow" 1109 -190 basechar 0
 AnchorPoint: "koronis" 1030 746 basechar 0
@@ -5731,9 +5733,11 @@ StartChar: petastiRunningElafron
 Encoding: 57443 57443 78
 Width: 1514
 VWidth: 345
-Flags: W
+Flags: HWO
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
+AnchorPoint: "yfesisSecondary" 338 910 basechar 0
+AnchorPoint: "fthoraTopSecondary" 150 906 basechar 0
 AnchorPoint: "yfenAbove" 932 1049 basechar 0
 AnchorPoint: "yfenBelow" 1029 -170 basechar 0
 AnchorPoint: "koronis" 833 1041 basechar 0
