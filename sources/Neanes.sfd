@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1683089732
+ModificationTime: 1684159783
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5733,7 +5733,7 @@ StartChar: petastiRunningElafron
 Encoding: 57443 57443 78
 Width: 1514
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
 AnchorPoint: "yfesisSecondary" 338 910 basechar 0
@@ -6025,9 +6025,10 @@ StartChar: petastiYporroi
 Encoding: 57441 57441 81
 Width: 1164
 VWidth: 345
-Flags: W
+Flags: HWO
 HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<747.208 793.807>
 VStem: 962.5 139<252.126 389.617>
+AnchorPoint: "gorgonTop" 830 758 basechar 0
 AnchorPoint: "yfenAbove" 702 1049 basechar 0
 AnchorPoint: "yfenBelow" 729 -80 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
