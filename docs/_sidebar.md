@@ -8,6 +8,7 @@
 - - [Martyria of the Notes](tables/martyria-notes.md)
 - - [Fthores](tables/fthores.md)
 - - [Signs of Alteration](tables/alteration.md)
+- - [Characters of Rhythm](tables/rhythm.md)
 - - [Note Indicators](tables/note.md)
 - - [Ison Indicators](tables/ison.md)
 - - [Letters](tables/letters.md)
