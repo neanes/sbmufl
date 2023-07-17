@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1684187218
+ModificationTime: 1689626423
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57372 7 5
+WinInfo: 57344 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1455,6 +1455,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
+AnchorPoint: "gorgonBottom" 450 175 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
@@ -1586,6 +1587,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 755 28<571.906 614.043>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 911 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 891 basechar 0
@@ -1661,6 +1663,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 1132 31<1403.3 1440.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1203 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
@@ -1747,6 +1750,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106> 1132 31<636.32 674.933>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1285 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 951 855 basechar 0
@@ -1833,6 +1837,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 755 28<571.906 614.043> 1132 31<1403.3 1440.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1202 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
@@ -1935,6 +1940,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 645 22<619.619 656.909> 790 19<671.08 745.04> 1243 27<1055.51 1090.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1403 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 275 835 basechar 0
@@ -2035,6 +2041,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106 987.535 1066.59> 1132 31<636.32 674.933 1403.3 1440.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1271 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1261 basechar 0
@@ -2147,6 +2154,7 @@ Width: 1596
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1041.42 1120.19> 671 26<352.137 386.764 622.606 656.764> 848 17<486.093 557.48> 1132 31<1457.22 1494.93> 1248 24<852.553 886.449>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1371 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1371 basechar 0
@@ -5385,6 +5393,7 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<1041.41 1076.45>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1461 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
@@ -5539,6 +5548,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 470 124<886.833 1204.01>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 911 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
@@ -5634,6 +5644,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 502 28.5<336.922 441.904 945.329 985.003> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1091 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
@@ -5874,6 +5885,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 468 31<690.964 742.974> 800 24<379.096 450.104>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 911 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
@@ -5955,6 +5967,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 704 31<1038 1084.38>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 971 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
@@ -6730,6 +6743,7 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<442.137 477.249 712.667 747.764> 859 19<593.08 669.429> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<977.51 1012.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1461 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
@@ -8154,6 +8168,7 @@ Width: 1577
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<472.606 507.249> 859 19<490.229 566.998> 1132 31<1461.32 1499.93> 1311 27<875.412 910.449>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1441 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
@@ -8281,6 +8296,7 @@ Width: 1517
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934> 1311 27<1041.41 1076.45>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1441 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
@@ -8408,6 +8424,7 @@ Width: 1580
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 582.422 661.189 1045.71 1125.18> 1132 31<534.297 571.934 998.221 1035.93 1461.32 1499.93>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1281 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1281 basechar 0
@@ -8547,6 +8564,7 @@ VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 443 27<638.736 684.969> 502 28.5<336.922 441.904 945.329 985.003> 718 19<383.58 439.156> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1091 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
@@ -8799,6 +8817,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 531 31<678.542 872 989 1128.16>
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 1031 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
@@ -9882,6 +9901,7 @@ Encoding: 57346 57346 113
 Width: 1794
 HStem: 246 121<182.719 1326.04> 418 29<1473.32 1515.89>
 VStem: 1473 303
+AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
