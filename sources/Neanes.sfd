@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1689626423
+ModificationTime: 1692052002
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57344 7 5
+WinInfo: 57421 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3559,7 +3559,7 @@ StartChar: petastiKentima
 Encoding: 57411 57411 57
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -3575,7 +3575,7 @@ AnchorPoint: "apli" 765 -80 basechar 0
 AnchorPoint: "antikenoma" 713 62 basechar 0
 AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 158 670 basechar 0
-AnchorPoint: "fthoraTop" 528 922 basechar 0
+AnchorPoint: "fthoraTop" 1091 660 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 LayerCount: 2
