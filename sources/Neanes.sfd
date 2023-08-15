@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1692052002
+ModificationTime: 1692120486
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1453,8 +1453,9 @@ StartChar: oligonKentimaBelow
 Encoding: 57347 57347 34
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HWO
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
+AnchorPoint: "apli" 763 -180 basechar 0
 AnchorPoint: "gorgonBottom" 450 175 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -3559,7 +3560,7 @@ StartChar: petastiKentima
 Encoding: 57411 57411 57
 Width: 1236
 VWidth: 345
-Flags: WO
+Flags: W
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
