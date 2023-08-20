@@ -351,3 +351,4 @@ Based: AGL For New Fonts
 0xF005 oligonKentimataBelow.alt02
 0xF006 psifiston.salt01
 0xF007 heteronConnecting.salt01
+0xF008 psifiston.alt01
