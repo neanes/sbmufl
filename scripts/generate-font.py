@@ -1,16 +1,12 @@
+import argparse
 import fontforge
 
 if __name__ == "__main__":
-    import sys
+    parser = argparse.ArgumentParser(description="Generate font")
+    parser.add_argument("infile", help="Relative path to font.sfd")
+    parser.add_argument("outfile", help="Relative path to font.otf")
+    args = parser.parse_args()
 
-    if len(sys.argv) < 2:
-        print(
-            "USAGE: ffpython generate-font-metadata.py <relative/path/to/font.sfd> [relative/path/to/font.otf]")
-        exit(1)
+    font = fontforge.open(args.infile)
 
-    infile = sys.argv[1]
-    outfile = sys.argv[2]
-
-    font = fontforge.open(infile)
-
-    font.generate(outfile)
+    font.generate(args.outfile)
