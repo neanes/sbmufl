@@ -1,3 +1,4 @@
+import argparse
 import fontforge
 import json
 
@@ -268,12 +269,9 @@ class _SbmuflMetadata(object):
 
 
 if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) < 2:
-        print(
-            "USAGE: ffpython generate-font-metadata.py <relative/path/to/font.sfd> [relative/path/to/glyphnames.json]")
-        exit(1)
-
-    with SbmuflFont(*sys.argv[1:]) as font:
+    parser = argparse.ArgumentParser(description="Generate font metadata")
+    parser.add_argument("font_path", help="Relative path to font.sfd")
+    parser.add_argument("glyphnames_path", help="Relative path to glyphnames.json")
+    args = parser.parse_args()
+    with SbmuflFont(args.font_path, args.glyphnames_path) as font:
         font.export_metadata()

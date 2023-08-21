@@ -1,3 +1,4 @@
+import argparse
 import fontforge
 import json
 
@@ -18,28 +19,22 @@ def canonical_glyphname(codepoint_to_name, glyph, fallback=True):
 
 
 if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) < 2:
-        print(
-            "USAGE: ffpython generate-font-metadata.py <relative/path/to/input.sfd> <relative/path/to/output.otf> <relative/path/to/output.sfd> [relative/path/to/glyphnames.json]")
-        exit(1)
-
-    infile = sys.argv[1]
-    outfile_otf = sys.argv[2]
-    outfile_sfd = sys.argv[3]
-    glyphnames_filepath = sys.argv[4] if len(
-        sys.argv) >= 4 else 'glyphnames.json'
+    parser = argparse.ArgumentParser(description="Generate zero-space font")
+    parser.add_argument("infile", help="Relative path to input.sfd")
+    parser.add_argument("outfile_otf", help="Relative path to output.otf")
+    parser.add_argument("outfile_sfd", help="Relative path to output.sfd")
+    parser.add_argument("glyphnames_path", help="Relative path to glyphnames.json")
+    args = parser.parse_args()
 
     codepoint_to_name = {}
 
-    with open(glyphnames_filepath) as glyphnames:
+    with open(args.glyphnames_path) as glyphnames:
         glyphnames = json.load(glyphnames)
         codepoint_to_name = {
             data['codepoint']: name for name, data in glyphnames.items()
         }
 
-    font = fontforge.open(infile)
+    font = fontforge.open(args.infile)
 
     for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
         if char.width != 0:
@@ -47,8 +42,8 @@ if __name__ == "__main__":
             font.selection.select(char)
             font.autoWidth(0)
 
-    font.generate(outfile_otf)
+    font.generate(args.outfile_otf)
 
     font.fontname = "NeanesZeroSpace"
 
-    font.save(outfile_sfd)
+    font.save(args.outfile_sfd)
