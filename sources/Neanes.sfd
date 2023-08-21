@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1692120486
+ModificationTime: 1692567526
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,7 +65,7 @@ ChainSub2: class "'rclt' Required Contextual Alternates lookup 3-1" 3 3 1 1
   BClassNames: "All_Others" "petasti" "antikenoma"
   FClassNames: "All_Others"
 EndFPST
-ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 1-1" 0 0 0 3
+ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 1-1" 0 0 0 9
  String: 30 oligonKentimataBelow psifiston
  BString: 0 
  FString: 0 
@@ -81,6 +81,36 @@ ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 1-1" 0 0 0 3
  FString: 0 
  1
   SeqLookup: 1 "subs"
+ String: 29 oligonIsonKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
+ String: 32 oligonElafronKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
+ String: 39 oligonRunningElafronKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
+ String: 42 oligonElafronApostrofosKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
+ String: 42 oligonElafronApostrofosKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
+ String: 32 oligonChamiliKentimata psifiston
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "subs"
 EndFPST
 LangName: 1033
 Encoding: UnicodeFull
@@ -94,7 +124,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
-BeginChars: 1114112 386
+BeginChars: 1114112 387
 
 StartChar: u1D046
 Encoding: 118854 118854 0
@@ -11889,6 +11919,7 @@ SplineSet
  433.283203125 419.166992188 467.950195312 443 497.950195312 449 c 1
 EndSplineSet
 AlternateSubs2: "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1" psifiston.salt01
+Substitution2: "subs-1" psifiston.alt01
 EndChar
 
 StartChar: antikenoma
@@ -24939,6 +24970,48 @@ SplineSet
  -62.1669921875 1156.5 -60.6669921875 1160.33300781 -60 1167 c 2
  -55 1201 l 2
  -53 1215.66699219 -46 1223 -34 1223 c 2xee
+EndSplineSet
+EndChar
+
+StartChar: psifiston.alt01
+Encoding: 61448 61448 386
+Width: 0
+VWidth: 345
+Flags: HW
+HStem: 101.5 48.5<-196.885 159.705> 426 31<829.647 910.076>
+AnchorPoint: "psifiston" -1.6748 458 mark 0
+LayerCount: 2
+Fore
+SplineSet
+622.012695312 449 m 1
+ 672.012695312 451.666992188 717.221679688 454 757.637695312 456 c 0
+ 798.053710938 458 844.096679688 458.333007812 895.762695312 457 c 1
+ 906.596679688 454.333007812 911.387695312 448.333007812 910.137695312 439 c 0
+ 908.887695312 429.666992188 903.262695312 425.333007812 893.262695312 426 c 0
+ 888.262695312 425.333007812 885.346679688 425.166992188 884.512695312 425.5 c 0
+ 883.678710938 425.833007812 879.928710938 426 873.262695312 426 c 0
+ 854.096679688 424.666992188 823.053710938 410.166992188 780.137695312 382.5 c 0
+ 737.221679688 354.833007812 690.346679688 324.166992188 639.512695312 290.5 c 0
+ 588.678710938 256.833007812 549.721679688 232.333007812 522.637695312 217 c 0
+ 495.553710938 201.666992188 472.637695312 189.166992188 453.887695312 179.5 c 0
+ 435.137695312 169.833007812 404.512695312 157 362.012695312 141 c 0
+ 313.678710938 122.333007812 249.928710938 110.333007812 170.762695312 105 c 0
+ 91.5966796875 99.6669921875 23.8876953125 98.5 -32.3623046875 101.5 c 0
+ -88.6123046875 104.5 -137.153320312 110.166992188 -177.987304688 118.5 c 0
+ -218.821289062 126.833007812 -267.571289062 138.833007812 -324.237304688 154.5 c 0
+ -380.903320312 170.166992188 -460.487304688 201.666992188 -562.987304688 249 c 0
+ -688.821289062 307.666992188 -768.196289062 346.333007812 -801.112304688 365 c 0
+ -834.028320312 383.666992188 -869.237304688 403.333007812 -906.737304688 424 c 1
+ -913.403320312 434 -912.571289062 443.833007812 -904.237304688 453.5 c 0
+ -895.903320312 463.166992188 -881.321289062 463.333007812 -860.487304688 454 c 0
+ -839.653320312 444 -796.946289062 421 -732.362304688 385 c 0
+ -667.778320312 349 -585.071289062 308.333007812 -484.237304688 263 c 0
+ -411.737304688 229.666992188 -332.778320312 202.833007812 -247.362304688 182.5 c 0
+ -161.946289062 162.166992188 -89.2373046875 151.333007812 -29.2373046875 150 c 0
+ 24.0966796875 149.333007812 77.0126953125 154 129.512695312 164 c 0
+ 182.012695312 174 240.762695312 197.333007812 305.762695312 234 c 1
+ 380.762695312 288 442.846679688 335.833007812 492.012695312 377.5 c 0
+ 541.178710938 419.166992188 584.512695312 443 622.012695312 449 c 1
 EndSplineSet
 EndChar
 EndChars
