@@ -147,8 +147,8 @@ class _SbmuflMetadata(object):
         d['fontVersion'] = self.font.version
 
         d['metrics'] = {
-            'winAscent': self.font.os2_winascent / self.font.em,
-            'winDescent': self.font.os2_windescent / self.font.em
+            'winAscent': round(self.font.os2_winascent / self.font.em, 3),
+            'winDescent': round(self.font.os2_windescent / self.font.em, 3)
         }
 
         anchors = self.anchors()
@@ -186,7 +186,7 @@ class _SbmuflMetadata(object):
             for anchor in char.anchorPoints:
                 anchor_name = anchor[0]
                 if anchor_name in SbmuflFont.valid_anchor_names:
-                    x, y = ((value / self.font.em)
+                    x, y = (round((value / self.font.em), 3)
                             for value in anchor[2:4])
                     char_anchors[anchor_name] = (x, y)
 
@@ -228,7 +228,7 @@ class _SbmuflMetadata(object):
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
             xmin, ymin, xmax, ymax = (
-                (value / self.font.em) for value in char.boundingBox())
+                round((value / self.font.em), 3) for value in char.boundingBox())
             bounding_box = {'bBoxNE': (xmax, ymax), 'bBoxSW': (xmin, ymin)}
             all_bounding_boxes[char_name] = bounding_box
 
@@ -252,7 +252,7 @@ class _SbmuflMetadata(object):
         all_advance_widths = {}
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
-            all_advance_widths[char_name] = (char.width / self.font.em)
+            all_advance_widths[char_name] = round(char.width / self.font.em, 3)
 
         return all_advance_widths
 
@@ -271,7 +271,8 @@ class _SbmuflMetadata(object):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate font metadata")
     parser.add_argument("font_path", help="Relative path to font.sfd")
-    parser.add_argument("glyphnames_path", help="Relative path to glyphnames.json")
+    parser.add_argument("glyphnames_path",
+                        help="Relative path to glyphnames.json")
     args = parser.parse_args()
     with SbmuflFont(args.font_path, args.glyphnames_path) as font:
         font.export_metadata()
