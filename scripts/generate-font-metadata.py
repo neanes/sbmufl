@@ -1,4 +1,5 @@
 import argparse
+import decimal
 import fontforge
 import json
 
@@ -147,8 +148,8 @@ class _SbmuflMetadata(object):
         d['fontVersion'] = self.font.version
 
         d['metrics'] = {
-            'winAscent': self.font.os2_winascent / self.font.em,
-            'winDescent': self.font.os2_windescent / self.font.em
+            'winAscent': float(decimal.Decimal(self.font.os2_winascent) / decimal.Decimal(self.font.em)),
+            'winDescent': float(decimal.Decimal(self.font.os2_windescent) / decimal.Decimal(self.font.em))
         }
 
         anchors = self.anchors()
@@ -186,7 +187,7 @@ class _SbmuflMetadata(object):
             for anchor in char.anchorPoints:
                 anchor_name = anchor[0]
                 if anchor_name in SbmuflFont.valid_anchor_names:
-                    x, y = ((value / self.font.em)
+                    x, y = (float((decimal.Decimal.from_float(value).quantize(decimal.Decimal('.000001')) / decimal.Decimal(self.font.em)))
                             for value in anchor[2:4])
                     char_anchors[anchor_name] = (x, y)
 
@@ -228,7 +229,7 @@ class _SbmuflMetadata(object):
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
             xmin, ymin, xmax, ymax = (
-                (value / self.font.em) for value in char.boundingBox())
+                (float(decimal.Decimal.from_float(value).quantize(decimal.Decimal('.000001')) / decimal.Decimal(self.font.em))) for value in char.boundingBox())
             bounding_box = {'bBoxNE': (xmax, ymax), 'bBoxSW': (xmin, ymin)}
             all_bounding_boxes[char_name] = bounding_box
 
@@ -252,7 +253,7 @@ class _SbmuflMetadata(object):
         all_advance_widths = {}
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
-            all_advance_widths[char_name] = (char.width / self.font.em)
+            all_advance_widths[char_name] = float(decimal.Decimal(char.width) / decimal.Decimal(self.font.em))
 
         return all_advance_widths
 
@@ -269,6 +270,9 @@ class _SbmuflMetadata(object):
 
 
 if __name__ == "__main__":
+    # Raise an exception when accidentally mixing decimals and floats in constructors or ordering comparisons.
+    decimal.getcontext().traps[decimal.FloatOperation] = True
+
     parser = argparse.ArgumentParser(description="Generate font metadata")
     parser.add_argument("font_path", help="Relative path to font.sfd")
     parser.add_argument("glyphnames_path", help="Relative path to glyphnames.json")
