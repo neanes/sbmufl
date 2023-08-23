@@ -4,7 +4,7 @@ import json
 
 
 def format_codepoint(unicode_):
-    return 'U+' + hex(unicode_)[2:].upper()
+    return "U+" + hex(unicode_)[2:].upper()
 
 
 def canonical_glyphname(codepoint_to_name, glyph, fallback=True):
@@ -15,7 +15,8 @@ def canonical_glyphname(codepoint_to_name, glyph, fallback=True):
         if fallback:
             return glyph.glyphname
         raise ValueError(
-            f'There''s no SBMuFL character defined at codepoint {codepoint}.')
+            f"There" "s no SBMuFL character defined at codepoint {codepoint}."
+        )
 
 
 if __name__ == "__main__":
@@ -31,14 +32,14 @@ if __name__ == "__main__":
     with open(args.glyphnames_path) as glyphnames:
         glyphnames = json.load(glyphnames)
         codepoint_to_name = {
-            data['codepoint']: name for name, data in glyphnames.items()
+            data["codepoint"]: name for name, data in glyphnames.items()
         }
 
     font = fontforge.open(args.infile)
 
     for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
         if char.width != 0:
-            print('Trimming ', canonical_glyphname(codepoint_to_name, char))
+            print("Trimming ", canonical_glyphname(codepoint_to_name, char))
             font.selection.select(char)
             font.autoWidth(0)
 
