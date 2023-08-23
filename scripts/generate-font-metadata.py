@@ -51,7 +51,7 @@ class SbmuflFont(object):
             if fallback:
                 return glyph.glyphname
             raise ValueError(
-                f"There" "s no SBMuFL character defined at codepoint {codepoint}."
+                f"There's no SBMuFL character defined at codepoint {codepoint}."
             )
 
     def __init__(self, font_filepath, glyphnames_filepath="glyphnames.json", mode="w"):
