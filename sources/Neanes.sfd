@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1692567526
+ModificationTime: 1693106402
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -82,33 +82,33 @@ ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 1-1" 0 0 0 9
  1
   SeqLookup: 1 "subs"
  String: 29 oligonIsonKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 32 oligonElafronKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 39 oligonRunningElafronKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 42 oligonElafronApostrofosKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 42 oligonElafronApostrofosKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 32 oligonChamiliKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
 EndFPST
@@ -119,7 +119,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57421 7 5
+WinInfo: 57428 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1483,7 +1483,7 @@ StartChar: oligonKentimaBelow
 Encoding: 57347 57347 34
 Width: 1515
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
 AnchorPoint: "apli" 763 -180 basechar 0
 AnchorPoint: "gorgonBottom" 450 175 basechar 0
@@ -5775,7 +5775,7 @@ StartChar: petastiRunningElafron
 Encoding: 57443 57443 78
 Width: 1514
 VWidth: 345
-Flags: HW
+Flags: HWO
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
 AnchorPoint: "yfesisSecondary" 338 910 basechar 0
@@ -5795,7 +5795,7 @@ AnchorPoint: "noteTop" 502 972 basechar 0
 AnchorPoint: "diesis" 754 147 basechar 0
 AnchorPoint: "yfesis" 1222 911 basechar 0
 AnchorPoint: "psifiston" 1072 129 basechar 0
-AnchorPoint: "klasmaBottom" 1260 53 basechar 0
+AnchorPoint: "klasmaBottom" 1071 53 basechar 0
 LayerCount: 2
 Fore
 SplineSet
