@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1693106402
+ModificationTime: 1693344084
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -119,7 +119,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57428 7 5
+WinInfo: 57463 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4665,8 +4665,9 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
+AnchorPoint: "fthoraTopSecondary" 240 480 basechar 0
 AnchorPoint: "yfenAbove" 930 901 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 772 -47 basechar 0
