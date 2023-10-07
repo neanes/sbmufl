@@ -1712,7 +1712,7 @@ AnchorPoint: "fthoraTop" 557 489 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 433 480 basechar 0
+AnchorPoint: "klasmaTop" 598 487 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "gorgonTop" 708 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
@@ -1799,7 +1799,7 @@ AnchorPoint: "fthoraTop" 889 501 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 1040 500 basechar 0
+AnchorPoint: "klasmaTop" 980 487 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "gorgonTop" 1102 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
