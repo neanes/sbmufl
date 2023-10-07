@@ -5342,7 +5342,7 @@ AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
 AnchorPoint: "apli" 803 -227 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "diesis" 400 133 basechar 0
+AnchorPoint: "diesis" 710 133 basechar 0
 AnchorPoint: "isonIndicator" 710 877 basechar 0
 AnchorPoint: "omalonConnecting" 1460 -40 basechar 0
 AnchorPoint: "omalon" 1040 -120 basechar 0
