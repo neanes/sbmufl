@@ -2526,7 +2526,7 @@ AnchorPoint: "fthoraBottom" 1139 70 basechar 0
 AnchorPoint: "gorgonTop" 1147 580 basechar 0
 AnchorPoint: "diesis" 937 20 basechar 0
 AnchorPoint: "yfesis" 1490 536 basechar 0
-AnchorPoint: "klasmaTop" 1060 570 basechar 0
+AnchorPoint: "klasmaTop" 1060 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2623,7 +2623,7 @@ AnchorPoint: "fthoraBottom" 609 70 basechar 0
 AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
-AnchorPoint: "klasmaTop" 560 570 basechar 0
+AnchorPoint: "klasmaTop" 560 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2697,7 +2697,7 @@ AnchorPoint: "fthoraBottom" 609 -30 basechar 0
 AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
-AnchorPoint: "klasmaTop" 560 570 basechar 0
+AnchorPoint: "klasmaTop" 560 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
