@@ -259,6 +259,14 @@ Based: AGL For New Fonts
 0xE1F3 diesis8
 0xE1F4 diesisGenikiAbove
 0xE1F5 diesisGenikiBelow
+0xE1F6 diesis2Secondary
+0xE1F7 diesis4Secondary
+0xE1F8 diesis6Secondary
+0xE1F9 diesis8Secondary
+0xE1FA diesis2Tertiary
+0xE1FB diesis4Tertiary
+0xE1FC diesis6Tertiary
+0xE1FD diesis8Tertiary
 0xE1FE diesisGenikiSecondary
 0xE1FF diesisGenikiTertiary
 0xE200 yfesis2
