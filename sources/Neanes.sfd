@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1692567526
+ModificationTime: 1693344084
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -82,33 +82,33 @@ ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 1-1" 0 0 0 9
  1
   SeqLookup: 1 "subs"
  String: 29 oligonIsonKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 32 oligonElafronKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 39 oligonRunningElafronKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 42 oligonElafronApostrofosKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 42 oligonElafronApostrofosKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
  String: 32 oligonChamiliKentimata psifiston
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "subs"
 EndFPST
@@ -119,12 +119,12 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57421 7 5
+WinInfo: 57463 7 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
-BeginChars: 1114112 387
+AnchorClass2: "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
+BeginChars: 1114112 393
 
 StartChar: u1D046
 Encoding: 118854 118854 0
@@ -1483,7 +1483,7 @@ StartChar: oligonKentimaBelow
 Encoding: 57347 57347 34
 Width: 1515
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
 AnchorPoint: "apli" 763 -180 basechar 0
 AnchorPoint: "gorgonBottom" 450 175 basechar 0
@@ -1712,7 +1712,7 @@ AnchorPoint: "fthoraTop" 557 489 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 433 480 basechar 0
+AnchorPoint: "klasmaTop" 598 487 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "gorgonTop" 708 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
@@ -1799,7 +1799,7 @@ AnchorPoint: "fthoraTop" 889 501 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
-AnchorPoint: "klasmaTop" 1040 500 basechar 0
+AnchorPoint: "klasmaTop" 980 487 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "gorgonTop" 1102 500 basechar 0
 AnchorPoint: "psifiston" 840 113 basechar 0
@@ -2481,6 +2481,7 @@ VWidth: 345
 Flags: W
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
+AnchorPoint: "barline" 286 590 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -150 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
@@ -2508,6 +2509,7 @@ VWidth: 345
 Flags: HW
 HStem: 131 30<330.933 381.941> 138 23<328.798 377.492 826.006 895.904> 445 23<48.0957 118.16> 466.5 38.5<853.132 1082.08>
 VStem: 593 148<230.031 374.932>
+AnchorPoint: "barline" 583 590 basechar 0
 AnchorPoint: "fthoraTopSecondary" 290 665 basechar 0
 AnchorPoint: "yfesisSecondary" 388 570 basechar 0
 AnchorPoint: "yfenAbove" 1060 891 basechar 0
@@ -2526,7 +2528,7 @@ AnchorPoint: "fthoraBottom" 1139 70 basechar 0
 AnchorPoint: "gorgonTop" 1147 580 basechar 0
 AnchorPoint: "diesis" 937 20 basechar 0
 AnchorPoint: "yfesis" 1490 536 basechar 0
-AnchorPoint: "klasmaTop" 1060 570 basechar 0
+AnchorPoint: "klasmaTop" 1060 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2623,7 +2625,7 @@ AnchorPoint: "fthoraBottom" 609 70 basechar 0
 AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
-AnchorPoint: "klasmaTop" 560 570 basechar 0
+AnchorPoint: "klasmaTop" 560 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2697,7 +2699,7 @@ AnchorPoint: "fthoraBottom" 609 -30 basechar 0
 AnchorPoint: "gorgonTop" 627 580 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
-AnchorPoint: "klasmaTop" 560 570 basechar 0
+AnchorPoint: "klasmaTop" 560 620 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4665,8 +4667,9 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: WO
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
+AnchorPoint: "fthoraTopSecondary" 240 480 basechar 0
 AnchorPoint: "yfenAbove" 930 901 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
 AnchorPoint: "endofonon" 772 -47 basechar 0
@@ -5230,6 +5233,7 @@ Width: 1627
 VWidth: 345
 Flags: HW
 HStem: 246 121<177.719 1443.04> 645 26<859.729 894.249 1130.23 1164.25> 693 27<537.713 582.292>
+AnchorPoint: "barline" 502 862 basechar 0
 AnchorPoint: "yfesisSecondary" 640 828 basechar 0
 AnchorPoint: "fthoraTopSecondary" 492 835 basechar 0
 AnchorPoint: "yfenAbove" 930 1141 basechar 0
@@ -5333,6 +5337,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
+AnchorPoint: "barline" 277 590 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -200 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
@@ -5341,7 +5346,7 @@ AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
 AnchorPoint: "apli" 803 -227 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "diesis" 400 133 basechar 0
+AnchorPoint: "diesis" 710 133 basechar 0
 AnchorPoint: "isonIndicator" 710 877 basechar 0
 AnchorPoint: "omalonConnecting" 1460 -40 basechar 0
 AnchorPoint: "omalon" 1040 -120 basechar 0
@@ -5775,9 +5780,10 @@ StartChar: petastiRunningElafron
 Encoding: 57443 57443 78
 Width: 1514
 VWidth: 345
-Flags: HW
+Flags: HWO
 HStem: 127 35.5<983.342 1194.74> 432.5 25.5<659.769 694.817 1153.2 1248.24> 525 22<600.407 682.904> 537 20<174.282 216.797> 812 20<-76.4203 -21.5447 839.338 878.842> 821.5 34.5<644.755 850.309>
 VStem: 407.5 134.5<600.975 740.156> 1292.5 135.5<240.726 381.196>
+AnchorPoint: "barline" 397 940 basechar 0
 AnchorPoint: "yfesisSecondary" 338 910 basechar 0
 AnchorPoint: "fthoraTopSecondary" 150 906 basechar 0
 AnchorPoint: "yfenAbove" 932 1049 basechar 0
@@ -5795,7 +5801,7 @@ AnchorPoint: "noteTop" 502 972 basechar 0
 AnchorPoint: "diesis" 754 147 basechar 0
 AnchorPoint: "yfesis" 1222 911 basechar 0
 AnchorPoint: "psifiston" 1072 129 basechar 0
-AnchorPoint: "klasmaBottom" 1260 53 basechar 0
+AnchorPoint: "klasmaBottom" 1071 53 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5998,6 +6004,7 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 246 121<182.719 1326.04> 704 31<1038 1084.38>
+AnchorPoint: "barline" 997 878 basechar 0
 AnchorPoint: "gorgonBottom" 667 175 basechar 0
 AnchorPoint: "yfenAbove" 930 971 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -6072,6 +6079,7 @@ VWidth: 345
 Flags: HW
 HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<747.208 793.807>
 VStem: 962.5 139<252.126 389.617>
+AnchorPoint: "barline" 702 816 basechar 0
 AnchorPoint: "gorgonTop" 830 758 basechar 0
 AnchorPoint: "yfenAbove" 702 1049 basechar 0
 AnchorPoint: "yfenBelow" 729 -80 basechar 0
@@ -6161,6 +6169,7 @@ VWidth: 345
 Flags: HW
 HStem: 246 121<363.258 1990.04> 456 27<242.767 290.495> 465 22<660.951 738.905 1188.25 1215.54> 645 26<1496.23 1531.28 1766.73 1800.76> 737 21<-7.90503 52.9037> 757 34.5<701.461 905.936>
 VStem: 469 132<540.506 677.252>
+AnchorPoint: "barline" 459 856 basechar 0
 AnchorPoint: "yfesisTertiary" 376 858 basechar 0
 AnchorPoint: "yfesisSecondary" 1270 808 basechar 0
 AnchorPoint: "fthoraTopTertiary" 188 854 basechar 0
@@ -10745,6 +10754,7 @@ VWidth: 345
 Flags: W
 HStem: -466 49.5<628.021 702.852> -369 61<674.502 714>
 VStem: 714 33<-410.406 -373.413>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "martyriaTop" 547 -40 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
@@ -10804,6 +10814,7 @@ VWidth: 345
 Flags: W
 HStem: -459 304
 VStem: 395 59<-226.537 -171.19> 585 38<-266.438 -170.992>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 374 basechar 0
 AnchorPoint: "martyriaTop" 515 -78 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
@@ -10846,6 +10857,7 @@ VWidth: 345
 Flags: W
 HStem: -251 86<507.875 561 578.225 666.572> -243 83<395.316 561>
 VStem: 549 25<-374.586 -266.717>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 474 basechar 0
 AnchorPoint: "martyriaTop" 517 -44 basechar 0
 AnchorPoint: "fthoraTop" 512 474 basechar 0
@@ -10899,6 +10911,7 @@ VWidth: 345
 Flags: W
 HStem: -198 30<491.561 535.478>
 VStem: 360 39<-298 -221.914>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 454 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
 AnchorPoint: "fthoraTop" 517 456 basechar 0
@@ -10944,6 +10957,7 @@ Width: 692
 VWidth: 345
 Flags: W
 VStem: 360 70<-460 -220.322> 586 73<-176 -105.606>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
@@ -10971,6 +10985,7 @@ Width: 738
 VWidth: 345
 Flags: W
 HStem: -460 45<414 626>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
 AnchorPoint: "martyriaTop" 533 -13 basechar 0
@@ -10995,6 +11010,7 @@ VWidth: 345
 Flags: W
 HStem: -227 53<450.467 511.497>
 VStem: 517 17<-320.158 -241.756>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
 AnchorPoint: "martyriaTop" 560 -80 basechar 0
@@ -11047,6 +11063,7 @@ VWidth: 345
 Flags: W
 HStem: 68 49.5<628.021 702.852> 165 61<674.502 714>
 VStem: 714 33<123.594 160.587>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
 AnchorPoint: "fthoraTop" 517 540 basechar 0
@@ -11106,6 +11123,7 @@ VWidth: 345
 Flags: W
 HStem: 279 86<507.875 561 578.225 666.572> 287 83<395.316 561>
 VStem: 549 25<155.414 263.283>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
 AnchorPoint: "fthoraTop" 517 450 basechar 0
@@ -11159,6 +11177,7 @@ VWidth: 345
 Flags: W
 HStem: 61 304
 VStem: 395 59<293.463 348.81> 585 38<253.562 349.008>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
 AnchorPoint: "fthoraTop" 517 416 basechar 0
@@ -11201,6 +11220,7 @@ VWidth: 345
 Flags: W
 HStem: 322 30<491.561 535.479>
 VStem: 360 39<222 298.086>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
 AnchorPoint: "fthoraTop" 517 525 basechar 0
@@ -11247,6 +11267,7 @@ VWidth: 345
 Flags: W
 HStem: 61 304 344 206
 VStem: 395 59<293.463 348.81> 585 38<253.562 349.008> 779 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
@@ -11263,6 +11284,7 @@ Width: 692
 VWidth: 345
 Flags: W
 VStem: 360 70<68 306.678> 586 73<351 421.933>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
 AnchorPoint: "fthoraTop" 517 530 basechar 0
@@ -11290,6 +11312,7 @@ Width: 738
 VWidth: 345
 Flags: W
 HStem: 68 45<414 626>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
 AnchorPoint: "fthoraTop" 540 550 basechar 0
@@ -11314,6 +11337,7 @@ VWidth: 345
 Flags: W
 HStem: 319 53<401.498 463.497>
 VStem: 465 21<225.842 312.75>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
 AnchorPoint: "fthoraTop" 517 450 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
@@ -11366,6 +11390,7 @@ VWidth: 345
 Flags: W
 HStem: 68 49.5<628.021 702.852> 165 61<674.502 714> 344 206
 VStem: 714 33<123.594 160.587> 831 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
 AnchorPoint: "fthoraTop" 517 446 basechar 0
@@ -11383,6 +11408,7 @@ VWidth: 345
 Flags: W
 HStem: 279 86<507.875 561 578.225 666.572> 287 83<395.316 561> 344 206
 VStem: 549 25<155.414 263.283> 785 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
@@ -11400,6 +11426,7 @@ VWidth: 345
 Flags: W
 HStem: 322 30<491.561 535.479> 344 206
 VStem: 360 39<222 298.086> 749 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
 AnchorPoint: "fthoraTop" 517 456 basechar 0
@@ -11417,6 +11444,7 @@ VWidth: 345
 Flags: W
 HStem: 344 206
 VStem: 360 70<68 306.678> 586 73<351 421.933> 740 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
 AnchorPoint: "fthoraTop" 517 436 basechar 0
@@ -11434,6 +11462,7 @@ VWidth: 345
 Flags: W
 HStem: 68 45<414 626> 344 206
 VStem: 786 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
 AnchorPoint: "fthoraTop" 540 454 basechar 0
@@ -11451,6 +11480,7 @@ VWidth: 345
 Flags: W
 HStem: 319 53<401.498 463.497> 344 206
 VStem: 465 21<225.842 312.75> 794 77<467.087 542.068>
+AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
 AnchorPoint: "fthoraTop" 517 376 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
@@ -25012,6 +25042,190 @@ SplineSet
  182.012695312 174 240.762695312 197.333007812 305.762695312 234 c 1
  380.762695312 288 442.846679688 335.833007812 492.012695312 377.5 c 0
  541.178710938 419.166992188 584.512695312 443 622.012695312 449 c 1
+EndSplineSet
+EndChar
+
+StartChar: barlineShortSingleAbove
+Encoding: 57881 57881 387
+Width: 152
+VWidth: 345
+Flags: W
+HStem: 590 305
+VStem: 59 32<590.064 894.967>
+AnchorPoint: "barline" 75 590 mark 0
+LayerCount: 2
+Fore
+SplineSet
+59 883 m 2
+ 59.6669921875 891.666992188 65 895.666992188 75 895 c 0
+ 85 894.333007812 90.3330078125 890.666992188 91 884 c 2
+ 91 616 l 2
+ 91 616 91 616 91 601 c 1
+ 87 592.333007812 80.6669921875 588.666992188 72 590 c 0
+ 63.3330078125 591.333007812 59 595 59 601 c 2
+ 59 869 l 2
+ 59 869 59 869 59 883 c 2
+EndSplineSet
+EndChar
+
+StartChar: barlineSingleAbove
+Encoding: 57878 57878 388
+Width: 208
+VWidth: 345
+Flags: W
+VStem: 91 32<4.06421 704.966>
+AnchorPoint: "barline" 107 4 mark 0
+LayerCount: 2
+Fore
+SplineSet
+91 693 m 2
+ 91.6666666667 701.666666667 97 705.666666667 107 705 c 0
+ 117 704.333333333 122.333333333 700.333333333 123 693 c 2
+ 123 30 l 2
+ 123 15 123 15 123 15 c 1
+ 119 6.33333333333 112.666666667 2.66666666667 104 4 c 0
+ 95.3333333333 5.33333333333 91 9 91 15 c 2
+ 91 678 l 2
+ 91 693 91 693 91 693 c 2
+90 248 m 257
+ 90 248 l 257
+EndSplineSet
+EndChar
+
+StartChar: barlineDoubleAbove
+Encoding: 57879 57879 389
+Width: 340
+VWidth: 345
+Flags: W
+VStem: 91 31<4.06421 704.966> 208 32<4.06421 704.966>
+AnchorPoint: "barline" 175 4 mark 0
+LayerCount: 2
+Fore
+SplineSet
+100 693 m 2
+ 100.666992188 701.666992188 105.833007812 705.666992188 115.5 705 c 0
+ 125.166992188 704.333007812 130.333007812 700.333007812 131 693 c 2
+ 131 30 l 2
+ 131 30 131 30 131 15 c 1
+ 127 6.3330078125 120.833007812 2.6669921875 112.5 4 c 0
+ 104.166992188 5.3330078125 100 9 100 15 c 2
+ 100 678 l 2
+ 100 678 100 678 100 693 c 2
+99 248 m 257
+ 99 248 l 257
+217 693 m 2
+ 217.666992188 701.666992188 223 705.666992188 233 705 c 0
+ 243 704.333007812 248.333007812 700.333007812 249 693 c 2
+ 249 30 l 2
+ 249 30 249 30 249 15 c 1
+ 245 6.3330078125 238.666992188 2.6669921875 230 4 c 0
+ 221.333007812 5.3330078125 217 9 217 15 c 2
+ 217 678 l 2
+ 217 678 217 678 217 693 c 2
+EndSplineSet
+EndChar
+
+StartChar: barlineTheseosAbove
+Encoding: 57880 57880 390
+Width: 208
+VWidth: 345
+Flags: W
+HStem: 783 29<12.5482 192.321>
+VStem: 91 32<4.06421 704.966>
+AnchorPoint: "barline" 107 4 mark 0
+LayerCount: 2
+Fore
+SplineSet
+90 248 m 257
+ 90 248 l 257
+106 812 m 1
+ 55.3333333333 810 14.8333333333 801.5 -15.5 786.5 c 0
+ -45.8333333333 771.5 -74.3333333333 746.666666667 -101 712 c 1
+ -91 703 l 1
+ -51 740.333333333 -16 762.666666667 14 770 c 0
+ 44 777.333333333 74.6666666667 781.666666667 106 783 c 1
+ 148 780.333333333 182.333333333 774 209 764 c 0
+ 235.666666667 754 264.666666667 733.666666667 296 703 c 1
+ 306 714 l 1
+ 273.333333333 753.333333333 242.333333333 778.833333333 213 790.5 c 0
+ 183.666666667 802.166666667 148 809.333333333 106 812 c 1
+91 693 m 2
+ 91.6666666667 701.666666667 97 705.666666667 107 705 c 0
+ 117 704.333333333 122.333333333 700.333333333 123 693 c 2
+ 123 30 l 2
+ 123 15 123 15 123 15 c 1
+ 119 6.33333333333 112.666666667 2.66666666667 104 4 c 0
+ 95.3333333333 5.33333333333 91 9 91 15 c 2
+ 91 678 l 2
+ 91 693 91 693 91 693 c 2
+EndSplineSet
+EndChar
+
+StartChar: barlineShortDoubleAbove
+Encoding: 57882 57882 391
+Width: 256
+VWidth: 345
+Flags: W
+HStem: 590 305
+VStem: 67 32<590.064 894.967> 160 32<590.064 894.967>
+AnchorPoint: "barline" 129 590 mark 0
+LayerCount: 2
+Fore
+SplineSet
+67 883 m 2
+ 67.6669921875 891.666992188 73 895.666992188 83 895 c 0
+ 93 894.333007812 98.3330078125 890.666992188 99 884 c 2
+ 99 616 l 2
+ 99 616 99 616 99 601 c 1
+ 95 592.333007812 88.6669921875 588.666992188 80 590 c 0
+ 71.3330078125 591.333007812 67 595 67 601 c 2
+ 67 869 l 2
+ 67 869 67 869 67 883 c 2
+160 883 m 2
+ 160.666992188 891.666992188 166 895.666992188 176 895 c 0
+ 186 894.333007812 191.333007812 890.666992188 192 884 c 2
+ 192 616 l 2
+ 192 616 192 616 192 601 c 1
+ 188 592.333007812 181.666992188 588.666992188 173 590 c 0
+ 164.333007812 591.333007812 160 595 160 601 c 2
+ 160 869 l 2
+ 160 869 160 869 160 883 c 2
+EndSplineSet
+EndChar
+
+StartChar: barlineShortTheseosAbove
+Encoding: 57883 57883 392
+Width: 172
+VWidth: 345
+Flags: W
+HStem: 960 28<12.4081 67 110 155.232>
+VStem: 71 32<589.064 894.966>
+AnchorPoint: "barline" 87 589 mark 0
+LayerCount: 2
+Fore
+SplineSet
+59.5 988 m 0
+ 41.1669921875 986 20 978.833007812 -4 966.5 c 0
+ -28 954.166992188 -47.3330078125 934 -62 906 c 1
+ -56 903 l 1
+ -24.6669921875 928.333007812 0.3330078125 944 19 950 c 0
+ 37.6669921875 956 53.6669921875 959.333007812 67 960 c 0
+ 80.3330078125 960.666992188 94.6669921875 960.333007812 110 959 c 0
+ 125.333007812 957.666992188 141.666992188 953.333007812 159 946 c 0
+ 176.333007812 938.666992188 198.333007812 924.333007812 225 903 c 1
+ 232 907 l 1
+ 214.666992188 937 194.833007812 957 172.5 967 c 0
+ 150.166992188 977 130.333007812 983.5 113 986.5 c 0
+ 95.6669921875 989.5 77.8330078125 990 59.5 988 c 0
+71 883 m 2
+ 71.6669921875 891.666992188 77 895.666992188 87 895 c 0
+ 97 894.333007812 102.333007812 890.333007812 103 883 c 2
+ 103 615 l 2
+ 103 615 103 615 103 600 c 1
+ 99 591.333007812 92.6669921875 587.666992188 84 589 c 0
+ 75.3330078125 590.333007812 71 594 71 600 c 2
+ 71 868 l 2
+ 71 868 71 868 71 883 c 2
 EndSplineSet
 EndChar
 EndChars
