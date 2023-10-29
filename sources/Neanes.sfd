@@ -2481,6 +2481,7 @@ VWidth: 345
 Flags: W
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
+AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "barline" 286 590 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -150 basechar 0
