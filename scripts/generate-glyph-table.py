@@ -1,6 +1,7 @@
-file = open('../sources/namelist.txt')
+file = open("../sources/namelist.txt")
 
-print('''<style>
+print(
+    """<style>
             @font-face {
                 font-family: Neanes;
                 src: url('../fonts/Neanes.otf');
@@ -32,17 +33,18 @@ print('''<style>
                 display: flex;
                 justify-content: center;
             }
-</style>''')
+</style>"""
+)
 
-print('<table>')
+print("<table>")
 
 line = file.readline()
 while line:
     line = line.rstrip()
-    words = line.split(' ')
+    words = line.split(" ")
     glyph_name = words[1]
-    code_point = words[0].removeprefix('0x')
-    html = f'''<tr>
+    code_point = words[0].removeprefix("0x")
+    html = f"""<tr>
     <td>
         <span class="neanes">&#x{code_point};</span>
     </td>
@@ -54,11 +56,11 @@ while line:
             {glyph_name}
         </div>
     </td>
-</tr>'''
+</tr>"""
     print(html)
     line = file.readline()
 
-print('</table>')
-print('</body></html>')
+print("</table>")
+print("</body></html>")
 
 file.close()
