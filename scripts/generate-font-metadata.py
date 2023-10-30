@@ -11,6 +11,8 @@ class SbmuflFont(object):
         'apli',
         'barline',
         'diesis',
+        'diesisSecondary',
+        'diesisTertiary',
         'endofonon',
         'fthoraTop',
         'fthoraTopSecondary',

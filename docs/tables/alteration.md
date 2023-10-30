@@ -83,6 +83,110 @@
 </tr>
 <tr>
     <td>
+        <span class="neanes">&#xE1F6;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1F6
+        </div>
+        <div class="glyph-name">
+            diesis2Secondary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1F7;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1F7
+        </div>
+        <div class="glyph-name">
+            diesis4Secondary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1F8;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1F8
+        </div>
+        <div class="glyph-name">
+            diesis6Secondary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1F9;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1F9
+        </div>
+        <div class="glyph-name">
+            diesis8Secondary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1FA;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1FA
+        </div>
+        <div class="glyph-name">
+            diesis2Tertiary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1FB;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1FB
+        </div>
+        <div class="glyph-name">
+            diesis4Tertiary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1FC;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1FC
+        </div>
+        <div class="glyph-name">
+            diesis6Tertiary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1FD;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1FD
+        </div>
+        <div class="glyph-name">
+            diesis8Tertiary
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
         <span class="neanes">&#xE1FE;</span>
     </td>
     <td>
