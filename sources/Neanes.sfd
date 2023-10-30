@@ -11521,6 +11521,7 @@ Width: 1465
 VWidth: 345
 Flags: W
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
+AnchorPoint: "barline" 277 590 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "fthoraBottom" 384 160 basechar 0
