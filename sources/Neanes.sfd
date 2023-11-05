@@ -2481,6 +2481,8 @@ VWidth: 345
 Flags: W
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "barline" 286 590 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
@@ -5343,6 +5345,8 @@ Width: 1515
 VWidth: 345
 Flags: W
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
+AnchorPoint: "diesisSecondary" 1596 897 basechar 0
+AnchorPoint: "yfesisSecondary" 425 -145 basechar 0
 AnchorPoint: "barline" 277 590 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
 AnchorPoint: "yfenBelow" 929 -200 basechar 0
