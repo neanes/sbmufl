@@ -53,7 +53,7 @@ This part describes how to add a mark-to-mark anchor to the `barlineShortSingleA
 
 1. Open `sources/Neanes.sfd` in FontForge.
 2. In the file menu, choose `View -> Goto`. Type `barlineShortSingleAbove` and click `OK`.
-3. Double-click the tile containing the new glyph. This opens up an outline window.
+3. Double-click the tile containing the glyph. This opens up an outline window.
 4. Right-click under the barline glyph and choose `Add Anchor`. This opens a dialog.
 5. Since this is the first barline mark-to-mark anchor to be added to the font, we must create a new anchor class. Click the `New Class` button. Enter the name `barlineAboveMark` and click `OK`.
 6. Now choose `barlineAboveMark` from the dropdown at the top of the dialog.
