@@ -161,6 +161,19 @@ These characters are sometimes referred to as hypostases or mutes.
         </div>
     </td>
 </tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE0C8;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E0C8
+        </div>
+        <div class="glyph-name">
+            stavrosAbove
+        </div>
+    </td>
+</tr>
 </table>
 
 ## Implementation Details

@@ -89,6 +89,7 @@ Based: AGL For New Fonts
 0xE0B1 yfenBelow
 0xE0C0 stavros
 0xE0C1 breath
+0xE0C8 stavrosAbove
 0xE0D0 klasmaAbove
 0xE0D1 klasmaBelow
 0xE0D2 apli
