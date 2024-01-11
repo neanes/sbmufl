@@ -18,7 +18,7 @@ The Private Use Area of the Unicode Basic Multilingual Plane contains 4096 code 
 
 ## Documentation 
 
-See the full documentation [here](https://danielgarthur.github.io/sbmufl).
+See the full documentation [here](https://neanes.github.io/sbmufl).
 
 ## Example
 

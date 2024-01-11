@@ -1,6 +1,6 @@
 # SBMuFl Metadata
 
-Several metadata files are available in JSON format [here](https://github.com/danielgarthur/sbmufl/tree/master/metadata).
+Several metadata files are available in JSON format [here](https://github.com/neanes/sbmufl/tree/master/metadata).
 
 ## glyphnames.json
 
