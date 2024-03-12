@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1710208436
+ModificationTime: 1710274225
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4619,6 +4619,7 @@ Width: 738
 VWidth: 345
 Flags: HW
 HStem: 423 29<85.7838 128.574 394.26 436.917>
+AnchorPoint: "heteronConnecting" -68 34 basechar 0
 AnchorPoint: "yfenAbove" 325 875 basechar 0
 AnchorPoint: "yfenBelow" 279 -40 basechar 0
 AnchorPoint: "endofonon" 452 -277 basechar 0
