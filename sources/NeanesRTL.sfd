@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1709260208
+ModificationTime: 1710208436
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1412,18 +1412,18 @@ StartChar: ison
 Encoding: 57344 57344 33
 Width: 1524
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 123<1036.67 1330.87>
-AnchorPoint: "yfenAbove" 930 641 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 594 641 basechar 0
+AnchorPoint: "yfenBelow" 595 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
 AnchorPoint: "gorgonBottom" 713 125 basechar 0
-AnchorPoint: "heteronConnecting" 1700 -19 basechar 0
+AnchorPoint: "heteronConnecting" -176 -19 basechar 0
 AnchorPoint: "heteron" 1027 207 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 53 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -1487,16 +1487,16 @@ Flags: HW
 HStem: -17 19<1105.37 1132.84> 157 23<841.865 886.411> 246 121<182.719 1326.04>
 AnchorPoint: "apli" 763 -180 basechar 0
 AnchorPoint: "gorgonBottom" 450 125 basechar 0
-AnchorPoint: "yfenAbove" 930 641 basechar 0
-AnchorPoint: "yfenBelow" 929 -200 basechar 0
+AnchorPoint: "yfenAbove" 585 641 basechar 0
+AnchorPoint: "yfenBelow" 586 -200 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -51 basechar 0
+AnchorPoint: "heteronConnecting" -177 -51 basechar 0
 AnchorPoint: "heteron" 1027 -33 basechar 0
 AnchorPoint: "omalon" 1033 -67 basechar 0
-AnchorPoint: "omalonConnecting" 1473 -53 basechar 0
+AnchorPoint: "omalonConnecting" 42 -53 basechar 0
 AnchorPoint: "antikenoma" 820 -55 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
 AnchorPoint: "fthoraTop" 788 507 basechar 0
@@ -1557,19 +1557,19 @@ StartChar: oligon
 Encoding: 57345 57345 35
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04>
-AnchorPoint: "yfenAbove" 930 641 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 641 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -1616,19 +1616,19 @@ StartChar: oligonKentimaAbove
 Encoding: 57348 57348 36
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 755 28<571.906 614.043>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 911 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 911 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 891 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -1692,19 +1692,19 @@ StartChar: oligonYpsiliRight
 Encoding: 57349 57349 37
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 1132 31<1403.3 1440.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1203 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1203 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 1203 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -1779,19 +1779,19 @@ StartChar: oligonYpsiliLeft
 Encoding: 57350 57350 38
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106> 1132 31<636.32 674.933>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1285 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1285 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 951 855 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 213 827 basechar 0
 AnchorPoint: "isonIndicator" 792 1283 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 188 750 basechar 0
@@ -1866,19 +1866,19 @@ StartChar: oligonKentimaYpsiliRight
 Encoding: 57351 57351 39
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<987.535 1066.59> 755 28<571.906 614.043> 1132 31<1403.3 1440.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1202 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1202 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 1203 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -1969,19 +1969,19 @@ StartChar: oligonKentimaYpsiliMiddle
 Encoding: 57352 57352 40
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 645 22<619.619 656.909> 790 19<671.08 745.04> 1243 27<1055.51 1090.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1403 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1403 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 275 835 basechar 0
 AnchorPoint: "klasmaTop" 353 487 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 1403 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -2070,19 +2070,19 @@ StartChar: oligonDoubleYpsili
 Encoding: 57353 57353 41
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<220.709 300.106 987.535 1066.59> 1132 31<636.32 674.933 1403.3 1440.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1271 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1271 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 1261 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 160 800 basechar 0
 AnchorPoint: "isonIndicator" 792 1273 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 194 772 basechar 0
@@ -2183,19 +2183,19 @@ StartChar: oligonKentimataDoubleYpsili
 Encoding: 57354 57354 42
 Width: 1596
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<1041.42 1120.19> 671 26<352.137 386.764 622.606 656.764> 848 17<486.093 557.48> 1132 31<1457.22 1494.93> 1248 24<852.553 886.449>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1371 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 666 1371 basechar 0
+AnchorPoint: "yfenBelow" 667 -40 basechar 0
 AnchorPoint: "koronis" 783 1371 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 875 basechar 0
 AnchorPoint: "isonIndicator" 792 1373 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -96 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 125 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 156 680 basechar 0
@@ -2327,10 +2327,10 @@ StartChar: isonApostrofos
 Encoding: 57376 57376 43
 Width: 1277
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -226 32<1144.99 1197.78> 95 31<814.096 998.326> 252 117<773.316 1038.61>
-AnchorPoint: "yfenAbove" 690 891 basechar 0
-AnchorPoint: "yfenBelow" 754 -236 basechar 0
+AnchorPoint: "yfenAbove" 587 891 basechar 0
+AnchorPoint: "yfenBelow" 523 -236 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "apli" 1244 -424 basechar 0
 AnchorPoint: "measureNumber" 172 773 basechar 0
@@ -2409,10 +2409,10 @@ StartChar: apostrofosSyndesmos
 Encoding: 57378 57378 44
 Width: 1177
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -225 31<868.995 921.974> 95 29.5<538.611 732.096> 200 32<409.995 463.781> 519.5 30<79.6112 273.513>
-AnchorPoint: "yfenAbove" 930 891 basechar 0
-AnchorPoint: "yfenBelow" 929 -400 basechar 0
+AnchorPoint: "yfenAbove" 247 891 basechar 0
+AnchorPoint: "yfenBelow" 248 -400 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "apli" 944 -424 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
@@ -2478,18 +2478,18 @@ StartChar: yporroi
 Encoding: 57379 57379 45
 Width: 400
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 417 30<334.051 380.419>
 VStem: 75 305.5
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "barline" 286 590 basechar 0
-AnchorPoint: "yfenAbove" 217 887 basechar 0
-AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "yfenAbove" 183 887 basechar 0
+AnchorPoint: "yfenBelow" 241 -40 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
-AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "heteronConnecting" -183 -19 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
 AnchorPoint: "isonIndicator" 212 885 basechar 0
 AnchorPoint: "heteron" 316 -86 basechar 0
@@ -2509,7 +2509,7 @@ StartChar: runningElafron
 Encoding: 57381 57381 46
 Width: 1752
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: 131 30<330.933 381.941> 138 23<328.798 377.492 826.006 895.904> 445 23<48.0957 118.16> 466.5 38.5<853.132 1082.08>
 VStem: 593 148<230.031 374.932>
 AnchorPoint: "stavros" 991 495 basechar 0
@@ -2517,14 +2517,14 @@ AnchorPoint: "diesisSecondary" 203 895 basechar 0
 AnchorPoint: "barline" 987 598 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1294 673 basechar 0
 AnchorPoint: "yfesisSecondary" 1392 578 basechar 0
-AnchorPoint: "yfenAbove" 1060 891 basechar 0
-AnchorPoint: "yfenBelow" 1109 -40 basechar 0
+AnchorPoint: "yfenAbove" 692 891 basechar 0
+AnchorPoint: "yfenBelow" 643 -40 basechar 0
 AnchorPoint: "koronis" 1030 746 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
 AnchorPoint: "measureNumber" 172 653 basechar 0
 AnchorPoint: "isonIndicator" 1018 887 basechar 0
-AnchorPoint: "heteronConnecting" 1929 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1751 89 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
+AnchorPoint: "omalonConnecting" 1 89 basechar 0
 AnchorPoint: "apli" 622 13 basechar 0
 AnchorPoint: "antikenoma" 1191 101 basechar 0
 AnchorPoint: "noteTop" 742 703 basechar 0
@@ -2610,18 +2610,18 @@ StartChar: elafron
 Encoding: 57380 57380 47
 Width: 1243
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 140 25<292.995 383.389> 466.5 38.5<340.132 569.561>
 VStem: 80 149<230.031 375.995>
-AnchorPoint: "yfenAbove" 650 901 basechar 0
-AnchorPoint: "yfenBelow" 659 -40 basechar 0
+AnchorPoint: "yfenAbove" 593 901 basechar 0
+AnchorPoint: "yfenBelow" 584 -40 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 613 basechar 0
 AnchorPoint: "isonIndicator" 528 897 basechar 0
 AnchorPoint: "gorgonBottom" 487 -18 basechar 0
-AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1241 89 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
+AnchorPoint: "omalonConnecting" 2 89 basechar 0
 AnchorPoint: "apli" 588 -1 basechar 0
 AnchorPoint: "antikenoma" 566 70 basechar 0
 AnchorPoint: "noteTop" 242 703 basechar 0
@@ -2685,18 +2685,18 @@ StartChar: elafronApostrofos
 Encoding: 57382 57382 48
 Width: 1243
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 35 22<579.767 625.733> 140 25<292.995 383.389> 329 21<299.095 362.761> 466.5 38.5<340.132 569.561>
 VStem: 80 149<230.031 375.995>
 AnchorPoint: "gorgonBottom" 487 -93 basechar 0
-AnchorPoint: "yfenAbove" 630 891 basechar 0
-AnchorPoint: "yfenBelow" 659 -210 basechar 0
+AnchorPoint: "yfenAbove" 613 891 basechar 0
+AnchorPoint: "yfenBelow" 584 -210 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 643 basechar 0
 AnchorPoint: "isonIndicator" 528 897 basechar 0
-AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1241 89 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
+AnchorPoint: "omalonConnecting" 2 89 basechar 0
 AnchorPoint: "apli" 600 -93 basechar 0
 AnchorPoint: "antikenoma" 581 -29 basechar 0
 AnchorPoint: "noteTop" 232 703 basechar 0
@@ -2784,16 +2784,16 @@ StartChar: chamiliApostrofos
 Encoding: 57384 57384 49
 Width: 1113
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -93 29<592.871 640.233> 207 21<312.095 375.807> 290 30<594.953 788 905 1044.16>
-AnchorPoint: "yfenAbove" 630 921 basechar 0
-AnchorPoint: "yfenBelow" 659 -300 basechar 0
+AnchorPoint: "yfenAbove" 483 921 basechar 0
+AnchorPoint: "yfenBelow" 454 -300 basechar 0
 AnchorPoint: "koronis" 720 910 basechar 0
 AnchorPoint: "endofonon" 632 -257 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 528 897 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -180 basechar 0
-AnchorPoint: "omalonConnecting" 1107 -40 basechar 0
+AnchorPoint: "heteronConnecting" -171 -180 basechar 0
+AnchorPoint: "omalonConnecting" 6 -40 basechar 0
 AnchorPoint: "apli" 576 -211 basechar 0
 AnchorPoint: "antikenoma" 579 -129 basechar 0
 AnchorPoint: "noteTop" 242 933 basechar 0
@@ -2877,17 +2877,17 @@ StartChar: chamili
 Encoding: 57383 57383 50
 Width: 1113
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 290 30<594.953 788 905 1044.16>
-AnchorPoint: "yfenAbove" 630 921 basechar 0
-AnchorPoint: "yfenBelow" 659 -40 basechar 0
+AnchorPoint: "yfenAbove" 483 921 basechar 0
+AnchorPoint: "yfenBelow" 454 -40 basechar 0
 AnchorPoint: "koronis" 770 916 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 528 897 basechar 0
 AnchorPoint: "gorgonBottom" 393 125 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1111 89 basechar 0
+AnchorPoint: "heteronConnecting" -171 -19 basechar 0
+AnchorPoint: "omalonConnecting" 2 89 basechar 0
 AnchorPoint: "apli" 640 76 basechar 0
 AnchorPoint: "antikenoma" 642 169 basechar 0
 AnchorPoint: "noteTop" 242 923 basechar 0
@@ -2949,17 +2949,17 @@ StartChar: chamiliElafron
 Encoding: 57385 57385 51
 Width: 1240
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 140 25<292.995 383.389> 466.5 38.5<340.132 569.561> 591 30<623.953 817 936 1075.09>
 VStem: 80 149<230.031 375.995>
-AnchorPoint: "yfenAbove" 630 1301 basechar 0
-AnchorPoint: "yfenBelow" 659 -40 basechar 0
+AnchorPoint: "yfenAbove" 610 1301 basechar 0
+AnchorPoint: "yfenBelow" 581 -40 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1240 89 basechar 0
+AnchorPoint: "heteronConnecting" -180 -19 basechar 0
+AnchorPoint: "omalonConnecting" 0 89 basechar 0
 AnchorPoint: "apli" 575 -10 basechar 0
 AnchorPoint: "antikenoma" 569 91 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -3065,17 +3065,17 @@ StartChar: chamiliElafronApostrofos
 Encoding: 57386 57386 52
 Width: 1243
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 35 22<579.767 625.733> 140 25<292.995 383.389> 329 21<299.095 362.761> 466.5 38.5<340.132 569.561> 591 30<623.953 817 936 1075.09>
 VStem: 80 149<230.031 375.995>
-AnchorPoint: "yfenAbove" 630 1251 basechar 0
-AnchorPoint: "yfenBelow" 659 -230 basechar 0
+AnchorPoint: "yfenAbove" 613 1251 basechar 0
+AnchorPoint: "yfenBelow" 584 -230 basechar 0
 AnchorPoint: "koronis" 770 1216 basechar 0
 AnchorPoint: "endofonon" 632 -107 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1240 89 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
+AnchorPoint: "omalonConnecting" 3 89 basechar 0
 AnchorPoint: "apli" 575 -110 basechar 0
 AnchorPoint: "antikenoma" 577 -18 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -3205,16 +3205,16 @@ StartChar: doubleChamili
 Encoding: 57387 57387 53
 Width: 1107
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
-AnchorPoint: "yfenAbove" 630 1241 basechar 0
-AnchorPoint: "yfenBelow" 659 -40 basechar 0
+AnchorPoint: "yfenAbove" 477 1241 basechar 0
+AnchorPoint: "yfenBelow" 448 -40 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1108 89 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
+AnchorPoint: "omalonConnecting" -1 89 basechar 0
 AnchorPoint: "apli" 595 70 basechar 0
 AnchorPoint: "antikenoma" 594 175 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -3316,14 +3316,14 @@ StartChar: petastiIson
 Encoding: 57408 57408 54
 Width: 1318
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<763.719 995.029> 469.5 28.5<408.041 448.657 951.611 1056.74> 607 123<970 1142.44>
 VStem: 1105.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1049 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 526 1049 basechar 0
+AnchorPoint: "yfenBelow" 589 -40 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 2 -19 basechar 0
 AnchorPoint: "yfesis" 1179 915 basechar 0
 AnchorPoint: "psifiston" 854 140 basechar 0
 AnchorPoint: "measureNumber" 172 1073 basechar 0
@@ -3426,14 +3426,14 @@ StartChar: petasti
 Encoding: 57409 57409 55
 Width: 1243
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738>
 VStem: 1030.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1049 basechar 0
-AnchorPoint: "yfenBelow" 769 -40 basechar 0
+AnchorPoint: "yfenAbove" 451 1049 basechar 0
+AnchorPoint: "yfenBelow" 474 -40 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -73 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "measureNumber" 172 743 basechar 0
 AnchorPoint: "isonIndicator" 664 1049 basechar 0
@@ -3499,14 +3499,14 @@ StartChar: petastiOligon
 Encoding: 57410 57410 56
 Width: 1367
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<761.719 992.868> 469.5 28.5<406.502 446.671 949.611 1054.74> 636 114<164.26 1218.87>
 VStem: 1103.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1049 basechar 0
-AnchorPoint: "yfenBelow" 789 -40 basechar 0
+AnchorPoint: "yfenAbove" 575 1049 basechar 0
+AnchorPoint: "yfenBelow" 578 -40 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 51 -19 basechar 0
 AnchorPoint: "yfesis" 1113 991 basechar 0
 AnchorPoint: "psifiston" 860 140 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
@@ -3598,14 +3598,14 @@ StartChar: petastiKentima
 Encoding: 57411 57411 57
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 800 29<431.784 473.917>
 VStem: 1030.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1049 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1049 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3687,14 +3687,14 @@ StartChar: petastiYpsiliRight
 Encoding: 57412 57412 58
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1309 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1309 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 430 876 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3787,14 +3787,14 @@ StartChar: petastiYpsiliLeft
 Encoding: 57413 57413 59
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<225.709 308.188> 1190 32<641.32 679.933>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1299 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1299 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 925 807 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -3887,14 +3887,14 @@ StartChar: petastiKentimaYpsiliRight
 Encoding: 57414 57414 60
 Width: 1234
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<828.011 904.218> 800 29<431.784 473.917> 1195 30<1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1299 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 442 1299 basechar 0
+AnchorPoint: "yfenBelow" 505 -40 basechar 0
 AnchorPoint: "koronis" 599 969 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -82 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -4003,14 +4003,14 @@ StartChar: petastiKentimaYpsiliMiddle
 Encoding: 57415 57415 61
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 641 26<477.26 518.917> 790 19<559.08 633.875> 1243 27<943.51 978.934>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1299 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1299 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 313 963 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -4119,14 +4119,14 @@ StartChar: petastiApostrofos
 Encoding: 57440 57440 62
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 455 32<533.995 587.781> 469.5 28.5<328.502 368.671 871.611 976.738> 787 24<222.611 297.379>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1049 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1049 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
 AnchorPoint: "isonIndicator" 664 997 basechar 0
@@ -4216,14 +4216,14 @@ StartChar: petastiElafron
 Encoding: 57442 57442 63
 Width: 1242
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 595 28.5<278.262 383.389 886.329 926.498> 920.5 39<338.797 569.561>
 VStem: 80 149<684.031 829.995> 1031 149<262.036 407.969>
-AnchorPoint: "yfenAbove" 712 1109 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 530 1109 basechar 0
+AnchorPoint: "yfenBelow" 513 -40 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -74 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
 AnchorPoint: "isonIndicator" 660 1049 basechar 0
@@ -4333,14 +4333,14 @@ StartChar: petastiElafronApostrofos
 Encoding: 57444 57444 64
 Width: 1243
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<688.719 920.029> 469.5 28.5<333.041 373.656 876.611 981.738> 489 22<579.767 625.733> 590 28.5<278.262 383.389 886.329 926.498> 783 21<299.095 362.761> 916 38.5<340.132 567.839>
 VStem: 80 149<679.031 824.54> 1030.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 702 1089 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 541 1089 basechar 0
+AnchorPoint: "yfenBelow" 514 -40 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -73 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
 AnchorPoint: "isonIndicator" 644 1037 basechar 0
@@ -4474,14 +4474,14 @@ StartChar: petastiChamili
 Encoding: 57445 57445 65
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 782 1229 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 454 1229 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
 AnchorPoint: "isonIndicator" 650 1133 basechar 0
@@ -4588,7 +4588,7 @@ StartChar: kentima
 Encoding: 57472 57472 66
 Width: 279
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 418 29<-41.6787 0.88916>
 VStem: -42 303
 LayerCount: 2
@@ -4617,10 +4617,10 @@ StartChar: kentimata
 Encoding: 57473 57473 67
 Width: 738
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 423 29<85.7838 128.574 394.26 436.917>
-AnchorPoint: "yfenAbove" 413 875 basechar 0
-AnchorPoint: "yfenBelow" 459 -40 basechar 0
+AnchorPoint: "yfenAbove" 325 875 basechar 0
+AnchorPoint: "yfenBelow" 279 -40 basechar 0
 AnchorPoint: "endofonon" 452 -277 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "gorgonBottom" 354 -18 basechar 0
@@ -4673,14 +4673,14 @@ StartChar: oligonKentimataAbove
 Encoding: 57475 57475 68
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1306.04> 671 26<502.137 536.249 772.094 807.249>
 AnchorPoint: "fthoraTopSecondary" 240 480 basechar 0
-AnchorPoint: "yfenAbove" 930 901 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 535 901 basechar 0
+AnchorPoint: "yfenBelow" 536 -40 basechar 0
 AnchorPoint: "endofonon" 772 -47 basechar 0
-AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1590 130 basechar 0
+AnchorPoint: "heteronConnecting" -129 -19 basechar 0
+AnchorPoint: "omalonConnecting" -125 130 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 710 1117 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -4764,10 +4764,10 @@ HStem: 246 121<270.719 1775.04> 475 118<813.917 1044.47> 645 26<1216.73 1251.25 
 AnchorPoint: "diesisSecondary" 145 1142 basechar 0
 AnchorPoint: "yfesisSecondary" 1600 776 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1352 900 basechar 0
-AnchorPoint: "yfenAbove" 1350 961 basechar 0
-AnchorPoint: "yfenBelow" 1389 -40 basechar 0
+AnchorPoint: "yfenAbove" 614 961 basechar 0
+AnchorPoint: "yfenBelow" 575 -40 basechar 0
 AnchorPoint: "endofonon" 1102 -77 basechar 0
-AnchorPoint: "heteronConnecting" 2000 -19 basechar 0
+AnchorPoint: "heteronConnecting" -36 -19 basechar 0
 AnchorPoint: "gorgonSecondary" 1355 703 basechar 0
 AnchorPoint: "measureNumber" 194 961 basechar 0
 AnchorPoint: "isonIndicator" 710 1157 basechar 0
@@ -4884,12 +4884,12 @@ StartChar: oligonYpsiliLeftKentimata
 Encoding: 57479 57479 70
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<206.422 285.189> 686 25<634.242 668.497 904.819 938.966> 1132 31<622.221 659.934>
-AnchorPoint: "yfenAbove" 930 1201 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1201 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
-AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
+AnchorPoint: "heteronConnecting" -79 -19 basechar 0
 AnchorPoint: "measureNumber" 174 983 basechar 0
 AnchorPoint: "isonIndicator" 710 1207 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -5000,10 +5000,10 @@ HStem: 246 121<177.719 1453.04> 450 32<408.995 462.511> 645 26<859.729 894.249 1
 AnchorPoint: "diesisSecondary" 230 1193 basechar 0
 AnchorPoint: "yfesisSecondary" 1410 828 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1180 813 basechar 0
-AnchorPoint: "yfenAbove" 930 1111 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 697 1111 basechar 0
+AnchorPoint: "yfenBelow" 698 -40 basechar 0
 AnchorPoint: "endofonon" 862 -37 basechar 0
-AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
+AnchorPoint: "heteronConnecting" 33 -19 basechar 0
 AnchorPoint: "gorgonSecondary" 1180 874 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
 AnchorPoint: "isonIndicator" 707 1107 basechar 0
@@ -5114,10 +5114,10 @@ AnchorPoint: "diesisSecondary" 185 1209 basechar 0
 AnchorPoint: "yfesisSecondary" 1700 838 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1192 912 basechar 0
 AnchorPoint: "gorgonSecondary" 1338 939 basechar 0
-AnchorPoint: "yfenAbove" 1280 1061 basechar 0
-AnchorPoint: "yfenBelow" 1349 -40 basechar 0
+AnchorPoint: "yfenAbove" 797 1061 basechar 0
+AnchorPoint: "yfenBelow" 728 -40 basechar 0
 AnchorPoint: "endofonon" 1142 -37 basechar 0
-AnchorPoint: "heteronConnecting" 2050 -19 basechar 0
+AnchorPoint: "heteronConnecting" 27 -19 basechar 0
 AnchorPoint: "gorgonTop" 507 779 basechar 0
 AnchorPoint: "measureNumber" 172 1043 basechar 0
 AnchorPoint: "isonIndicator" 710 1057 basechar 0
@@ -5246,10 +5246,10 @@ AnchorPoint: "diesisSecondary" 225 1193 basechar 0
 AnchorPoint: "barline" 1312 862 basechar 0
 AnchorPoint: "yfesisSecondary" 1450 828 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1302 835 basechar 0
-AnchorPoint: "yfenAbove" 930 1141 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 697 1141 basechar 0
+AnchorPoint: "yfenBelow" 698 -40 basechar 0
 AnchorPoint: "endofonon" 852 -37 basechar 0
-AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
+AnchorPoint: "heteronConnecting" 33 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 713 1147 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -5345,22 +5345,22 @@ StartChar: oligonKentimataBelow
 Encoding: 57474 57474 74
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 162 25<805.819 840.497 1076.44 1110.5> 246 121<182.719 1326.04>
 AnchorPoint: "diesisSecondary" 1596 897 basechar 0
 AnchorPoint: "yfesisSecondary" 425 -145 basechar 0
 AnchorPoint: "barline" 277 590 basechar 0
-AnchorPoint: "yfenAbove" 930 641 basechar 0
-AnchorPoint: "yfenBelow" 929 -200 basechar 0
+AnchorPoint: "yfenAbove" 585 641 basechar 0
+AnchorPoint: "yfenBelow" 586 -200 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
-AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
+AnchorPoint: "heteronConnecting" -169 -138 basechar 0
 AnchorPoint: "apli" 803 -227 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "diesis" 710 133 basechar 0
 AnchorPoint: "isonIndicator" 710 877 basechar 0
-AnchorPoint: "omalonConnecting" 1460 -40 basechar 0
+AnchorPoint: "omalonConnecting" 55 -40 basechar 0
 AnchorPoint: "omalon" 1040 -120 basechar 0
 AnchorPoint: "antikenoma" 820 -85 basechar 0
 AnchorPoint: "noteTop" 262 561 basechar 0
@@ -5439,19 +5439,19 @@ StartChar: oligonKentimaTripleYpsili
 Encoding: 57359 57359 75
 Width: 1580
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<1041.41 1076.45>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1461 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 650 1461 basechar 0
+AnchorPoint: "yfenBelow" 651 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
 AnchorPoint: "isonIndicator" 792 1463 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -112 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 109 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 116 820 basechar 0
@@ -5594,19 +5594,19 @@ StartChar: oligonIson
 Encoding: 57360 57360 76
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 470 124<886.833 1204.01>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 911 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 911 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 338 878 basechar 0
@@ -5689,20 +5689,20 @@ StartChar: oligonElafron
 Encoding: 57363 57363 77
 Width: 1519
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 502 28.5<336.922 441.904 945.329 985.003> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1091 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 589 1091 basechar 0
+AnchorPoint: "yfenBelow" 590 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 792 1093 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -173 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 48 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 214 912 basechar 0
@@ -5799,11 +5799,11 @@ AnchorPoint: "diesisSecondary" 323 1235 basechar 0
 AnchorPoint: "barline" 57 940 basechar 0
 AnchorPoint: "yfesisSecondary" 1378 914 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1190 910 basechar 0
-AnchorPoint: "yfenAbove" 932 1049 basechar 0
-AnchorPoint: "yfenBelow" 1029 -40 basechar 0
+AnchorPoint: "yfenAbove" 582 1049 basechar 0
+AnchorPoint: "yfenBelow" 485 -40 basechar 0
 AnchorPoint: "koronis" 493 1041 basechar 0
 AnchorPoint: "endofonon" 1052 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1586 -19 basechar 0
+AnchorPoint: "heteronConnecting" -72 -19 basechar 0
 AnchorPoint: "measureNumber" 173 920 basechar 0
 AnchorPoint: "isonIndicator" 832 999 basechar 0
 AnchorPoint: "apli" 755 -80 basechar 0
@@ -5933,19 +5933,19 @@ StartChar: oligonApostrofos
 Encoding: 57361 57361 79
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 468 31<690.964 742.974> 800 24<379.096 450.104>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 911 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 911 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 196 674 basechar 0
@@ -6015,20 +6015,20 @@ StartChar: oligonYporroi
 Encoding: 57362 57362 80
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 704 31<1038 1084.38>
 AnchorPoint: "barline" 997 878 basechar 0
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 971 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 971 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 792 973 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 196 674 basechar 0
@@ -6094,11 +6094,11 @@ HStem: 134.5 35.5<647.786 858.148> 448 26<314.818 352.073 819.58 915.22> 642 31<
 VStem: 962.5 139<252.126 389.617>
 AnchorPoint: "barline" 702 816 basechar 0
 AnchorPoint: "gorgonTop" 830 758 basechar 0
-AnchorPoint: "yfenAbove" 702 1049 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 462 1049 basechar 0
+AnchorPoint: "yfenBelow" 435 -40 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -152 -19 basechar 0
 AnchorPoint: "psifiston" 745 140 basechar 0
 AnchorPoint: "measureNumber" 172 663 basechar 0
 AnchorPoint: "isonIndicator" 664 997 basechar 0
@@ -6190,10 +6190,10 @@ AnchorPoint: "yfesisSecondary" 1670 808 basechar 0
 AnchorPoint: "fthoraTopTertiary" 1918 854 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1232 852 basechar 0
 AnchorPoint: "gorgonSecondary" 1348 889 basechar 0
-AnchorPoint: "yfenAbove" 1320 1061 basechar 0
-AnchorPoint: "yfenBelow" 1389 -40 basechar 0
+AnchorPoint: "yfenAbove" 881 1061 basechar 0
+AnchorPoint: "yfenBelow" 812 -40 basechar 0
 AnchorPoint: "endofonon" 1212 -37 basechar 0
-AnchorPoint: "heteronConnecting" 2150 -19 basechar 0
+AnchorPoint: "heteronConnecting" 51 -19 basechar 0
 AnchorPoint: "measureNumber" 662 913 basechar 0
 AnchorPoint: "isonIndicator" 710 1077 basechar 0
 AnchorPoint: "antikenoma" 1253 153 basechar 0
@@ -6343,10 +6343,10 @@ AnchorPoint: "diesisSecondary" 185 1195 basechar 0
 AnchorPoint: "yfesisSecondary" 1702 812 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1192 912 basechar 0
 AnchorPoint: "gorgonSecondary" 1338 939 basechar 0
-AnchorPoint: "yfenAbove" 1240 1061 basechar 0
-AnchorPoint: "yfenBelow" 1269 -40 basechar 0
+AnchorPoint: "yfenAbove" 837 1061 basechar 0
+AnchorPoint: "yfenBelow" 808 -40 basechar 0
 AnchorPoint: "endofonon" 1122 -37 basechar 0
-AnchorPoint: "heteronConnecting" 2050 -19 basechar 0
+AnchorPoint: "heteronConnecting" 27 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
 AnchorPoint: "isonIndicator" 710 1010 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6493,13 +6493,13 @@ StartChar: oligonKentimaMiddleKentimata
 Encoding: 57477 57477 84
 Width: 1744
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1306.04> 418 29<1423.32 1465.89> 671 26<502.137 536.249 772.094 807.249>
 VStem: 1423 303
-AnchorPoint: "yfenAbove" 930 1101 basechar 0
-AnchorPoint: "yfenBelow" 1109 -40 basechar 0
+AnchorPoint: "yfenAbove" 814 1101 basechar 0
+AnchorPoint: "yfenBelow" 635 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
-AnchorPoint: "heteronConnecting" 1920 -19 basechar 0
+AnchorPoint: "heteronConnecting" -176 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 710 1117 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6522,12 +6522,12 @@ StartChar: oligonYpsiliRightKentimata
 Encoding: 57478 57478 85
 Width: 1532
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<352.137 386.764 622.606 656.764> 1132 31<1461.32 1499.93>
-AnchorPoint: "yfenAbove" 930 1251 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 602 1251 basechar 0
+AnchorPoint: "yfenBelow" 603 -40 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
-AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
+AnchorPoint: "heteronConnecting" -62 -19 basechar 0
 AnchorPoint: "measureNumber" 164 847 basechar 0
 AnchorPoint: "isonIndicator" 710 1177 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
@@ -6633,14 +6633,14 @@ StartChar: petastiChamiliApostrofos
 Encoding: 57446 57446 86
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 313 29<592.871 640.233> 469.5 28.5<328.502 368.671 871.611 976.738> 612 22<312.095 378.125> 696 29<591.665 781 899 1039.09>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 782 1229 basechar 0
-AnchorPoint: "yfenBelow" 729 -80 basechar 0
+AnchorPoint: "yfenAbove" 454 1229 basechar 0
+AnchorPoint: "yfenBelow" 507 -80 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
 AnchorPoint: "isonIndicator" 650 1133 basechar 0
@@ -6769,13 +6769,13 @@ StartChar: apostrofos
 Encoding: 57377 57377 87
 Width: 703
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
-AnchorPoint: "yfenAbove" 470 891 basechar 0
-AnchorPoint: "yfenBelow" 509 -40 basechar 0
+AnchorPoint: "yfenAbove" 233 891 basechar 0
+AnchorPoint: "yfenBelow" 194 -40 basechar 0
 AnchorPoint: "koronis" 370 891 basechar 0
 AnchorPoint: "endofonon" 502 -126 basechar 0
-AnchorPoint: "heteronConnecting" 879 -19 basechar 0
+AnchorPoint: "heteronConnecting" -176 -19 basechar 0
 AnchorPoint: "measureNumber" 172 783 basechar 0
 AnchorPoint: "isonIndicator" 366 885 basechar 0
 AnchorPoint: "gorgonBottom" 348 -18 basechar 0
@@ -6797,19 +6797,19 @@ StartChar: oligonKentimataTripleYpsili
 Encoding: 57358 57358 88
 Width: 1580
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 1045.71 1125.18> 671 26<442.137 477.249 712.667 747.764> 859 19<593.08 669.429> 1132 31<534.297 571.934 1461.32 1499.93> 1311 27<977.51 1012.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1461 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 650 1461 basechar 0
+AnchorPoint: "yfenBelow" 651 -40 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
 AnchorPoint: "isonIndicator" 792 1463 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -112 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 109 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 13 basechar 0
 AnchorPoint: "noteTop" 116 820 basechar 0
@@ -6968,17 +6968,17 @@ StartChar: doubleChamiliElafronApostrofos
 Encoding: 57390 57390 89
 Width: 1174
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -201 28<588.766 634.808> -96 22<324.715 406.905 856.251 883.545> 98 21<325.58 385.169> 195.5 34<371.611 573.936> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
 VStem: 137 132<-20.9994 116.383>
-AnchorPoint: "yfenAbove" 630 1231 basechar 0
-AnchorPoint: "yfenBelow" 659 -310 basechar 0
+AnchorPoint: "yfenAbove" 544 1231 basechar 0
+AnchorPoint: "yfenBelow" 515 -310 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "endofonon" 632 -347 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -240 basechar 0
-AnchorPoint: "omalonConnecting" 1160 -180 basechar 0
+AnchorPoint: "heteronConnecting" -110 -240 basechar 0
+AnchorPoint: "omalonConnecting" 14 -180 basechar 0
 AnchorPoint: "apli" 575 -320 basechar 0
 AnchorPoint: "antikenoma" 572 -232 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -7148,17 +7148,17 @@ StartChar: doubleChamiliElafron
 Encoding: 57389 57389 90
 Width: 1174
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -96 22<324.715 406.905 856.251 883.545> 195.5 34<371.611 573.936> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
 VStem: 137 132<-20.9994 116.383>
-AnchorPoint: "yfenAbove" 630 1231 basechar 0
-AnchorPoint: "yfenBelow" 659 -310 basechar 0
+AnchorPoint: "yfenAbove" 544 1231 basechar 0
+AnchorPoint: "yfenBelow" 515 -310 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "endofonon" 632 -267 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -240 basechar 0
-AnchorPoint: "omalonConnecting" 1153 -140 basechar 0
+AnchorPoint: "heteronConnecting" -110 -240 basechar 0
+AnchorPoint: "omalonConnecting" 21 -140 basechar 0
 AnchorPoint: "apli" 575 -200 basechar 0
 AnchorPoint: "antikenoma" 644 -123 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -7304,16 +7304,16 @@ StartChar: doubleChamiliApostrofos
 Encoding: 57388 57388 91
 Width: 1107
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -93 29<592.871 640.233> 207 21<312.095 375.807> 290 30<588.542 781 899 1039.09> 711 30<588.542 781 899 1039.09>
-AnchorPoint: "yfenAbove" 630 1231 basechar 0
-AnchorPoint: "yfenBelow" 659 -310 basechar 0
+AnchorPoint: "yfenAbove" 477 1231 basechar 0
+AnchorPoint: "yfenBelow" 448 -310 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "endofonon" 632 -297 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
 AnchorPoint: "isonIndicator" 528 1227 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -180 basechar 0
-AnchorPoint: "omalonConnecting" 1087 -113 basechar 0
+AnchorPoint: "heteronConnecting" -177 -180 basechar 0
+AnchorPoint: "omalonConnecting" 20 -113 basechar 0
 AnchorPoint: "apli" 575 -230 basechar 0
 AnchorPoint: "antikenoma" 581 -120 basechar 0
 AnchorPoint: "noteTop" 242 1223 basechar 0
@@ -7437,14 +7437,14 @@ StartChar: petastiKentimataDoubleYpsili
 Encoding: 57417 57417 92
 Width: 1439
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1419 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 647 1419 basechar 0
+AnchorPoint: "yfenBelow" 710 -40 basechar 0
 AnchorPoint: "koronis" 235 1333 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 123 -19 basechar 0
 AnchorPoint: "yfesis" 1220 627 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -7596,14 +7596,14 @@ StartChar: petastiKentimaDoubleYpsiliRight
 Encoding: 57418 57418 93
 Width: 1313
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<796.709 879.379> 681 26<437.386 472.283> 864 19<456.08 532.781> 1190 32<1212.32 1250.93> 1316 27<840.593 876.449>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1449 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 521 1449 basechar 0
+AnchorPoint: "yfenBelow" 584 -40 basechar 0
 AnchorPoint: "koronis" 340 1330 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -3 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -7739,14 +7739,14 @@ StartChar: petastiKentimaDoubleYpsiliLeft
 Encoding: 57419 57419 94
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188> 681 26<512.386 547.285> 864 19<603.584 679.429> 1190 32<519.297 557.449> 1316 27<987.51 1022.93>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1449 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 444 1449 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 670 1460 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 187 1293 basechar 0
@@ -7882,14 +7882,14 @@ StartChar: petastiKentimataTripleYpsili
 Encoding: 57421 57421 95
 Width: 1439
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 687 20<317.326 351.249 586.74 621.764> 868 19<500.08 574.04> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<884.51 919.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1439 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 647 1439 basechar 0
+AnchorPoint: "yfenBelow" 710 -40 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 123 -19 basechar 0
 AnchorPoint: "yfesis" 1227 600 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 133 1273 basechar 0
@@ -8068,14 +8068,14 @@ StartChar: petastiTripleYpsili
 Encoding: 57420 57420 96
 Width: 1360
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<103.535 186.188 464.709 547.379 840.709 923.188> 1190 32<519.297 557.449 880.32 918.933 1256.32 1294.93>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1379 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 568 1379 basechar 0
+AnchorPoint: "yfenBelow" 631 -40 basechar 0
 AnchorPoint: "koronis" 663 1313 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 44 -19 basechar 0
 AnchorPoint: "yfesis" 1193 660 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 193 1280 basechar 0
@@ -8222,19 +8222,19 @@ StartChar: oligonKentimaDoubleYpsiliRight
 Encoding: 57355 57355 97
 Width: 1577
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<1045.71 1125.18> 671 26<472.606 507.249> 859 19<490.229 566.998> 1132 31<1461.32 1499.93> 1311 27<875.412 910.449>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1441 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 647 1441 basechar 0
+AnchorPoint: "yfenBelow" 648 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
 AnchorPoint: "isonIndicator" 792 1443 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -115 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 106 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 156 680 basechar 0
@@ -8350,19 +8350,19 @@ StartChar: oligonKentimaDoubleYpsiliLeft
 Encoding: 57356 57356 98
 Width: 1517
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189> 671 26<637.606 672.249> 859 19<656.229 732.998> 1132 31<534.297 571.934> 1311 27<1041.41 1076.45>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1441 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 587 1441 basechar 0
+AnchorPoint: "yfenBelow" 588 -40 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
 AnchorPoint: "isonIndicator" 792 1443 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -175 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 46 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 116 820 basechar 0
@@ -8478,19 +8478,19 @@ StartChar: oligonTripleYpsili
 Encoding: 57357 57357 99
 Width: 1580
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 595 22<118.535 197.189 582.422 661.189 1045.71 1125.18> 1132 31<534.297 571.934 998.221 1035.93 1461.32 1499.93>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1281 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 650 1281 basechar 0
+AnchorPoint: "yfenBelow" 651 -40 basechar 0
 AnchorPoint: "koronis" 783 1281 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
 AnchorPoint: "isonIndicator" 792 1283 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -112 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 109 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 116 820 basechar 0
@@ -8617,20 +8617,20 @@ StartChar: oligonElafronApostrofos
 Encoding: 57364 57364 100
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 443 27<638.736 684.969> 502 28.5<336.922 441.904 945.329 985.003> 718 19<383.58 439.156> 828 38.5<399.132 626.654>
 VStem: 138.5 148.5<590.125 736.65>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1091 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1091 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
 AnchorPoint: "isonIndicator" 792 1093 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 214 912 basechar 0
@@ -8744,14 +8744,14 @@ StartChar: petastiDoubleYpsili
 Encoding: 57416 57416 101
 Width: 1232
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 682 22<227.017 304.739 828.011 904.218> 1195 30<624.898 660.934 1225.01 1261.93>
 VStem: 1025.5 149.5<261.308 407.941>
-AnchorPoint: "yfenAbove" 792 1299 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 440 1299 basechar 0
+AnchorPoint: "yfenBelow" 503 -40 basechar 0
 AnchorPoint: "koronis" 867 1283 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -84 -19 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
@@ -8871,19 +8871,19 @@ StartChar: oligonChamili
 Encoding: 57365 57365 102
 Width: 1515
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1326.04> 531 31<678.542 872 989 1128.16>
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 1031 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 585 1031 basechar 0
+AnchorPoint: "yfenBelow" 586 -40 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 513 basechar 0
 AnchorPoint: "isonIndicator" 792 1023 basechar 0
-AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
+AnchorPoint: "heteronConnecting" -177 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 44 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 240 1020 basechar 0
@@ -8971,14 +8971,14 @@ StartChar: petastiChamiliElafron
 Encoding: 57447 57447 103
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 782 1429 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 454 1429 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
 AnchorPoint: "isonIndicator" 650 1423 basechar 0
@@ -9127,14 +9127,14 @@ StartChar: petastiChamiliElafronApostrofos
 Encoding: 57448 57448 104
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 463 29<562.871 610.964> 469.5 28.5<328.502 368.671 560.767 616.905 871.611 976.738> 560 25<261.144 353.904 857.329 887.445> 762 21<282.58 345.807> 886.5 38.5<311.132 540.085> 966 30<588.542 781 899 1039.09>
 VStem: 51 148<650.031 794.932> 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 782 1429 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 454 1429 basechar 0
+AnchorPoint: "yfenBelow" 507 -40 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
 AnchorPoint: "isonIndicator" 650 1423 basechar 0
@@ -9305,14 +9305,14 @@ StartChar: petastiDoubleChamili
 Encoding: 57449 57449 105
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -2 37<683.719 912.23> 332.5 28.5<328.502 368.671 871.611 976.738> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
-AnchorPoint: "yfenAbove" 782 1289 basechar 0
-AnchorPoint: "yfenBelow" 729 -210 basechar 0
+AnchorPoint: "yfenAbove" 454 1289 basechar 0
+AnchorPoint: "yfenBelow" 507 -210 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
+AnchorPoint: "heteronConnecting" -80 -49 basechar 0
 AnchorPoint: "psifiston" 784 1 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
 AnchorPoint: "isonIndicator" 650 1293 basechar 0
@@ -9454,14 +9454,14 @@ StartChar: petastiDoubleChamiliApostrofos
 Encoding: 57450 57450 106
 Width: 1236
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -2 37<683.719 912.23> 178 29<592.871 640.233> 332.5 28.5<328.502 368.671 871.611 976.738> 477 21<312.095 375.807> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
 VStem: 1026 149<125.206 271.382>
-AnchorPoint: "yfenAbove" 782 1289 basechar 0
-AnchorPoint: "yfenBelow" 729 -210 basechar 0
+AnchorPoint: "yfenAbove" 454 1289 basechar 0
+AnchorPoint: "yfenBelow" 507 -210 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "endofonon" 772 -287 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" -80 -19 basechar 0
 AnchorPoint: "psifiston" 781 2 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
 AnchorPoint: "isonIndicator" 650 1293 basechar 0
@@ -9624,7 +9624,7 @@ EndChar
 StartChar: gorgonAbove
 Encoding: 57584 57584 107
 Width: 0
-Flags: W
+Flags: HW
 HStem: 977.5 38<-84.5 162.174>
 VStem: -148.5 66.5<828.5 977.5>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -9654,7 +9654,7 @@ EndChar
 StartChar: gorgonBelow
 Encoding: 57585 57585 108
 Width: 0
-Flags: W
+Flags: HW
 HStem: 183.5 38<-90.5 156.174>
 VStem: -154.5 66.5<34.5 183.5>
 AnchorPoint: "gorgonBottom" -121 260 mark 0
@@ -9685,7 +9685,7 @@ StartChar: gorgonDottedLeft
 Encoding: 57586 57586 109
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 927 77<-290 -217> 999 38<-81 165.674> 999 5<-208.86 -205.877>
 VStem: -144.5 66<816.412 827 829 999>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -9731,7 +9731,7 @@ StartChar: digorgon
 Encoding: 57588 57588 110
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 983 37<-183 -1> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -9772,7 +9772,7 @@ StartChar: agogiPoliArgi
 Encoding: 57632 57632 111
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<594.235 709.27> 221.5 92.5<281.35 375.748> 518 35<399 582> 634 37<152 335> 753 38.5<-157.062 89>
 VStem: 89 62.5<673.426 753> 335 63<553.324 634> 582 63.5<403.219 414 414.008 515>
 LayerCount: 2
@@ -9866,7 +9866,7 @@ StartChar: agogiMesi
 Encoding: 57636 57636 112
 Width: 709
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<443.72 559.24> 221.5 92.5<131.67 225.748> 400 219<224.031 287.002 364.998 427.886> 582 38.5<-21.7693 224 428 674.674>
 VStem: 222 65.5<399.303 410 410.008 582> 364 66.5<400.047 410 410.008 582>
 LayerCount: 2
@@ -9955,19 +9955,20 @@ EndChar
 StartChar: oligonKentimaMiddle
 Encoding: 57346 57346 113
 Width: 1794
+Flags: H
 HStem: 246 121<182.719 1326.04> 418 29<1473.32 1515.89>
 VStem: 1473 303
 AnchorPoint: "gorgonBottom" 667 125 basechar 0
-AnchorPoint: "yfenAbove" 930 641 basechar 0
-AnchorPoint: "yfenBelow" 929 -40 basechar 0
+AnchorPoint: "yfenAbove" 864 641 basechar 0
+AnchorPoint: "yfenBelow" 865 -40 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
 AnchorPoint: "isonIndicator" 792 913 basechar 0
-AnchorPoint: "heteronConnecting" 1970 -19 basechar 0
+AnchorPoint: "heteronConnecting" -176 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 323 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
@@ -9990,7 +9991,7 @@ StartChar: gorgonDottedRight
 Encoding: 57587 57587 114
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 938 78<233.358 306.259> 999 38<-81.6426 165.032>
 VStem: -145.643 66.5<816.412 827 829 999>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -10036,7 +10037,7 @@ StartChar: digorgonDottedLeftBelow
 Encoding: 57589 57589 115
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 910 78<-399.999 -327.171> 982 3<-317.898 -315.877> 983 37<-183 -1> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -10092,16 +10093,16 @@ StartChar: tripleChamili
 Encoding: 57391 57391 116
 Width: 1006
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 224 26<511.754 699 805 931.189> 553 26<511.754 699 805 931.189> 883 25<511.754 699 805 931.189>
-AnchorPoint: "yfenAbove" 630 1321 basechar 0
-AnchorPoint: "yfenBelow" 659 -40 basechar 0
+AnchorPoint: "yfenAbove" 376 1321 basechar 0
+AnchorPoint: "yfenBelow" 347 -40 basechar 0
 AnchorPoint: "koronis" 670 1330 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "measureNumber" 172 1363 basechar 0
 AnchorPoint: "isonIndicator" 528 1317 basechar 0
-AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
-AnchorPoint: "omalonConnecting" 1001 89 basechar 0
+AnchorPoint: "heteronConnecting" -278 -19 basechar 0
+AnchorPoint: "omalonConnecting" 5 89 basechar 0
 AnchorPoint: "apli" 575 10 basechar 0
 AnchorPoint: "antikenoma" 571 131 basechar 0
 AnchorPoint: "noteTop" 242 1363 basechar 0
@@ -10237,7 +10238,7 @@ StartChar: agogiArgoteri
 Encoding: 57633 57633 117
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<594.235 709.27> 221.5 92.5<281.35 375.748> 570 40<235 471>
 VStem: 173.5 61.5<610 786> 469.5 65<388 398 400 570>
 LayerCount: 2
@@ -10318,7 +10319,7 @@ StartChar: agogiGorgi
 Encoding: 57637 57637 118
 Width: 618
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<443.72 559.24> 221.5 92.5<131.67 225.748> 582 37<341 587.597>
 VStem: 277 66.5<400.047 410 410.008 582>
 LayerCount: 2
@@ -10391,7 +10392,7 @@ StartChar: agogiArgi
 Encoding: 57634 57634 119
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<594.235 709.27> 221.5 92.5<281.35 375.748> 394 167<515 575.004> 530.5 33.5<329 514> 660 32.5<26.8105 266>
 VStem: 266.5 62<564 660> 514.5 61.5<394 530>
 LayerCount: 2
@@ -10468,7 +10469,7 @@ StartChar: agogiGorgoteri
 Encoding: 57638 57638 120
 Width: 826
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<443.72 559.24> 221.5 92.5<131.67 225.748> 394 167<232.998 294> 530 31<295 480> 660 31<543 781.008>
 VStem: 232 62<394 530> 480 62<564 660>
 LayerCount: 2
@@ -10546,7 +10547,7 @@ StartChar: agogiPoliGorgi
 Encoding: 57639 57639 121
 Width: 1020
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<443.72 559.24> 221.5 92.5<131.67 225.748> 512 37<228 410> 631 37<474 657> 750 37<721 965.002>
 VStem: 163 63<410.008 512> 410 64<551.089 631> 657 64<670.426 750>
 LayerCount: 2
@@ -10639,7 +10640,7 @@ StartChar: agogiMetria
 Encoding: 57635 57635 122
 Width: 608
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -339 112.5<443.72 559.24> 221.5 92.5<131.67 225.748> 582 37<79.3257 326>
 VStem: 324 65.5<409.939 582>
 LayerCount: 2
@@ -10711,7 +10712,7 @@ StartChar: digorgonDottedLeftAbove
 Encoding: 57590 57590 123
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 983 37<-183 -1> 1085 78<-166.999 -93.2194> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -10767,7 +10768,7 @@ StartChar: martyriaNoteZoLow
 Encoding: 57648 57648 124
 Width: 783
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -466 49.5<628.021 702.852> -369 61<674.502 714>
 VStem: 714 33<-410.406 -373.413>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -10827,7 +10828,7 @@ StartChar: martyriaNoteNiLow
 Encoding: 57649 57649 125
 Width: 731
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -459 304
 VStem: 395 59<-226.537 -171.19> 585 38<-266.438 -170.992>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -10870,7 +10871,7 @@ StartChar: martyriaNotePaLow
 Encoding: 57650 57650 126
 Width: 737
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -251 86<507.875 561 578.225 666.572> -243 83<395.316 561>
 VStem: 549 25<-374.586 -266.717>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -10924,7 +10925,7 @@ StartChar: martyriaNoteVouLow
 Encoding: 57651 57651 127
 Width: 701
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -198 30<491.561 535.478>
 VStem: 360 39<-298 -221.914>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -10971,7 +10972,7 @@ StartChar: martyriaNoteGaLow
 Encoding: 57652 57652 128
 Width: 692
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 360 70<-460 -220.322> 586 73<-176 -105.606>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
@@ -10999,7 +11000,7 @@ StartChar: martyriaNoteDiLow
 Encoding: 57653 57653 129
 Width: 738
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -460 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
@@ -11023,7 +11024,7 @@ StartChar: martyriaNoteKeLow
 Encoding: 57654 57654 130
 Width: 744
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -227 53<450.467 511.497>
 VStem: 517 17<-320.158 -241.756>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11076,7 +11077,7 @@ StartChar: martyriaNoteZo
 Encoding: 57655 57655 131
 Width: 783
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 68 49.5<628.021 702.852> 165 61<674.502 714>
 VStem: 714 33<123.594 160.587>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11136,7 +11137,7 @@ StartChar: martyriaNotePa
 Encoding: 57657 57657 132
 Width: 737
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 279 86<507.875 561 578.225 666.572> 287 83<395.316 561>
 VStem: 549 25<155.414 263.283>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11190,7 +11191,7 @@ StartChar: martyriaNoteNi
 Encoding: 57656 57656 133
 Width: 731
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 61 304
 VStem: 395 59<293.463 348.81> 585 38<253.562 349.008>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11233,7 +11234,7 @@ StartChar: martyriaNoteVou
 Encoding: 57658 57658 134
 Width: 701
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 322 30<491.561 535.479>
 VStem: 360 39<222 298.086>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11280,7 +11281,7 @@ StartChar: martyriaNoteNiHigh
 Encoding: 57663 57663 135
 Width: 879
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 61 304 344 206
 VStem: 395 59<293.463 348.81> 585 38<253.562 349.008> 779 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11298,7 +11299,7 @@ StartChar: martyriaNoteGa
 Encoding: 57659 57659 136
 Width: 692
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 360 70<68 306.678> 586 73<351 421.933>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
@@ -11326,7 +11327,7 @@ StartChar: martyriaNoteDi
 Encoding: 57660 57660 137
 Width: 738
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 68 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
@@ -11350,7 +11351,7 @@ StartChar: martyriaNoteKe
 Encoding: 57661 57661 138
 Width: 746
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 319 53<401.498 463.497>
 VStem: 465 21<225.842 312.75>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11403,7 +11404,7 @@ StartChar: martyriaNoteZoHigh
 Encoding: 57662 57662 139
 Width: 931
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 68 49.5<628.021 702.852> 165 61<674.502 714> 344 206
 VStem: 714 33<123.594 160.587> 831 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11421,7 +11422,7 @@ StartChar: martyriaNotePaHigh
 Encoding: 57664 57664 140
 Width: 885
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 279 86<507.875 561 578.225 666.572> 287 83<395.316 561> 344 206
 VStem: 549 25<155.414 263.283> 785 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11439,7 +11440,7 @@ StartChar: martyriaNoteVouHigh
 Encoding: 57665 57665 141
 Width: 849
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 322 30<491.561 535.479> 344 206
 VStem: 360 39<222 298.086> 749 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11457,7 +11458,7 @@ StartChar: martyriaNoteGaHigh
 Encoding: 57666 57666 142
 Width: 840
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 344 206
 VStem: 360 70<68 306.678> 586 73<351 421.933> 740 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11475,7 +11476,7 @@ StartChar: martyriaNoteDiHigh
 Encoding: 57667 57667 143
 Width: 886
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 68 45<414 626> 344 206
 VStem: 786 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11493,7 +11494,7 @@ StartChar: martyriaNoteKeHigh
 Encoding: 57668 57668 144
 Width: 894
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 319 53<401.498 463.497> 344 206
 VStem: 465 21<225.842 312.75> 794 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
@@ -11511,7 +11512,7 @@ StartChar: martyriaTick
 Encoding: 57669 57669 145
 Width: 148
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 344 206
 VStem: 48 77<467.087 542.068>
 LayerCount: 2
@@ -11535,7 +11536,7 @@ StartChar: oligonKentimataBelow.alt01
 Encoding: 61440 61440 146
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -17 19<1105.37 1132.84> 157 23<596.76 633.897 841.865 886.411> 246 121<168.527 1311.04>
 AnchorPoint: "barline" 277 590 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
@@ -11616,7 +11617,7 @@ StartChar: oligonKentimataAbove.alt01
 Encoding: 61441 61441 147
 Width: 1465
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 246 121<182.719 1282.04> 463 20<992.949 1021.84> 641 21<485.137 519.998 731.066 768.424>
 AnchorPoint: "psifiston" 840 113 basechar 0
 LayerCount: 2
@@ -11686,7 +11687,7 @@ StartChar: antikenoma.alt01
 Encoding: 61442 61442 148
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 32 40<-543.1 -485.136> 55 30.5<-445.337 121.36>
 AnchorPoint: "antikenoma" 0 88 mark 0
 LayerCount: 2
@@ -11726,14 +11727,14 @@ StartChar: petastiKentimaTripleYpsili
 Encoding: 57422 57422 149
 Width: 1439
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 133.5 38<683.719 914.868> 469.5 28.5<328.502 368.671 871.611 976.738> 653 23<30.5352 112.81 914.422 996.385> 681 26<466.819 501.739> 868 19<559.08 633.875> 1190 32<446.297 483.934 1330.22 1367.93> 1321 27<943.51 978.934>
 VStem: 1025.5 149.5<261.907 407.969>
-AnchorPoint: "yfenAbove" 792 1439 basechar 0
-AnchorPoint: "yfenBelow" 729 -40 basechar 0
+AnchorPoint: "yfenAbove" 647 1439 basechar 0
+AnchorPoint: "yfenBelow" 710 -40 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
-AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
+AnchorPoint: "heteronConnecting" 123 -19 basechar 0
 AnchorPoint: "yfesis" 1213 613 basechar 0
 AnchorPoint: "psifiston" 795 140 basechar 0
 AnchorPoint: "measureNumber" 173 1240 basechar 0
@@ -11896,7 +11897,7 @@ StartChar: vareia
 Encoding: 57504 57504 150
 Width: 534
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -72 15<533.252 579.418>
 LayerCount: 2
 Fore
@@ -11929,7 +11930,7 @@ StartChar: psifiston
 Encoding: 57505 57505 151
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 101.5 48.5<-157.168 128.104> 426 31<664.058 728.401>
 AnchorPoint: "psifiston" -1 458 mark 0
 LayerCount: 2
@@ -11973,7 +11974,7 @@ StartChar: antikenoma
 Encoding: 57506 57506 152
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -205 14.5<378.546 399.316> 54 28<-352.079 -158.376 16.624 248.825>
 AnchorPoint: "antikenoma" 8 113 mark 0
 LayerCount: 2
@@ -12012,7 +12013,7 @@ StartChar: omalon
 Encoding: 57507 57507 153
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -88 45<-579.5 380> 38 29<569.591 612.201>
 AnchorPoint: "omalon" 0 67 mark 0
 LayerCount: 2
@@ -12049,7 +12050,7 @@ StartChar: omalonConnecting
 Encoding: 57508 57508 154
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -88 45<-579.5 380> 38 29<569.591 612.201>
 AnchorPoint: "omalonConnecting" 0 67 mark 0
 LayerCount: 2
@@ -12086,7 +12087,7 @@ StartChar: heteron
 Encoding: 57509 57509 155
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 451.951 154<-243.753 -143.633>
 AnchorPoint: "heteron" 1 -20 mark 0
 LayerCount: 2
@@ -12131,7 +12132,7 @@ StartChar: heteronConnecting
 Encoding: 57510 57510 156
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 451.951 154<-243.753 -143.633>
 AnchorPoint: "heteronConnecting" 0 -19 mark 0
 LayerCount: 2
@@ -12177,7 +12178,7 @@ StartChar: stavros
 Encoding: 57536 57536 157
 Width: 457
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 276 45<90 240 286 436>
 VStem: 240 46<126.035 276 321 471>
 LayerCount: 2
@@ -12211,7 +12212,7 @@ StartChar: klasmaAbove
 Encoding: 57552 57552 158
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 AnchorPoint: "klasmaTop" 84 604 mark 0
 LayerCount: 2
 Fore
@@ -12244,7 +12245,7 @@ StartChar: klasmaBelow
 Encoding: 57553 57553 159
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 AnchorPoint: "klasmaBottom" 0 201 mark 0
 LayerCount: 2
 Fore
@@ -12277,7 +12278,7 @@ StartChar: apli
 Encoding: 57554 57554 160
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -109 108<-48.6037 48.9475> -108 30<-61.6676 -54.635>
 VStem: -68.3418 135
 AnchorPoint: "apli" 0 0 mark 0
@@ -12306,7 +12307,7 @@ StartChar: dipli
 Encoding: 57555 57555 161
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -109 108<-161.561 -63.558 63.4638 161.727>
 AnchorPoint: "apli" 0 0 mark 0
 LayerCount: 2
@@ -12349,7 +12350,7 @@ StartChar: tripli
 Encoding: 57556 57556 162
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -109 108<-267.603 -170.053 -48.3155 48.6923 170.397 267.408>
 AnchorPoint: "apli" 0 0 mark 0
 LayerCount: 2
@@ -12407,7 +12408,7 @@ StartChar: tetrapli
 Encoding: 57557 57557 163
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -109 108<-372.603 -275.053 -153.316 -56.3077 65.3966 162.408 275.397 372.408>
 AnchorPoint: "apli" 0 0 mark 0
 LayerCount: 2
@@ -12480,7 +12481,7 @@ StartChar: leimma1
 Encoding: 57568 57568 164
 Width: 610
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -72 15<533.252 579.418> 366 108<418.763 517.237> 466 8<529.304 534.904>
 AnchorPoint: "gorgonTop" 585 563 basechar 0
 LayerCount: 2
@@ -12529,7 +12530,7 @@ StartChar: leimma2
 Encoding: 57569 57569 165
 Width: 781
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -72 15<533.252 579.418> 366 108<418.763 517.237 618.763 717.237> 466 8<529.304 534.904 729.304 734.904>
 LayerCount: 2
 Fore
@@ -12592,7 +12593,7 @@ StartChar: leimma3
 Encoding: 57570 57570 166
 Width: 976
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -72 15<533.252 579.418> 366 108<418.763 517.237 618.763 717.237 808.763 907.237> 466 8<529.304 534.904 729.304 734.904 919.304 924.904>
 LayerCount: 2
 Fore
@@ -12670,7 +12671,7 @@ StartChar: leimma4
 Encoding: 57571 57571 167
 Width: 1166
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -72 15<533.252 579.418> 366 108<418.763 517.237 618.763 717.237 808.763 907.237 998.763 1097.24> 466 8<529.304 534.904 729.304 734.904 919.304 924.904 1109.3 1114.9>
 LayerCount: 2
 Fore
@@ -12763,7 +12764,7 @@ StartChar: digorgonDottedRight
 Encoding: 57591 57591 168
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 986 35<-182 0> 1078 78<379.001 452.999> 1140 34<65 310.914> 1151 5<460.086 462.608>
 VStem: -248 67.5<848.008 986> 0 67<1023.21 1140>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -12820,7 +12821,7 @@ StartChar: trigorgon
 Encoding: 57592 57592 169
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 925 37<-314 -131> 1044 38<-67 116> 1164 37<180 425.727>
 VStem: -379 65<813.128 824 824.008 925> -130.5 63.5<965.089 1044> 117 63<1084 1164>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -12873,7 +12874,7 @@ StartChar: trigorgonDottedLeftBelow
 Encoding: 57593 57593 170
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 860 78<-533.999 -461> 924 37<-315 -133> 1043 38<-69 114> 1163 37<178 423.727>
 VStem: -380 65<812.128 823 823.008 924> -132.5 63.5<964.089 1043> 115 63<1083.43 1163>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -12941,7 +12942,7 @@ StartChar: trigorgonDottedLeftAbove
 Encoding: 57594 57594 171
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 924 37<-317 -134> 1043 38<-70 113> 1146 77<-54.9994 18.0781> 1163 37<177 422.727>
 VStem: -382 65<812.128 823 823.008 924> -133.5 63.5<964.089 1043> 114 63<1083 1163>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -13009,7 +13010,7 @@ StartChar: trigorgonDottedRight
 Encoding: 57595 57595 172
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 923 37<-320 -137> 1042 38<-73 110> 1103 78<488.001 560.781> 1162 37<174 419.727>
 VStem: -385 65<811.128 822 822.008 923> -136.5 63.5<963.089 1042> 111 63<1082 1162>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -13077,7 +13078,7 @@ StartChar: argon
 Encoding: 57596 57596 173
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 989 40<-196.897 52>
 VStem: 50 66<806.033 817 819 989>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -13108,7 +13109,7 @@ StartChar: diargon
 Encoding: 57597 57597 174
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 989 40<-120 116>
 VStem: -182 62<1029 1204> 114 66<806.033 817 819 989>
 AnchorPoint: "gorgonTop" -1 800 mark 0
@@ -13148,7 +13149,7 @@ StartChar: triargon
 Encoding: 57598 57598 175
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 968 36<-37 146> 1130 38.5<-348.062 -102>
 VStem: -104 67<1004.65 1130> 144.5 67.5<805.412 816 816.008 965>
 AnchorPoint: "gorgonTop" 0 800 mark 0
@@ -13190,7 +13191,7 @@ StartChar: martyriaZoBelow
 Encoding: 57680 57680 176
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -185.5 35.5<-34.0765 88.0135> 49 35<442.921 510.261>
 AnchorPoint: "martyriaBottom" 2 108 mark 0
 LayerCount: 2
@@ -13240,7 +13241,7 @@ StartChar: martyriaDeltaBelow
 Encoding: 57681 57681 177
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 214 71<-47.8773 39.8045>
 VStem: -91.7227 30<1.57296 198.232> -76.7227 15<-61.4697 70.5964> 39.2773 80<67.6594 210.176> 125.277 83<-169.5 36.6562>
 AnchorPoint: "martyriaBottom" 2 298 mark 0
@@ -13300,7 +13301,7 @@ StartChar: martyriaAlphaBelow
 Encoding: 57682 57682 178
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -138.216 55.5<121.226 237.713> 63.2842 60<-177.904 87.8907> 94.7842 44<264 317.235>
 AnchorPoint: "martyriaBottom" 2 328 mark 0
 LayerCount: 2
@@ -13341,7 +13342,7 @@ StartChar: martyriaLegetosBelow
 Encoding: 57683 57683 179
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -236.182 71<170.918 260.062>
 AnchorPoint: "martyriaBottom" 2 298 mark 0
 LayerCount: 2
@@ -13379,7 +13380,7 @@ StartChar: martyriaNanaBelow
 Encoding: 57684 57684 180
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -200 34.5<-34.4438 13.7572 248.419 295.938>
 VStem: -143.055 93<-130.952 144.724> 137.945 95<-129.588 143.875>
 AnchorPoint: "martyriaBottom" 2 248 mark 0
@@ -13429,7 +13430,7 @@ StartChar: martyriaDeltaDottedBelow
 Encoding: 57685 57685 181
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 214 71<-47.8773 39.8045>
 VStem: -91.7227 30<1.57296 198.232> -76.7227 15<-61.4697 70.5964> 39.2773 80<67.6594 210.176> 125.277 83<-169.5 36.6562>
 AnchorPoint: "martyriaBottom" 2 398 mark 0
@@ -13499,7 +13500,7 @@ StartChar: martyriaAlphaDottedBelow
 Encoding: 57686 57686 182
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -138.216 55.5<121.226 237.713> 63.2842 60<-177.904 87.8907> 94.7842 44<264 317.235>
 AnchorPoint: "martyriaBottom" 1 427 mark 0
 LayerCount: 2
@@ -13550,7 +13551,7 @@ StartChar: martyriaHardChromaticPaBelow
 Encoding: 57687 57687 183
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -352.13 89<38.7187 126.274>
 AnchorPoint: "martyriaBottom" 2 138 mark 0
 LayerCount: 2
@@ -13586,7 +13587,7 @@ StartChar: martyriaHardChromaticDiBelow
 Encoding: 57688 57688 184
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -89 31<-52.264 52.3769> 136 31<-52.874 52.7236>
 VStem: -127.001 30<-12.6795 90.5591> 97.999 30<-12.0471 90.159>
 AnchorPoint: "martyriaBottom" 2 298 mark 0
@@ -13628,7 +13629,7 @@ StartChar: martyriaSoftChromaticDiBelow
 Encoding: 57689 57689 185
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 42 62<-90.2141 -30.0457 47.7859 108.64>
 VStem: -352.13 89<38.7187 126.274> -91.1299 62<42.9157 103.084> 46.8701 63<42.9157 102.91>
 AnchorPoint: "martyriaBottom" 2 138 mark 0
@@ -13674,7 +13675,7 @@ EndChar
 StartChar: martyriaSoftChromaticKeBelow
 Encoding: 57690 57690 186
 Width: 0
-Flags: W
+Flags: HW
 HStem: 896 26<-49.9792 44.4144> 1107 25<-48.7502 43.5385>
 VStem: -120.567 25<967.491 1060.18> 90.4326 25<968.264 1059.92>
 AnchorPoint: "martyriaBottom" 2 263 mark 0
@@ -13727,7 +13728,7 @@ EndChar
 StartChar: martyriaZygosBelow
 Encoding: 57691 57691 187
 Width: 0
-Flags: W
+Flags: HW
 HStem: -114 26<-44.7064 49.9817> 98 26<-43.6787 49.3496>
 VStem: -116 25<-42.1052 49.5966> 96 25<-41.3751 50.5481>
 AnchorPoint: "martyriaBottom" 0 244 mark 0
@@ -13781,7 +13782,7 @@ StartChar: martyriaZoAbove
 Encoding: 57712 57712 188
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -185.5 35.5<-34.0765 88.0135> 49 35<442.921 510.261>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
 LayerCount: 2
@@ -13831,7 +13832,7 @@ StartChar: martyriaDeltaAbove
 Encoding: 57713 57713 189
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 214 71<-47.8773 39.8045>
 VStem: -91.7227 30<1.57296 198.232> -76.7227 15<-61.4697 70.5964> 39.2773 80<67.6594 210.176> 125.277 83<-169.5 36.6562>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
@@ -13891,7 +13892,7 @@ StartChar: martyriaAlphaAbove
 Encoding: 57714 57714 190
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -138.216 55.5<121.226 237.713> 63.2842 60<-177.904 87.8907> 94.7842 44<264 317.235>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
 LayerCount: 2
@@ -13932,7 +13933,7 @@ StartChar: martyriaLegetosAbove
 Encoding: 57715 57715 191
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -236.182 71<170.918 260.062>
 AnchorPoint: "martyriaTop" 2 -143 mark 0
 LayerCount: 2
@@ -13970,7 +13971,7 @@ StartChar: martyriaNanaAbove
 Encoding: 57716 57716 192
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -200 34.5<-34.4438 13.7572 248.419 295.938>
 VStem: -143.055 93<-130.952 144.724> 137.945 95<-129.588 143.875>
 AnchorPoint: "martyriaTop" 2 -204 mark 0
@@ -14020,7 +14021,7 @@ StartChar: martyriaDeltaDottedAbove
 Encoding: 57717 57717 193
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 214 71<-47.8773 39.8045> 332 62<-91.0843 -30.9157 46.9157 107.77>
 VStem: -92 62<332.916 393.084> -91.7227 30<1.57296 198.232> -76.7227 15<-61.4697 70.5964> 39.2773 80<67.6594 210.176> 46 63<332.916 392.91> 125.277 83<-169.5 36.6562>
 AnchorPoint: "martyriaTop" 2 -199 mark 0
@@ -14090,7 +14091,7 @@ StartChar: martyriaAlphaDottedAbove
 Encoding: 57718 57718 194
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 367 62<-98.0843 -37.9157 39.9157 100.77>
 VStem: -138.216 55.5<121.226 237.713> -99 62<367.916 428.084> 39 63<367.916 427.91> 63.2842 60<-177.904 87.8907> 94.7842 44<264 317.235>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
@@ -14143,7 +14144,7 @@ StartChar: martyriaHardChromaticPaAbove
 Encoding: 57719 57719 195
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -352.13 89<38.7187 126.274>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
 LayerCount: 2
@@ -14179,7 +14180,7 @@ StartChar: martyriaHardChromaticDiAbove
 Encoding: 57720 57720 196
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -89 31<-52.264 52.3769> 136 31<-52.874 52.7236>
 VStem: -127.001 30<-12.6795 90.5591> 97.999 30<-12.0471 90.159>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
@@ -14221,7 +14222,7 @@ StartChar: martyriaSoftChromaticDiAbove
 Encoding: 57721 57721 197
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 42 62<-90.2141 -30.0457 47.7859 108.64>
 VStem: -352.13 89<38.7187 126.274> -91.1299 62<42.9157 103.084> 46.8701 63<42.9157 102.91>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
@@ -14267,7 +14268,7 @@ EndChar
 StartChar: martyriaSoftChromaticKeAbove
 Encoding: 57722 57722 198
 Width: 0
-Flags: W
+Flags: HW
 HStem: -104 26<-49.9792 44.4144> 107 25<-48.7502 43.5385>
 VStem: -120.567 25<-32.5093 60.1833> 90.4326 25<-31.736 59.9187>
 AnchorPoint: "martyriaTop" 2 -192 mark 0
@@ -14320,7 +14321,7 @@ EndChar
 StartChar: martyriaZygosAbove
 Encoding: 57723 57723 199
 Width: 0
-Flags: W
+Flags: HW
 HStem: 906 26<-44.7064 49.9817> 1118 26<-43.6787 49.3496>
 VStem: -116 25<977.895 1069.6> 96 25<978.625 1070.55>
 AnchorPoint: "martyriaTop" 0 -199 mark 0
@@ -14373,7 +14374,7 @@ EndChar
 StartChar: fthoraDiatonicNiLowAbove
 Encoding: 57744 57744 200
 Width: 0
-Flags: W
+Flags: HW
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
 VStem: -163.312 25<940.316 1031.03> 45.6885 25<939.996 1032>
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
@@ -14425,7 +14426,7 @@ EndChar
 StartChar: fthoraDiatonicPaAbove
 Encoding: 57745 57745 201
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1014 26<-47.1909 46.8635>
 VStem: -118 26<875.126 969.03> -13 26<656.029 807.258> 92 26<875.126 970.002>
 CounterMasks: 1 70
@@ -14462,7 +14463,7 @@ EndChar
 StartChar: fthoraDiatonicVouAbove
 Encoding: 57746 57746 202
 Width: 0
-Flags: W
+Flags: HW
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
 AnchorPoint: "agogiAboveFthora" -1 1296 basemark 0
@@ -14517,7 +14518,7 @@ EndChar
 StartChar: fthoraDiatonicGaAbove
 Encoding: 57747 57747 203
 Width: 0
-Flags: W
+Flags: HW
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
 AnchorPoint: "agogiAboveFthora" -1 1216 basemark 0
 AnchorPoint: "fthoraTop" 0 684 mark 0
@@ -14556,7 +14557,7 @@ EndChar
 StartChar: fthoraDiatonicDiAbove
 Encoding: 57748 57748 204
 Width: 0
-Flags: W
+Flags: HW
 HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
 VStem: -115.819 25<883.456 976.344> 93.6807 25<883.047 975.544>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
@@ -14596,7 +14597,7 @@ EndChar
 StartChar: fthoraDiatonicKeAbove
 Encoding: 57749 57749 205
 Width: 0
-Flags: W
+Flags: HW
 HStem: 802 25<-45.6833 46.3909>
 VStem: -117.5 25<873.327 963.999> -12.5 25<1034.03 1182.98> 91.5 26<871.88 966.019>
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
@@ -14632,7 +14633,7 @@ EndChar
 StartChar: fthoraDiatonicZoAbove
 Encoding: 57750 57750 206
 Width: 0
-Flags: W
+Flags: HW
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
 AnchorPoint: "agogiAboveFthora" -1 1356 basemark 0
 AnchorPoint: "fthoraTop" 0 624 mark 0
@@ -14703,7 +14704,7 @@ EndChar
 StartChar: fthoraDiatonicNiHighAbove
 Encoding: 57751 57751 207
 Width: 0
-Flags: W
+Flags: HW
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
@@ -14762,7 +14763,7 @@ EndChar
 StartChar: fthoraHardChromaticPaAbove
 Encoding: 57752 57752 208
 Width: 0
-Flags: W
+Flags: HW
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
 AnchorPoint: "agogiAboveFthora" -1 1125 basemark 0
@@ -14821,7 +14822,7 @@ EndChar
 StartChar: fthoraHardChromaticDiAbove
 Encoding: 57753 57753 209
 Width: 0
-Flags: W
+Flags: HW
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
@@ -14861,7 +14862,7 @@ EndChar
 StartChar: fthoraSoftChromaticDiAbove
 Encoding: 57754 57754 210
 Width: 0
-Flags: W
+Flags: HW
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
@@ -14921,7 +14922,7 @@ EndChar
 StartChar: fthoraSoftChromaticKeAbove
 Encoding: 57755 57755 211
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
@@ -14975,7 +14976,7 @@ EndChar
 StartChar: fthoraEnharmonicAbove
 Encoding: 57756 57756 212
 Width: 0
-Flags: W
+Flags: HW
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
@@ -15021,7 +15022,7 @@ EndChar
 StartChar: chroaZygosAbove
 Encoding: 57757 57757 213
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
@@ -15075,7 +15076,7 @@ EndChar
 StartChar: chroaKlitonAbove
 Encoding: 57758 57758 214
 Width: 0
-Flags: W
+Flags: HW
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
 AnchorPoint: "agogiAboveFthora" -1 1225 basemark 0
@@ -15127,7 +15128,7 @@ EndChar
 StartChar: fthoraDiatonicNiLowBelow
 Encoding: 57792 57792 215
 Width: 0
-Flags: W
+Flags: HW
 HStem: -106 27<66.129 88.6998> -103.5 92.5<103.688 152.757> 19 25<-91.8469 0.51283> 228 25<-91.4949 0.51283>
 VStem: -163.312 25<90.3157 181.028> 45.6885 25<89.9962 182.004>
 AnchorPoint: "fthoraBottom" 0 264 mark 0
@@ -15179,7 +15180,7 @@ StartChar: fthoraDiatonicPaBelow
 Encoding: 57793 57793 216
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 214 26<-47.1909 46.8635>
 VStem: -118 26<75.1259 169.03> -13 26<-143.971 7.25821> 92 26<75.1259 170.002>
 AnchorPoint: "fthoraBottom" 0 244 mark 0
@@ -15215,7 +15216,7 @@ StartChar: fthoraDiatonicVouBelow
 Encoding: 57794 57794 217
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: -165 95<79.3424 159.602> 16.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<-158.874 -75.4122>
 AnchorPoint: "fthoraBottom" 0 471 mark 0
@@ -15270,7 +15271,7 @@ StartChar: fthoraDiatonicGaBelow
 Encoding: 57795 57795 218
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 VStem: -119.5 26<78.9287 174.779> -12.5 25<-112.449 9.70302 244.03 365.922> 94.5 25<81.4012 173.181>
 AnchorPoint: "fthoraBottom" 0 374 mark 0
 LayerCount: 2
@@ -15309,7 +15310,7 @@ StartChar: fthoraDiatonicDiBelow
 Encoding: 57796 57796 219
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 2.5 25<-46.3193 47.7236> 212 25<-45.3625 47.7236>
 VStem: -115.819 25<73.4562 166.344> 93.6807 25<73.047 165.544>
 AnchorPoint: "fthoraBottom" 0 314 mark 0
@@ -15349,7 +15350,7 @@ StartChar: fthoraDiatonicKeBelow
 Encoding: 57797 57797 220
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 2 25<-45.6833 46.3909>
 VStem: -117.5 25<73.3266 163.999> -12.5 25<234.03 382.976> 91.5 26<71.8797 166.019>
 AnchorPoint: "fthoraBottom" 0 394 mark 0
@@ -15385,7 +15386,7 @@ StartChar: fthoraDiatonicZoBelow
 Encoding: 57798 57798 221
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 VStem: 35.8506 27<461.219 505.987> 49.8506 25.5<386.549 431>
 AnchorPoint: "fthoraBottom" 0 514 mark 0
 LayerCount: 2
@@ -15456,7 +15457,7 @@ StartChar: fthoraDiatonicNiHighBelow
 Encoding: 57799 57799 222
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: -77 25<46.0952 83.8223> -74 83<99.1318 144.954> 66 22<-87.7601 -6.02455> 253 23<-88.9574 -26.8671>
 VStem: -152.868 23<129.937 212.163> 1.13184 24<350 365.389> 36.1318 22<130.156 211.416>
 AnchorPoint: "fthoraBottom" 0 374 mark 0
@@ -15515,7 +15516,7 @@ StartChar: fthoraHardChromaticPaBelow
 Encoding: 57800 57800 223
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 13 28<-54.451 51.516> 70 68<-325.556 -268.434> 160 67<267.17 324.361> 256 28<-54.7695 52.335>
 VStem: -368.971 102<83.4211 139.835> -136.971 27<96.7525 160> 107.029 27<138.018 199.45> 266.029 101<157.874 214.891>
 AnchorPoint: "fthoraBottom" 0 294 mark 0
@@ -15574,7 +15575,7 @@ StartChar: fthoraHardChromaticDiBelow
 Encoding: 57801 57801 224
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 17 25<-47.5108 43.7919> 225 25<-47.8488 43.8938>
 VStem: -117.752 24<88.8032 178.197> 89.248 25<87.8492 179.131>
 AnchorPoint: "fthoraBottom" 0 334 mark 0
@@ -15614,7 +15615,7 @@ StartChar: fthoraSoftChromaticDiBelow
 Encoding: 57802 57802 225
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 0 88<325.155 384.979> 31 27<-72.2769 34.1637> 157 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 277 27<-71.3883 34.3377>
 VStem: -154.861 28<110.33 157 178 222.045> 90.1387 27<178 222.045> 308.139 99.5<6.4576 79.5928>
 AnchorPoint: "fthoraBottom" 0 314 mark 0
@@ -15674,7 +15675,7 @@ StartChar: fthoraSoftChromaticKeBelow
 Encoding: 57803 57803 226
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 6 26<-49.9792 44.4144> 217 25<-48.7502 43.5385>
 VStem: -120.567 25<77.4907 170.183> 90.4326 25<78.264 169.919>
 AnchorPoint: "fthoraBottom" 0 364 mark 0
@@ -15728,7 +15729,7 @@ StartChar: fthoraEnharmonicBelow
 Encoding: 57804 57804 227
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 56 25<49.6323 141.713> 264 25<49.8839 141.713>
 VStem: -201.112 74<-23.156 43.775> -21.1123 25<126.129 217.911> 186.888 25<126.176 218.32>
 AnchorPoint: "fthoraBottom" 0 294 mark 0
@@ -15774,7 +15775,7 @@ StartChar: chroaZygosBelow
 Encoding: 57805 57805 228
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 6 26<-44.7064 49.9817> 218 26<-43.6787 49.3496>
 VStem: -116 25<77.8948 169.597> 96 25<78.6249 170.548>
 AnchorPoint: "fthoraBottom" 0 354 mark 0
@@ -15828,7 +15829,7 @@ StartChar: chroaKlitonBelow
 Encoding: 57806 57806 229
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 44 25<24.5114 116.817> 256 26<23.1953 118.708>
 VStem: -231.425 75<-36.6405 30.9697> -48.4248 26<114.861 210.381> 164.575 26<115.834 210.393>
 AnchorPoint: "fthoraBottom" 0 394 mark 0
@@ -15879,7 +15880,7 @@ EndChar
 StartChar: diesis2
 Encoding: 57840 57840 230
 Width: 0
-Flags: W
+Flags: HW
 HStem: 290 24<-63.637 25.8165> 492 25<-64.3935 27.4842>
 VStem: -132 25<357.169 448.582> 70 25<357.169 448.65>
 AnchorPoint: "diesis" 196 612 mark 0
@@ -15916,7 +15917,7 @@ EndChar
 StartChar: diesis4
 Encoding: 57841 57841 231
 Width: 0
-Flags: W
+Flags: HW
 HStem: 354 25<-81.9631 9.17496> 560 25<-80.8523 9.21251>
 VStem: -152 25<423.355 514.175> 55 25<424.323 514.306>
 AnchorPoint: "diesis" 177 682 mark 0
@@ -15963,7 +15964,7 @@ EndChar
 StartChar: diesis6
 Encoding: 57842 57842 232
 Width: 0
-Flags: W
+Flags: HW
 HStem: 324 26<-112.12 -18.8392> 532 25<-111.32 -19.9004>
 VStem: -182 25<395.439 485.852> 25 26<394.321 487.316>
 AnchorPoint: "diesis" 152 652 mark 0
@@ -16020,7 +16021,7 @@ StartChar: diesis8
 Encoding: 57843 57843 233
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 203 26<-270.233 -174.968> 415 26<-270.233 -175.588>
 VStem: -343 26<274.785 368.566> -130 26<273.968 369.414>
 AnchorPoint: "diesis" 12 553 mark 0
@@ -16087,7 +16088,7 @@ EndChar
 StartChar: yfesis2
 Encoding: 57856 57856 234
 Width: 0
-Flags: W
+Flags: HW
 HStem: 546 25<-45.9977 44.8165> 752 24<-43.9577 43.7252>
 VStem: -116 26<614.237 707.208> 89 25<615.538 706.897>
 AnchorPoint: "yfesis" -213 452 mark 0
@@ -16124,7 +16125,7 @@ EndChar
 StartChar: yfesis4
 Encoding: 57857 57857 235
 Width: 0
-Flags: W
+Flags: HW
 HStem: 524 25<32.4338 124.931> 729 25<33.0045 124.14>
 VStem: -37 25<593.365 684.312> 169 25<593.043 684.312>
 AnchorPoint: "yfesis" -134 429 mark 0
@@ -16171,7 +16172,7 @@ EndChar
 StartChar: yfesis6
 Encoding: 57858 57858 236
 Width: 0
-Flags: W
+Flags: HW
 HStem: 547 25<11.6005 103.645> 754 25<11.9962 103.712>
 VStem: -59 25<617.361 707.852> 148 26<615.6 710.068>
 AnchorPoint: "yfesis" -153 456 mark 0
@@ -16228,7 +16229,7 @@ StartChar: yfesis8
 Encoding: 57859 57859 237
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 552 26<28.8291 123.697> 764 26<28.9517 123.697>
 VStem: -43 26<623.586 718.048> 169 26<623.952 718.048>
 AnchorPoint: "yfesis" -159 440 mark 0
@@ -16295,7 +16296,7 @@ EndChar
 StartChar: diesisGenikiAbove
 Encoding: 57844 57844 238
 Width: 0
-Flags: W
+Flags: HW
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
 AnchorPoint: "fthoraTop" 0 804 mark 0
@@ -16342,7 +16343,7 @@ EndChar
 StartChar: yfesisGenikiAbove
 Encoding: 57860 57860 239
 Width: 0
-Flags: W
+Flags: HW
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
 AnchorPoint: "fthoraTop" 0 634 mark 0
@@ -16390,7 +16391,7 @@ StartChar: diesisGenikiBelow
 Encoding: 57845 57845 240
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: 8 26<-47.5588 48.4774> 319 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<79.3693 174.764> -10.5 27<245.099 317 346 429.454> 94 25.5<80.0107 173.25>
 AnchorPoint: "fthoraBottom" 0 444 mark 0
@@ -16438,7 +16439,7 @@ StartChar: yfesisGenikiBelow
 Encoding: 57861 57861 241
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: -95 27<-95.9506 -11.5 15.5 99.4658> 216 26<-47.5588 48.4774>
 VStem: -119.5 25.5<75.5056 169.494> -11.5 27<-177.599 -95 -67 5.88077> 94.5 25<75.6443 168.413>
 AnchorPoint: "fthoraBottom" 0 250 mark 0
@@ -16485,7 +16486,7 @@ EndChar
 StartChar: noteIndicatorNi
 Encoding: 57936 57936 242
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1075 57<-120.131 -73.5187>
 VStem: 80.7471 41<1020.94 1125.29>
 AnchorPoint: "noteTop" 0 800 mark 0
@@ -16523,7 +16524,7 @@ EndChar
 StartChar: noteIndicatorPa
 Encoding: 57937 57937 243
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1015 76<24.4375 45.4375 58.3834 150.17> 1019 82<-118.36 45.4375>
 VStem: 33.4375 25<890.509 1008.08>
 AnchorPoint: "noteTop" 0 800 mark 0
@@ -16573,7 +16574,7 @@ EndChar
 StartChar: noteIndicatorVou
 Encoding: 57938 57938 244
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1053 27<8.3539 57.4269>
 VStem: -99.083 34<962 1029.15>
 AnchorPoint: "noteTop" 0 800 mark 0
@@ -16615,7 +16616,7 @@ EndChar
 StartChar: noteIndicatorGa
 Encoding: 57939 57939 245
 Width: 0
-Flags: W
+Flags: HW
 VStem: -141 66<809 1034.67> 71 70<1076 1142.87>
 AnchorPoint: "noteTop" 0 800 mark 0
 LayerCount: 2
@@ -16639,7 +16640,7 @@ EndChar
 StartChar: noteIndicatorDi
 Encoding: 57940 57940 246
 Width: 0
-Flags: W
+Flags: HW
 HStem: 800 30<-105 77>
 VStem: -144 288
 AnchorPoint: "noteTop" 0 800 mark 0
@@ -16660,7 +16661,7 @@ EndChar
 StartChar: noteIndicatorKe
 Encoding: 57941 57941 247
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1075 57<-143.236 -72.4442>
 VStem: -67.1904 18.5<977.874 1062.09>
 AnchorPoint: "noteTop" 0 800 mark 0
@@ -16708,7 +16709,7 @@ EndChar
 StartChar: noteIndicatorZo
 Encoding: 57942 57942 248
 Width: 0
-Flags: W
+Flags: HW
 VStem: 113.5 40<859 915.618>
 AnchorPoint: "noteTop" 0 800 mark 0
 LayerCount: 2
@@ -16750,7 +16751,7 @@ StartChar: chroaSpathiBelow
 Encoding: 57807 57807 249
 Width: 0
 VWidth: 200
-Flags: W
+Flags: HW
 HStem: -2 87<314.956 385.479> 30 28<-78.3969 29.3409> 155 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 274 27<-76.629 28.5457>
 VStem: -158.361 27<110.459 155 176 218.533> 83.6387 27<176 219.943> 197.639 24<63.3924 152 173 264.966>
 AnchorPoint: "fthoraBottom" 0 304 mark 0
@@ -16824,7 +16825,7 @@ EndChar
 StartChar: chroaSpathiAbove
 Encoding: 57759 57759 250
 Width: 0
-Flags: W
+Flags: HW
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
 AnchorPoint: "agogiAboveFthora" -1 1136 basemark 0
@@ -16900,7 +16901,7 @@ StartChar: measureNumber3
 Encoding: 57889 57889 251
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 644 32<-42.5775 39.2163> 802 28<-23 26.8895> 931 32<-41.5999 33.1969>
 VStem: -102 38<693.68 732.921 880.833 913.05> 47 40<843.158 919.241> 61 41<694.326 785.589>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -16945,7 +16946,7 @@ StartChar: measureNumber4
 Encoding: 57890 57890 252
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 721 37<-72 28 68 111>
 VStem: 28 40<644 721 758 903>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -16975,7 +16976,7 @@ StartChar: measureNumber5
 Encoding: 57891 57891 253
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 643 32<-42.6872 39.0081> 821 33<-47.7507 41.5392> 918 36<-35 88>
 VStem: -103 40<690.871 730.525> 63 40<695.617 802.076>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -17012,7 +17013,7 @@ StartChar: measureNumber6
 Encoding: 57892 57892 254
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 643 32<-35.0688 42.253> 817 34<-39.3789 43.8085> 930 32<-32.0007 44.4985>
 VStem: -103 44<693.116 908.902> 63 40<693.351 799.041 883.523 913.654>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -17056,7 +17057,7 @@ StartChar: measureNumber7
 Encoding: 57893 57893 255
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 925 38<-105 54>
 VStem: -60 41<643 748.233>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -17082,7 +17083,7 @@ StartChar: measureNumber8
 Encoding: 57894 57894 256
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 652 30<-40.4556 41.5182> 805 31<-35.0608 34.5761> 931 31<-35.8958 34.7805>
 VStem: -99.5 38<699.015 787.729> -87.5 38<847.713 919.113> 48.5 39<847.22 919.541> 61.5 38<699.123 787.438>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -17132,7 +17133,7 @@ StartChar: measureNumber2
 Encoding: 57888 57888 257
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 653 36<-49.5 102.5> 932 32<-38.5014 46.0435>
 VStem: 62.5 39<830.152 917.359>
 AnchorPoint: "measureNumber" 0 656 mark 0
@@ -17169,7 +17170,7 @@ StartChar: isonIndicatorDiLow
 Encoding: 57953 57953 258
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1002 43<-255 -52>
 VStem: -456 41<1039.73 1219.23> 184 37<1040 1298> 414 42<1039.73 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17225,7 +17226,7 @@ StartChar: isonIndicatorUnison
 Encoding: 57952 57952 259
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -390 41<1039.73 1219.23> -210 49<1002 1205> 152 57<1002 1202> 348 42<1042.34 1217.11>
 AnchorPoint: "isonIndicator" 0 996 mark 0
 LayerCount: 2
@@ -17268,7 +17269,7 @@ StartChar: isonIndicatorKeLow
 Encoding: 57954 57954 260
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -455.5 41<1039.73 1219.23> -300.5 70<1002 1082 1137 1260> 199.5 37<1040 1298> 414.5 41<1041.04 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
 LayerCount: 2
@@ -17324,7 +17325,7 @@ StartChar: isonIndicatorZo
 Encoding: 57955 57955 261
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1002 44<-43.5 167.5> 1216 44<-161.5 31.5>
 VStem: -353.5 41<1039.73 1219.23> 311.5 42<1042.34 1217.11>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17365,7 +17366,7 @@ StartChar: isonIndicatorNi
 Encoding: 57956 57956 262
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -395 41<1039.73 1219.23> -186 44<1002 1206> 141 45<1081 1260> 353 42<1042.34 1217.11>
 AnchorPoint: "isonIndicator" 0 996 mark 0
 LayerCount: 2
@@ -17405,7 +17406,7 @@ StartChar: isonIndicatorPa
 Encoding: 57957 57957 263
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1199 61<-116.5 115.5>
 VStem: -370.5 41<1042.34 1217.93> -161.5 45.5<1002 1199> 115.5 46<1002 1199> 329.5 41<1041.04 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17446,7 +17447,7 @@ StartChar: isonIndicatorVou
 Encoding: 57958 57958 264
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1003 41<-97 98.883> 1116 40<-97 86.6937> 1219 41<-97 68.4065>
 VStem: -368 41<1039.73 1218.88> -171 74<1044 1116 1156 1219> 88 77<1159.87 1214.63> 102 80<1049.58 1107.32> 326 42<1039.73 1219.8>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17503,7 +17504,7 @@ StartChar: isonIndicatorGa
 Encoding: 57959 57959 265
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1213 46<-86.5 167.108>
 VStem: -370.5 41<1042.34 1217.93> -160.5 74<1002 1213> 329.5 41<1041.04 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17543,7 +17544,7 @@ StartChar: isonIndicatorDi
 Encoding: 57960 57960 266
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1002 43<-113.5 89.5>
 VStem: -343.5 41<1039.73 1219.23> 301.5 42<1039.73 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17585,7 +17586,7 @@ StartChar: isonIndicatorKe
 Encoding: 57961 57961 267
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: -361 41<1042.34 1217.93> -176 70<1002 1082 1137 1260> 319 42<1042.34 1217.11>
 AnchorPoint: "isonIndicator" 0 996 mark 0
 LayerCount: 2
@@ -17627,7 +17628,7 @@ StartChar: isonIndicatorZoHigh
 Encoding: 57962 57962 268
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1002 44<-180 31> 1216 44<-298 -105>
 VStem: -456 41<1042.34 1217.93> 415 41<1041.04 1219.27>
 AnchorPoint: "isonIndicator" 0 996 mark 0
@@ -17682,7 +17683,7 @@ StartChar: modeThirdNana
 Encoding: 58033 58033 269
 Width: 1020
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 95.5 34<635.8 683.519 917.8 965.519> 632 68<467.403 533.232 710.403 775.597>
 VStem: 466 69<633.627 698.373> 526 94<164.057 440.299> 709 68<633.403 698.597> 808 94<164.057 440.299>
 LayerCount: 2
@@ -17741,7 +17742,7 @@ StartChar: modeThird
 Encoding: 58032 58032 270
 Width: 2612
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 152 68<860.768 926.597 1013.4 1079.56> 169 37<515 760.727> 361 110<452.934 1500.6> 400.5 19.5<1954.93 1977.39> 546 19<1764.78 1797.17 1984.18 2019.57> 645 111<1120.93 2166.68>
 VStem: 449 68<7.04431 17 17.0156 169> 859 69<153.75 218.373> 1012 69<153.509 218.373>
 LayerCount: 2
@@ -17864,7 +17865,7 @@ StartChar: modePlagalFirst
 Encoding: 58048 58048 271
 Width: 945
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 707 69<488.627 553.373 685.675 751.373>
 VStem: 487 68<708.509 774.556> 684 69<708.627 774.325> 710 64<84.0966 361.247> 732 54.5<274.834 412> 743 48<572 630.25>
 LayerCount: 2
@@ -17915,7 +17916,7 @@ StartChar: modeFourth
 Encoding: 58040 58040 272
 Width: 980
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 108 18<460.744 497.972> 288 78<547.219 642.64> 422 69<488.627 553.373 685.675 751.373> 687 23<479.535 560.125> 1224 32<895.297 933.449>
 VStem: 487 68<423.403 489.556> 498 33<31.625 270.856> 684 69<423.627 489.325> 737 92<-130.76 98.4314>
 LayerCount: 2
@@ -18013,7 +18014,7 @@ StartChar: modeOligonYpsili
 Encoding: 58088 58088 273
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 804 117<-549.76 556.895> 1049 19<165.591 238.472> 1367 27<480.377 515.262>
 AnchorPoint: "modeTop" 0 800 mark 0
 LayerCount: 2
@@ -18074,7 +18075,7 @@ StartChar: modePlagalSecond
 Encoding: 58056 58056 274
 Width: 1232
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 529 38<877.338 1121.85> 620 69<675.627 740.373 827.627 893.325>
 VStem: 386 97.5<620.237 712.342> 674 68<621.444 687.597> 826 69<621.675 687.373>
 LayerCount: 2
@@ -18119,7 +18120,7 @@ StartChar: modePlagalFourth
 Encoding: 58072 58072 275
 Width: 930
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 363 18<458.576 498.75> 543 78<549.379 642.596> 677 69<488.627 553.373 685.675 751.373>
 VStem: 487 68<678.403 744.556> 498 33<285.344 525.856> 684 69<678.627 744.325> 737 92<123.744 353.734>
 LayerCount: 2
@@ -18188,7 +18189,7 @@ StartChar: modeNi
 Encoding: 58080 58080 276
 Width: 1238
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 14<331 373.257 436.853 482> 617 57<828.627 891.758> 853 13<307 341.562 628 670.031 738.371 779>
 VStem: 392 28<399.382 761> 690 28<491 832.618> 802 15<584 602.792> 908 37<431.107 496.344> 1106 19<417.229 614.449>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -18266,7 +18267,7 @@ StartChar: modePa
 Encoding: 58081 58081 277
 Width: 1245
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 57<1064.06 1110.46> 366 14<329 367.705 464.812 509 583 626.705 724.891 764> 838 28<447 645> 853 13<329 367.235 725.348 764>
 VStem: 386 61<393.411 837.859> 645 62<393.411 837.859> 810 25.5<427.51 551.553> 1012 34<488 564.5> 1047.5 102.5<381.188 421.207> 1049 84<612.865 668.976>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -18356,7 +18357,7 @@ StartChar: modeAlphaCapital
 Encoding: 58103 58103 278
 Width: 1083
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<952.723 1021.28> 366 13<294 317.607 398.441 432 587 617.249 732.422 759> 530 26<432 583>
 VStem: 951 72<367.723 436.277>
 LayerCount: 2
@@ -18409,7 +18410,7 @@ StartChar: modeBetaCapital
 Encoding: 58104 58104 279
 Width: 1048
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<918.723 987.277> 366 26<422.218 560.859> 366 14<294 338.027> 611 25<421.815 549.516> 842 24<421.814 542.946> 853 13<294 337.563>
 VStem: 358 63<400.383 609.937 637.857 836.586> 604 69<668.781 799.675> 618 75<433.742 564.908> 917 72<367.723 436.277>
 LayerCount: 2
@@ -18476,7 +18477,7 @@ StartChar: modeGammaCapital
 Encoding: 58105 58105 280
 Width: 1117
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<986.723 1055.28> 366 14<346 390.905 496.016 546> 835 31<476 683.547> 853 13<346 389.959>
 VStem: 412 64<393.441 835> 713 12<746 780.544> 985 72<367.723 436.277>
 LayerCount: 2
@@ -18524,7 +18525,7 @@ StartChar: modeDeltaCapital
 Encoding: 58106 58106 281
 Width: 1063
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<933.723 1001.19> 366 64<357 621>
 VStem: 932 71<367.723 436.277>
 LayerCount: 2
@@ -18558,7 +18559,7 @@ StartChar: modeVarys
 Encoding: 58064 58064 282
 Width: 1485
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 8 38<839.145 968.33> 260.5 28<1365.31 1411.71> 389 73<755.032 824.022 1013.98 1081.85> 523 42<351.506 1354.5>
 VStem: 753 73<391.032 460.022> 1012 72<390.771 460.277>
 LayerCount: 2
@@ -18625,7 +18626,7 @@ StartChar: modePlagal
 Encoding: 58096 58096 283
 Width: 775
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 336 90<610.977 721.814> 348 90<402.162 596> 513 45<634.65 724.022> 909 51.5<398.129 459.126>
 LayerCount: 2
 Fore
@@ -18704,7 +18705,7 @@ StartChar: modeWordVarys
 Encoding: 58098 58098 284
 Width: 2099
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 232 76<1803.47 1871.84> 366 62.5<940.543 989.962 1752.5 1898.11> 366 27<1448.22 1532.86> 606 68<1748.8 1895.04> 644 66<448.868 521.805>
 VStem: 331.5 29<399.072 761.763> 686 26<427.024 554.223> 888 34<489 565.5> 925 84<613.865 669.955> 949 77<378.628 408.499> 1065 34<307.72 411 428.149 544.809> 1073 26<431.45 522> 1076 75<198.016 287.468> 1298.5 37.5<497.545 601.301> 1386 35<431.601 594.713> 1577 59<436.071 616.188> 1678 25<461.939 570.246> 1911 30<299.266 361.687>
 LayerCount: 2
@@ -18901,7 +18902,7 @@ StartChar: modeAlpha
 Encoding: 58099 58099 285
 Width: 1019
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<884.723 953.277> 366 57<550.587 597.065>
 VStem: 296 26.5<426.024 553.111> 498.5 34.5<488 564.5> 534 103<381.241 421.207> 536 84<612.896 667.985> 756 58<785.759 856.496> 883 72<367.723 436.277>
 LayerCount: 2
@@ -18968,7 +18969,7 @@ StartChar: modeBeta
 Encoding: 58100 58100 286
 Width: 1009
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<879.723 948.277>
 VStem: 354 40.5<437.447 551.279> 545 30<763.188 825.543> 587 41<493.875 606.077> 751 59<786.813 856.496> 878 72<367.723 436.277>
 LayerCount: 2
@@ -19037,7 +19038,7 @@ StartChar: modeWordEchos
 Encoding: 58097 58097 287
 Width: 1588
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 155 81<843.181 899.78> 229 76<1355.49 1433.88> 366 61<1312.92 1461.11> 366 16<135 169.59 275.406 310 396 429.478 544.74 571> 603 68<607.438 671.438 1311.8 1458.04> 613 28<257 448> 637.5 43.5<1039.66 1132.82> 708 14<-16.9678 7.81079> 768.5 43.5<-20.915 28.6851> 838 28<-31.7706 50.9048> 849 17<135 169.786 272.344 305 396 425.605 538.148 566>
 VStem: 36 19<741.318 781.677> 194 63<396.351 613 641 830.949> 448 66<396.301 613 641 839.297> 595 85<612.891 669.094> 928 36.5<442.387 547.512> 1163 36<499.081 601.112> 1240 26<457.766 567.76> 1474 30<296.104 358.687>
 LayerCount: 2
@@ -19182,7 +19183,7 @@ StartChar: modeGamma
 Encoding: 58101 58101 288
 Width: 1060
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<928.723 997.277> 619 56<368.284 443.295>
 VStem: 346 15<560 599.079> 480 69<158.384 364.972> 504 22<315.592 457.958> 800 58<785.759 856.496> 927 72<367.723 436.277>
 LayerCount: 2
@@ -19244,7 +19245,7 @@ StartChar: modeDelta
 Encoding: 58102 58102 289
 Width: 1000
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 72<869.723 938.277>
 VStem: 344 38<442.14 548.666> 580 38<497.155 603.63> 868 72<367.723 436.277>
 LayerCount: 2
@@ -19305,7 +19306,7 @@ StartChar: modeFirst
 Encoding: 58016 58016 290
 Width: 980
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 422 69<488.627 553.373 685.675 751.373> 687 23<479.535 560.125> 1224 32<895.297 933.449>
 VStem: 487 68<423.403 489.556> 684 69<423.627 489.325> 710 64<-200.903 76.2467> 732 54.5<-10.1664 127> 743 48<287 345.469>
 LayerCount: 2
@@ -19384,7 +19385,7 @@ StartChar: modeSecond
 Encoding: 58024 58024 291
 Width: 1770
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 529 38<877.22 1121.85> 561 17<1648.65 1673.36> 620 69<675.627 740.373 827.627 893.325> 718 21<1170.69 1205.52 1411.65 1451.24> 827 121<465.719 1609.04>
 VStem: 386 97.5<620.237 712.342> 674 68<621.444 687.597> 826 69<621.675 687.373>
 LayerCount: 2
@@ -19486,7 +19487,7 @@ Encoding: 58042 58042 292
 Width: 1505
 VWidth: 345
 InSpiro: 1
-Flags: W
+Flags: HW
 HStem: 464 42<1300.27 1388> 568 83.5<779.012 855.083> 573 48<1252.76 1384.49> 776 66<1275.45 1382.72> 793 49<697.504 769 786.824 882.156>
 VStem: 254.818 71<348.918 438.062> 360 70<571 809.678> 586 73<854 924.933> 751 27<637.651 781.438> 1120 35<682.428 774.929> 1199 21<650.008 727.531> 1396 25<519.407 572.718>
 LayerCount: 2
@@ -19959,7 +19960,7 @@ StartChar: modeVarys2
 Encoding: 58065 58065 293
 Width: 783
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -185.5 35.5<-34.0765 88.0135> 49 35<442.921 510.261>
 LayerCount: 2
 Fore
@@ -20051,7 +20052,7 @@ StartChar: modeVou
 Encoding: 58082 58082 294
 Width: 1128
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 26<457.218 595.859 867.397 964.25> 366 14<329 371.54> 611 25<456.815 583.734> 842 24<456.814 577.099> 853 13<329 371.562>
 VStem: 393 63<400.413 610 637.857 836.555> 639 69<670.504 799.415> 652 76<432.366 564.744> 800 45<406.223 496.357> 800 38<607.568 690.719> 810 30<663.036 691> 987 48<406.468 511.312> 995 27<665.156 691> 997 38<621.405 690.532>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -20143,7 +20144,7 @@ StartChar: modeGa
 Encoding: 58083 58083 295
 Width: 1132
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 57<970.016 1015.7> 366 14<329 373.422 479.016 529> 835 31<458 666.547> 853 13<329 372.871>
 VStem: 394 64<393.441 835> 695 13<746 782.832> 715 27<426.024 553.748> 918 35<488 564.5> 953 103<381.827 421.207> 955.5 83.5<613.111 667.688>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -20221,7 +20222,7 @@ StartChar: modeDi
 Encoding: 58084 58084 296
 Width: 1073
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 64<397 661>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
 AnchorPoint: "modeTop" 617 981 basechar 0
@@ -20264,7 +20265,7 @@ StartChar: modeKe
 Encoding: 58085 58085 297
 Width: 1198
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 14<333 372.794 468.059 509 581 605.748 745.125 776> 512 41<938.127 1014.93> 522 21<906.169 984.408> 602 78<996.935 1050.15> 634 46<885.985 1008.39> 853 13<333 370.913 469.248 509 571 601.328 693.664 722>
 VStem: 392 58<398.383 574 625 834.617> 842 29<425.013 496.765 565.902 611.84>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -20363,7 +20364,7 @@ StartChar: modeZo
 Encoding: 58086 58086 298
 Width: 1289
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 24<419 644.263 1039.79 1109.19> 668 11<1048 1062.46> 837 29<418.062 623>
 VStem: 373 13<741 776> 711 11<483.132 499.273> 969 60<463.714 611.041> 1134 59<421.929 591.569>
 AnchorPoint: "fthoraTop" 634 940 basechar 0
@@ -20434,7 +20435,7 @@ StartChar: modeOligonKentimaAbove
 Encoding: 58087 58087 299
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 804 117<-549.915 556.7> 1234 25<-159.62 -122.524>
 AnchorPoint: "modeTop" 0 800 mark 0
 LayerCount: 2
@@ -20491,7 +20492,7 @@ StartChar: modeElafron
 Encoding: 58089 58089 300
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 818 22<-304.402 -224.043> 1115 34.5<-260.993 -56.638>
 VStem: -499.447 134.5<894.451 1033.57>
 AnchorPoint: "modeTop" 0 800 mark 0
@@ -20549,7 +20550,7 @@ StartChar: modeRunningElafron
 Encoding: 58090 58090 301
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 814 29<-480.074 -431.742> 814 22<-26.4308 53.9287> 1102.5 26.5<-777.88 -603.423> 1111 34.5<16.9785 220.852>
 VStem: -221.476 134.5<890.078 1029.16>
 AnchorPoint: "modeTop" 0 800 mark 0
@@ -20630,7 +20631,7 @@ StartChar: gorthmikon
 Encoding: 57984 57984 302
 Width: 612
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 48.5 70.5<162.736 452.693>
 LayerCount: 2
 Fore
@@ -20686,7 +20687,7 @@ StartChar: pelastikon
 Encoding: 57985 57985 303
 Width: 620
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 320 98<100.604 294.872> 423 87<496.228 696.978>
 LayerCount: 2
 Fore
@@ -20728,7 +20729,7 @@ StartChar: barlineSingle
 Encoding: 57872 57872 304
 Width: 208
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 91 32<4.06421 704.966>
 LayerCount: 2
 Fore
@@ -20783,7 +20784,7 @@ StartChar: barlineTheseos
 Encoding: 57874 57874 306
 Width: 208
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 783 29<12.5482 192.321>
 VStem: 91 32<4.06421 704.966>
 LayerCount: 2
@@ -20906,7 +20907,7 @@ StartChar: breath
 Encoding: 57537 57537 310
 Width: 214
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1043 108<48.0177 127.842>
 VStem: 31 138<1057.44 1124.18>
 LayerCount: 2
@@ -20934,7 +20935,7 @@ StartChar: koronis
 Encoding: 57558 57558 311
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 877 82<-44.2753 40.9459> 1087 86<-100.729 102.471>
 VStem: -277 27<877 938.338> -48 93<881.199 954.801> 248 29<877 942.199>
 AnchorPoint: "koronis" 0 872 mark 0
@@ -20964,7 +20965,7 @@ StartChar: leimmaDot
 Encoding: 57572 57572 312
 Width: 233
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 366 108<56.7383 154.974> 466 8<167.304 172.904>
 LayerCount: 2
 Fore
@@ -20990,7 +20991,7 @@ EndChar
 StartChar: gorgonSecondary
 Encoding: 57600 57600 313
 Width: 0
-Flags: W
+Flags: HW
 HStem: 977.5 38<-84.5 162.174>
 VStem: -148.5 66.5<828.5 977.5>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21021,7 +21022,7 @@ StartChar: endofonon
 Encoding: 57511 57511 314
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -368 32<-52.8758 64.0443> -167.5 36.5<-400.166 -160.69> -108 32<-54.3972 62.6571>
 VStem: -141.076 32<-279.8 -202.363> 118.924 31<-248.56 -164.791> 451.924 154<-243.753 -143.152>
 AnchorPoint: "endofonon" 1 -20 mark 0
@@ -21087,9 +21088,9 @@ StartChar: yfenAbove
 Encoding: 57520 57520 315
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 1220 95<-206.714 127.958>
-AnchorPoint: "yfenAbove" -589 951 mark 0
+AnchorPoint: "yfenAbove" 589 951 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21111,9 +21112,9 @@ StartChar: yfenBelow
 Encoding: 57521 57521 316
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -406 95<-208.956 127.881>
-AnchorPoint: "yfenBelow" -593 -43 mark 0
+AnchorPoint: "yfenBelow" 593 -43 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -21144,7 +21145,7 @@ StartChar: modeFirst.salt01
 Encoding: 61443 61443 318
 Width: 945
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 707 69<488.627 553.373 685.675 751.373> 831 43<528 796>
 VStem: 487 68<708.509 774.556> 684 69<708.627 774.325> 710 64<84.0966 361.247> 732 54.5<274.834 412> 743 48<572 630.25>
 LayerCount: 2
@@ -21202,7 +21203,7 @@ StartChar: modeFourth.salt01
 Encoding: 61444 61444 319
 Width: 930
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 363 18<458.576 498.75> 543 78<549.379 642.596> 677 69<488.627 553.373 685.675 751.373> 831 43<528 796>
 VStem: 487 68<678.403 744.556> 498 33<285.344 525.856> 684 69<678.627 744.325> 737 92<123.744 353.734>
 LayerCount: 2
@@ -21278,7 +21279,7 @@ StartChar: oligonKentimataBelow.alt02
 Encoding: 61445 61445 320
 Width: 1750
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 372 17<1569.52 1593.36> 528 21<1062.46 1096.69 1332.09 1370.76> 640 118<457.622 1573.61>
 LayerCount: 2
 Fore
@@ -21347,7 +21348,7 @@ StartChar: gorgonDottedLeftSecondary
 Encoding: 57601 57601 321
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 927 77<-290 -217> 999 38<-81 165.674> 999 5<-208.86 -205.877>
 VStem: -144.5 66<816.412 827 829 999>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21393,7 +21394,7 @@ StartChar: gorgonDottedRightSecondary
 Encoding: 57602 57602 322
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 938 78<233.358 306.259> 999 38<-81.6426 165.032>
 VStem: -145.643 66.5<816.412 827 829 999>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21439,7 +21440,7 @@ StartChar: digorgonSecondary
 Encoding: 57603 57603 323
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 983 37<-183 -1> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21480,7 +21481,7 @@ StartChar: digorgonDottedLeftBelowSecondary
 Encoding: 57604 57604 324
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 910 78<-399.999 -327.171> 982 3<-317.898 -315.877> 983 37<-183 -1> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21536,7 +21537,7 @@ StartChar: digorgonDottedRightSecondary
 Encoding: 57605 57605 325
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 986 35<-182 0> 1078 78<379.001 452.999> 1140 34<65 310.914> 1151 5<460.086 462.608>
 VStem: -248 67.5<848.008 986> 0 67<1023.21 1140>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21593,7 +21594,7 @@ StartChar: trigorgonSecondary
 Encoding: 57606 57606 326
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 925 37<-314 -131> 1044 38<-67 116> 1164 37<180 425.727>
 VStem: -379 65<813.128 824 824.008 925> -130.5 63.5<965.089 1044> 117 63<1084 1164>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21646,7 +21647,7 @@ StartChar: trigorgonDottedLeftBelowSecondary
 Encoding: 57607 57607 327
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 860 78<-533.999 -461> 924 37<-315 -133> 1043 38<-69 114> 1163 37<178 423.727>
 VStem: -380 65<812.128 823 823.008 924> -132.5 63.5<964.089 1043> 115 63<1083.43 1163>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21714,7 +21715,7 @@ StartChar: trigorgonDottedRightSecondary
 Encoding: 57608 57608 328
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 923 37<-320 -137> 1042 38<-73 110> 1103 78<488.001 560.781> 1162 37<174 419.727>
 VStem: -385 65<811.128 822 822.008 923> -136.5 63.5<963.089 1042> 111 63<1082 1162>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -21788,10 +21789,10 @@ AnchorPoint: "diesisSecondary" 297 1227 basechar 0
 AnchorPoint: "yfesisSecondary" 1712 812 basechar 0
 AnchorPoint: "fthoraTopSecondary" 1504 902 basechar 0
 AnchorPoint: "gorgonSecondary" 1505 910 basechar 0
-AnchorPoint: "yfenAbove" 1260 1061 basechar 0
-AnchorPoint: "yfenBelow" 1299 -40 basechar 0
+AnchorPoint: "yfenAbove" 735 1061 basechar 0
+AnchorPoint: "yfenBelow" 696 -40 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
-AnchorPoint: "heteronConnecting" 2000 -19 basechar 0
+AnchorPoint: "heteronConnecting" -5 -19 basechar 0
 AnchorPoint: "measureNumber" 172 993 basechar 0
 AnchorPoint: "isonIndicator" 710 1010 basechar 0
 AnchorPoint: "antikenoma" 1100 173 basechar 0
@@ -21912,7 +21913,7 @@ StartChar: psifiston.salt01
 Encoding: 61446 61446 330
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 103 43.5<-338.092 62.8081> 234 12.5<-759.383 -746.164> 523 30<681.258 759.553>
 AnchorPoint: "psifiston" -1 569 mark 0
 LayerCount: 2
@@ -21953,7 +21954,7 @@ StartChar: heteronConnecting.salt01
 Encoding: 61447 61447 331
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -321 266
 VStem: 515.446 173<-181.62 -85.3106>
 AnchorPoint: "heteronConnecting" 0 -200 mark 0
@@ -21999,7 +22000,7 @@ StartChar: agogiPoliArgiAbove
 Encoding: 57640 57640 332
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -197.486 84.375<516.838 606.916> 224.014 68.25<280.577 357.613> 359.764 111<508.036 554.918> 443.764 27.75<370.411 507.661> 533.389 27.375<185.161 322.411> 621.514 28.875<-46.6357 137.911>
 VStem: 137.911 46.875<561.833 621.514> 322.411 47.25<471.757 532.264> 507.661 48<358.666 367.264 367.27 443.014>
 AnchorPoint: "agogiAboveFthora" 433.599 -203.486 mark 0
@@ -22095,7 +22096,7 @@ StartChar: agogiArgoteriAbove
 Encoding: 57641 57641 333
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -198.056 84.375<558.247 648.325> 223.444 68.25<321.987 399.022> 483.319 30.375<288.82 465.82>
 VStem: 242.695 46.125<513.694 645.694> 464.695 50.625<347.194 354.694 356.194 483.694>
 AnchorPoint: "agogi" 467.672 -203.139 mark 0
@@ -22178,7 +22179,7 @@ StartChar: agogiArgiAbove
 Encoding: 57642 57642 334
 Width: 766
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -209.764 84.375<539.684 629.763> 211.736 68.25<303.424 380.46> 339.986 125.25<480.258 525.27> 442.361 23.625<340.758 479.508> 539.486 23.25<113.624 293.508>
 VStem: 293.883 46.5<467.486 539.486> 479.883 46.125<339.986 441.986>
 AnchorPoint: "agogi" 459.797 -229.223 mark 0
@@ -22257,7 +22258,7 @@ StartChar: agogiMetriaAbove
 Encoding: 57643 57643 335
 Width: 608
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -218.889 84.375<414.715 505.179> 202.611 68.25<178.864 255.876> 471.861 28.875<141.357 326.425>
 VStem: 324.925 49.5<342.816 471.861>
 AnchorPoint: "agogi" 333.964 -225.973 mark 0
@@ -22331,7 +22332,7 @@ StartChar: agogiMesiAbove
 Encoding: 57644 57644 336
 Width: 709
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -218.889 84.375<414.415 504.879> 202.611 68.25<178.564 255.577> 335.361 164.25<249.648 296.881 355.369 402.539> 471.861 28.875<65.298 249.625 402.625 587.631>
 VStem: 248.125 49.5<334.394 342.861 342.867 471.861> 355 49.5<335.396 342.861 342.867 471.861>
 AnchorPoint: "agogi" 334.562 -225.973 mark 0
@@ -22423,7 +22424,7 @@ StartChar: agogiGorgiAbove
 Encoding: 57645 57645 337
 Width: 618
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -218.889 84.375<421.66 512.124> 202.611 68.25<185.81 262.822> 471.861 27.75<344.62 529.568>
 VStem: 296.62 49.875<335.396 342.861 342.867 471.861>
 AnchorPoint: "agogi" 332.07 -225.973 mark 0
@@ -22498,7 +22499,7 @@ StartChar: agogiGorgoteriAbove
 Encoding: 57646 57646 338
 Width: 826
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -209.764 84.375<446.077 536.541> 211.736 68.25<210.226 287.239> 339.986 125.25<288.031 333.787> 442.361 23.625<334.537 473.287> 539.486 23.25<520.537 699.556>
 VStem: 287.662 46.5<339.986 441.986> 473.287 46.875<467.486 539.486>
 AnchorPoint: "agogi" 359.237 -214.223 mark 0
@@ -22578,7 +22579,7 @@ StartChar: agogiPoliGorgiAbove
 Encoding: 57647 57647 339
 Width: 1020
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: -198.014 84.375<469.049 559.512> 223.486 68.25<233.198 310.21> 356.236 111.75<259.997 305.759> 440.986 27.375<307.259 443.759> 529.486 27.75<491.759 629.009> 618.736 27.75<677.009 860.395>
 VStem: 258.509 47.25<363.742 440.236> 443.759 48<469.553 529.486> 629.384 47.625<559.056 618.736>
 AnchorPoint: "agogi" 390.296 -207.723 mark 0
@@ -22672,7 +22673,7 @@ EndChar
 StartChar: fthoraDiatonicNiLowSecondary
 Encoding: 57760 57760 340
 Width: 0
-Flags: W
+Flags: HW
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
 VStem: -163.312 25<940.316 1031.03> 45.6885 25<939.996 1032>
 AnchorPoint: "fthoraTopSecondary" 0 734 mark 0
@@ -22723,7 +22724,7 @@ EndChar
 StartChar: fthoraDiatonicPaSecondary
 Encoding: 57761 57761 341
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1014 26<-47.1909 46.8635>
 VStem: -118 26<875.126 969.03> -13 26<656.029 807.258> 92 26<875.126 970.002>
 AnchorPoint: "fthoraTopSecondary" 0 644 mark 0
@@ -22758,7 +22759,7 @@ EndChar
 StartChar: fthoraDiatonicVouSecondary
 Encoding: 57762 57762 342
 Width: 0
-Flags: W
+Flags: HW
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
 AnchorPoint: "fthoraTopSecondary" 0 634 mark 0
@@ -22812,7 +22813,7 @@ EndChar
 StartChar: fthoraDiatonicGaSecondary
 Encoding: 57763 57763 343
 Width: 0
-Flags: W
+Flags: HW
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
 AnchorPoint: "fthoraTopSecondary" 0 684 mark 0
 LayerCount: 2
@@ -22850,7 +22851,7 @@ EndChar
 StartChar: fthoraDiatonicDiSecondary
 Encoding: 57764 57764 344
 Width: 0
-Flags: W
+Flags: HW
 HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
 VStem: -115.819 25<883.456 976.344> 93.6807 25<883.047 975.544>
 AnchorPoint: "fthoraTopSecondary" 0 744 mark 0
@@ -22889,7 +22890,7 @@ EndChar
 StartChar: fthoraDiatonicKeSecondary
 Encoding: 57765 57765 345
 Width: 0
-Flags: W
+Flags: HW
 HStem: 802 25<-45.6833 46.3909>
 VStem: -117.5 25<873.327 963.999> -12.5 25<1034.03 1182.98> 91.5 26<871.88 966.019>
 AnchorPoint: "fthoraTopSecondary" 0 804 mark 0
@@ -22924,7 +22925,7 @@ EndChar
 StartChar: fthoraDiatonicZoSecondary
 Encoding: 57766 57766 346
 Width: 0
-Flags: W
+Flags: HW
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
 AnchorPoint: "fthoraTopSecondary" 0 624 mark 0
 LayerCount: 2
@@ -22994,7 +22995,7 @@ EndChar
 StartChar: fthoraDiatonicNiHighSecondary
 Encoding: 57767 57767 347
 Width: 0
-Flags: W
+Flags: HW
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
 AnchorPoint: "fthoraTopSecondary" 0 754 mark 0
@@ -23052,7 +23053,7 @@ EndChar
 StartChar: fthoraHardChromaticPaSecondary
 Encoding: 57768 57768 348
 Width: 0
-Flags: W
+Flags: HW
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
 AnchorPoint: "fthoraTopSecondary" 0 804 mark 0
@@ -23110,7 +23111,7 @@ EndChar
 StartChar: fthoraHardChromaticDiSecondary
 Encoding: 57769 57769 349
 Width: 0
-Flags: W
+Flags: HW
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
 AnchorPoint: "fthoraTopSecondary" 0 744 mark 0
@@ -23149,7 +23150,7 @@ EndChar
 StartChar: fthoraSoftChromaticDiSecondary
 Encoding: 57770 57770 350
 Width: 0
-Flags: W
+Flags: HW
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
 AnchorPoint: "fthoraTopSecondary" 0 804 mark 0
@@ -23208,7 +23209,7 @@ EndChar
 StartChar: fthoraSoftChromaticKeSecondary
 Encoding: 57771 57771 351
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
 AnchorPoint: "fthoraTopSecondary" 0 714 mark 0
@@ -23261,7 +23262,7 @@ EndChar
 StartChar: fthoraEnharmonicSecondary
 Encoding: 57772 57772 352
 Width: 0
-Flags: W
+Flags: HW
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
 AnchorPoint: "fthoraTopSecondary" 0 734 mark 0
@@ -23306,7 +23307,7 @@ EndChar
 StartChar: chroaZygosSecondary
 Encoding: 57773 57773 353
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
 AnchorPoint: "fthoraTopSecondary" 0 704 mark 0
@@ -23359,7 +23360,7 @@ EndChar
 StartChar: chroaKlitonSecondary
 Encoding: 57774 57774 354
 Width: 0
-Flags: W
+Flags: HW
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
 AnchorPoint: "fthoraTopSecondary" 0 734 mark 0
@@ -23410,7 +23411,7 @@ EndChar
 StartChar: chroaSpathiSecondary
 Encoding: 57775 57775 355
 Width: 0
-Flags: W
+Flags: HW
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
 AnchorPoint: "fthoraTopSecondary" 0 804 mark 0
@@ -23484,7 +23485,7 @@ EndChar
 StartChar: fthoraDiatonicNiLowTertiary
 Encoding: 57776 57776 356
 Width: 0
-Flags: W
+Flags: HW
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
 VStem: -163.312 25<940.316 1031.03> 45.6885 25<939.996 1032>
 AnchorPoint: "fthoraTopTertiary" 0 734 mark 0
@@ -23535,7 +23536,7 @@ EndChar
 StartChar: fthoraDiatonicPaTertiary
 Encoding: 57777 57777 357
 Width: 0
-Flags: W
+Flags: HW
 HStem: 1014 26<-47.1909 46.8635>
 VStem: -118 26<875.126 969.03> -13 26<656.029 807.258> 92 26<875.126 970.002>
 AnchorPoint: "fthoraTopTertiary" 0 644 mark 0
@@ -23570,7 +23571,7 @@ EndChar
 StartChar: fthoraDiatonicVouTertiary
 Encoding: 57778 57778 358
 Width: 0
-Flags: W
+Flags: HW
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
 AnchorPoint: "fthoraTopTertiary" 0 634 mark 0
@@ -23624,7 +23625,7 @@ EndChar
 StartChar: fthoraDiatonicGaTertiary
 Encoding: 57779 57779 359
 Width: 0
-Flags: W
+Flags: HW
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
 AnchorPoint: "fthoraTopTertiary" 0 684 mark 0
 LayerCount: 2
@@ -23662,7 +23663,7 @@ EndChar
 StartChar: fthoraDiatonicDiTertiary
 Encoding: 57780 57780 360
 Width: 0
-Flags: W
+Flags: HW
 HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
 VStem: -115.819 25<883.456 976.344> 93.6807 25<883.047 975.544>
 AnchorPoint: "fthoraTopTertiary" 0 744 mark 0
@@ -23701,7 +23702,7 @@ EndChar
 StartChar: fthoraDiatonicKeTertiary
 Encoding: 57781 57781 361
 Width: 0
-Flags: W
+Flags: HW
 HStem: 802 25<-45.6833 46.3909>
 VStem: -117.5 25<873.327 963.999> -12.5 25<1034.03 1182.98> 91.5 26<871.88 966.019>
 AnchorPoint: "fthoraTopTertiary" 0 804 mark 0
@@ -23736,7 +23737,7 @@ EndChar
 StartChar: fthoraDiatonicZoTertiary
 Encoding: 57782 57782 362
 Width: 0
-Flags: W
+Flags: HW
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
 AnchorPoint: "fthoraTopTertiary" 0 624 mark 0
 LayerCount: 2
@@ -23806,7 +23807,7 @@ EndChar
 StartChar: fthoraDiatonicNiHighTertiary
 Encoding: 57783 57783 363
 Width: 0
-Flags: W
+Flags: HW
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
 AnchorPoint: "fthoraTopTertiary" 0 754 mark 0
@@ -23864,7 +23865,7 @@ EndChar
 StartChar: fthoraHardChromaticPaTertiary
 Encoding: 57784 57784 364
 Width: 0
-Flags: W
+Flags: HW
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
 AnchorPoint: "fthoraTopTertiary" 0 804 mark 0
@@ -23922,7 +23923,7 @@ EndChar
 StartChar: fthoraHardChromaticDiTertiary
 Encoding: 57785 57785 365
 Width: 0
-Flags: W
+Flags: HW
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
 AnchorPoint: "fthoraTopTertiary" 0 744 mark 0
@@ -23961,7 +23962,7 @@ EndChar
 StartChar: fthoraSoftChromaticDiTertiary
 Encoding: 57786 57786 366
 Width: 0
-Flags: W
+Flags: HW
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
 AnchorPoint: "fthoraTopTertiary" 0 804 mark 0
@@ -24020,7 +24021,7 @@ EndChar
 StartChar: fthoraSoftChromaticKeTertiary
 Encoding: 57787 57787 367
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
 AnchorPoint: "fthoraTopTertiary" 0 714 mark 0
@@ -24073,7 +24074,7 @@ EndChar
 StartChar: fthoraEnharmonicTertiary
 Encoding: 57788 57788 368
 Width: 0
-Flags: W
+Flags: HW
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
 AnchorPoint: "fthoraTopTertiary" 0 734 mark 0
@@ -24118,7 +24119,7 @@ EndChar
 StartChar: chroaZygosTertiary
 Encoding: 57789 57789 369
 Width: 0
-Flags: W
+Flags: HW
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
 AnchorPoint: "fthoraTopTertiary" 0 704 mark 0
@@ -24171,7 +24172,7 @@ EndChar
 StartChar: chroaKlitonTertiary
 Encoding: 57790 57790 370
 Width: 0
-Flags: W
+Flags: HW
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
 AnchorPoint: "fthoraTopTertiary" 0 734 mark 0
@@ -24222,7 +24223,7 @@ EndChar
 StartChar: chroaSpathiTertiary
 Encoding: 57791 57791 371
 Width: 0
-Flags: W
+Flags: HW
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
 AnchorPoint: "fthoraTopTertiary" 0 804 mark 0
@@ -24296,7 +24297,7 @@ EndChar
 StartChar: yfesis2Secondary
 Encoding: 57862 57862 372
 Width: 0
-Flags: W
+Flags: HW
 HStem: 546 25<-45.9977 44.8165> 752 24<-43.9577 43.7252>
 VStem: -116 26<614.237 707.208> 89 25<615.538 706.897>
 AnchorPoint: "yfesisSecondary" -213 452 mark 0
@@ -24333,7 +24334,7 @@ EndChar
 StartChar: yfesis4Secondary
 Encoding: 57863 57863 373
 Width: 0
-Flags: W
+Flags: HW
 HStem: 524 25<32.4338 124.931> 729 25<33.0045 124.14>
 VStem: -37 25<593.365 684.312> 169 25<593.043 684.312>
 AnchorPoint: "yfesisSecondary" -134 429 mark 0
@@ -24380,7 +24381,7 @@ EndChar
 StartChar: yfesis6Secondary
 Encoding: 57864 57864 374
 Width: 0
-Flags: W
+Flags: HW
 HStem: 547 25<11.6005 103.645> 754 25<11.9962 103.712>
 VStem: -59 25<617.361 707.852> 148 26<615.6 710.068>
 AnchorPoint: "yfesisSecondary" -153 456 mark 0
@@ -24437,7 +24438,7 @@ StartChar: yfesis8Secondary
 Encoding: 57865 57865 375
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 552 26<28.8291 123.697> 764 26<28.9517 123.697>
 VStem: -43 26<623.586 718.048> 169 26<623.952 718.048>
 AnchorPoint: "yfesisSecondary" -159 440 mark 0
@@ -24504,7 +24505,7 @@ EndChar
 StartChar: yfesis2Tertiary
 Encoding: 57866 57866 376
 Width: 0
-Flags: W
+Flags: HW
 HStem: 546 25<-45.9977 44.8165> 752 24<-43.9577 43.7252>
 VStem: -116 26<614.237 707.208> 89 25<615.538 706.897>
 AnchorPoint: "yfesisTertiary" -213 452 mark 0
@@ -24541,7 +24542,7 @@ EndChar
 StartChar: yfesis4Tertiary
 Encoding: 57867 57867 377
 Width: 0
-Flags: W
+Flags: HW
 HStem: 524 25<32.4338 124.931> 729 25<33.0045 124.14>
 VStem: -37 25<593.365 684.312> 169 25<593.043 684.312>
 AnchorPoint: "yfesisTertiary" -134 429 mark 0
@@ -24588,7 +24589,7 @@ EndChar
 StartChar: yfesis6Tertiary
 Encoding: 57868 57868 378
 Width: 0
-Flags: W
+Flags: HW
 HStem: 547 25<11.6005 103.645> 754 25<11.9962 103.712>
 VStem: -59 25<617.361 707.852> 148 26<615.6 710.068>
 AnchorPoint: "yfesisTertiary" -153 456 mark 0
@@ -24645,7 +24646,7 @@ StartChar: yfesis8Tertiary
 Encoding: 57869 57869 379
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 552 26<28.8291 123.697> 764 26<28.9517 123.697>
 VStem: -43 26<623.586 718.048> 169 26<623.952 718.048>
 AnchorPoint: "yfesisTertiary" -159 440 mark 0
@@ -24712,7 +24713,7 @@ EndChar
 StartChar: yfesisGenikiSecondary
 Encoding: 57870 57870 380
 Width: 0
-Flags: W
+Flags: HW
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
 AnchorPoint: "fthoraTopSecondary" 0 634 mark 0
@@ -24759,7 +24760,7 @@ EndChar
 StartChar: yfesisGenikiTertiary
 Encoding: 57871 57871 381
 Width: 0
-Flags: W
+Flags: HW
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
 AnchorPoint: "fthoraTopTertiary" 0 634 mark 0
@@ -24806,7 +24807,7 @@ EndChar
 StartChar: diesisGenikiSecondary
 Encoding: 57854 57854 382
 Width: 0
-Flags: W
+Flags: HW
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
 AnchorPoint: "fthoraTopSecondary" 0 804 mark 0
@@ -24853,7 +24854,7 @@ EndChar
 StartChar: diesisGenikiTertiary
 Encoding: 57855 57855 383
 Width: 0
-Flags: W
+Flags: HW
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
 AnchorPoint: "fthoraTopTertiary" 0 804 mark 0
@@ -24901,7 +24902,7 @@ StartChar: digorgonDottedLeftSecondary
 Encoding: 57609 57609 384
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 983 37<-183 -1> 1085 78<-166.999 -93.2194> 1148 38<64 308.934>
 VStem: -249 67.5<823.265 834 834.008 983> -1 67<1022.01 1148>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -24957,7 +24958,7 @@ StartChar: trigorgonDottedLeftSecondary
 Encoding: 57610 57610 385
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 924 37<-317 -134> 1043 38<-70 113> 1146 77<-54.9994 18.0781> 1163 37<177 422.727>
 VStem: -382 65<812.128 823 823.008 924> -133.5 63.5<964.089 1043> 114 63<1083 1163>
 AnchorPoint: "gorgonSecondary" 0 800 mark 0
@@ -25067,7 +25068,7 @@ StartChar: barlineShortSingleAbove
 Encoding: 57881 57881 387
 Width: 152
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 590 305
 VStem: 59 32<590.064 894.967>
 AnchorPoint: "barline" 75 590 mark 0
@@ -25090,7 +25091,7 @@ StartChar: barlineSingleAbove
 Encoding: 57878 57878 388
 Width: 208
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 91 32<4.06421 704.966>
 AnchorPoint: "barline" 107 4 mark 0
 LayerCount: 2
@@ -25114,7 +25115,7 @@ StartChar: barlineDoubleAbove
 Encoding: 57879 57879 389
 Width: 340
 VWidth: 345
-Flags: W
+Flags: HW
 VStem: 91 31<4.06421 704.966> 208 32<4.06421 704.966>
 AnchorPoint: "barline" 175 4 mark 0
 LayerCount: 2
@@ -25147,7 +25148,7 @@ StartChar: barlineTheseosAbove
 Encoding: 57880 57880 390
 Width: 208
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 783 29<12.5482 192.321>
 VStem: 91 32<4.06421 704.966>
 AnchorPoint: "barline" 107 4 mark 0
@@ -25183,7 +25184,7 @@ StartChar: barlineShortDoubleAbove
 Encoding: 57882 57882 391
 Width: 256
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 590 305
 VStem: 67 32<590.064 894.967> 160 32<590.064 894.967>
 AnchorPoint: "barline" 129 590 mark 0
@@ -25215,7 +25216,7 @@ StartChar: barlineShortTheseosAbove
 Encoding: 57883 57883 392
 Width: 172
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 960 28<12.4081 67 110 155.232>
 VStem: 71 32<589.064 894.966>
 AnchorPoint: "barline" 87 589 mark 0
@@ -25250,7 +25251,7 @@ EndChar
 StartChar: diesis2Secondary
 Encoding: 57846 57846 393
 Width: 0
-Flags: W
+Flags: HW
 HStem: 290 24<-63.637 25.8165> 492 25<-64.3935 27.4842>
 VStem: -132 25<357.169 448.582> 70 25<357.169 448.65>
 AnchorPoint: "diesisSecondary" 196 612 mark 0
@@ -25287,7 +25288,7 @@ EndChar
 StartChar: diesis4Secondary
 Encoding: 57847 57847 394
 Width: 0
-Flags: W
+Flags: HW
 HStem: 354 25<-81.9631 9.17496> 560 25<-80.8523 9.21251>
 VStem: -152 25<423.355 514.175> 55 25<424.323 514.306>
 AnchorPoint: "diesisSecondary" 177 682 mark 0
@@ -25334,7 +25335,7 @@ EndChar
 StartChar: diesis6Secondary
 Encoding: 57848 57848 395
 Width: 0
-Flags: W
+Flags: HW
 HStem: 324 26<-112.12 -18.8392> 532 25<-111.32 -19.9004>
 VStem: -182 25<395.439 485.852> 25 26<394.321 487.316>
 AnchorPoint: "diesisSecondary" 152 652 mark 0
@@ -25391,7 +25392,7 @@ StartChar: diesis8Secondary
 Encoding: 57849 57849 396
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 203 26<-270.233 -174.968> 415 26<-270.233 -175.588>
 VStem: -343 26<274.785 368.566> -130 26<273.968 369.414>
 AnchorPoint: "diesisSecondary" 12 553 mark 0
@@ -25458,7 +25459,7 @@ EndChar
 StartChar: diesis2Tertiary
 Encoding: 57850 57850 397
 Width: 0
-Flags: W
+Flags: HW
 HStem: 290 24<-63.637 25.8165> 492 25<-64.3935 27.4842>
 VStem: -132 25<357.169 448.582> 70 25<357.169 448.65>
 AnchorPoint: "diesisTertiary" 196 612 mark 0
@@ -25495,7 +25496,7 @@ EndChar
 StartChar: diesis4Tertiary
 Encoding: 57851 57851 398
 Width: 0
-Flags: W
+Flags: HW
 HStem: 354 25<-81.9631 9.17496> 560 25<-80.8523 9.21251>
 VStem: -152 25<423.355 514.175> 55 25<424.323 514.306>
 AnchorPoint: "diesisTertiary" 177 682 mark 0
@@ -25542,7 +25543,7 @@ EndChar
 StartChar: diesis6Tertiary
 Encoding: 57852 57852 399
 Width: 0
-Flags: W
+Flags: HW
 HStem: 324 26<-112.12 -18.8392> 532 25<-111.32 -19.9004>
 VStem: -182 25<395.439 485.852> 25 26<394.321 487.316>
 AnchorPoint: "diesisTertiary" 152 652 mark 0
@@ -25599,7 +25600,7 @@ StartChar: diesis8Tertiary
 Encoding: 57853 57853 400
 Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 203 26<-270.233 -174.968> 415 26<-270.233 -175.588>
 VStem: -343 26<274.785 368.566> -130 26<273.968 369.414>
 AnchorPoint: "diesisTertiary" 12 553 mark 0
@@ -25667,7 +25668,7 @@ StartChar: stavrosAbove
 Encoding: 57544 57544 401
 Width: 457
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 276 45<90 240 286 436>
 VStem: 240 46<126.035 276 321 471>
 AnchorPoint: "stavros" 261 124 mark 0
