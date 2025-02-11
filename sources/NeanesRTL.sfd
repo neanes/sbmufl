@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: NeanesRTL
 FullName: NeanesRTL
-FamilyName: Neanes
+FamilyName: NeanesRTL
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1739248638
+ModificationTime: 1739248778
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

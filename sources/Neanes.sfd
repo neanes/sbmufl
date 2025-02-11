@@ -25668,7 +25668,7 @@ StartChar: stavrosAbove
 Encoding: 57544 57544 401
 Width: 0
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: 276 45<-436 -286 -240 -90>
 VStem: -286 46<126.035 276 321 471>
 AnchorPoint: "stavros" -2 124 mark 0
