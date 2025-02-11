@@ -7510,7 +7510,7 @@
     },
     "stavrosAbove": {
       "stavros": [
-        0.261,
+        -0.002,
         0.124
       ]
     }
@@ -7917,7 +7917,7 @@
     "diesis4Tertiary": 0.0,
     "diesis6Tertiary": 0.0,
     "diesis8Tertiary": 0.0,
-    "stavrosAbove": 0.457
+    "stavrosAbove": 0.0
   },
   "optionalGlyphs": {
     "oligonKentimataBelow.alt01": {
@@ -11621,11 +11621,11 @@
     },
     "stavrosAbove": {
       "bBoxNE": [
-        0.436,
+        0.173,
         0.471
       ],
       "bBoxSW": [
-        0.09,
+        -0.173,
         0.126
       ]
     }
