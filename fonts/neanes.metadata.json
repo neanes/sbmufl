@@ -3,7 +3,8 @@
   "fontVersion": "1.0.1",
   "metrics": {
     "winAscent": 1.4,
-    "winDescent": 0.466
+    "winDescent": 0.466,
+    "oligonMidpoint": 0.307
   },
   "glyphsWithAnchors": {
     "ison": {
