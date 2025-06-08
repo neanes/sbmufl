@@ -265,6 +265,17 @@ class _SbmuflMetadata(object):
             char_name = self.font.canonical_glyphname(char)
             all_advance_widths[char_name] = round(char.width / self.font.em, 3)
 
+        unicode_glyphs = (
+            char
+            for char in self.font.font.glyphs()
+            if 0x1D000 <= char.unicode <= 0x1D0FF
+        )
+
+        for char in unicode_glyphs:
+            all_advance_widths[f"uni{format(char.unicode, 'x')}"] = round(
+                char.width / self.font.em, 3
+            )
+
         return all_advance_widths
 
     def optional_glyphs(self):
