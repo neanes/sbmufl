@@ -1,8 +1,7 @@
-fontforge -script ../scripts/generate-font.py ../sources/Neanes.sfd ../fonts/Neanes.otf
-fontforge -script ../scripts/generate-font-metadata.py ../sources/Neanes.sfd ../metadata/glyphnames.json
-
-fontforge -script ../scripts/generate-font.py ../sources/NeanesRTL.sfd ../fonts/NeanesRTL.otf
-fontforge -script ../scripts/generate-font-metadata.py ../sources/NeanesRTL.sfd ../metadata/glyphnames.json
+for name in Neanes NeanesRTL NeanesStathisSeries; do
+    fontforge -script ../scripts/generate-font.py ../sources/${name}.sfd ../fonts/${name}.otf
+    fontforge -script ../scripts/generate-font-metadata.py ../sources/${name}.sfd ../metadata/glyphnames.json
+done
 
 cp *.metadata.json ../fonts
 cp *.metadata.json ../../neanes/src/assets/fonts
