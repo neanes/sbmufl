@@ -336,12 +336,10 @@ Based: AGL For New Fonts
 0xE280 gorthmikon
 0xE281 pelastikon
 0xE2A0 modeFirst
-0xE2A1 modeFirstShort
 0xE2A8 modeSecond
 0xE2B0 modeThird
 0xE2B1 modeThirdNana
 0xE2B8 modeFourth
-0xE2B9 modeFourthShort
 0xE2BA modeLegetos
 0xE2C0 modePlagalFirst
 0xE2C8 modePlagalSecond
