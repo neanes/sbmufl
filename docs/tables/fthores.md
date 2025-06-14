@@ -835,6 +835,214 @@
         </div>
     </td>
 </tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D0;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D0
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicNiLow
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D1;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D1
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicPa
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D2;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D2
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicVou
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D3;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D3
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicGa
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D4;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D4
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicDi
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D5;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D5
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicKe
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D6;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D6
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicZo
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D7;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D7
+        </div>
+        <div class="glyph-name">
+            fthoraDiatonicNiHigh
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D8;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D8
+        </div>
+        <div class="glyph-name">
+            fthoraHardChromaticPa
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1D9;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1D9
+        </div>
+        <div class="glyph-name">
+            fthoraHardChromaticDi
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DA;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DA
+        </div>
+        <div class="glyph-name">
+            fthoraSoftChromaticDi
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DB;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DB
+        </div>
+        <div class="glyph-name">
+            fthoraSoftChromaticKe
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DC;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DC
+        </div>
+        <div class="glyph-name">
+            fthoraEnharmonic
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DD;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DD
+        </div>
+        <div class="glyph-name">
+            chroaZygos
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DE;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DE
+        </div>
+        <div class="glyph-name">
+            chroaKliton
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE1DF;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E1DF
+        </div>
+        <div class="glyph-name">
+            chroaSpathi
+        </div>
+    </td>
+</tr>
 </table>
 
 ## Implementation Details

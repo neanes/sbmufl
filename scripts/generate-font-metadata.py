@@ -3,6 +3,24 @@ import fontforge
 import json
 
 
+def find_midpoint(glyph):
+    min_y = float("inf")
+    max_y = float("-inf")
+
+    for contour in glyph.foreground:
+        for point in contour:
+            y = point.y
+            if y < min_y:
+                min_y = y
+            if y > max_y:
+                max_y = y
+
+    if min_y == float("inf") or max_y == float("-inf"):
+        return None
+
+    return (min_y + max_y) / 2
+
+
 class SbmuflFont(object):
     valid_anchor_names = (
         "agogi",
@@ -143,6 +161,10 @@ class SbmuflFont(object):
     def os2_windescent(self):
         return self.font.os2_windescent
 
+    @property
+    def oligon_midpoint(self):
+        return find_midpoint(self.font[0xE001])
+
 
 class _SbmuflMetadata(object):
     def __init__(self, font):
@@ -156,6 +178,7 @@ class _SbmuflMetadata(object):
         d["metrics"] = {
             "winAscent": round(self.font.os2_winascent / self.font.em, 3),
             "winDescent": round(self.font.os2_windescent / self.font.em, 3),
+            "oligonMidpoint": round(self.font.oligon_midpoint / self.font.em, 3),
         }
 
         anchors = self.anchors()
