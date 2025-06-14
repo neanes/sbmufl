@@ -16,10 +16,30 @@ With a standard font layout, users would be able to easily interchange fonts.
 
 The Private Use Area of the Unicode Basic Multilingual Plane contains 4096 code points, which is plenty of space to support all the characters used in Byzantine chant, including character combinations.
 
-## Documentation 
+## Documentation
 
 See the full documentation [here](https://neanes.github.io/sbmufl).
 
 ## Example
 
-An example font is included in the `fonts` directory.
+Example fonts are included in the `fonts` directory.
+
+## Development
+
+### Developing the Documentation
+
+1. Install docsify.
+
+```bash
+npm i docsify-cli -g
+```
+
+2. Start docsify.
+
+```bash
+docsify serve docs
+```
+
+3. Navigate to http://localhost:3000 to view the docs.
+
+4. Edit the Markdown files in the docs directory. The web page will automatically refresh as you make changes.
