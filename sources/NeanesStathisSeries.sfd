@@ -15729,7 +15729,7 @@ Encoding: 57648 57648 150
 Width: 783
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 515 590 basechar 0
 AnchorPoint: "martyriaTop" 547 -40 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -15787,7 +15787,7 @@ Encoding: 57649 57649 151
 Width: 731
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 515 592 basechar 0
 AnchorPoint: "martyriaTop" 515 -78 basechar 0
 AnchorPoint: "agogi" 517 374 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -15834,7 +15834,7 @@ Encoding: 57650 57650 152
 Width: 737
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 512 474 basechar 0
+AnchorPoint: "fthoraTop" 516 670 basechar 0
 AnchorPoint: "martyriaTop" 517 -44 basechar 0
 AnchorPoint: "agogi" 517 474 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -15892,7 +15892,7 @@ Encoding: 57651 57651 153
 Width: 701
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 456 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
 AnchorPoint: "agogi" 517 454 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -15969,7 +15969,7 @@ Encoding: 57652 57652 154
 Width: 692
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16011,7 +16011,7 @@ Encoding: 57653 57653 155
 Width: 738
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 673 basechar 0
 AnchorPoint: "martyriaTop" 533 -13 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16053,7 +16053,7 @@ Encoding: 57654 57654 156
 Width: 744
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 559 672 basechar 0
 AnchorPoint: "martyriaTop" 560 -80 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16117,7 +16117,7 @@ Encoding: 57655 57655 157
 Width: 783
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 540 basechar 0
+AnchorPoint: "fthoraTop" 517 640 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16175,7 +16175,7 @@ Encoding: 57656 57656 158
 Width: 731
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 416 basechar 0
+AnchorPoint: "fthoraTop" 517 588 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16222,7 +16222,7 @@ Encoding: 57657 57657 159
 Width: 737
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 450 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16280,7 +16280,7 @@ Encoding: 57658 57658 160
 Width: 701
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 525 basechar 0
+AnchorPoint: "fthoraTop" 517 651 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16357,7 +16357,7 @@ Encoding: 57659 57659 161
 Width: 692
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 530 basechar 0
+AnchorPoint: "fthoraTop" 515 613 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16399,7 +16399,7 @@ Encoding: 57660 57660 162
 Width: 738
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 540 550 basechar 0
+AnchorPoint: "fthoraTop" 540 653 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16441,7 +16441,7 @@ Encoding: 57661 57661 163
 Width: 746
 GlyphClass: 2
 Flags: W
-AnchorPoint: "fthoraTop" 517 450 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16505,7 +16505,7 @@ Encoding: 57662 57662 164
 Width: 931
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 640 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16572,7 +16572,7 @@ Encoding: 57663 57663 165
 Width: 879
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 517 608 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16629,7 +16629,7 @@ Encoding: 57664 57664 166
 Width: 885
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 517 610 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16696,7 +16696,7 @@ Encoding: 57665 57665 167
 Width: 849
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 456 basechar 0
+AnchorPoint: "fthoraTop" 517 651 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16782,7 +16782,7 @@ Encoding: 57666 57666 168
 Width: 840
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 436 basechar 0
+AnchorPoint: "fthoraTop" 517 613 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16833,7 +16833,7 @@ Encoding: 57667 57667 169
 Width: 886
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 540 454 basechar 0
+AnchorPoint: "fthoraTop" 538 653 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
@@ -16884,7 +16884,7 @@ Encoding: 57668 57668 170
 Width: 894
 GlyphClass: 3
 Flags: W
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 515 590 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
 AnchorPoint: "barline" 517 590 basechar 0
