@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.1
+Version: 1.0.2
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1749854723
+ModificationTime: 1752256800
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -119,7 +119,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57740 5 5
+WinInfo: 57650 5 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -10772,7 +10772,7 @@ VStem: 714 33<-410.406 -373.413>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
 AnchorPoint: "martyriaTop" 547 -40 basechar 0
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 515 590 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10832,7 +10832,7 @@ VStem: 395 59<-226.537 -171.19> 585 38<-266.438 -170.992>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 374 basechar 0
 AnchorPoint: "martyriaTop" 515 -78 basechar 0
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 515 592 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10875,7 +10875,7 @@ VStem: 549 25<-374.586 -266.717>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 474 basechar 0
 AnchorPoint: "martyriaTop" 517 -44 basechar 0
-AnchorPoint: "fthoraTop" 512 474 basechar 0
+AnchorPoint: "fthoraTop" 516 670 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10929,7 +10929,7 @@ VStem: 360 39<-298 -221.914>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 454 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
-AnchorPoint: "fthoraTop" 517 456 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10974,7 +10974,7 @@ Flags: W
 VStem: 360 70<-460 -220.322> 586 73<-176 -105.606>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaTop" 467 -40 basechar 0
 LayerCount: 2
 Fore
@@ -10998,11 +10998,11 @@ StartChar: martyriaNoteDiLow
 Encoding: 57653 57653 129
 Width: 738
 VWidth: 345
-Flags: W
+Flags: HWO
 HStem: -460 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 673 basechar 0
 AnchorPoint: "martyriaTop" 533 -13 basechar 0
 LayerCount: 2
 Fore
@@ -11027,7 +11027,7 @@ HStem: -227 53<450.467 511.497>
 VStem: 517 17<-320.158 -241.756>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 559 672 basechar 0
 AnchorPoint: "martyriaTop" 560 -80 basechar 0
 LayerCount: 2
 Fore
@@ -11081,7 +11081,7 @@ VStem: 714 33<123.594 160.587>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
-AnchorPoint: "fthoraTop" 517 540 basechar 0
+AnchorPoint: "fthoraTop" 517 640 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11141,7 +11141,7 @@ VStem: 549 25<155.414 263.283>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
-AnchorPoint: "fthoraTop" 517 450 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11195,7 +11195,7 @@ VStem: 395 59<293.463 348.81> 585 38<253.562 349.008>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
-AnchorPoint: "fthoraTop" 517 416 basechar 0
+AnchorPoint: "fthoraTop" 517 588 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11238,7 +11238,7 @@ VStem: 360 39<222 298.086>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
-AnchorPoint: "fthoraTop" 517 525 basechar 0
+AnchorPoint: "fthoraTop" 517 651 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11285,7 +11285,7 @@ VStem: 395 59<293.463 348.81> 585 38<253.562 349.008> 779 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 417 basechar 0
 AnchorPoint: "martyriaBottom" 487 -30 basechar 0
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 517 608 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 731 0 2
@@ -11302,7 +11302,7 @@ VStem: 360 70<68 306.678> 586 73<351 421.933>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
-AnchorPoint: "fthoraTop" 517 530 basechar 0
+AnchorPoint: "fthoraTop" 515 613 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11330,18 +11330,18 @@ HStem: 68 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
-AnchorPoint: "fthoraTop" 540 550 basechar 0
+AnchorPoint: "fthoraTop" 540 653 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-703 68 m 1
- 360 68 l 1
+703 68 m 5
+ 360 68 l 5
  541 450 l 1
- 703 68 l 1
-626 113 m 1
+ 703 68 l 5
+626 113 m 5
  525 349 l 1
- 414 113 l 1
- 626 113 l 1
+ 414 113 l 5
+ 626 113 l 5
 EndSplineSet
 EndChar
 
@@ -11354,7 +11354,7 @@ HStem: 319 53<401.498 463.497>
 VStem: 465 21<225.842 312.75>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
-AnchorPoint: "fthoraTop" 517 450 basechar 0
+AnchorPoint: "fthoraTop" 517 590 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
 LayerCount: 2
 Fore
@@ -11408,7 +11408,7 @@ VStem: 714 33<123.594 160.587> 831 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 541 basechar 0
 AnchorPoint: "martyriaBottom" 527 -33 basechar 0
-AnchorPoint: "fthoraTop" 517 446 basechar 0
+AnchorPoint: "fthoraTop" 517 640 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 783 0 2
@@ -11420,13 +11420,13 @@ StartChar: martyriaNotePaHigh
 Encoding: 57664 57664 140
 Width: 885
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 279 86<507.875 561 578.225 666.572> 287 83<395.316 561> 344 206
 VStem: 549 25<155.414 263.283> 785 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 448 basechar 0
 AnchorPoint: "martyriaBottom" 520 -47 basechar 0
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 517 610 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 737 0 2
@@ -11444,7 +11444,7 @@ VStem: 360 39<222 298.086> 749 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 523 basechar 0
 AnchorPoint: "martyriaBottom" 453 -40 basechar 0
-AnchorPoint: "fthoraTop" 517 456 basechar 0
+AnchorPoint: "fthoraTop" 517 651 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 701 0 2
@@ -11462,7 +11462,7 @@ VStem: 360 70<68 306.678> 586 73<351 421.933> 740 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 529 basechar 0
 AnchorPoint: "martyriaBottom" 493 -27 basechar 0
-AnchorPoint: "fthoraTop" 517 436 basechar 0
+AnchorPoint: "fthoraTop" 517 613 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 692 0 2
@@ -11474,13 +11474,13 @@ StartChar: martyriaNoteDiHigh
 Encoding: 57667 57667 143
 Width: 886
 VWidth: 345
-Flags: W
+Flags: HW
 HStem: 68 45<414 626> 344 206
 VStem: 786 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 539 548 basechar 0
 AnchorPoint: "martyriaBottom" 533 -27 basechar 0
-AnchorPoint: "fthoraTop" 540 454 basechar 0
+AnchorPoint: "fthoraTop" 538 653 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 57669 N 1 0 0 1 738 0 2
@@ -11497,7 +11497,7 @@ HStem: 319 53<401.498 463.497> 344 206
 VStem: 465 21<225.842 312.75> 794 77<467.087 542.068>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 449 basechar 0
-AnchorPoint: "fthoraTop" 517 376 basechar 0
+AnchorPoint: "fthoraTop" 515 590 basechar 0
 AnchorPoint: "martyriaBottom" 507 -27 basechar 0
 LayerCount: 2
 Fore
@@ -14461,7 +14461,7 @@ EndChar
 StartChar: fthoraDiatonicVouAbove
 Encoding: 57746 57746 202
 Width: 0
-Flags: WO
+Flags: W
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
 AnchorPoint: "agogiAboveFthora" -1 1296 basemark 0
