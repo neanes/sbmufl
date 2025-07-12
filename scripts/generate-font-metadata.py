@@ -36,7 +36,6 @@ class SbmuflFont(object):
         "fthoraTopSecondary",
         "fthoraTopTertiary",
         "fthoraBottom",
-        "fthoraAboveBarline",
         "gorgonTop",
         "gorgonBottom",
         "gorgonSecondary",

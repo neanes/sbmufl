@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.3
+Version: 1.0.2
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1752290525
+ModificationTime: 1749854691
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -151,11 +151,11 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57995 7 6
+WinInfo: 58030 7 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 7340 3670 2446 0 1048576 2446 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "fthoraAboveBarline" "'mkmk' Mark to Mark lookup 1 subtable" "stavros" "'mark' Mark Positioning lookup 0 subtable" "diesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "diesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "barline" "'mark' Mark Positioning lookup 0 subtable" "yfesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "yfesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0 subtable" "yfenBelow" "'mark' Mark Positioning lookup 0 subtable" "yfenAbove" "'mark' Mark Positioning lookup 0 subtable" "koronis" "'mark' Mark Positioning lookup 0 subtable" "endofonon" "'mark' Mark Positioning lookup 0 subtable" "agogi" "'mark' Mark Positioning lookup 0 subtable" "modeTop" "'mark' Mark Positioning lookup 0 subtable" "isonIndicator" "'mark' Mark Positioning lookup 0 subtable" "measureNumber" "'mark' Mark Positioning lookup 0 subtable" "heteronConnecting" "'mark' Mark Positioning lookup 0 subtable" "omalon" "'mark' Mark Positioning lookup 0 subtable" "omalonConnecting" "'mark' Mark Positioning lookup 0 subtable" "martyriaTop" "'mark' Mark Positioning lookup 0 subtable" "martyriaBottom" "'mark' Mark Positioning lookup 0 subtable" "noteTop" "'mark' Mark Positioning lookup 0 subtable" "fthoraBottom" "'mark' Mark Positioning lookup 0 subtable" "fthoraTop" "'mark' Mark Positioning lookup 0 subtable" "heteron" "'mark' Mark Positioning lookup 0 subtable" "gorgonSecondary" "'mark' Mark Positioning lookup 0 subtable" "antikenoma" "'mark' Mark Positioning lookup 0 subtable" "gorgonBottom" "'mark' Mark Positioning lookup 0 subtable" "psifiston" "'mark' Mark Positioning lookup 0 subtable" "diesis" "'mark' Mark Positioning lookup 0 subtable" "yfesis" "'mark' Mark Positioning lookup 0 subtable" "klasmaTop" "'mark' Mark Positioning lookup 0 subtable" "klasmaBottom" "'mark' Mark Positioning lookup 0 subtable" "apli" "'mark' Mark Positioning lookup 0 subtable" "gorgonTop" "'mark' Mark Positioning lookup 0 subtable" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable"
+AnchorClass2: "stavros" "'mark' Mark Positioning lookup 0 subtable" "diesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "diesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "barline" "'mark' Mark Positioning lookup 0 subtable" "yfesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "yfesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0 subtable" "yfenBelow" "'mark' Mark Positioning lookup 0 subtable" "yfenAbove" "'mark' Mark Positioning lookup 0 subtable" "koronis" "'mark' Mark Positioning lookup 0 subtable" "endofonon" "'mark' Mark Positioning lookup 0 subtable" "agogi" "'mark' Mark Positioning lookup 0 subtable" "modeTop" "'mark' Mark Positioning lookup 0 subtable" "isonIndicator" "'mark' Mark Positioning lookup 0 subtable" "measureNumber" "'mark' Mark Positioning lookup 0 subtable" "heteronConnecting" "'mark' Mark Positioning lookup 0 subtable" "omalon" "'mark' Mark Positioning lookup 0 subtable" "omalonConnecting" "'mark' Mark Positioning lookup 0 subtable" "martyriaTop" "'mark' Mark Positioning lookup 0 subtable" "martyriaBottom" "'mark' Mark Positioning lookup 0 subtable" "noteTop" "'mark' Mark Positioning lookup 0 subtable" "fthoraBottom" "'mark' Mark Positioning lookup 0 subtable" "fthoraTop" "'mark' Mark Positioning lookup 0 subtable" "heteron" "'mark' Mark Positioning lookup 0 subtable" "gorgonSecondary" "'mark' Mark Positioning lookup 0 subtable" "antikenoma" "'mark' Mark Positioning lookup 0 subtable" "gorgonBottom" "'mark' Mark Positioning lookup 0 subtable" "psifiston" "'mark' Mark Positioning lookup 0 subtable" "diesis" "'mark' Mark Positioning lookup 0 subtable" "yfesis" "'mark' Mark Positioning lookup 0 subtable" "klasmaTop" "'mark' Mark Positioning lookup 0 subtable" "klasmaBottom" "'mark' Mark Positioning lookup 0 subtable" "apli" "'mark' Mark Positioning lookup 0 subtable" "gorgonTop" "'mark' Mark Positioning lookup 0 subtable" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable"
 BeginChars: 1114115 439
 
 StartChar: .notdef
@@ -18760,7 +18760,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18833,7 +18832,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1076 basemark 0
 AnchorPoint: "fthoraTop" 0 644 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 644 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18884,7 +18882,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1296 basemark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 634 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18960,7 +18957,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1216 basemark 0
 AnchorPoint: "fthoraTop" 0 684 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 684 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19011,7 +19007,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 744 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19078,7 +19073,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19126,7 +19120,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1356 basemark 0
 AnchorPoint: "fthoraTop" 0 624 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 624 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19206,7 +19199,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 754 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 754 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19302,7 +19294,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1125 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19376,7 +19367,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 744 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19456,7 +19446,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19530,7 +19519,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 714 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 714 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19602,7 +19590,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19655,7 +19642,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 704 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 704 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19725,7 +19711,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1225 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19792,7 +19777,6 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "agogiAboveFthora" -1 1136 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -23423,7 +23407,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -24501,7 +24484,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "fthoraTop" 0 634 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 634 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25534,7 +25516,6 @@ Encoding: 57878 57878 298
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 904 basemark 0
 AnchorPoint: "barline" -3 4 mark 0
 LayerCount: 2
 Fore
@@ -25561,7 +25542,6 @@ Encoding: 57879 57879 299
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 904 basemark 0
 AnchorPoint: "barline" 4 4 mark 0
 LayerCount: 2
 Fore
@@ -25600,7 +25580,6 @@ Encoding: 57880 57880 300
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 1008 basemark 0
 AnchorPoint: "barline" -1 4 mark 0
 LayerCount: 2
 Fore
@@ -25639,7 +25618,6 @@ Encoding: 57881 57881 301
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 1096 basemark 0
 AnchorPoint: "barline" -3 590 mark 0
 LayerCount: 2
 Fore
@@ -25673,7 +25651,6 @@ Encoding: 57882 57882 302
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 1096 basemark 0
 AnchorPoint: "barline" -1 590 mark 0
 LayerCount: 2
 Fore
@@ -25710,7 +25687,6 @@ Encoding: 57883 57883 303
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "fthoraAboveBarline" 0 1196 basemark 0
 AnchorPoint: "barline" 17 589 mark 0
 LayerCount: 2
 Fore

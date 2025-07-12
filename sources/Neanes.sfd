@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.3
+Version: 1.0.2
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1752289374
+ModificationTime: 1752256800
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -119,11 +119,11 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57860 5 5
+WinInfo: 57650 5 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "fthoraAboveBarline" "'mkmk' Mark to Mark lookup 1-1" "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
+AnchorClass2: "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 436
 
 StartChar: u1D046
@@ -10998,7 +10998,7 @@ StartChar: martyriaNoteDiLow
 Encoding: 57653 57653 129
 Width: 738
 VWidth: 345
-Flags: HW
+Flags: HWO
 HStem: -460 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
@@ -14375,7 +14375,6 @@ Width: 0
 Flags: W
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
 VStem: -163.312 25<940.316 1031.03> 45.6885 25<939.996 1032>
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
@@ -14431,7 +14430,6 @@ VStem: -118 26<875.126 969.03> -13 26<656.029 807.258> 92 26<875.126 970.002>
 CounterMasks: 1 70
 AnchorPoint: "agogiAboveFthora" -1 1076 basemark 0
 AnchorPoint: "fthoraTop" 0 644 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 644 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14468,7 +14466,6 @@ HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
 AnchorPoint: "agogiAboveFthora" -1 1296 basemark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 634 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14523,7 +14520,6 @@ Flags: W
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
 AnchorPoint: "agogiAboveFthora" -1 1216 basemark 0
 AnchorPoint: "fthoraTop" 0 684 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 684 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14564,7 +14560,6 @@ HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
 VStem: -115.819 25<883.456 976.344> 93.6807 25<883.047 975.544>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 744 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14605,7 +14600,6 @@ HStem: 802 25<-45.6833 46.3909>
 VStem: -117.5 25<873.327 963.999> -12.5 25<1034.03 1182.98> 91.5 26<871.88 966.019>
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14641,7 +14635,6 @@ Flags: W
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
 AnchorPoint: "agogiAboveFthora" -1 1356 basemark 0
 AnchorPoint: "fthoraTop" 0 624 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 624 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14714,7 +14707,6 @@ HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
 AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 754 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 754 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14774,7 +14766,6 @@ HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
 AnchorPoint: "agogiAboveFthora" -1 1125 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14834,7 +14825,6 @@ HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
 AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 744 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14875,7 +14865,6 @@ HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14936,7 +14925,6 @@ HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 714 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 714 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14991,7 +14979,6 @@ HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
 AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15038,7 +15025,6 @@ HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
 AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 704 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 704 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15093,7 +15079,6 @@ HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
 AnchorPoint: "agogiAboveFthora" -1 1225 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 734 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16313,7 +16298,6 @@ Flags: W
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16361,7 +16345,6 @@ Flags: W
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
 AnchorPoint: "fthoraTop" 0 634 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 634 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16845,7 +16828,6 @@ HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
 AnchorPoint: "agogiAboveFthora" -1 1136 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
-AnchorPoint: "fthoraAboveBarline" 0 804 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25087,20 +25069,19 @@ VWidth: 345
 Flags: W
 HStem: 590 305
 VStem: -17 32<590.064 894.967>
-AnchorPoint: "fthoraAboveBarline" 0 1096 basemark 0
 AnchorPoint: "barline" -1 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
--17 883 m 2
- -16.3330078125 891.666992188 -11 895.666992188 -1 895 c 0
- 9 894.333007812 14.3330078125 890.666992188 15 884 c 2
- 15 616 l 2
- 15 616 15 616 15 601 c 1
- 11 592.333007812 4.6669921875 588.666992188 -4 590 c 0
- -12.6669921875 591.333007812 -17 595 -17 601 c 2
- -17 869 l 2
- -17 869 -17 869 -17 883 c 2
+-17 883 m 6
+ -16.3330078125 891.666992188 -11 895.666992188 -1 895 c 4
+ 9 894.333007812 14.3330078125 890.666992188 15 884 c 6
+ 15 616 l 6
+ 15 616 15 616 15 601 c 5
+ 11 592.333007812 4.6669921875 588.666992188 -4 590 c 4
+ -12.6669921875 591.333007812 -17 595 -17 601 c 6
+ -17 869 l 6
+ -17 869 -17 869 -17 883 c 6
 EndSplineSet
 EndChar
 
@@ -25108,24 +25089,23 @@ StartChar: barlineSingleAbove
 Encoding: 57878 57878 388
 Width: 0
 VWidth: 345
-Flags: HW
+Flags: W
 VStem: -16 32<4.06419 704.966>
-AnchorPoint: "fthoraAboveBarline" 0 904 basemark 0
 AnchorPoint: "barline" -7 4 mark 0
 LayerCount: 2
 Fore
 SplineSet
--16 693 m 2
- -15.3330078125 701.666992188 -10 705.666992188 0 705 c 0
- 10 704.333007812 15.3330078125 700.333007812 16 693 c 2
- 16 30 l 2
- 16 15 16 15 16 15 c 1
- 12 6.3330078125 5.6669921875 2.6669921875 -3 4 c 0
- -11.6669921875 5.3330078125 -16 9 -16 15 c 2
- -16 678 l 2
- -16 693 -16 693 -16 693 c 2
--17 248 m 257
- -17 248 l 257
+-16 693 m 6
+ -15.3330078125 701.666992188 -10 705.666992188 0 705 c 4
+ 10 704.333007812 15.3330078125 700.333007812 16 693 c 6
+ 16 30 l 6
+ 16 15 16 15 16 15 c 5
+ 12 6.3330078125 5.6669921875 2.6669921875 -3 4 c 4
+ -11.6669921875 5.3330078125 -16 9 -16 15 c 6
+ -16 678 l 6
+ -16 693 -16 693 -16 693 c 6
+-17 248 m 261
+ -17 248 l 261
 EndSplineSet
 EndChar
 
@@ -25133,33 +25113,32 @@ StartChar: barlineDoubleAbove
 Encoding: 57879 57879 389
 Width: 0
 VWidth: 345
-Flags: HW
+Flags: W
 VStem: -70 31<4.06419 704.966> 47 32<4.06419 704.966>
-AnchorPoint: "fthoraAboveBarline" 0 904 basemark 0
 AnchorPoint: "barline" 5 4 mark 0
 LayerCount: 2
 Fore
 SplineSet
--70 693 m 2
- -69.3330078125 701.666992188 -64.1669921875 705.666992188 -54.0684300594 704.970223026 c 0
- -44.8330078125 704.333007812 -39.6669921875 700.333007812 -39 693 c 2
- -39 30 l 2
- -39 30 -39 30 -39 15 c 1
- -43 6.3330078125 -49.1669921875 2.6669921875 -58.4101987615 4.14560193477 c 0
- -65.8330078125 5.3330078125 -70 9 -70 15 c 2
- -70 678 l 2
- -70 678 -70 678 -70 693 c 2
--71 248 m 257
- -71 248 l 257
-47 693 m 2
- 47.6669921875 701.666992188 53 705.666992188 63.4455168523 704.970284374 c 0
- 73 704.333007812 78.3330078125 700.333007812 79 693 c 2
- 79 30 l 2
- 79 30 79 30 79 15 c 1
- 75 6.3330078125 68.6669921875 2.6669921875 59.0591818861 4.14470047612 c 0
- 51.3330078125 5.3330078125 47 9 47 15 c 2
- 47 678 l 2
- 47 678 47 678 47 693 c 2
+-70 693 m 6
+ -69.3330078125 701.666992188 -64.1669921875 705.666992188 -54.5 705 c 4
+ -44.8330078125 704.333007812 -39.6669921875 700.333007812 -39 693 c 6
+ -39 30 l 6
+ -39 30 -39 30 -39 15 c 5
+ -43 6.3330078125 -49.1669921875 2.6669921875 -57.5 4 c 4
+ -65.8330078125 5.3330078125 -70 9 -70 15 c 6
+ -70 678 l 6
+ -70 678 -70 678 -70 693 c 6
+-71 248 m 261
+ -71 248 l 261
+47 693 m 6
+ 47.6669921875 701.666992188 53 705.666992188 63 705 c 4
+ 73 704.333007812 78.3330078125 700.333007812 79 693 c 6
+ 79 30 l 6
+ 79 30 79 30 79 15 c 5
+ 75 6.3330078125 68.6669921875 2.6669921875 60 4 c 4
+ 51.3330078125 5.3330078125 47 9 47 15 c 6
+ 47 678 l 6
+ 47 678 47 678 47 693 c 6
 EndSplineSet
 EndChar
 
@@ -25167,36 +25146,35 @@ StartChar: barlineTheseosAbove
 Encoding: 57880 57880 390
 Width: 0
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 783 29<-97.4519 82.3209>
 VStem: -19 32<4.06419 704.966>
-AnchorPoint: "fthoraAboveBarline" 0 1008 basemark 0
 AnchorPoint: "barline" -3 4 mark 0
 LayerCount: 2
 Fore
 SplineSet
--20 248 m 257
- -20 248 l 257
--4 812 m 1
- -54.6669921875 810 -95.1669921875 801.5 -125.5 786.5 c 0
- -155.833007812 771.5 -184.333007812 746.666992188 -211 712 c 1
- -201 703 l 1
- -161 740.333007812 -126 762.666992188 -96 770 c 0
- -66 777.333007812 -35.3330078125 781.666992188 -4 783 c 1
- 38 780.333007812 72.3330078125 774 99 764 c 0
- 125.666992188 754 154.666992188 733.666992188 186 703 c 1
- 196 714 l 1
- 163.333007812 753.333007812 132.333007812 778.833007812 103 790.5 c 0
- 73.6669921875 802.166992188 38 809.333007812 -4 812 c 1
--19 693 m 2
- -18.3330078125 701.666992188 -13 705.666992188 -3 705 c 0
- 7 704.333007812 12.3330078125 700.333007812 13 693 c 2
- 13 30 l 2
- 13 15 13 15 13 15 c 1
- 9 6.3330078125 2.6669921875 2.6669921875 -6 4 c 0
- -14.6669921875 5.3330078125 -19 9 -19 15 c 2
- -19 678 l 2
- -19 693 -19 693 -19 693 c 2
+-20 248 m 261
+ -20 248 l 261
+-4 812 m 5
+ -54.6669921875 810 -95.1669921875 801.5 -125.5 786.5 c 4
+ -155.833007812 771.5 -184.333007812 746.666992188 -211 712 c 5
+ -201 703 l 5
+ -161 740.333007812 -126 762.666992188 -96 770 c 4
+ -66 777.333007812 -35.3330078125 781.666992188 -4 783 c 5
+ 38 780.333007812 72.3330078125 774 99 764 c 4
+ 125.666992188 754 154.666992188 733.666992188 186 703 c 5
+ 196 714 l 5
+ 163.333007812 753.333007812 132.333007812 778.833007812 103 790.5 c 4
+ 73.6669921875 802.166992188 38 809.333007812 -4 812 c 5
+-19 693 m 6
+ -18.3330078125 701.666992188 -13 705.666992188 -3 705 c 4
+ 7 704.333007812 12.3330078125 700.333007812 13 693 c 6
+ 13 30 l 6
+ 13 15 13 15 13 15 c 5
+ 9 6.3330078125 2.6669921875 2.6669921875 -6 4 c 4
+ -14.6669921875 5.3330078125 -19 9 -19 15 c 6
+ -19 678 l 6
+ -19 693 -19 693 -19 693 c 6
 EndSplineSet
 EndChar
 
@@ -25204,32 +25182,31 @@ StartChar: barlineShortDoubleAbove
 Encoding: 57882 57882 391
 Width: 0
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 590 305
 VStem: -63 32<590.064 894.967> 30 32<590.064 894.967>
-AnchorPoint: "fthoraAboveBarline" 0 1096 basemark 0
 AnchorPoint: "barline" -1 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
--63 883 m 2
- -62.3330078125 891.666992188 -57 895.666992188 -47 895 c 0
- -37 894.333007812 -31.6669921875 890.666992188 -31 884 c 2
- -31 616 l 2
- -31 616 -31 616 -31 601 c 1
- -35 592.333007812 -41.3330078125 588.666992188 -50 590 c 0
- -58.6669921875 591.333007812 -63 595 -63 601 c 2
- -63 869 l 2
- -63 869 -63 869 -63 883 c 2
-30 883 m 2
- 30.6669921875 891.666992188 36 895.666992188 46 895 c 0
- 56 894.333007812 61.3330078125 890.666992188 62 884 c 2
- 62 616 l 2
- 62 616 62 616 62 601 c 1
- 58 592.333007812 51.6669921875 588.666992188 43 590 c 0
- 34.3330078125 591.333007812 30 595 30 601 c 2
- 30 869 l 2
- 30 869 30 869 30 883 c 2
+-63 883 m 6
+ -62.3330078125 891.666992188 -57 895.666992188 -47 895 c 4
+ -37 894.333007812 -31.6669921875 890.666992188 -31 884 c 6
+ -31 616 l 6
+ -31 616 -31 616 -31 601 c 5
+ -35 592.333007812 -41.3330078125 588.666992188 -50 590 c 4
+ -58.6669921875 591.333007812 -63 595 -63 601 c 6
+ -63 869 l 6
+ -63 869 -63 869 -63 883 c 6
+30 883 m 6
+ 30.6669921875 891.666992188 36 895.666992188 46 895 c 4
+ 56 894.333007812 61.3330078125 890.666992188 62 884 c 6
+ 62 616 l 6
+ 62 616 62 616 62 601 c 5
+ 58 592.333007812 51.6669921875 588.666992188 43 590 c 4
+ 34.3330078125 591.333007812 30 595 30 601 c 6
+ 30 869 l 6
+ 30 869 30 869 30 883 c 6
 EndSplineSet
 EndChar
 
@@ -25237,36 +25214,35 @@ StartChar: barlineShortTheseosAbove
 Encoding: 57883 57883 392
 Width: 0
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 960 28<-77.5919 -23 20 65.2324>
 VStem: -19 32<589.064 894.966>
-AnchorPoint: "fthoraAboveBarline" 0 1196 basemark 0
 AnchorPoint: "barline" -3 589 mark 0
 LayerCount: 2
 Fore
 SplineSet
--30.5 988 m 0
- -48.8330078125 986 -70 978.833007812 -94 966.5 c 0
- -118 954.166992188 -137.333007812 934 -152 906 c 1
- -146 903 l 1
- -114.666992188 928.333007812 -89.6669921875 944 -71 950 c 0
- -52.3330078125 956 -36.3330078125 959.333007812 -23 960 c 0
- -9.6669921875 960.666992188 4.6669921875 960.333007812 20 959 c 0
- 35.3330078125 957.666992188 51.6669921875 953.333007812 69 946 c 0
- 86.3330078125 938.666992188 108.333007812 924.333007812 135 903 c 1
- 142 907 l 1
- 124.666992188 937 104.833007812 957 82.5 967 c 0
- 60.1669921875 977 40.3330078125 983.5 23 986.5 c 0
- 5.6669921875 989.5 -12.1669921875 990 -30.5 988 c 0
--19 883 m 2
- -18.3330078125 891.666992188 -13 895.666992188 -3 895 c 0
- 7 894.333007812 12.3330078125 890.333007812 13 883 c 2
- 13 615 l 2
- 13 615 13 615 13 600 c 1
- 9 591.333007812 2.6669921875 587.666992188 -6 589 c 0
- -14.6669921875 590.333007812 -19 594 -19 600 c 2
- -19 868 l 2
- -19 868 -19 868 -19 883 c 2
+-30.5 988 m 4
+ -48.8330078125 986 -70 978.833007812 -94 966.5 c 4
+ -118 954.166992188 -137.333007812 934 -152 906 c 5
+ -146 903 l 5
+ -114.666992188 928.333007812 -89.6669921875 944 -71 950 c 4
+ -52.3330078125 956 -36.3330078125 959.333007812 -23 960 c 4
+ -9.6669921875 960.666992188 4.6669921875 960.333007812 20 959 c 4
+ 35.3330078125 957.666992188 51.6669921875 953.333007812 69 946 c 4
+ 86.3330078125 938.666992188 108.333007812 924.333007812 135 903 c 5
+ 142 907 l 5
+ 124.666992188 937 104.833007812 957 82.5 967 c 4
+ 60.1669921875 977 40.3330078125 983.5 23 986.5 c 4
+ 5.6669921875 989.5 -12.1669921875 990 -30.5 988 c 4
+-19 883 m 6
+ -18.3330078125 891.666992188 -13 895.666992188 -3 895 c 4
+ 7 894.333007812 12.3330078125 890.333007812 13 883 c 6
+ 13 615 l 6
+ 13 615 13 615 13 600 c 5
+ 9 591.333007812 2.6669921875 587.666992188 -6 589 c 4
+ -14.6669921875 590.333007812 -19 594 -19 600 c 6
+ -19 868 l 6
+ -19 868 -19 868 -19 883 c 6
 EndSplineSet
 EndChar
 
