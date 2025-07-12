@@ -19204,7 +19204,7 @@ Encoding: 57751 57751 203
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 754 mark 0
 LayerCount: 2
@@ -19300,7 +19300,7 @@ Encoding: 57752 57752 204
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1285 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1285 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1125 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
@@ -19374,7 +19374,7 @@ Encoding: 57753 57753 205
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1240 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1240 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
 LayerCount: 2
@@ -19454,7 +19454,7 @@ Encoding: 57754 57754 206
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
@@ -19528,7 +19528,7 @@ Encoding: 57755 57755 207
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1242 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1242 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 714 mark 0
 LayerCount: 2
@@ -19600,7 +19600,7 @@ Encoding: 57756 57756 208
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1298 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1298 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
@@ -19653,7 +19653,7 @@ Encoding: 57757 57757 209
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1241 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1241 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 704 mark 0
 LayerCount: 2
@@ -19723,7 +19723,7 @@ Encoding: 57758 57758 210
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1225 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
@@ -19790,7 +19790,7 @@ Encoding: 57759 57759 211
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1300 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1300 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1136 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
@@ -23422,7 +23422,8 @@ Encoding: 57844 57844 264
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1430 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1306 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1430 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -24500,7 +24501,8 @@ Encoding: 57860 57860 280
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "barlineAboveFthora" 0 1262 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1176 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1262 basemark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
 LayerCount: 2
 Fore

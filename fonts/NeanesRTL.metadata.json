@@ -1,6 +1,6 @@
 {
   "fontName": "NeanesRTL",
-  "fontVersion": "1.0.2",
+  "fontVersion": "1.0.3",
   "metrics": {
     "winAscent": 1.4,
     "winDescent": 0.466,
@@ -6676,6 +6676,10 @@
       ]
     },
     "diesisGenikiAbove": {
+      "agogiAboveFthora": [
+        0.0,
+        1.306
+      ],
       "barlineAboveFthora": [
         0.0,
         1.43
@@ -6686,6 +6690,10 @@
       ]
     },
     "yfesisGenikiAbove": {
+      "agogiAboveFthora": [
+        0.0,
+        1.176
+      ],
       "barlineAboveFthora": [
         0.0,
         1.262

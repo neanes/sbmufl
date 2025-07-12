@@ -123,7 +123,7 @@ WinInfo: 57858 6 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "barlineAboveFthora"""  "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
+AnchorClass2: "barlineAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 436
 
 StartChar: u1D046
@@ -14715,7 +14715,7 @@ Width: 0
 Flags: W
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 754 mark 0
 LayerCount: 2
@@ -14775,7 +14775,7 @@ Width: 0
 Flags: W
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
-AnchorPoint: "barlineAboveFthora" 0 1285 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1285 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1125 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
@@ -14835,7 +14835,7 @@ Width: 0
 Flags: W
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
-AnchorPoint: "barlineAboveFthora" 0 1240 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1240 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
 LayerCount: 2
@@ -14876,7 +14876,7 @@ Width: 0
 Flags: W
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
@@ -14937,7 +14937,7 @@ Width: 0
 Flags: W
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
-AnchorPoint: "barlineAboveFthora" 0 1242 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1242 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 714 mark 0
 LayerCount: 2
@@ -14992,7 +14992,7 @@ Width: 0
 Flags: W
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
-AnchorPoint: "barlineAboveFthora" 0 1298 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1298 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
@@ -15039,7 +15039,7 @@ Width: 0
 Flags: W
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
-AnchorPoint: "barlineAboveFthora" 0 1241 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1241 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 704 mark 0
 LayerCount: 2
@@ -15094,7 +15094,7 @@ Width: 0
 Flags: W
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
-AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1225 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
@@ -16315,7 +16315,8 @@ Width: 0
 Flags: W
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
-AnchorPoint: "barlineAboveFthora" 0 1430 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1306 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1430 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -16363,7 +16364,8 @@ Width: 0
 Flags: W
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
-AnchorPoint: "barlineAboveFthora" 0 1262 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1176 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1262 basemark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
 LayerCount: 2
 Fore
@@ -16846,7 +16848,7 @@ Width: 0
 Flags: W
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
-AnchorPoint: "barlineAboveFthora" 0 1300 mark 0
+AnchorPoint: "barlineAboveFthora" 0 1300 basemark 0
 AnchorPoint: "agogiAboveFthora" 0 1136 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
