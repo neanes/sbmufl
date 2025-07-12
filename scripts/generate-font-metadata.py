@@ -28,6 +28,7 @@ class SbmuflFont(object):
         "antikenoma",
         "apli",
         "barline",
+        "barlineAboveFthora",
         "diesis",
         "diesisSecondary",
         "diesisTertiary",
