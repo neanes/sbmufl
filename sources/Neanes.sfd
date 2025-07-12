@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.2
+Version: 1.0.3
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1752256800
+ModificationTime: 1752354471
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -119,11 +119,11 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57650 5 5
+WinInfo: 57835 5 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
+AnchorClass2: "barlineAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 436
 
 StartChar: u1D046
@@ -10998,7 +10998,7 @@ StartChar: martyriaNoteDiLow
 Encoding: 57653 57653 129
 Width: 738
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: -460 45<414 626>
 AnchorPoint: "barline" 517 590 basechar 0
 AnchorPoint: "agogi" 517 444 basechar 0
@@ -14375,7 +14375,8 @@ Width: 0
 Flags: W
 HStem: 744 27<66.129 88.6998> 746.5 92.5<103.688 152.757> 869 25<-91.8469 0.51283> 1078 25<-91.4949 0.51283>
 VStem: -163.312 25<940.316 1031.03> 45.6885 25<939.996 1032>
-AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1300 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
 Fore
@@ -14428,7 +14429,8 @@ Flags: W
 HStem: 1014 26<-47.1909 46.8635>
 VStem: -118 26<875.126 969.03> -13 26<656.029 807.258> 92 26<875.126 970.002>
 CounterMasks: 1 70
-AnchorPoint: "agogiAboveFthora" -1 1076 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1240 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1076 basemark 0
 AnchorPoint: "fthoraTop" 0 644 mark 0
 LayerCount: 2
 Fore
@@ -14464,7 +14466,8 @@ Width: 0
 Flags: W
 HStem: 635 95<79.3424 159.602> 816.5 27.5<-140.577 63.1707>
 VStem: 72.9746 102<641.126 724.588>
-AnchorPoint: "agogiAboveFthora" -1 1296 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1457 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1296 basemark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
 LayerCount: 2
 Fore
@@ -14518,7 +14521,8 @@ Encoding: 57747 57747 203
 Width: 0
 Flags: W
 VStem: -119.5 26<878.929 974.779> -12.5 25<687.551 809.703 1044.03 1165.92> 94.5 25<881.401 973.181>
-AnchorPoint: "agogiAboveFthora" -1 1216 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1366 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1216 basemark 0
 AnchorPoint: "fthoraTop" 0 684 mark 0
 LayerCount: 2
 Fore
@@ -14558,7 +14562,8 @@ Width: 0
 Flags: W
 HStem: 812.5 25<-46.3193 47.7236> 1022 25<-45.3625 47.7236>
 VStem: -115.819 25<883.456 976.344> 93.6807 25<883.047 975.544>
-AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1249 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
 LayerCount: 2
 Fore
@@ -14598,7 +14603,8 @@ Width: 0
 Flags: W
 HStem: 802 25<-45.6833 46.3909>
 VStem: -117.5 25<873.327 963.999> -12.5 25<1034.03 1182.98> 91.5 26<871.88 966.019>
-AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1387 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -14633,7 +14639,8 @@ Encoding: 57750 57750 206
 Width: 0
 Flags: W
 VStem: 35.8506 27<1261.22 1305.99> 49.8506 25.5<1186.55 1231>
-AnchorPoint: "agogiAboveFthora" -1 1356 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1453 basemark 0
+AnchorPoint: "agogiAboveFthora" 0 1356 basemark 0
 AnchorPoint: "fthoraTop" 0 624 mark 0
 LayerCount: 2
 Fore
@@ -14705,7 +14712,8 @@ Width: 0
 Flags: W
 HStem: 753 25<46.0952 83.8223> 756 83<99.1318 144.954> 896 22<-87.7601 -6.02455> 1083 23<-88.9574 -26.8671>
 VStem: -152.868 23<959.937 1042.16> 1.13184 24<1180 1195.39> 36.1318 22<960.156 1041.42>
-AnchorPoint: "agogiAboveFthora" -1 1226 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1226 basemark 0
 AnchorPoint: "fthoraTop" 0 754 mark 0
 LayerCount: 2
 Fore
@@ -14764,7 +14772,8 @@ Width: 0
 Flags: W
 HStem: 813 28<-54.451 51.516> 870 68<-325.556 -268.434> 960 67<267.17 324.361> 1056 28<-54.7695 52.335>
 VStem: -368.971 102<883.421 939.835> -136.971 27<896.753 960> 107.029 27<938.018 999.45> 266.029 101<957.874 1014.89>
-AnchorPoint: "agogiAboveFthora" -1 1125 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1285 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1125 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -14823,7 +14832,8 @@ Width: 0
 Flags: W
 HStem: 807 25<-47.5108 43.7919> 1015 25<-47.8488 43.8938>
 VStem: -117.752 24<878.803 968.197> 89.248 25<877.849 969.131>
-AnchorPoint: "agogiAboveFthora" -1 1126 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1240 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1126 basemark 0
 AnchorPoint: "fthoraTop" 0 744 mark 0
 LayerCount: 2
 Fore
@@ -14863,7 +14873,8 @@ Width: 0
 Flags: W
 HStem: 800 88<325.155 384.979> 831 27<-72.2769 34.1637> 957 21<-411.159 -154.621 -126.861 90.1387 117.255 298.117> 1077 27<-71.3883 34.3377>
 VStem: -154.861 28<910.33 957 978 1022.05> 90.1387 27<978 1022.05> 308.139 99.5<806.458 879.593>
-AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -14923,7 +14934,8 @@ Width: 0
 Flags: W
 HStem: 806 26<-49.9792 44.4144> 1017 25<-48.7502 43.5385>
 VStem: -120.567 25<877.491 970.183> 90.4326 25<878.264 969.919>
-AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1242 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 714 mark 0
 LayerCount: 2
 Fore
@@ -14977,7 +14989,8 @@ Width: 0
 Flags: W
 HStem: 866 25<49.6323 141.713> 1074 25<49.8839 141.713>
 VStem: -201.112 74<786.844 853.775> -21.1123 25<936.129 1027.91> 186.888 25<936.176 1028.32>
-AnchorPoint: "agogiAboveFthora" -1 1146 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1298 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1146 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
 Fore
@@ -15023,7 +15036,8 @@ Width: 0
 Flags: W
 HStem: 806 26<-44.7064 49.9817> 1018 26<-43.6787 49.3496>
 VStem: -116 25<877.895 969.597> 96 25<878.625 970.548>
-AnchorPoint: "agogiAboveFthora" -1 1196 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1241 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1196 basemark 0
 AnchorPoint: "fthoraTop" 0 704 mark 0
 LayerCount: 2
 Fore
@@ -15074,10 +15088,11 @@ EndChar
 StartChar: chroaKlitonAbove
 Encoding: 57758 57758 214
 Width: 0
-Flags: W
+Flags: HW
 HStem: 864 25<24.5114 116.817> 1076 26<23.1953 118.708>
 VStem: -231.425 75<783.359 850.97> -48.4248 26<934.861 1030.38> 164.575 26<935.834 1030.39>
-AnchorPoint: "agogiAboveFthora" -1 1225 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1305 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1225 basemark 0
 AnchorPoint: "fthoraTop" 0 734 mark 0
 LayerCount: 2
 Fore
@@ -16297,6 +16312,7 @@ Width: 0
 Flags: W
 HStem: 808 26<-47.5588 48.4774> 1119 28<-96.4351 -10.5 16.5 99.4658>
 VStem: -119.5 26<879.369 974.764> -10.5 27<1045.1 1117 1146 1229.45> 94 25.5<880.011 973.25>
+AnchorPoint: "barlineAboveFthora" 0 1430 mark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -16341,9 +16357,10 @@ EndChar
 StartChar: yfesisGenikiAbove
 Encoding: 57860 57860 239
 Width: 0
-Flags: W
+Flags: WO
 HStem: 725 27<-95.9506 -11.5 15.5 99.4658> 1036 26<-47.5588 48.4774>
 VStem: -119.5 25.5<895.506 989.494> -11.5 27<642.401 725 753 825.881> 94.5 25<895.644 988.413>
+AnchorPoint: "barlineAboveFthora" 0 1262 mark 0
 AnchorPoint: "fthoraTop" 0 634 mark 0
 LayerCount: 2
 Fore
@@ -16826,7 +16843,8 @@ Width: 0
 Flags: W
 HStem: 798 87<314.956 385.479> 830 28<-78.3969 29.3409> 955 21<-411.659 -157.526 -131.361 83.6387 109.8 197.639 221.639 303.043> 1074 27<-76.629 28.5457>
 VStem: -158.361 27<910.459 955 976 1018.53> 83.6387 27<976 1019.94> 197.639 24<863.392 952 973 1064.97>
-AnchorPoint: "agogiAboveFthora" -1 1136 basemark 0
+AnchorPoint: "barlineAboveFthora" 0 1300 mark 0
+AnchorPoint: "agogiAboveFthora" 0 1136 basemark 0
 AnchorPoint: "fthoraTop" 0 804 mark 0
 LayerCount: 2
 Fore
@@ -25069,7 +25087,8 @@ VWidth: 345
 Flags: W
 HStem: 590 305
 VStem: -17 32<590.064 894.967>
-AnchorPoint: "barline" -1 590 mark 0
+AnchorPoint: "barlineAboveFthora" 0 590 mark 0
+AnchorPoint: "barline" 0 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25091,7 +25110,8 @@ Width: 0
 VWidth: 345
 Flags: W
 VStem: -16 32<4.06419 704.966>
-AnchorPoint: "barline" -7 4 mark 0
+AnchorPoint: "barlineAboveFthora" 0 0 mark 0
+AnchorPoint: "barline" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25115,7 +25135,8 @@ Width: 0
 VWidth: 345
 Flags: W
 VStem: -70 31<4.06419 704.966> 47 32<4.06419 704.966>
-AnchorPoint: "barline" 5 4 mark 0
+AnchorPoint: "barlineAboveFthora" 0 0 mark 0
+AnchorPoint: "barline" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25149,7 +25170,8 @@ VWidth: 345
 Flags: W
 HStem: 783 29<-97.4519 82.3209>
 VStem: -19 32<4.06419 704.966>
-AnchorPoint: "barline" -3 4 mark 0
+AnchorPoint: "barlineAboveFthora" 0 0 mark 0
+AnchorPoint: "barline" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25185,7 +25207,8 @@ VWidth: 345
 Flags: W
 HStem: 590 305
 VStem: -63 32<590.064 894.967> 30 32<590.064 894.967>
-AnchorPoint: "barline" -1 590 mark 0
+AnchorPoint: "barlineAboveFthora" 0 590 mark 0
+AnchorPoint: "barline" 0 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25217,7 +25240,8 @@ VWidth: 345
 Flags: W
 HStem: 960 28<-77.5919 -23 20 65.2324>
 VStem: -19 32<589.064 894.966>
-AnchorPoint: "barline" -3 589 mark 0
+AnchorPoint: "barlineAboveFthora" 0 590 mark 0
+AnchorPoint: "barline" 0 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
