@@ -5,7 +5,7 @@ FamilyName: NeanesRTL
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.3
+Version: 1.0.4
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -6772,6 +6772,7 @@ Width: 703
 VWidth: 345
 Flags: HW
 HStem: 145 32<416.995 469.781> 465 29.5<85.6115 279.594>
+AnchorPoint: "omalonConnecting" -11 89 basechar 0
 AnchorPoint: "yfenAbove" 233 891 basechar 0
 AnchorPoint: "yfenBelow" 194 -40 basechar 0
 AnchorPoint: "koronis" 370 891 basechar 0

@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.3
+Version: 1.0.4
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -3962,6 +3962,7 @@ Encoding: 57377 57377 28
 Width: 703
 GlyphClass: 2
 Flags: W
+AnchorPoint: "omalonConnecting" 1044 89 basechar 0
 AnchorPoint: "gorgonTop" 400 580 basechar 0
 AnchorPoint: "apli" 500 18 basechar 0
 AnchorPoint: "klasmaTop" 408 567 basechar 0
