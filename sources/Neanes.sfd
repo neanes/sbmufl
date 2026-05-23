@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.4
+Version: 1.0.5
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -43,13 +43,53 @@ HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 3 0 0 "'salt' Stylistic Alternatives in Byzantine Music lookup 4" { "'salt' Stylistic Alternatives in Byzantine Music lookup 4-1"  } ['salt' ('DFLT' <'dflt' > 'byzm' <'dflt' > ) ]
 Lookup: 6 0 0 "'rclt' Required Contextual Alternates lookup 3" { "'rclt' Required Contextual Alternates lookup 3-1"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 256 0 "rclt-gorgon" { "rclt-gorgon-1"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "subs" { "subs-1"  } []
+Lookup: 1 0 0 "subs-gorgon" { "subs-gorgon-1"  } []
+Lookup: 1 0 0 "subs-digorgon" { "subs-digorgon-1"  } []
+Lookup: 1 0 0 "subs-trigorgon" { "subs-trigorgon-1"  } []
 Lookup: 5 0 0 "'rclt' Required Contextual Alternates lookup 1" { "'rclt' Required Contextual Alternates lookup 1-1"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
-MarkAttachClasses: 1
+MarkAttachClasses: 2
+"gorgon" 179 gorgonAbove gorgonDottedLeft gorgonDottedRight digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
 DEI: 91125
+ChainSub2: class "rclt-gorgon-1" 5 5 5 3
+  Class: 7 yporroi
+  Class: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  Class: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  Class: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+  BClass: 7 yporroi
+  BClass: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  BClass: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  BClass: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+  FClass: 7 yporroi
+  FClass: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  FClass: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  FClass: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "subs-gorgon"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "subs-digorgon"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "subs-trigorgon"
+  ClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+  BClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+  FClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+EndFPST
 ChainSub2: class "'rclt' Required Contextual Alternates lookup 3-1" 3 3 1 1
   Class: 567 petastiIson petasti petastiOligon petastiKentima petastiYpsiliRight petastiYpsiliLeft petastiKentimaYpsiliRight petastiKentimaYpsiliMiddle petastiDoubleYpsili petastiKentimataDoubleYpsili petastiKentimaDoubleYpsiliRight petastiKentimaDoubleYpsiliLeft petastiTripleYpsili petastiKentimataTripleYpsili petastiKentimaTripleYpsili petastiApostrofos petastiYporroi petastiElafron petastiRunningElafron petastiElafronApostrofos petastiChamili petastiChamiliApostrofos petastiChamiliElafron petastiChamiliElafronApostrofos petastiDoubleChamili petastiDoubleChamiliApostrofos
   Class: 10 antikenoma
@@ -2501,6 +2541,9 @@ AnchorPoint: "gorgonTop" 400 527 basechar 0
 LayerCount: 2
 Fore
 Refer: 11 118867 N 1 0 0 1 0 0 2
+Substitution2: "subs-trigorgon-1" yporroi.trigorgon
+Substitution2: "subs-digorgon-1" yporroi.digorgon
+Substitution2: "subs-gorgon-1" yporroi.gorgon
 EndChar
 
 StartChar: runningElafron
@@ -27412,6 +27455,99 @@ SplineSet
  694.3046875 1065 697.638671875 1060 697.638671875 1050 c 2
  696.638671875 972 l 1
 EndSplineSet
+EndChar
+
+StartChar: yporroi.gorgon
+Encoding: 61449 61449 436
+Width: 544
+VWidth: 345
+Flags: W
+HStem: 417 30<334.051 380.419>
+VStem: 75 305.5
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "gorgonTop" 400 527 basechar 0
+LayerCount: 2
+Fore
+Refer: 11 118867 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: yporroi.digorgon
+Encoding: 61450 61450 437
+Width: 622
+VWidth: 345
+Flags: W
+HStem: 417 30<334.051 380.419>
+VStem: 75 305.5
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "gorgonTop" 320 527 basechar 0
+LayerCount: 2
+Fore
+Refer: 11 118867 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: yporroi.trigorgon
+Encoding: 61451 61451 438
+Width: 700
+VWidth: 345
+Flags: W
+HStem: 417 30<334.051 380.419>
+VStem: 75 305.5
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "gorgonTop" 382 527 basechar 0
+LayerCount: 2
+Fore
+Refer: 11 118867 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

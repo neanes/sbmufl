@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.4
+Version: 1.0.5
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -56,13 +56,53 @@ OS2CodePages: 80000001.00000000
 OS2UnicodeRanges: 80000001.12000000.01000000.00000000
 Lookup: 3 0 0 "'salt' Stylistic Alternatives in Byzantine Music lookup 0" { "'salt' Stylistic Alternatives in Byzantine Music lookup 0 subtable"  } ['salt' ('DFLT' <'dflt' > 'byzm' <'dflt' > ) ]
 Lookup: 6 0 0 "'rclt' Required Contextual Alternates lookup 1" { "'rclt' Required Contextual Alternates lookup 1 subtable"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 256 0 "rclt-gorgon" { "rclt-gorgon-1"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
+Lookup: 1 0 0 "subs-gorgon" { "subs-gorgon-1"  } []
+Lookup: 1 0 0 "subs-digorgon" { "subs-digorgon-1"  } []
+Lookup: 1 0 0 "subs-trigorgon" { "subs-trigorgon-1"  } []
 Lookup: 5 0 0 "'rclt' Required Contextual Alternates lookup 4" { "'rclt' Required Contextual Alternates lookup 4 subtable"  } ['rclt' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0 subtable"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'latn' <'dflt' > ) ]
-MarkAttachClasses: 1
+MarkAttachClasses: 2
+"gorgon" 179 gorgonAbove gorgonDottedLeft gorgonDottedRight digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
 DEI: 91125
+ChainSub2: class "rclt-gorgon-1" 5 5 5 3
+  Class: 7 yporroi
+  Class: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  Class: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  Class: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+  BClass: 7 yporroi
+  BClass: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  BClass: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  BClass: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+  FClass: 7 yporroi
+  FClass: 46 gorgonAbove gorgonDottedLeft gorgonDottedRight
+  FClass: 76 digorgon digorgonDottedLeftAbove digorgonDottedLeftBelow digorgonDottedRight
+  FClass: 55 trigorgon trigorgonDottedLeftAbove trigorgonDottedRight
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "subs-gorgon"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 3
+ 1
+  SeqLookup: 0 "subs-digorgon"
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 4
+ 1
+  SeqLookup: 0 "subs-trigorgon"
+  ClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+  BClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+  FClassNames: "All_Others" "yporroi" "gorgonAbove" "digorgon" "trigorgon"
+EndFPST
 ContextSub2: glyph "'rclt' Required Contextual Alternates lookup 4 subtable" 0 0 0 9
  String: 21 apostrofos antikenoma
  BString: 0 
@@ -4129,6 +4169,9 @@ SplineSet
  380 273 380 273 380 245 c 0,56,57
  379 224 379 224 362 203 c 0,0,1
 EndSplineSet
+Substitution2: "subs-trigorgon-1" yporroi.trigorgon
+Substitution2: "subs-digorgon-1" yporroi.digorgon
+Substitution2: "subs-gorgon-1" yporroi.gorgon
 EndChar
 
 StartChar: elafron
@@ -34849,6 +34892,192 @@ SplineSet
  123 895 123 895 141 876 c 0,51,52
  154 864 154 864 163 864 c 0,53,54
  177 864 177 864 197 881 c 0,36,37
+EndSplineSet
+EndChar
+
+StartChar: yporroi.gorgon
+Encoding: 61449 61449 439
+Width: 544
+Flags: W
+AnchorPoint: "gorgonTop" 400 527 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+362 203 m 0,0,1
+ 351 189 351 189 328 182 c 0,2,3
+ 305 176 305 176 275 176 c 0,4,5
+ 253 176 253 176 233.5 178.5 c 128,-1,6
+ 214 181 214 181 192 183 c 0,7,8
+ 170 186 170 186 157 191 c 128,-1,9
+ 144 196 144 196 136 199 c 2,10,-1
+ 90 218 l 2,11,12
+ 59 234 59 234 56 238 c 0,13,14
+ 54 241 54 241 59 245 c 0,15,16
+ 60 246 60 246 72 246 c 0,17,18
+ 80 246 80 246 88.5 246 c 128,-1,19
+ 97 246 97 246 109 243 c 0,20,21
+ 175 234 175 234 187 234 c 0,22,23
+ 206 234 206 234 214 242 c 0,24,25
+ 220 248 220 248 220 259 c 0,26,27
+ 220 276 220 276 193 321 c 0,28,29
+ 167 366 167 366 167 390 c 0,30,31
+ 167 411 167 411 183 426 c 0,32,33
+ 189 432 189 432 217 437 c 0,34,35
+ 230 439 230 439 244.5 439.5 c 128,-1,36
+ 259 440 259 440 275 440 c 0,37,38
+ 292 440 292 440 310 440 c 128,-1,39
+ 328 440 328 440 347 437 c 0,40,41
+ 383 432 383 432 384 431 c 0,42,43
+ 393 414 393 414 394 404 c 0,44,45
+ 394 390 394 390 375 390 c 0,46,47
+ 366 390 366 390 347 394 c 0,48,49
+ 328 399 328 399 320 399 c 0,50,51
+ 314 399 314 399 314 394 c 0,52,53
+ 314 375 314 375 347 324 c 256,54,55
+ 380 273 380 273 380 245 c 0,56,57
+ 379 224 379 224 362 203 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: yporroi.digorgon
+Encoding: 61450 61450 440
+Width: 513
+Flags: W
+AnchorPoint: "gorgonTop" 320 527 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+362 203 m 0,0,1
+ 351 189 351 189 328 182 c 0,2,3
+ 305 176 305 176 275 176 c 0,4,5
+ 253 176 253 176 233.5 178.5 c 128,-1,6
+ 214 181 214 181 192 183 c 0,7,8
+ 170 186 170 186 157 191 c 128,-1,9
+ 144 196 144 196 136 199 c 2,10,-1
+ 90 218 l 2,11,12
+ 59 234 59 234 56 238 c 0,13,14
+ 54 241 54 241 59 245 c 0,15,16
+ 60 246 60 246 72 246 c 0,17,18
+ 80 246 80 246 88.5 246 c 128,-1,19
+ 97 246 97 246 109 243 c 0,20,21
+ 175 234 175 234 187 234 c 0,22,23
+ 206 234 206 234 214 242 c 0,24,25
+ 220 248 220 248 220 259 c 0,26,27
+ 220 276 220 276 193 321 c 0,28,29
+ 167 366 167 366 167 390 c 0,30,31
+ 167 411 167 411 183 426 c 0,32,33
+ 189 432 189 432 217 437 c 0,34,35
+ 230 439 230 439 244.5 439.5 c 128,-1,36
+ 259 440 259 440 275 440 c 0,37,38
+ 292 440 292 440 310 440 c 128,-1,39
+ 328 440 328 440 347 437 c 0,40,41
+ 383 432 383 432 384 431 c 0,42,43
+ 393 414 393 414 394 404 c 0,44,45
+ 394 390 394 390 375 390 c 0,46,47
+ 366 390 366 390 347 394 c 0,48,49
+ 328 399 328 399 320 399 c 0,50,51
+ 314 399 314 399 314 394 c 0,52,53
+ 314 375 314 375 347 324 c 256,54,55
+ 380 273 380 273 380 245 c 0,56,57
+ 379 224 379 224 362 203 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: yporroi.trigorgon
+Encoding: 61451 61451 441
+Width: 624
+Flags: WO
+AnchorPoint: "gorgonTop" 400 527 basechar 0
+AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "yfesis" 308 609 basechar 0
+AnchorPoint: "diesis" 267 60 basechar 0
+AnchorPoint: "antikenoma" 197 100 basechar 0
+AnchorPoint: "heteron" 316 -86 basechar 0
+AnchorPoint: "fthoraTop" 308 609 basechar 0
+AnchorPoint: "fthoraBottom" 148 101 basechar 0
+AnchorPoint: "noteTop" 156 675 basechar 0
+AnchorPoint: "heteronConnecting" 583 -19 basechar 0
+AnchorPoint: "measureNumber" 72 483 basechar 0
+AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "endofonon" 192 -146 basechar 0
+AnchorPoint: "koronis" 210 881 basechar 0
+AnchorPoint: "yfenAbove" 217 887 basechar 0
+AnchorPoint: "yfenBelow" 159 -40 basechar 0
+AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
+AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "diesisSecondary" 587 887 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+362 203 m 0,0,1
+ 351 189 351 189 328 182 c 0,2,3
+ 305 176 305 176 275 176 c 0,4,5
+ 253 176 253 176 233.5 178.5 c 128,-1,6
+ 214 181 214 181 192 183 c 0,7,8
+ 170 186 170 186 157 191 c 128,-1,9
+ 144 196 144 196 136 199 c 2,10,-1
+ 90 218 l 2,11,12
+ 59 234 59 234 56 238 c 0,13,14
+ 54 241 54 241 59 245 c 0,15,16
+ 60 246 60 246 72 246 c 0,17,18
+ 80 246 80 246 88.5 246 c 128,-1,19
+ 97 246 97 246 109 243 c 0,20,21
+ 175 234 175 234 187 234 c 0,22,23
+ 206 234 206 234 214 242 c 0,24,25
+ 220 248 220 248 220 259 c 0,26,27
+ 220 276 220 276 193 321 c 0,28,29
+ 167 366 167 366 167 390 c 0,30,31
+ 167 411 167 411 183 426 c 0,32,33
+ 189 432 189 432 217 437 c 0,34,35
+ 230 439 230 439 244.5 439.5 c 128,-1,36
+ 259 440 259 440 275 440 c 0,37,38
+ 292 440 292 440 310 440 c 128,-1,39
+ 328 440 328 440 347 437 c 0,40,41
+ 383 432 383 432 384 431 c 0,42,43
+ 393 414 393 414 394 404 c 0,44,45
+ 394 390 394 390 375 390 c 0,46,47
+ 366 390 366 390 347 394 c 0,48,49
+ 328 399 328 399 320 399 c 0,50,51
+ 314 399 314 399 314 394 c 0,52,53
+ 314 375 314 375 347 324 c 256,54,55
+ 380 273 380 273 380 245 c 0,56,57
+ 379 224 379 224 362 203 c 0,0,1
 EndSplineSet
 EndChar
 EndChars
