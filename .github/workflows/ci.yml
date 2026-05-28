@@ -28,10 +28,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6.2.0
         with:
-          python-version: '3.14'
-          cache: 'pip'
+          python-version: "3.14"
+          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install OS dependencies
+        run: sudo apt-get update && sudo apt-get install -y fontforge
+
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
       - name: Run black
@@ -39,3 +42,15 @@ jobs:
 
       - name: Run isort
         run: isort --check-only --profile black .
+
+      - name: Build fonts
+        working-directory: ./scripts
+        run: ./build.sh
+
+      - name: fontbakery OTF checks
+        uses: f-actions/font-bakery@v3.2.0
+        with:
+          subcmd: "check-universal"
+          args: "--error-code-on FATAL"
+          path: "fonts/*.otf"
+          version: "1.1.0"
