@@ -31,7 +31,10 @@ jobs:
           python-version: "3.14"
           cache: "pip"
 
-      - name: Install dependencies
+      - name: Install OS dependencies
+        run: sudo apt-get update && sudo apt-get install -y fontforge
+
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
       - name: Run black
