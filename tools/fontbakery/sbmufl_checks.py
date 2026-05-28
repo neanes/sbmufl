@@ -12,405 +12,67 @@ from fontbakery.prelude import check as fontbakery_check
 from fontbakery.utils import bullet_list
 from fontTools.ttLib.tables import otTables
 
-SBMUFL_GLYPHS: Final[dict[int, str]] = {
-    0xE000: "ison",
-    0xE001: "oligon",
-    0xE002: "oligonKentimaMiddle",
-    0xE003: "oligonKentimaBelow",
-    0xE004: "oligonKentimaAbove",
-    0xE005: "oligonYpsiliRight",
-    0xE006: "oligonYpsiliLeft",
-    0xE007: "oligonKentimaYpsiliRight",
-    0xE008: "oligonKentimaYpsiliMiddle",
-    0xE009: "oligonDoubleYpsili",
-    0xE00A: "oligonKentimataDoubleYpsili",
-    0xE00B: "oligonKentimaDoubleYpsiliRight",
-    0xE00C: "oligonKentimaDoubleYpsiliLeft",
-    0xE00D: "oligonTripleYpsili",
-    0xE00E: "oligonKentimataTripleYpsili",
-    0xE00F: "oligonKentimaTripleYpsili",
-    0xE010: "oligonIson",
-    0xE011: "oligonApostrofos",
-    0xE012: "oligonYporroi",
-    0xE013: "oligonElafron",
-    0xE014: "oligonElafronApostrofos",
-    0xE015: "oligonChamili",
-    0xE020: "isonApostrofos",
-    0xE021: "apostrofos",
-    0xE022: "apostrofosSyndesmos",
-    0xE023: "yporroi",
-    0xE024: "elafron",
-    0xE025: "runningElafron",
-    0xE026: "elafronApostrofos",
-    0xE027: "chamili",
-    0xE028: "chamiliApostrofos",
-    0xE029: "chamiliElafron",
-    0xE02A: "chamiliElafronApostrofos",
-    0xE02B: "doubleChamili",
-    0xE02C: "doubleChamiliApostrofos",
-    0xE02D: "doubleChamiliElafron",
-    0xE02E: "doubleChamiliElafronApostrofos",
-    0xE02F: "tripleChamili",
-    0xE040: "petastiIson",
-    0xE041: "petasti",
-    0xE042: "petastiOligon",
-    0xE043: "petastiKentima",
-    0xE044: "petastiYpsiliRight",
-    0xE045: "petastiYpsiliLeft",
-    0xE046: "petastiKentimaYpsiliRight",
-    0xE047: "petastiKentimaYpsiliMiddle",
-    0xE048: "petastiDoubleYpsili",
-    0xE049: "petastiKentimataDoubleYpsili",
-    0xE04A: "petastiKentimaDoubleYpsiliRight",
-    0xE04B: "petastiKentimaDoubleYpsiliLeft",
-    0xE04C: "petastiTripleYpsili",
-    0xE04D: "petastiKentimataTripleYpsili",
-    0xE04E: "petastiKentimaTripleYpsili",
-    0xE060: "petastiApostrofos",
-    0xE061: "petastiYporroi",
-    0xE062: "petastiElafron",
-    0xE063: "petastiRunningElafron",
-    0xE064: "petastiElafronApostrofos",
-    0xE065: "petastiChamili",
-    0xE066: "petastiChamiliApostrofos",
-    0xE067: "petastiChamiliElafron",
-    0xE068: "petastiChamiliElafronApostrofos",
-    0xE069: "petastiDoubleChamili",
-    0xE06A: "petastiDoubleChamiliApostrofos",
-    0xE080: "kentima",
-    0xE081: "kentimata",
-    0xE082: "oligonKentimataBelow",
-    0xE083: "oligonKentimataAbove",
-    0xE084: "oligonIsonKentimata",
-    0xE085: "oligonKentimaMiddleKentimata",
-    0xE086: "oligonYpsiliRightKentimata",
-    0xE087: "oligonYpsiliLeftKentimata",
-    0xE088: "oligonApostrofosKentimata",
-    0xE089: "oligonYporroiKentimata",
-    0xE08A: "oligonElafronKentimata",
-    0xE08B: "oligonRunningElafronKentimata",
-    0xE08C: "oligonElafronApostrofosKentimata",
-    0xE08D: "oligonChamiliKentimata",
-    0xE0A0: "vareia",
-    0xE0A1: "psifiston",
-    0xE0A2: "antikenoma",
-    0xE0A3: "omalon",
-    0xE0A4: "omalonConnecting",
-    0xE0A5: "heteron",
-    0xE0A6: "heteronConnecting",
-    0xE0A7: "endofonon",
-    0xE0B0: "yfenAbove",
-    0xE0B1: "yfenBelow",
-    0xE0C0: "stavros",
-    0xE0C1: "breath",
-    0xE0C8: "stavrosAbove",
-    0xE0D0: "klasmaAbove",
-    0xE0D1: "klasmaBelow",
-    0xE0D2: "apli",
-    0xE0D3: "dipli",
-    0xE0D4: "tripli",
-    0xE0D5: "tetrapli",
-    0xE0D6: "koronis",
-    0xE0E0: "leimma1",
-    0xE0E1: "leimma2",
-    0xE0E2: "leimma3",
-    0xE0E3: "leimma4",
-    0xE0E4: "leimmaDot",
-    0xE0F0: "gorgonAbove",
-    0xE0F1: "gorgonBelow",
-    0xE0F2: "gorgonDottedLeft",
-    0xE0F3: "gorgonDottedRight",
-    0xE0F4: "digorgon",
-    0xE0F5: "digorgonDottedLeftBelow",
-    0xE0F6: "digorgonDottedLeftAbove",
-    0xE0F7: "digorgonDottedRight",
-    0xE0F8: "trigorgon",
-    0xE0F9: "trigorgonDottedLeftBelow",
-    0xE0FA: "trigorgonDottedLeftAbove",
-    0xE0FB: "trigorgonDottedRight",
-    0xE0FC: "argon",
-    0xE0FD: "diargon",
-    0xE0FE: "triargon",
-    0xE100: "gorgonSecondary",
-    0xE101: "gorgonDottedLeftSecondary",
-    0xE102: "gorgonDottedRightSecondary",
-    0xE103: "digorgonSecondary",
-    0xE104: "digorgonDottedLeftBelowSecondary",
-    0xE105: "digorgonDottedRightSecondary",
-    0xE106: "trigorgonSecondary",
-    0xE107: "trigorgonDottedLeftBelowSecondary",
-    0xE108: "trigorgonDottedRightSecondary",
-    0xE109: "digorgonDottedLeftSecondary",
-    0xE10A: "trigorgonDottedLeftSecondary",
-    0xE120: "agogiPoliArgi",
-    0xE121: "agogiArgoteri",
-    0xE122: "agogiArgi",
-    0xE123: "agogiMetria",
-    0xE124: "agogiMesi",
-    0xE125: "agogiGorgi",
-    0xE126: "agogiGorgoteri",
-    0xE127: "agogiPoliGorgi",
-    0xE128: "agogiPoliArgiAbove",
-    0xE129: "agogiArgoteriAbove",
-    0xE12A: "agogiArgiAbove",
-    0xE12B: "agogiMetriaAbove",
-    0xE12C: "agogiMesiAbove",
-    0xE12D: "agogiGorgiAbove",
-    0xE12E: "agogiGorgoteriAbove",
-    0xE12F: "agogiPoliGorgiAbove",
-    0xE130: "martyriaNoteZoLow",
-    0xE131: "martyriaNoteNiLow",
-    0xE132: "martyriaNotePaLow",
-    0xE133: "martyriaNoteVouLow",
-    0xE134: "martyriaNoteGaLow",
-    0xE135: "martyriaNoteDiLow",
-    0xE136: "martyriaNoteKeLow",
-    0xE137: "martyriaNoteZo",
-    0xE138: "martyriaNoteNi",
-    0xE139: "martyriaNotePa",
-    0xE13A: "martyriaNoteVou",
-    0xE13B: "martyriaNoteGa",
-    0xE13C: "martyriaNoteDi",
-    0xE13D: "martyriaNoteKe",
-    0xE13E: "martyriaNoteZoHigh",
-    0xE13F: "martyriaNoteNiHigh",
-    0xE140: "martyriaNotePaHigh",
-    0xE141: "martyriaNoteVouHigh",
-    0xE142: "martyriaNoteGaHigh",
-    0xE143: "martyriaNoteDiHigh",
-    0xE144: "martyriaNoteKeHigh",
-    0xE145: "martyriaTick",
-    0xE150: "martyriaZoBelow",
-    0xE151: "martyriaDeltaBelow",
-    0xE152: "martyriaAlphaBelow",
-    0xE153: "martyriaLegetosBelow",
-    0xE154: "martyriaNanaBelow",
-    0xE155: "martyriaDeltaDottedBelow",
-    0xE156: "martyriaAlphaDottedBelow",
-    0xE157: "martyriaHardChromaticPaBelow",
-    0xE158: "martyriaHardChromaticDiBelow",
-    0xE159: "martyriaSoftChromaticDiBelow",
-    0xE15A: "martyriaSoftChromaticKeBelow",
-    0xE15B: "martyriaZygosBelow",
-    0xE170: "martyriaZoAbove",
-    0xE171: "martyriaDeltaAbove",
-    0xE172: "martyriaAlphaAbove",
-    0xE173: "martyriaLegetosAbove",
-    0xE174: "martyriaNanaAbove",
-    0xE175: "martyriaDeltaDottedAbove",
-    0xE176: "martyriaAlphaDottedAbove",
-    0xE177: "martyriaHardChromaticPaAbove",
-    0xE178: "martyriaHardChromaticDiAbove",
-    0xE179: "martyriaSoftChromaticDiAbove",
-    0xE17A: "martyriaSoftChromaticKeAbove",
-    0xE17B: "martyriaZygosAbove",
-    0xE190: "fthoraDiatonicNiLowAbove",
-    0xE191: "fthoraDiatonicPaAbove",
-    0xE192: "fthoraDiatonicVouAbove",
-    0xE193: "fthoraDiatonicGaAbove",
-    0xE194: "fthoraDiatonicDiAbove",
-    0xE195: "fthoraDiatonicKeAbove",
-    0xE196: "fthoraDiatonicZoAbove",
-    0xE197: "fthoraDiatonicNiHighAbove",
-    0xE198: "fthoraHardChromaticPaAbove",
-    0xE199: "fthoraHardChromaticDiAbove",
-    0xE19A: "fthoraSoftChromaticDiAbove",
-    0xE19B: "fthoraSoftChromaticKeAbove",
-    0xE19C: "fthoraEnharmonicAbove",
-    0xE19D: "chroaZygosAbove",
-    0xE19E: "chroaKlitonAbove",
-    0xE19F: "chroaSpathiAbove",
-    0xE1A0: "fthoraDiatonicNiLowSecondary",
-    0xE1A1: "fthoraDiatonicPaSecondary",
-    0xE1A2: "fthoraDiatonicVouSecondary",
-    0xE1A3: "fthoraDiatonicGaSecondary",
-    0xE1A4: "fthoraDiatonicDiSecondary",
-    0xE1A5: "fthoraDiatonicKeSecondary",
-    0xE1A6: "fthoraDiatonicZoSecondary",
-    0xE1A7: "fthoraDiatonicNiHighSecondary",
-    0xE1A8: "fthoraHardChromaticPaSecondary",
-    0xE1A9: "fthoraHardChromaticDiSecondary",
-    0xE1AA: "fthoraSoftChromaticDiSecondary",
-    0xE1AB: "fthoraSoftChromaticKeSecondary",
-    0xE1AC: "fthoraEnharmonicSecondary",
-    0xE1AD: "chroaZygosSecondary",
-    0xE1AE: "chroaKlitonSecondary",
-    0xE1AF: "chroaSpathiSecondary",
-    0xE1B0: "fthoraDiatonicNiLowTertiary",
-    0xE1B1: "fthoraDiatonicPaTertiary",
-    0xE1B2: "fthoraDiatonicVouTertiary",
-    0xE1B3: "fthoraDiatonicGaTertiary",
-    0xE1B4: "fthoraDiatonicDiTertiary",
-    0xE1B5: "fthoraDiatonicKeTertiary",
-    0xE1B6: "fthoraDiatonicZoTertiary",
-    0xE1B7: "fthoraDiatonicNiHighTertiary",
-    0xE1B8: "fthoraHardChromaticPaTertiary",
-    0xE1B9: "fthoraHardChromaticDiTertiary",
-    0xE1BA: "fthoraSoftChromaticDiTertiary",
-    0xE1BB: "fthoraSoftChromaticKeTertiary",
-    0xE1BC: "fthoraEnharmonicTertiary",
-    0xE1BD: "chroaZygosTertiary",
-    0xE1BE: "chroaKlitonTertiary",
-    0xE1BF: "chroaSpathiTertiary",
-    0xE1C0: "fthoraDiatonicNiLowBelow",
-    0xE1C1: "fthoraDiatonicPaBelow",
-    0xE1C2: "fthoraDiatonicVouBelow",
-    0xE1C3: "fthoraDiatonicGaBelow",
-    0xE1C4: "fthoraDiatonicDiBelow",
-    0xE1C5: "fthoraDiatonicKeBelow",
-    0xE1C6: "fthoraDiatonicZoBelow",
-    0xE1C7: "fthoraDiatonicNiHighBelow",
-    0xE1C8: "fthoraHardChromaticPaBelow",
-    0xE1C9: "fthoraHardChromaticDiBelow",
-    0xE1CA: "fthoraSoftChromaticDiBelow",
-    0xE1CB: "fthoraSoftChromaticKeBelow",
-    0xE1CC: "fthoraEnharmonicBelow",
-    0xE1CD: "chroaZygosBelow",
-    0xE1CE: "chroaKlitonBelow",
-    0xE1CF: "chroaSpathiBelow",
-    0xE1D0: "fthoraDiatonicNiLow",
-    0xE1D1: "fthoraDiatonicPa",
-    0xE1D2: "fthoraDiatonicVou",
-    0xE1D3: "fthoraDiatonicGa",
-    0xE1D4: "fthoraDiatonicDi",
-    0xE1D5: "fthoraDiatonicKe",
-    0xE1D6: "fthoraDiatonicZo",
-    0xE1D7: "fthoraDiatonicNiHigh",
-    0xE1D8: "fthoraHardChromaticPa",
-    0xE1D9: "fthoraHardChromaticDi",
-    0xE1DA: "fthoraSoftChromaticDi",
-    0xE1DB: "fthoraSoftChromaticKe",
-    0xE1DC: "fthoraEnharmonic",
-    0xE1DD: "chroaZygos",
-    0xE1DE: "chroaKliton",
-    0xE1DF: "chroaSpathi",
-    0xE1F0: "diesis2",
-    0xE1F1: "diesis4",
-    0xE1F2: "diesis6",
-    0xE1F3: "diesis8",
-    0xE1F4: "diesisGenikiAbove",
-    0xE1F5: "diesisGenikiBelow",
-    0xE1F6: "diesis2Secondary",
-    0xE1F7: "diesis4Secondary",
-    0xE1F8: "diesis6Secondary",
-    0xE1F9: "diesis8Secondary",
-    0xE1FA: "diesis2Tertiary",
-    0xE1FB: "diesis4Tertiary",
-    0xE1FC: "diesis6Tertiary",
-    0xE1FD: "diesis8Tertiary",
-    0xE1FE: "diesisGenikiSecondary",
-    0xE1FF: "diesisGenikiTertiary",
-    0xE200: "yfesis2",
-    0xE201: "yfesis4",
-    0xE202: "yfesis6",
-    0xE203: "yfesis8",
-    0xE204: "yfesisGenikiAbove",
-    0xE205: "yfesisGenikiBelow",
-    0xE206: "yfesis2Secondary",
-    0xE207: "yfesis4Secondary",
-    0xE208: "yfesis6Secondary",
-    0xE209: "yfesis8Secondary",
-    0xE20A: "yfesis2Tertiary",
-    0xE20B: "yfesis4Tertiary",
-    0xE20C: "yfesis6Tertiary",
-    0xE20D: "yfesis8Tertiary",
-    0xE20E: "yfesisGenikiSecondary",
-    0xE20F: "yfesisGenikiTertiary",
-    0xE210: "barlineSingle",
-    0xE211: "barlineDouble",
-    0xE212: "barlineTheseos",
-    0xE213: "barlineShortSingle",
-    0xE214: "barlineShortDouble",
-    0xE215: "barlineShortTheseos",
-    0xE216: "barlineSingleAbove",
-    0xE217: "barlineDoubleAbove",
-    0xE218: "barlineTheseosAbove",
-    0xE219: "barlineShortSingleAbove",
-    0xE21A: "barlineShortDoubleAbove",
-    0xE21B: "barlineShortTheseosAbove",
-    0xE220: "measureNumber2",
-    0xE221: "measureNumber3",
-    0xE222: "measureNumber4",
-    0xE223: "measureNumber5",
-    0xE224: "measureNumber6",
-    0xE225: "measureNumber7",
-    0xE226: "measureNumber8",
-    0xE250: "noteIndicatorNi",
-    0xE251: "noteIndicatorPa",
-    0xE252: "noteIndicatorVou",
-    0xE253: "noteIndicatorGa",
-    0xE254: "noteIndicatorDi",
-    0xE255: "noteIndicatorKe",
-    0xE256: "noteIndicatorZo",
-    0xE260: "isonIndicatorUnison",
-    0xE261: "isonIndicatorDiLow",
-    0xE262: "isonIndicatorKeLow",
-    0xE263: "isonIndicatorZo",
-    0xE264: "isonIndicatorNi",
-    0xE265: "isonIndicatorPa",
-    0xE266: "isonIndicatorVou",
-    0xE267: "isonIndicatorGa",
-    0xE268: "isonIndicatorDi",
-    0xE269: "isonIndicatorKe",
-    0xE26A: "isonIndicatorZoHigh",
-    0xE280: "gorthmikon",
-    0xE281: "pelastikon",
-    0xE2A0: "modeFirst",
-    0xE2A8: "modeSecond",
-    0xE2B0: "modeThird",
-    0xE2B1: "modeThirdNana",
-    0xE2B8: "modeFourth",
-    0xE2BA: "modeLegetos",
-    0xE2C0: "modePlagalFirst",
-    0xE2C8: "modePlagalSecond",
-    0xE2D0: "modeVarys",
-    0xE2D1: "modeVarys2",
-    0xE2D8: "modePlagalFourth",
-    0xE2E0: "modeNi",
-    0xE2E1: "modePa",
-    0xE2E2: "modeVou",
-    0xE2E3: "modeGa",
-    0xE2E4: "modeDi",
-    0xE2E5: "modeKe",
-    0xE2E6: "modeZo",
-    0xE2E7: "modeOligonKentimaAbove",
-    0xE2E8: "modeOligonYpsili",
-    0xE2E9: "modeElafron",
-    0xE2EA: "modeRunningElafron",
-    0xE2F0: "modePlagal",
-    0xE2F1: "modeWordEchos",
-    0xE2F2: "modeWordVarys",
-    0xE2F3: "modeAlpha",
-    0xE2F4: "modeBeta",
-    0xE2F5: "modeGamma",
-    0xE2F6: "modeDelta",
-    0xE2F7: "modeAlphaCapital",
-    0xE2F8: "modeBetaCapital",
-    0xE2F9: "modeGammaCapital",
-    0xE2FA: "modeDeltaCapital",
+REPO_ROOT: Final = Path(__file__).resolve().parents[2]
+DOCS_TABLES_PATH: Final = REPO_ROOT / "docs" / "tables"
+NAMELIST_PATH: Final = REPO_ROOT / "sources" / "namelist.txt"
+GLYPHNAMES_PATH: Final = REPO_ROOT / "metadata" / "glyphnames.json"
+RANGES_PATH: Final = REPO_ROOT / "metadata" / "ranges.json"
+NEANES_METADATA_PATH: Final = REPO_ROOT / "fonts" / "neanes.metadata.json"
+NAMELIST_RE: Final = re.compile(r"^0x([0-9A-Fa-f]+)\s+(\S+)\s*$")
+
+
+def _parse_namelist(problems: list[str]) -> dict[int, str]:
+    glyphs: dict[int, str] = {}
+    glyph_names: dict[str, int] = {}
+    try:
+        lines = NAMELIST_PATH.read_text(encoding="utf-8").splitlines()
+    except FileNotFoundError:
+        problems.append(f"Missing file: {NAMELIST_PATH.relative_to(REPO_ROOT)}")
+        return glyphs
+
+    for line in lines:
+        match = NAMELIST_RE.match(line)
+        if not match:
+            continue
+        codepoint = int(match.group(1), 16)
+        glyph_name = match.group(2)
+        if codepoint in glyphs:
+            problems.append(
+                "Duplicate namelist codepoint "
+                f"U+{codepoint:04X}: {glyphs[codepoint]} and {glyph_name}"
+            )
+        if glyph_name in glyph_names:
+            previous_codepoint = glyph_names[glyph_name]
+            problems.append(
+                "Duplicate namelist glyph "
+                f"{glyph_name}: U+{previous_codepoint:04X} and U+{codepoint:04X}"
+            )
+        glyphs[codepoint] = glyph_name
+        glyph_names[glyph_name] = codepoint
+
+    return glyphs
+
+
+SBMUFL_OPTIONAL_RANGE: Final = range(0xF000, 0xF900)
+SBMUFL_RESERVED_RANGE: Final = range(0xE430, 0xF000)
+
+SBMUFL_NAMELIST_GLYPHS: Final[dict[int, str]] = _parse_namelist([])
+
+SBMUFL_REQUIRED_GLYPHS: Final[dict[int, str]] = {
+    codepoint: glyph_name
+    for codepoint, glyph_name in SBMUFL_NAMELIST_GLYPHS.items()
+    if codepoint not in SBMUFL_OPTIONAL_RANGE
 }
 
 SBMUFL_OPTIONAL_GLYPHS: Final[dict[int, str]] = {
-    0xF000: "oligonKentimataBelow.alt01",
-    0xF001: "oligonKentimataAbove.alt01",
-    0xF002: "antikenoma.alt01",
-    0xF003: "modeFirst.salt01",
-    0xF004: "modeFourth.salt01",
-    0xF005: "oligonKentimataBelow.alt02",
-    0xF006: "psifiston.salt01",
-    0xF007: "heteronConnecting.salt01",
-    0xF008: "psifiston.alt01",
-    0xF009: "yporroi.gorgon",
-    0xF00A: "yporroi.digorgon",
-    0xF00B: "yporroi.trigorgon",
+    codepoint: glyph_name
+    for codepoint, glyph_name in SBMUFL_NAMELIST_GLYPHS.items()
+    if codepoint in SBMUFL_OPTIONAL_RANGE
 }
 
 SBMUFL_OPTIONAL_CODEPOINTS_BY_NAME: Final[dict[str, int]] = {
     glyph_name: codepoint for codepoint, glyph_name in SBMUFL_OPTIONAL_GLYPHS.items()
 }
-
-SBMUFL_RESERVED_RANGE: Final = range(0xE430, 0xF000)
-SBMUFL_OPTIONAL_RANGE: Final = range(0xF000, 0xF900)
 
 SBMUFL_MARK_CODEPOINTS: Final[set[int]] = {
     # Quality marks with zero advance width. Spacing signs in this block,
@@ -489,18 +151,19 @@ def check_sbmufl_glyph_coverage(
     """Check that the font covers required and optional SBMuFL glyphs."""
     cmap = cast(Mapping[int, str], ttFont.getBestCmap() or {})
     glyph_order = set(ttFont.getGlyphOrder())
-    missing = sorted(set(SBMUFL_GLYPHS) - set(cmap))
+    missing = sorted(set(SBMUFL_REQUIRED_GLYPHS) - set(cmap))
 
     missing_glyph_names = [
         f"U+{codepoint:04X} {glyph_name}"
-        for codepoint, glyph_name in sorted(SBMUFL_GLYPHS.items())
+        for codepoint, glyph_name in sorted(SBMUFL_REQUIRED_GLYPHS.items())
         if codepoint not in cmap and glyph_name not in glyph_order
     ]
 
     inconsistent_names = [
-        f"U+{codepoint:04X} {glyph_name} (expected {SBMUFL_GLYPHS[codepoint]})"
+        f"U+{codepoint:04X} {glyph_name} (expected {SBMUFL_REQUIRED_GLYPHS[codepoint]})"
         for codepoint, glyph_name in sorted(cmap.items())
-        if codepoint in SBMUFL_GLYPHS and glyph_name != SBMUFL_GLYPHS[codepoint]
+        if codepoint in SBMUFL_REQUIRED_GLYPHS
+        and glyph_name != SBMUFL_REQUIRED_GLYPHS[codepoint]
     ]
 
     missing_optional = [
@@ -526,7 +189,8 @@ def check_sbmufl_glyph_coverage(
 
     if missing:
         missing_glyphs = [
-            f"U+{codepoint:04X} {SBMUFL_GLYPHS[codepoint]}" for codepoint in missing
+            f"U+{codepoint:04X} {SBMUFL_REQUIRED_GLYPHS[codepoint]}"
+            for codepoint in missing
         ]
         yield FAIL, Message(
             "missing-codepoints",
@@ -700,16 +364,18 @@ def check_sbmufl_mark_attachment(
     missing_mark_to_mark: list[str] = []
 
     encoded_mark_codepoints = sorted(
-        SBMUFL_MARK_CODEPOINTS.intersection(SBMUFL_GLYPHS).intersection(cmap)
+        SBMUFL_MARK_CODEPOINTS.intersection(SBMUFL_NAMELIST_GLYPHS).intersection(cmap)
     )
     encoded_mark_to_mark_codepoints = sorted(
-        SBMUFL_MARK_TO_MARK_CODEPOINTS.intersection(SBMUFL_GLYPHS).intersection(cmap)
+        SBMUFL_MARK_TO_MARK_CODEPOINTS.intersection(
+            SBMUFL_NAMELIST_GLYPHS
+        ).intersection(cmap)
     )
 
     for codepoint in encoded_mark_codepoints:
         glyph_name = cmap[codepoint]
 
-        expected_glyph_name = SBMUFL_GLYPHS[codepoint]
+        expected_glyph_name = SBMUFL_NAMELIST_GLYPHS[codepoint]
         label = _cmap_label(codepoint, expected_glyph_name, glyph_name)
         if glyph_classes.get(glyph_name) != 3:
             missing_gdef.append(label)
@@ -720,7 +386,7 @@ def check_sbmufl_mark_attachment(
         glyph_name = cmap[codepoint]
 
         if glyph_name not in mark_to_mark_glyphs:
-            expected_glyph_name = SBMUFL_GLYPHS[codepoint]
+            expected_glyph_name = SBMUFL_NAMELIST_GLYPHS[codepoint]
             label = _cmap_label(codepoint, expected_glyph_name, glyph_name)
             missing_mark_to_mark.append(label)
 
@@ -746,14 +412,6 @@ def check_sbmufl_mark_attachment(
         )
 
 
-REPO_ROOT: Final = Path(__file__).resolve().parents[2]
-DOCS_TABLES_PATH: Final = REPO_ROOT / "docs" / "tables"
-NAMELIST_PATH: Final = REPO_ROOT / "sources" / "namelist.txt"
-GLYPHNAMES_PATH: Final = REPO_ROOT / "metadata" / "glyphnames.json"
-RANGES_PATH: Final = REPO_ROOT / "metadata" / "ranges.json"
-NEANES_METADATA_PATH: Final = REPO_ROOT / "fonts" / "neanes.metadata.json"
-
-NAMELIST_RE: Final = re.compile(r"^0x([0-9A-Fa-f]+)\s+(\S+)\s*$")
 DOCS_TABLE_ROW_RE: Final = re.compile(
     r"<tr>.*?"
     r"<span class=\"neanes\">&#x([0-9A-Fa-f]+);</span>.*?"
@@ -765,10 +423,9 @@ DOCS_TABLE_ROW_RE: Final = re.compile(
 
 
 def _expected_glyphs(include_optional: bool = True) -> dict[int, str]:
-    glyphs = dict(SBMUFL_GLYPHS)
     if include_optional:
-        glyphs.update(SBMUFL_OPTIONAL_GLYPHS)
-    return glyphs
+        return dict(SBMUFL_NAMELIST_GLYPHS)
+    return dict(SBMUFL_REQUIRED_GLYPHS)
 
 
 def _expected_by_name(include_optional: bool = True) -> dict[str, int]:
@@ -789,31 +446,6 @@ def _load_json(path: Path, problems: list[str]) -> dict[str, Any] | None:
             f"Invalid JSON in {path.relative_to(REPO_ROOT)}: line {e.lineno}, column {e.colno}"
         )
     return None
-
-
-def _parse_namelist(problems: list[str]) -> dict[str, int]:
-    glyphs: dict[str, int] = {}
-    try:
-        lines = NAMELIST_PATH.read_text(encoding="utf-8").splitlines()
-    except FileNotFoundError:
-        problems.append(f"Missing file: {NAMELIST_PATH.relative_to(REPO_ROOT)}")
-        return glyphs
-
-    for line_number, line in enumerate(lines, start=1):
-        match = NAMELIST_RE.match(line)
-        if not match:
-            continue
-        codepoint = int(match.group(1), 16)
-        glyph_name = match.group(2)
-        if glyph_name in glyphs:
-            previous_codepoint = glyphs[glyph_name]
-            problems.append(
-                "Duplicate namelist glyph "
-                f"{glyph_name}: U+{previous_codepoint:04X} and U+{codepoint:04X}"
-            )
-        glyphs[glyph_name] = codepoint
-
-    return glyphs
 
 
 def _parse_docs_tables(problems: list[str]) -> list[tuple[Path, int, str]]:
@@ -1127,10 +759,11 @@ def check_sbmufl_repository_metadata_consistency(
     """Check that SBMuFL repository metadata files are complete and in sync."""
     problems: list[str] = []
     namelist = _parse_namelist(problems)
+    namelist_by_name = {name: codepoint for codepoint, name in namelist.items()}
     problems.extend(
         _compare_glyph_map(
             "sources/namelist.txt",
-            namelist,
+            namelist_by_name,
             _expected_by_name(include_optional=True),
         )
     )
