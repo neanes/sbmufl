@@ -1201,5 +1201,41 @@
   },
   "modeDeltaCapital": {
     "codepoint": "U+E2FA"
+  },
+  "oligonKentimataBelow.alt01": {
+    "codepoint": "U+F000"
+  },
+  "oligonKentimataAbove.alt01": {
+    "codepoint": "U+F001"
+  },
+  "antikenoma.alt01": {
+    "codepoint": "U+F002"
+  },
+  "modeFirst.salt01": {
+    "codepoint": "U+F003"
+  },
+  "modeFourth.salt01": {
+    "codepoint": "U+F004"
+  },
+  "oligonKentimataBelow.alt02": {
+    "codepoint": "U+F005"
+  },
+  "psifiston.salt01": {
+    "codepoint": "U+F006"
+  },
+  "heteronConnecting.salt01": {
+    "codepoint": "U+F007"
+  },
+  "psifiston.alt01": {
+    "codepoint": "U+F008"
+  },
+  "yporroi.gorgon": {
+    "codepoint": "U+F009"
+  },
+  "yporroi.digorgon": {
+    "codepoint": "U+F00A"
+  },
+  "yporroi.trigorgon": {
+    "codepoint": "U+F00B"
   }
 }

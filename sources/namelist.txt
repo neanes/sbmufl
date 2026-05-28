@@ -308,6 +308,12 @@ Based: AGL For New Fonts
 0xE213 barlineShortSingle
 0xE214 barlineShortDouble
 0xE215 barlineShortTheseos
+0xE216 barlineSingleAbove
+0xE217 barlineDoubleAbove
+0xE218 barlineTheseosAbove
+0xE219 barlineShortSingleAbove
+0xE21A barlineShortDoubleAbove
+0xE21B barlineShortTheseosAbove
 0xE220 measureNumber2
 0xE221 measureNumber3
 0xE222 measureNumber4
@@ -377,3 +383,6 @@ Based: AGL For New Fonts
 0xF006 psifiston.salt01
 0xF007 heteronConnecting.salt01
 0xF008 psifiston.alt01
+0xF009 yporroi.gorgon
+0xF00A yporroi.digorgon
+0xF00B yporroi.trigorgon
