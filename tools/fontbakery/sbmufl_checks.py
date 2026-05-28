@@ -104,6 +104,9 @@ SBMUFL_MARK_CODEPOINTS: Final[set[int]] = {
     *range(0xE260, 0xE26B),
     # Martyria of the tones
     *range(0xE2E7, 0xE2EB),
+    # Optional mark alternates. U+F003..U+F005 are spacing glyphs.
+    0xF002,
+    *range(0xF006, 0xF009),
 }
 
 SBMUFL_MARK_TO_MARK_CODEPOINTS: Final[set[int]] = {
