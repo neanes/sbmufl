@@ -83,6 +83,84 @@
 </tr>
 <tr>
     <td>
+        <span class="neanes">&#xE216;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E216
+        </div>
+        <div class="glyph-name">
+            barlineSingleAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE217;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E217
+        </div>
+        <div class="glyph-name">
+            barlineDoubleAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE218;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E218
+        </div>
+        <div class="glyph-name">
+            barlineTheseosAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE219;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E219
+        </div>
+        <div class="glyph-name">
+            barlineShortSingleAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE21A;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E21A
+        </div>
+        <div class="glyph-name">
+            barlineShortDoubleAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE21B;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E21B
+        </div>
+        <div class="glyph-name">
+            barlineShortTheseosAbove
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
         <span class="neanes">&#xE220;</span>
     </td>
     <td>

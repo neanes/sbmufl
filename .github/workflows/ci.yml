@@ -43,14 +43,25 @@ jobs:
       - name: Run isort
         run: isort --check-only --profile black .
 
+      - name: Run mypy
+        run: mypy --ignore-missing-imports tools/fontbakery/*.py
+
       - name: Build fonts
         working-directory: ./scripts
         run: ./build.sh
 
-      - name: fontbakery OTF checks
+      - name: Font Bakery universal checks
         uses: f-actions/font-bakery@v3.2.0
         with:
           subcmd: "check-universal"
           args: "--error-code-on FATAL"
+          path: "fonts/*.otf"
+          version: "1.1.0"
+
+      - name: Font Bakery SBMuFL checks
+        uses: f-actions/font-bakery@v3.2.0
+        with:
+          subcmd: "check-profile"
+          args: "tools/fontbakery/sbmufl_profile.py"
           path: "fonts/*.otf"
           version: "1.1.0"

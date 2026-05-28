@@ -191,7 +191,7 @@ This section contains the ligatures in the font and the component glyphs in the 
 
 ## optionalGlyphs
 
-This section contains the optional glyphs in the font in the range of U+F000 - U+F8FF. If OpenType support is unavailable, this section can be used to implement optional glyphs such as stylistic alternates.
+This section contains the optional glyphs assigned in the font. Optional glyphs currently use U+F000 - U+F00B; U+F00C - U+F8FF remains free space. If OpenType support is unavailable, this section can be used to implement optional glyphs such as stylistic alternates.
 
 ```js
 {

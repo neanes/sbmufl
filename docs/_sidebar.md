@@ -13,5 +13,6 @@
 - - [Ison Indicators](tables/ison.md)
 - - [Letters](tables/letters.md)
 - - [Martyria of the Tones](tables/martyria-tones.md)
+- - [Optional Glyphs](tables/optional-glyphs.md)
 - [SBMuFL Metadata](sbmufl-metadata.md)
 - [Font-specific Metadata](font-metadata.md)

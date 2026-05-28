@@ -434,37 +434,6 @@
 </tr>
 </table>
 
-## Recommended Stylistic Alternates
-
-<table>
-<tr>
-    <td>
-        <span class="neanes">&#xF003;</span>
-    </td>
-    <td>
-        <div class="code-point">
-            uniE2A0.salt01
-        </div>
-        <div class="glyph-name">
-            modeFirstShort
-        </div>
-    </td>
-</tr>
-<tr>
-    <td>
-        <span class="neanes">&#xF004;</span>
-    </td>
-    <td>
-        <div class="code-point">
-            uniE2B8.salt01
-        </div>
-        <div class="glyph-name">
-            modeFourthShort
-        </div>
-    </td>
-</tr>
-</table>
-
 ## Implementation Details
 
 Certain quantitative neumes are sometimes placed above the note name. These glyphs should be implemented in this section and should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
