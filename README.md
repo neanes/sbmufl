@@ -18,7 +18,7 @@ The Private Use Area of the Unicode Basic Multilingual Plane contains 4096 code 
 
 ## Documentation
 
-See the full documentation [here](https://neanes.github.io/sbmufl).
+See the [full documentation](https://neanes.github.io/sbmufl).
 
 ## Example
 
@@ -30,16 +30,16 @@ Example fonts are included in the `fonts` directory.
 
 1. Install docsify.
 
-```bash
-npm i docsify-cli -g
-```
+   ```bash
+   npm i docsify-cli -g
+   ```
 
 2. Start docsify.
 
-```bash
-docsify serve docs
-```
+   ```bash
+   docsify serve docs
+   ```
 
-3. Navigate to http://localhost:3000 to view the docs.
+3. Navigate to <http://localhost:3000> to view the docs.
 
 4. Edit the Markdown files in the docs directory. The web page will automatically refresh as you make changes.

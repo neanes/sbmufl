@@ -1,0 +1,26 @@
+---
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v6.0.2
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v23.2.0
