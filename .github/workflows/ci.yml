@@ -24,3 +24,18 @@ jobs:
 
       - name: Lint Markdown
         uses: DavidAnson/markdownlint-cli2-action@v23.2.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6.2.0
+        with:
+          python-version: '3.14'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run black
+        run: black --check .
+
+      - name: Run isort
+        run: isort --check-only --profile black .

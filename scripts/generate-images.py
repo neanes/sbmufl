@@ -1,5 +1,6 @@
-import fontforge
 from pathlib import Path
+
+import fontforge
 
 font = fontforge.open("../fonts/Neanes.otf")
 

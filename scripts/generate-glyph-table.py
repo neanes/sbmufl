@@ -1,7 +1,6 @@
 file = open("../sources/namelist.txt")
 
-print(
-    """<style>
+print("""<style>
             @font-face {
                 font-family: Neanes;
                 src: url('../fonts/Neanes.otf');
@@ -33,8 +32,7 @@ print(
                 display: flex;
                 justify-content: center;
             }
-</style>"""
-)
+</style>""")
 
 print("<table>")
 

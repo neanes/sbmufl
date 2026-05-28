@@ -1,6 +1,7 @@
 import argparse
-import fontforge
 import json
+
+import fontforge
 
 
 def find_midpoint(glyph):

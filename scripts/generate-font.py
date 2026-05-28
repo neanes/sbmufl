@@ -1,4 +1,5 @@
 import argparse
+
 import fontforge
 
 if __name__ == "__main__":
