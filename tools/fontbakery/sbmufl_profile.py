@@ -9,6 +9,7 @@ PROFILE: Final[dict[str, Any]] = {
             "sbmufl/reserved_codepoints",
             "sbmufl/mark_positioning",
             "sbmufl/mark_attachment",
+            "sbmufl/ison_mark_vertical_positioning",
             "sbmufl/repository_metadata_consistency",
         ],
     },
