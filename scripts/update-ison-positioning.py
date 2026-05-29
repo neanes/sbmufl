@@ -42,6 +42,7 @@ MARK_FEATURES = (
 )
 ISON_CLEARANCE = 120
 ISON_CONTEXTUAL_RAISE_GRID = 20
+MAX_INTERVENING_MARKS = 2
 ISON_INDICATOR_CODEPOINTS = range(0xE260, 0xE26B)
 GORGON_ABOVE_CODEPOINTS = [
     0xE0F0,
@@ -163,6 +164,10 @@ def glyph_list(glyph_names):
     return "[" + " ".join(glyph_names) + "]"
 
 
+def has_anchor_kind(glyph, kind):
+    return any(anchor_kind == kind for _, anchor_kind, _, _ in glyph.anchorPoints)
+
+
 def remove_ison_raise_lookups(font):
     for lookup in list(font.gpos_lookups):
         if lookup.startswith(ISON_RAISE_LOOKUP_PREFIX):
@@ -193,6 +198,33 @@ def gorgon_marks_by_anchor(font):
         marks_by_anchor[anchor_name] = gorgon_mark_anchors
 
     return marks_by_anchor
+
+
+def note_mark_names(font, excluded_names):
+    note_anchor_names = {
+        anchor_name
+        for glyph in font.glyphs()
+        if get_anchor(glyph, ISON_ANCHOR, "base") is not None
+        for anchor_name, anchor_kind, _, _ in glyph.anchorPoints
+        if anchor_kind == "base"
+    }
+
+    if not note_anchor_names:
+        return []
+
+    names = []
+    for glyph in font.glyphs():
+        if glyph.glyphname in excluded_names:
+            continue
+        if not has_anchor_kind(glyph, "mark"):
+            continue
+        if any(
+            anchor_name in note_anchor_names and anchor_kind == "mark"
+            for anchor_name, anchor_kind, _, _ in glyph.anchorPoints
+        ):
+            names.append(glyph.glyphname)
+
+    return sorted(names)
 
 
 def calculate_raise_delta(base_y, gorgon_base_y, gorgon_mark_y, gorgon_ymax):
@@ -247,7 +279,28 @@ def build_contextual_raise_rules(font, marks_by_anchor):
     return rules
 
 
-def add_contextual_raise_lookups(font, rules, ison_indicator_names):
+def contextual_raise_rule(
+    base_names,
+    gorgon_names,
+    ison_class,
+    delta_lookup,
+    intervening_mark_class,
+    intervening_count,
+):
+    mark_context = ""
+    if intervening_count > 0:
+        mark_context = f"{intervening_mark_class} " * intervening_count
+
+    gorgon_context = " ".join(f"[{gorgon_name}]" for gorgon_name in gorgon_names)
+    return (
+        f"{glyph_list(sorted(base_names))} {mark_context}{gorgon_context} | "
+        f"{ison_class} @<{delta_lookup}> |"
+    )
+
+
+def add_contextual_raise_lookups(
+    font, rules, ison_indicator_names, intervening_mark_names
+):
     if not rules:
         return
 
@@ -272,31 +325,42 @@ def add_contextual_raise_lookups(font, rules, ison_indicator_names):
     )
     previous_subtable = None
     ison_class = glyph_list(ison_indicator_names)
-    for index, ((gorgon_names, delta_y), base_names) in enumerate(
-        sorted(rules.items(), key=lambda item: (item[0][1], item[0][0]))
+    intervening_mark_class = glyph_list(intervening_mark_names)
+    intervening_counts = [0]
+    if intervening_mark_names:
+        intervening_counts.extend(range(1, MAX_INTERVENING_MARKS + 1))
+
+    subtable_index = 0
+    for (gorgon_names, delta_y), base_names in sorted(
+        rules.items(), key=lambda item: (item[0][1], item[0][0])
     ):
-        subtable = f"{ISON_RAISE_CONTEXT_LOOKUP}-{index + 1}"
-        gorgon_context = " ".join(f"[{gorgon_name}]" for gorgon_name in gorgon_names)
-        rule = (
-            f"{glyph_list(sorted(base_names))} {gorgon_context} | "
-            f"{ison_class} @<{delta_lookup_names[delta_y]}> |"
-        )
-        if previous_subtable is None:
-            font.addContextualSubtable(
-                ISON_RAISE_CONTEXT_LOOKUP,
-                subtable,
-                "coverage",
-                rule,
+        for intervening_count in intervening_counts:
+            subtable_index += 1
+            subtable = f"{ISON_RAISE_CONTEXT_LOOKUP}-{subtable_index}"
+            rule = contextual_raise_rule(
+                base_names,
+                gorgon_names,
+                ison_class,
+                delta_lookup_names[delta_y],
+                intervening_mark_class,
+                intervening_count,
             )
-        else:
-            font.addContextualSubtable(
-                ISON_RAISE_CONTEXT_LOOKUP,
-                subtable,
-                "coverage",
-                rule,
-                previous_subtable,
-            )
-        previous_subtable = subtable
+            if previous_subtable is None:
+                font.addContextualSubtable(
+                    ISON_RAISE_CONTEXT_LOOKUP,
+                    subtable,
+                    "coverage",
+                    rule,
+                )
+            else:
+                font.addContextualSubtable(
+                    ISON_RAISE_CONTEXT_LOOKUP,
+                    subtable,
+                    "coverage",
+                    rule,
+                    previous_subtable,
+                )
+            previous_subtable = subtable
 
 
 def update_font(path):
@@ -334,7 +398,13 @@ def update_font(path):
         raise ValueError(f"{path} does not encode any gorgon-family marks")
 
     rules = build_contextual_raise_rules(font, marks_by_anchor)
-    add_contextual_raise_lookups(font, rules, ison_indicator_names)
+    excluded_mark_names = set(ison_indicator_names)
+    for gorgon_mark_anchors in marks_by_anchor.values():
+        excluded_mark_names.update(gorgon_mark_anchors)
+    intervening_mark_names = note_mark_names(font, excluded_mark_names)
+    add_contextual_raise_lookups(
+        font, rules, ison_indicator_names, intervening_mark_names
+    )
 
     font.save(str(path))
     font.close()
