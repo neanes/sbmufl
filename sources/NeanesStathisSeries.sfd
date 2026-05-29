@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1752354820
+ModificationTime: 1780015105
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -196,7 +196,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 7340 3670 2446 0 1048576 2446 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "barlineAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable" "stavros" "'mark' Mark Positioning lookup 0 subtable" "diesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "diesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "barline" "'mark' Mark Positioning lookup 0 subtable" "yfesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "yfesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0 subtable" "yfenBelow" "'mark' Mark Positioning lookup 0 subtable" "yfenAbove" "'mark' Mark Positioning lookup 0 subtable" "koronis" "'mark' Mark Positioning lookup 0 subtable" "endofonon" "'mark' Mark Positioning lookup 0 subtable" "agogi" "'mark' Mark Positioning lookup 0 subtable" "modeTop" "'mark' Mark Positioning lookup 0 subtable" "isonIndicator" "'mark' Mark Positioning lookup 0 subtable" "measureNumber" "'mark' Mark Positioning lookup 0 subtable" "heteronConnecting" "'mark' Mark Positioning lookup 0 subtable" "omalon" "'mark' Mark Positioning lookup 0 subtable" "omalonConnecting" "'mark' Mark Positioning lookup 0 subtable" "martyriaTop" "'mark' Mark Positioning lookup 0 subtable" "martyriaBottom" "'mark' Mark Positioning lookup 0 subtable" "noteTop" "'mark' Mark Positioning lookup 0 subtable" "fthoraBottom" "'mark' Mark Positioning lookup 0 subtable" "fthoraTop" "'mark' Mark Positioning lookup 0 subtable" "heteron" "'mark' Mark Positioning lookup 0 subtable" "gorgonSecondary" "'mark' Mark Positioning lookup 0 subtable" "antikenoma" "'mark' Mark Positioning lookup 0 subtable" "gorgonBottom" "'mark' Mark Positioning lookup 0 subtable" "psifiston" "'mark' Mark Positioning lookup 0 subtable" "diesis" "'mark' Mark Positioning lookup 0 subtable" "yfesis" "'mark' Mark Positioning lookup 0 subtable" "klasmaTop" "'mark' Mark Positioning lookup 0 subtable" "klasmaBottom" "'mark' Mark Positioning lookup 0 subtable" "apli" "'mark' Mark Positioning lookup 0 subtable" "gorgonTop" "'mark' Mark Positioning lookup 0 subtable" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable"
-BeginChars: 1114115 439
+BeginChars: 1114115 442
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -623,7 +623,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 792 1203 basechar 0
+AnchorPoint: "isonIndicator" 792 1030 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 801 basechar 0
 AnchorPoint: "yfenAbove" 930 1203 basechar 0
@@ -770,7 +770,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 213 827 basechar 0
-AnchorPoint: "isonIndicator" 792 1283 basechar 0
+AnchorPoint: "isonIndicator" 1122 1033 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 951 855 basechar 0
 AnchorPoint: "yfenAbove" 930 1285 basechar 0
@@ -922,7 +922,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 792 1203 basechar 0
+AnchorPoint: "isonIndicator" 792 1143 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "yfenAbove" 930 1202 basechar 0
@@ -1092,7 +1092,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 792 1403 basechar 0
+AnchorPoint: "isonIndicator" 792 1386 basechar 0
 AnchorPoint: "koronis" 275 835 basechar 0
 AnchorPoint: "yfenAbove" 930 1403 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -1263,7 +1263,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 160 800 basechar 0
-AnchorPoint: "isonIndicator" 792 1273 basechar 0
+AnchorPoint: "isonIndicator" 792 1444 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1261 basechar 0
 AnchorPoint: "yfenAbove" 930 1271 basechar 0
@@ -1504,7 +1504,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 875 basechar 0
-AnchorPoint: "isonIndicator" 792 1373 basechar 0
+AnchorPoint: "isonIndicator" 792 1420 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1371 basechar 0
 AnchorPoint: "yfenAbove" 930 1371 basechar 0
@@ -1796,7 +1796,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 792 1443 basechar 0
+AnchorPoint: "isonIndicator" 792 1404 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "yfenAbove" 930 1441 basechar 0
@@ -2061,7 +2061,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
-AnchorPoint: "isonIndicator" 792 1443 basechar 0
+AnchorPoint: "isonIndicator" 792 1405 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1441 basechar 0
 AnchorPoint: "yfenAbove" 930 1441 basechar 0
@@ -2317,7 +2317,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
-AnchorPoint: "isonIndicator" 792 1283 basechar 0
+AnchorPoint: "isonIndicator" 792 1158 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1281 basechar 0
 AnchorPoint: "yfenAbove" 930 1281 basechar 0
@@ -2658,7 +2658,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
-AnchorPoint: "isonIndicator" 792 1463 basechar 0
+AnchorPoint: "isonIndicator" 792 1370 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "yfenAbove" 930 1461 basechar 0
@@ -3034,7 +3034,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1213 basechar 0
-AnchorPoint: "isonIndicator" 792 1463 basechar 0
+AnchorPoint: "isonIndicator" 792 1347 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1461 basechar 0
 AnchorPoint: "yfenAbove" 930 1461 basechar 0
@@ -3554,7 +3554,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 792 973 basechar 0
+AnchorPoint: "isonIndicator" 792 913 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 911 basechar 0
 AnchorPoint: "yfenAbove" 930 971 basechar 0
@@ -3644,7 +3644,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 792 1093 basechar 0
+AnchorPoint: "isonIndicator" 792 980 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "yfenAbove" 930 1091 basechar 0
@@ -3730,7 +3730,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 792 1093 basechar 0
+AnchorPoint: "isonIndicator" 792 984 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "yfenAbove" 930 1091 basechar 0
@@ -3845,7 +3845,7 @@ AnchorPoint: "omalonConnecting" 1471 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1692 -19 basechar 0
 AnchorPoint: "measureNumber" 172 513 basechar 0
-AnchorPoint: "isonIndicator" 792 1023 basechar 0
+AnchorPoint: "isonIndicator" 792 1031 basechar 0
 AnchorPoint: "endofonon" 802 -62 basechar 0
 AnchorPoint: "koronis" 783 1041 basechar 0
 AnchorPoint: "yfenAbove" 930 1031 basechar 0
@@ -3926,7 +3926,7 @@ AnchorPoint: "fthoraTop" 644 507 basechar 0
 AnchorPoint: "fthoraBottom" 420 153 basechar 0
 AnchorPoint: "noteTop" 322 661 basechar 0
 AnchorPoint: "measureNumber" 172 773 basechar 0
-AnchorPoint: "isonIndicator" 630 895 basechar 0
+AnchorPoint: "isonIndicator" 630 913 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "yfenAbove" 690 891 basechar 0
 AnchorPoint: "yfenBelow" 754 -236 basechar 0
@@ -4015,7 +4015,7 @@ AnchorPoint: "fthoraBottom" 340 99 basechar 0
 AnchorPoint: "noteTop" 170 643 basechar 0
 AnchorPoint: "heteronConnecting" 879 -19 basechar 0
 AnchorPoint: "measureNumber" 172 783 basechar 0
-AnchorPoint: "isonIndicator" 366 885 basechar 0
+AnchorPoint: "isonIndicator" 366 944 basechar 0
 AnchorPoint: "endofonon" 502 -126 basechar 0
 AnchorPoint: "koronis" 370 891 basechar 0
 AnchorPoint: "yfenAbove" 470 891 basechar 0
@@ -4058,7 +4058,7 @@ AnchorPoint: "fthoraTop" 587 642 basechar 0
 AnchorPoint: "fthoraBottom" 373 93 basechar 0
 AnchorPoint: "noteTop" 194 699 basechar 0
 AnchorPoint: "measureNumber" 172 803 basechar 0
-AnchorPoint: "isonIndicator" 630 895 basechar 0
+AnchorPoint: "isonIndicator" 630 913 basechar 0
 AnchorPoint: "koronis" 630 881 basechar 0
 AnchorPoint: "yfenAbove" 930 891 basechar 0
 AnchorPoint: "yfenBelow" 929 -400 basechar 0
@@ -4124,7 +4124,7 @@ AnchorPoint: "fthoraBottom" 148 101 basechar 0
 AnchorPoint: "noteTop" 156 675 basechar 0
 AnchorPoint: "heteronConnecting" 583 -19 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
-AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "isonIndicator" 212 913 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
@@ -4192,7 +4192,7 @@ AnchorPoint: "noteTop" 242 703 basechar 0
 AnchorPoint: "omalonConnecting" 1241 89 basechar 0
 AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
 AnchorPoint: "measureNumber" 172 613 basechar 0
-AnchorPoint: "isonIndicator" 528 897 basechar 0
+AnchorPoint: "isonIndicator" 528 944 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "yfenAbove" 650 901 basechar 0
@@ -4249,7 +4249,7 @@ AnchorPoint: "noteTop" 742 703 basechar 0
 AnchorPoint: "omalonConnecting" 1751 89 basechar 0
 AnchorPoint: "heteronConnecting" 1929 -19 basechar 0
 AnchorPoint: "measureNumber" 172 653 basechar 0
-AnchorPoint: "isonIndicator" 1018 887 basechar 0
+AnchorPoint: "isonIndicator" 1018 944 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
 AnchorPoint: "koronis" 1030 746 basechar 0
 AnchorPoint: "yfenAbove" 1060 891 basechar 0
@@ -4331,7 +4331,7 @@ AnchorPoint: "noteTop" 232 703 basechar 0
 AnchorPoint: "omalonConnecting" 1241 89 basechar 0
 AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
 AnchorPoint: "measureNumber" 172 643 basechar 0
-AnchorPoint: "isonIndicator" 528 897 basechar 0
+AnchorPoint: "isonIndicator" 528 944 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 560 746 basechar 0
 AnchorPoint: "yfenAbove" 630 891 basechar 0
@@ -4416,7 +4416,7 @@ AnchorPoint: "noteTop" 242 923 basechar 0
 AnchorPoint: "omalonConnecting" 1111 89 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 528 897 basechar 0
+AnchorPoint: "isonIndicator" 528 1044 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 770 916 basechar 0
 AnchorPoint: "yfenAbove" 630 921 basechar 0
@@ -4478,7 +4478,7 @@ AnchorPoint: "noteTop" 242 933 basechar 0
 AnchorPoint: "omalonConnecting" 1107 -40 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -180 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 528 897 basechar 0
+AnchorPoint: "isonIndicator" 528 1044 basechar 0
 AnchorPoint: "endofonon" 632 -257 basechar 0
 AnchorPoint: "koronis" 720 910 basechar 0
 AnchorPoint: "yfenAbove" 630 921 basechar 0
@@ -4560,7 +4560,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1240 89 basechar 0
 AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1374 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "yfenAbove" 630 1301 basechar 0
@@ -4656,7 +4656,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1240 89 basechar 0
 AnchorPoint: "heteronConnecting" 1420 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1233 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1374 basechar 0
 AnchorPoint: "endofonon" 632 -107 basechar 0
 AnchorPoint: "koronis" 770 1216 basechar 0
 AnchorPoint: "yfenAbove" 630 1251 basechar 0
@@ -4763,7 +4763,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1108 89 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1391 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "yfenAbove" 630 1241 basechar 0
@@ -4859,7 +4859,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1087 -113 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -180 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1411 basechar 0
 AnchorPoint: "endofonon" 632 -297 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "yfenAbove" 630 1231 basechar 0
@@ -4975,7 +4975,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1153 -140 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -240 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1411 basechar 0
 AnchorPoint: "endofonon" 632 -267 basechar 0
 AnchorPoint: "koronis" 770 1226 basechar 0
 AnchorPoint: "yfenAbove" 630 1231 basechar 0
@@ -5110,7 +5110,7 @@ AnchorPoint: "noteTop" 242 1223 basechar 0
 AnchorPoint: "omalonConnecting" 1160 -180 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -240 basechar 0
 AnchorPoint: "measureNumber" 172 1223 basechar 0
-AnchorPoint: "isonIndicator" 528 1227 basechar 0
+AnchorPoint: "isonIndicator" 528 1411 basechar 0
 AnchorPoint: "endofonon" 632 -347 basechar 0
 AnchorPoint: "koronis" 770 1236 basechar 0
 AnchorPoint: "yfenAbove" 630 1231 basechar 0
@@ -5251,7 +5251,7 @@ AnchorPoint: "noteTop" 242 1363 basechar 0
 AnchorPoint: "omalonConnecting" 1001 89 basechar 0
 AnchorPoint: "heteronConnecting" 1284 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1363 basechar 0
-AnchorPoint: "isonIndicator" 528 1317 basechar 0
+AnchorPoint: "isonIndicator" 528 1561 basechar 0
 AnchorPoint: "endofonon" 632 -37 basechar 0
 AnchorPoint: "koronis" 670 1330 basechar 0
 AnchorPoint: "yfenAbove" 630 1321 basechar 0
@@ -5380,7 +5380,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 298 1040 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1073 basechar 0
-AnchorPoint: "isonIndicator" 714 1049 basechar 0
+AnchorPoint: "isonIndicator" 714 1000 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -5487,7 +5487,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 214 636 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 743 basechar 0
-AnchorPoint: "isonIndicator" 664 1049 basechar 0
+AnchorPoint: "isonIndicator" 664 913 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -5553,7 +5553,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 214 916 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
-AnchorPoint: "isonIndicator" 724 1049 basechar 0
+AnchorPoint: "isonIndicator" 724 913 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -5642,7 +5642,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 158 670 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1049 basechar 0
+AnchorPoint: "isonIndicator" 664 913 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 730 1046 basechar 0
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -5725,7 +5725,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 214 676 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1044 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 430 876 basechar 0
 AnchorPoint: "yfenAbove" 792 1309 basechar 0
@@ -5903,7 +5903,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 194 956 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1174 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 925 807 basechar 0
 AnchorPoint: "yfenAbove" 792 1299 basechar 0
@@ -6077,7 +6077,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 214 676 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1033 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 599 969 basechar 0
 AnchorPoint: "yfenAbove" 792 1299 basechar 0
@@ -6261,7 +6261,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 214 676 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1400 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 313 963 basechar 0
 AnchorPoint: "yfenAbove" 792 1299 basechar 0
@@ -6456,7 +6456,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 213 960 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1146 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 867 1283 basechar 0
 AnchorPoint: "yfenAbove" 792 1299 basechar 0
@@ -6725,7 +6725,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 227 927 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1389 basechar 0
+AnchorPoint: "isonIndicator" 664 1454 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 235 1333 basechar 0
 AnchorPoint: "yfenAbove" 792 1419 basechar 0
@@ -7025,7 +7025,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 207 913 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 853 basechar 0
-AnchorPoint: "isonIndicator" 664 1389 basechar 0
+AnchorPoint: "isonIndicator" 664 1394 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 340 1330 basechar 0
 AnchorPoint: "yfenAbove" 792 1449 basechar 0
@@ -7312,7 +7312,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 132 1142 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 187 1293 basechar 0
-AnchorPoint: "isonIndicator" 664 1389 basechar 0
+AnchorPoint: "isonIndicator" 664 1405 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 670 1460 basechar 0
 AnchorPoint: "yfenAbove" 792 1449 basechar 0
@@ -7592,7 +7592,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 132 1142 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 193 1280 basechar 0
-AnchorPoint: "isonIndicator" 664 1299 basechar 0
+AnchorPoint: "isonIndicator" 664 1127 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 1313 basechar 0
 AnchorPoint: "yfenAbove" 792 1379 basechar 0
@@ -7949,7 +7949,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 132 1272 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 133 1273 basechar 0
-AnchorPoint: "isonIndicator" 664 1389 basechar 0
+AnchorPoint: "isonIndicator" 664 1426 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "yfenAbove" 792 1439 basechar 0
@@ -8345,7 +8345,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 132 1272 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 173 1240 basechar 0
-AnchorPoint: "isonIndicator" 664 1389 basechar 0
+AnchorPoint: "isonIndicator" 664 1391 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 1383 basechar 0
 AnchorPoint: "yfenAbove" 792 1439 basechar 0
@@ -8705,7 +8705,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 942 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 953 basechar 0
-AnchorPoint: "isonIndicator" 664 997 basechar 0
+AnchorPoint: "isonIndicator" 664 913 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "yfenAbove" 792 1049 basechar 0
@@ -8792,7 +8792,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 942 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 663 basechar 0
-AnchorPoint: "isonIndicator" 664 997 basechar 0
+AnchorPoint: "isonIndicator" 664 1122 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 961 basechar 0
 AnchorPoint: "yfenAbove" 702 1049 basechar 0
@@ -8892,7 +8892,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1102 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
-AnchorPoint: "isonIndicator" 660 1049 basechar 0
+AnchorPoint: "isonIndicator" 660 988 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "yfenAbove" 712 1109 basechar 0
@@ -9003,7 +9003,7 @@ AnchorPoint: "fthoraBottom" 542 162 basechar 0
 AnchorPoint: "noteTop" 502 972 basechar 0
 AnchorPoint: "heteronConnecting" 1586 -19 basechar 0
 AnchorPoint: "measureNumber" 173 920 basechar 0
-AnchorPoint: "isonIndicator" 832 999 basechar 0
+AnchorPoint: "isonIndicator" 832 988 basechar 0
 AnchorPoint: "endofonon" 1052 -127 basechar 0
 AnchorPoint: "koronis" 833 1041 basechar 0
 AnchorPoint: "yfenAbove" 932 1049 basechar 0
@@ -9123,7 +9123,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1042 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1103 basechar 0
-AnchorPoint: "isonIndicator" 644 1037 basechar 0
+AnchorPoint: "isonIndicator" 644 994 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 663 1091 basechar 0
 AnchorPoint: "yfenAbove" 702 1089 basechar 0
@@ -9262,7 +9262,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1242 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
-AnchorPoint: "isonIndicator" 650 1133 basechar 0
+AnchorPoint: "isonIndicator" 650 1159 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "yfenAbove" 782 1229 basechar 0
@@ -9362,7 +9362,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1242 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1243 basechar 0
-AnchorPoint: "isonIndicator" 650 1133 basechar 0
+AnchorPoint: "isonIndicator" 650 1256 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 763 1131 basechar 0
 AnchorPoint: "yfenAbove" 782 1229 basechar 0
@@ -9482,7 +9482,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1482 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
-AnchorPoint: "isonIndicator" 650 1423 basechar 0
+AnchorPoint: "isonIndicator" 650 1438 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "yfenAbove" 782 1429 basechar 0
@@ -9633,7 +9633,7 @@ AnchorPoint: "fthoraBottom" 352 162 basechar 0
 AnchorPoint: "noteTop" 202 1482 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1483 basechar 0
-AnchorPoint: "isonIndicator" 650 1423 basechar 0
+AnchorPoint: "isonIndicator" 650 1442 basechar 0
 AnchorPoint: "endofonon" 772 -127 basechar 0
 AnchorPoint: "koronis" 763 1421 basechar 0
 AnchorPoint: "yfenAbove" 782 1429 basechar 0
@@ -9812,7 +9812,7 @@ AnchorPoint: "fthoraBottom" 352 42 basechar 0
 AnchorPoint: "noteTop" 202 1332 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -49 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
-AnchorPoint: "isonIndicator" 650 1293 basechar 0
+AnchorPoint: "isonIndicator" 650 1339 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "yfenAbove" 782 1289 basechar 0
@@ -9946,7 +9946,7 @@ AnchorPoint: "fthoraBottom" 352 42 basechar 0
 AnchorPoint: "noteTop" 202 1332 basechar 0
 AnchorPoint: "heteronConnecting" 1316 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1333 basechar 0
-AnchorPoint: "isonIndicator" 650 1293 basechar 0
+AnchorPoint: "isonIndicator" 650 1480 basechar 0
 AnchorPoint: "endofonon" 772 -287 basechar 0
 AnchorPoint: "koronis" 763 1291 basechar 0
 AnchorPoint: "yfenAbove" 782 1289 basechar 0
@@ -10126,7 +10126,7 @@ AnchorPoint: "fthoraBottom" 465 97 basechar 0
 AnchorPoint: "noteTop" 125 507 basechar 0
 AnchorPoint: "heteronConnecting" 806 34 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 330 877 basechar 0
+AnchorPoint: "isonIndicator" 330 913 basechar 0
 AnchorPoint: "endofonon" 452 -277 basechar 0
 AnchorPoint: "yfenAbove" 413 875 basechar 0
 AnchorPoint: "yfenBelow" 459 -40 basechar 0
@@ -10187,7 +10187,7 @@ AnchorPoint: "omalonConnecting" 1460 -40 basechar 0
 AnchorPoint: "omalon" 1040 -120 basechar 0
 AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 710 877 basechar 0
+AnchorPoint: "isonIndicator" 710 913 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
@@ -10279,7 +10279,7 @@ AnchorPoint: "noteTop" 262 561 basechar 0
 AnchorPoint: "omalonConnecting" 1590 130 basechar 0
 AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 710 1117 basechar 0
+AnchorPoint: "isonIndicator" 710 1131 basechar 0
 AnchorPoint: "endofonon" 772 -47 basechar 0
 AnchorPoint: "yfenAbove" 930 901 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -10367,7 +10367,7 @@ AnchorPoint: "fthoraBottom" 1096 194 basechar 0
 AnchorPoint: "noteTop" 342 921 basechar 0
 AnchorPoint: "heteronConnecting" 2000 -19 basechar 0
 AnchorPoint: "measureNumber" 194 961 basechar 0
-AnchorPoint: "isonIndicator" 710 1157 basechar 0
+AnchorPoint: "isonIndicator" 710 1124 basechar 0
 AnchorPoint: "endofonon" 1102 -77 basechar 0
 AnchorPoint: "yfenAbove" 1350 961 basechar 0
 AnchorPoint: "yfenBelow" 1389 -40 basechar 0
@@ -10492,7 +10492,7 @@ AnchorPoint: "fthoraBottom" 746 194 basechar 0
 AnchorPoint: "noteTop" 262 561 basechar 0
 AnchorPoint: "heteronConnecting" 1920 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 710 1117 basechar 0
+AnchorPoint: "isonIndicator" 710 1131 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "yfenAbove" 930 1101 basechar 0
 AnchorPoint: "yfenBelow" 1109 -40 basechar 0
@@ -10594,7 +10594,7 @@ AnchorPoint: "fthoraBottom" 746 194 basechar 0
 AnchorPoint: "noteTop" 212 850 basechar 0
 AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
 AnchorPoint: "measureNumber" 164 847 basechar 0
-AnchorPoint: "isonIndicator" 710 1177 basechar 0
+AnchorPoint: "isonIndicator" 710 1057 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "yfenAbove" 930 1251 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -10779,7 +10779,7 @@ AnchorPoint: "fthoraBottom" 746 194 basechar 0
 AnchorPoint: "noteTop" 172 991 basechar 0
 AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
 AnchorPoint: "measureNumber" 174 983 basechar 0
-AnchorPoint: "isonIndicator" 710 1207 basechar 0
+AnchorPoint: "isonIndicator" 710 1091 basechar 0
 AnchorPoint: "endofonon" 802 -37 basechar 0
 AnchorPoint: "yfenAbove" 930 1201 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -10966,7 +10966,7 @@ AnchorPoint: "fthoraBottom" 876 194 basechar 0
 AnchorPoint: "noteTop" 272 1011 basechar 0
 AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
-AnchorPoint: "isonIndicator" 707 1107 basechar 0
+AnchorPoint: "isonIndicator" 707 1104 basechar 0
 AnchorPoint: "endofonon" 862 -37 basechar 0
 AnchorPoint: "yfenAbove" 930 1111 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -11071,7 +11071,7 @@ AnchorPoint: "fthoraBottom" 846 194 basechar 0
 AnchorPoint: "noteTop" 192 941 basechar 0
 AnchorPoint: "heteronConnecting" 1594 -19 basechar 0
 AnchorPoint: "measureNumber" 172 943 basechar 0
-AnchorPoint: "isonIndicator" 713 1147 basechar 0
+AnchorPoint: "isonIndicator" 713 1097 basechar 0
 AnchorPoint: "endofonon" 852 -37 basechar 0
 AnchorPoint: "yfenAbove" 930 1141 basechar 0
 AnchorPoint: "yfenBelow" 929 -40 basechar 0
@@ -11196,7 +11196,7 @@ AnchorPoint: "fthoraBottom" 1136 194 basechar 0
 AnchorPoint: "noteTop" 242 1041 basechar 0
 AnchorPoint: "heteronConnecting" 2050 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1043 basechar 0
-AnchorPoint: "isonIndicator" 710 1057 basechar 0
+AnchorPoint: "isonIndicator" 710 1097 basechar 0
 AnchorPoint: "endofonon" 1142 -37 basechar 0
 AnchorPoint: "yfenAbove" 1280 1061 basechar 0
 AnchorPoint: "yfenBelow" 1349 -40 basechar 0
@@ -11324,7 +11324,7 @@ AnchorPoint: "fthoraBottom" 1206 194 basechar 0
 AnchorPoint: "noteTop" 732 921 basechar 0
 AnchorPoint: "heteronConnecting" 2150 -19 basechar 0
 AnchorPoint: "measureNumber" 662 913 basechar 0
-AnchorPoint: "isonIndicator" 710 1077 basechar 0
+AnchorPoint: "isonIndicator" 710 1104 basechar 0
 AnchorPoint: "endofonon" 1212 -37 basechar 0
 AnchorPoint: "yfenAbove" 1320 1061 basechar 0
 AnchorPoint: "yfenBelow" 1389 -40 basechar 0
@@ -11485,7 +11485,7 @@ AnchorPoint: "fthoraBottom" 1126 194 basechar 0
 AnchorPoint: "noteTop" 312 1011 basechar 0
 AnchorPoint: "heteronConnecting" 2050 -19 basechar 0
 AnchorPoint: "measureNumber" 172 1013 basechar 0
-AnchorPoint: "isonIndicator" 710 1010 basechar 0
+AnchorPoint: "isonIndicator" 710 1097 basechar 0
 AnchorPoint: "endofonon" 1122 -37 basechar 0
 AnchorPoint: "yfenAbove" 1240 1061 basechar 0
 AnchorPoint: "yfenBelow" 1269 -40 basechar 0
@@ -11641,7 +11641,7 @@ AnchorPoint: "fthoraBottom" 1116 194 basechar 0
 AnchorPoint: "noteTop" 372 991 basechar 0
 AnchorPoint: "heteronConnecting" 2000 -19 basechar 0
 AnchorPoint: "measureNumber" 172 993 basechar 0
-AnchorPoint: "isonIndicator" 710 1010 basechar 0
+AnchorPoint: "isonIndicator" 710 1104 basechar 0
 AnchorPoint: "endofonon" 1112 -37 basechar 0
 AnchorPoint: "yfenAbove" 1260 1061 basechar 0
 AnchorPoint: "yfenBelow" 1299 -40 basechar 0
@@ -25718,7 +25718,6 @@ Encoding: 57882 57882 302
 Width: 0
 GlyphClass: 4
 Flags: W
-AAnchorPoint: "barlineAboveFthora" 0 590 mark 0
 AnchorPoint: "barline" 0 590 mark 0
 LayerCount: 2
 Fore
@@ -25756,7 +25755,8 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "barlineAboveFthora" 0 590 mark 0
-AnchorPoint: "barline" 0 590 mark 0LayerCount: 2
+AnchorPoint: "barline" 0 590 mark 0
+LayerCount: 2
 Fore
 SplineSet
 210 827 m 5,0,1
@@ -30661,7 +30661,7 @@ AnchorPoint: "omalonConnecting" 1460 -40 basechar 0
 AnchorPoint: "omalon" 1040 -120 basechar 0
 AnchorPoint: "heteronConnecting" 1684 -138 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
-AnchorPoint: "isonIndicator" 710 877 basechar 0
+AnchorPoint: "isonIndicator" 710 913 basechar 0
 AnchorPoint: "endofonon" 772 -277 basechar 0
 AnchorPoint: "koronis" 686 801 basechar 0
 AnchorPoint: "yfenAbove" 930 641 basechar 0
@@ -34910,7 +34910,7 @@ AnchorPoint: "fthoraBottom" 148 101 basechar 0
 AnchorPoint: "noteTop" 156 675 basechar 0
 AnchorPoint: "heteronConnecting" 583 -19 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
-AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "isonIndicator" 212 913 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
@@ -34972,7 +34972,7 @@ AnchorPoint: "fthoraBottom" 148 101 basechar 0
 AnchorPoint: "noteTop" 156 675 basechar 0
 AnchorPoint: "heteronConnecting" 583 -19 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
-AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "isonIndicator" 212 913 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
@@ -35022,7 +35022,7 @@ EndChar
 StartChar: yporroi.trigorgon
 Encoding: 61451 61451 441
 Width: 624
-Flags: WO
+Flags: W
 AnchorPoint: "gorgonTop" 400 527 basechar 0
 AnchorPoint: "apli" 161 42 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
@@ -35034,7 +35034,7 @@ AnchorPoint: "fthoraBottom" 148 101 basechar 0
 AnchorPoint: "noteTop" 156 675 basechar 0
 AnchorPoint: "heteronConnecting" 583 -19 basechar 0
 AnchorPoint: "measureNumber" 72 483 basechar 0
-AnchorPoint: "isonIndicator" 212 885 basechar 0
+AnchorPoint: "isonIndicator" 212 913 basechar 0
 AnchorPoint: "endofonon" 192 -146 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
