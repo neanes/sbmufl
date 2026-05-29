@@ -145,6 +145,7 @@ SBMUFL_ISON_INDICATOR_COMPROMISE_CODEPOINTS: Final[dict[int, str]] = {
     0xE086: "oligonYpsiliRightKentimata",
     0xE087: "oligonYpsiliLeftKentimata",
 }
+MarkClassRef = tuple[int, int]
 
 
 def check(
@@ -311,6 +312,16 @@ def _gpos_lookup_types(ttFont: Any) -> set[int]:
     return {lookup.LookupType for lookup in _gpos_lookups(ttFont)}
 
 
+def _gpos_mark_to_base_subtables(ttFont: Any) -> Iterator[tuple[int, Any]]:
+    index = 0
+    for lookup in _gpos_lookups(ttFont):
+        if lookup.LookupType != otTables.MarkBasePos.LookupType:
+            continue
+        for subtable in lookup.SubTable:
+            yield index, subtable
+            index += 1
+
+
 @check(
     id="sbmufl/mark_positioning",
     rationale="""
@@ -353,68 +364,81 @@ def _gpos_mark_coverages(ttFont: Any) -> tuple[set[str], set[str]]:
     return mark_to_base_glyphs, mark_to_mark_glyphs
 
 
-def _gpos_mark_to_base_mark_classes(ttFont: Any, glyph_names: set[str]) -> set[int]:
-    mark_classes: set[int] = set()
+def _gpos_mark_to_base_mark_classes(
+    ttFont: Any, glyph_names: set[str]
+) -> set[MarkClassRef]:
+    mark_classes: set[MarkClassRef] = set()
 
-    for lookup in _gpos_lookups(ttFont):
-        if lookup.LookupType != otTables.MarkBasePos.LookupType:
-            continue
-        for subtable in lookup.SubTable:
-            for glyph_name, mark_record in zip(
-                subtable.MarkCoverage.glyphs,
-                subtable.MarkArray.MarkRecord,
-                strict=True,
-            ):
-                if glyph_name in glyph_names:
-                    mark_classes.add(mark_record.Class)
+    for subtable_index, subtable in _gpos_mark_to_base_subtables(ttFont):
+        for glyph_name, mark_record in zip(
+            subtable.MarkCoverage.glyphs,
+            subtable.MarkArray.MarkRecord,
+            strict=True,
+        ):
+            if glyph_name in glyph_names:
+                mark_classes.add((subtable_index, mark_record.Class))
 
     return mark_classes
 
 
 def _gpos_mark_to_base_mark_anchor_ys(
     ttFont: Any, glyph_names: set[str]
-) -> dict[int, set[tuple[str, int]]]:
-    anchor_ys: dict[int, set[tuple[str, int]]] = {}
+) -> dict[MarkClassRef, set[tuple[str, int]]]:
+    anchor_ys: dict[MarkClassRef, set[tuple[str, int]]] = {}
 
-    for lookup in _gpos_lookups(ttFont):
-        if lookup.LookupType != otTables.MarkBasePos.LookupType:
-            continue
-        for subtable in lookup.SubTable:
-            for glyph_name, mark_record in zip(
-                subtable.MarkCoverage.glyphs,
-                subtable.MarkArray.MarkRecord,
-                strict=True,
-            ):
-                if glyph_name in glyph_names and mark_record.MarkAnchor is not None:
-                    anchor_ys.setdefault(mark_record.Class, set()).add(
-                        (glyph_name, mark_record.MarkAnchor.YCoordinate)
-                    )
+    for subtable_index, subtable in _gpos_mark_to_base_subtables(ttFont):
+        for glyph_name, mark_record in zip(
+            subtable.MarkCoverage.glyphs,
+            subtable.MarkArray.MarkRecord,
+            strict=True,
+        ):
+            if glyph_name in glyph_names and mark_record.MarkAnchor is not None:
+                anchor_ys.setdefault((subtable_index, mark_record.Class), set()).add(
+                    (glyph_name, mark_record.MarkAnchor.YCoordinate)
+                )
 
     return anchor_ys
 
 
 def _gpos_mark_to_base_anchor_positions(
-    ttFont: Any, mark_classes: set[int]
-) -> dict[str, set[tuple[int, int, int]]]:
-    positions: dict[str, set[tuple[int, int, int]]] = {}
+    ttFont: Any, mark_classes: set[MarkClassRef]
+) -> dict[str, set[tuple[MarkClassRef, int, int]]]:
+    positions: dict[str, set[tuple[MarkClassRef, int, int]]] = {}
 
-    for lookup in _gpos_lookups(ttFont):
-        if lookup.LookupType != otTables.MarkBasePos.LookupType:
+    for subtable_index, subtable in _gpos_mark_to_base_subtables(ttFont):
+        subtable_mark_classes = {
+            mark_class
+            for class_subtable_index, mark_class in mark_classes
+            if class_subtable_index == subtable_index
+        }
+        if not subtable_mark_classes:
             continue
-        for subtable in lookup.SubTable:
-            for glyph_name, base_record in zip(
-                subtable.BaseCoverage.glyphs,
-                subtable.BaseArray.BaseRecord,
-                strict=True,
-            ):
-                for mark_class in mark_classes:
-                    anchor = base_record.BaseAnchor[mark_class]
-                    if anchor is not None:
-                        positions.setdefault(glyph_name, set()).add(
-                            (mark_class, anchor.XCoordinate, anchor.YCoordinate)
+
+        for glyph_name, base_record in zip(
+            subtable.BaseCoverage.glyphs,
+            subtable.BaseArray.BaseRecord,
+            strict=True,
+        ):
+            for mark_class in subtable_mark_classes:
+                if mark_class >= len(base_record.BaseAnchor):
+                    continue
+
+                anchor = base_record.BaseAnchor[mark_class]
+                if anchor is not None:
+                    positions.setdefault(glyph_name, set()).add(
+                        (
+                            (subtable_index, mark_class),
+                            anchor.XCoordinate,
+                            anchor.YCoordinate,
                         )
+                    )
 
     return positions
+
+
+def _format_mark_class(mark_class: MarkClassRef) -> str:
+    subtable_index, class_id = mark_class
+    return f"subtable {subtable_index} class {class_id}"
 
 
 def _glyph_ymax(ttFont: Any, glyph_name: str) -> float | None:
@@ -573,7 +597,7 @@ def check_sbmufl_ison_mark_vertical_positioning(
     reference_y_positions = {y for _, _, y in reference_positions}
     if len(reference_y_positions) > 1:
         formatted_positions = [
-            f"class {mark_class}, X={x}, Y={y}"
+            f"{_format_mark_class(mark_class)}, X={x}, Y={y}"
             for mark_class, x, y in sorted(reference_positions)
         ]
         yield FAIL, Message(
@@ -588,11 +612,14 @@ def check_sbmufl_ison_mark_vertical_positioning(
         cmap[codepoint]
         for codepoint in sorted(SBMUFL_GORGON_TOP_CODEPOINTS.intersection(cmap))
     }
+    gorgon_top_mark_classes = _gpos_mark_to_base_mark_classes(
+        ttFont,
+        encoded_gorgon_top_marks,
+    )
     gorgon_top_mark_anchor_ys = _gpos_mark_to_base_mark_anchor_ys(
         ttFont,
         encoded_gorgon_top_marks,
     )
-    gorgon_top_mark_classes = set(gorgon_top_mark_anchor_ys)
 
     reference_y = next(iter(reference_y_positions))
     glyph_ymax_by_name: dict[str, float] = {}
@@ -687,7 +714,7 @@ def check_sbmufl_ison_mark_vertical_positioning(
         for glyph_name in glyph_ymax_by_name
     }
     inconsistent_positions = [
-        f"{glyph_name}: class {mark_class}, X={x}, Y={y} "
+        f"{glyph_name}: {_format_mark_class(mark_class)}, X={x}, Y={y} "
         f"(expected Y={expected_y_by_name[glyph_name]})"
         for glyph_name, positions in sorted(anchor_positions.items())
         for mark_class, x, y in sorted(positions)
