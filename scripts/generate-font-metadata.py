@@ -116,7 +116,7 @@ class SbmuflFont(object):
         self.font.generate(filename, *args, **kwargs)
 
     def export_metadata(self, filename=None, indent=2, **kwargs):
-        filename = filename or self.font.fontname + ".metadata.json"
+        filename = filename or (self.font.fontname + ".metadata.json").lower()
 
         with open(filename, "w") as outfile:
             json.dump(self.generate_metadata(), outfile, indent=indent, **kwargs)
