@@ -8,6 +8,10 @@
   },
   "glyphsWithAnchors": {
     "ison": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "yfenAbove": [
         0.93,
         0.641
@@ -27,10 +31,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "gorgonBottom": [
         0.713,
@@ -94,6 +94,10 @@
       ]
     },
     "oligonKentimaBelow": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "apli": [
         0.763,
         -0.18
@@ -121,10 +125,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "heteronConnecting": [
         1.692,
@@ -180,6 +180,10 @@
       ]
     },
     "oligon": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "yfenAbove": [
         0.93,
         0.641
@@ -199,10 +203,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "gorgonBottom": [
         0.667,
@@ -266,6 +266,10 @@
       ]
     },
     "oligonKentimaAbove": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -289,10 +293,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "heteronConnecting": [
         1.692,
@@ -356,6 +356,10 @@
       ]
     },
     "oligonYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.098
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -379,10 +383,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        1.098
       ],
       "heteronConnecting": [
         1.692,
@@ -446,6 +446,10 @@
       ]
     },
     "oligonYpsiliLeft": {
+      "isonIndicator": [
+        1.122,
+        1.098
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -469,10 +473,6 @@
       "measureNumber": [
         0.213,
         0.827
-      ],
-      "isonIndicator": [
-        1.122,
-        1.098
       ],
       "heteronConnecting": [
         1.692,
@@ -536,6 +536,10 @@
       ]
     },
     "oligonKentimaYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.098
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -559,10 +563,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        1.181
       ],
       "heteronConnecting": [
         1.692,
@@ -626,6 +626,10 @@
       ]
     },
     "oligonKentimaYpsiliMiddle": {
+      "isonIndicator": [
+        0.792,
+        1.39
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -649,10 +653,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        1.39
       ],
       "heteronConnecting": [
         1.692,
@@ -712,6 +712,10 @@
       ]
     },
     "oligonDoubleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.283
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -735,10 +739,6 @@
       "measureNumber": [
         0.16,
         0.8
-      ],
-      "isonIndicator": [
-        0.792,
-        1.283
       ],
       "heteronConnecting": [
         1.692,
@@ -798,6 +798,10 @@
       ]
     },
     "oligonKentimataDoubleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.392
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -821,10 +825,6 @@
       "measureNumber": [
         0.172,
         0.875
-      ],
-      "isonIndicator": [
-        0.792,
-        1.392
       ],
       "heteronConnecting": [
         1.692,
@@ -880,6 +880,10 @@
       ]
     },
     "isonApostrofos": {
+      "isonIndicator": [
+        0.63,
+        0.913
+      ],
       "yfenAbove": [
         0.69,
         0.891
@@ -900,10 +904,6 @@
         0.172,
         0.773
       ],
-      "isonIndicator": [
-        0.63,
-        0.913
-      ],
       "noteTop": [
         0.322,
         0.661
@@ -922,6 +922,10 @@
       ]
     },
     "apostrofosSyndesmos": {
+      "isonIndicator": [
+        0.63,
+        0.913
+      ],
       "yfenAbove": [
         0.93,
         0.891
@@ -941,10 +945,6 @@
       "measureNumber": [
         0.172,
         0.803
-      ],
-      "isonIndicator": [
-        0.63,
-        0.913
       ],
       "noteTop": [
         0.194,
@@ -968,6 +968,10 @@
       ]
     },
     "yporroi": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "diesisSecondary": [
         0.587,
         0.887
@@ -1008,10 +1012,6 @@
         0.072,
         0.483
       ],
-      "isonIndicator": [
-        0.212,
-        0.913
-      ],
       "heteron": [
         0.316,
         -0.086
@@ -1046,6 +1046,10 @@
       ]
     },
     "runningElafron": {
+      "isonIndicator": [
+        1.018,
+        0.913
+      ],
       "stavros": [
         0.547,
         0.487
@@ -1085,10 +1089,6 @@
       "measureNumber": [
         0.172,
         0.653
-      ],
-      "isonIndicator": [
-        1.018,
-        0.939
       ],
       "heteronConnecting": [
         1.929,
@@ -1136,6 +1136,10 @@
       ]
     },
     "elafron": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "yfenAbove": [
         0.65,
         0.901
@@ -1155,10 +1159,6 @@
       "measureNumber": [
         0.172,
         0.613
-      ],
-      "isonIndicator": [
-        0.528,
-        0.939
       ],
       "gorgonBottom": [
         0.487,
@@ -1210,6 +1210,10 @@
       ]
     },
     "elafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "gorgonBottom": [
         0.487,
         -0.093
@@ -1233,10 +1237,6 @@
       "measureNumber": [
         0.172,
         0.643
-      ],
-      "isonIndicator": [
-        0.528,
-        0.939
       ],
       "heteronConnecting": [
         1.42,
@@ -1284,6 +1284,10 @@
       ]
     },
     "chamiliApostrofos": {
+      "isonIndicator": [
+        0.528,
+        0.941
+      ],
       "yfenAbove": [
         0.63,
         0.921
@@ -1303,10 +1307,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.528,
-        1.039
       ],
       "heteronConnecting": [
         1.284,
@@ -1354,6 +1354,10 @@
       ]
     },
     "chamili": {
+      "isonIndicator": [
+        0.528,
+        0.941
+      ],
       "yfenAbove": [
         0.63,
         0.921
@@ -1373,10 +1377,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.528,
-        1.039
       ],
       "gorgonBottom": [
         0.393,
@@ -1428,6 +1428,10 @@
       ]
     },
     "chamiliElafron": {
+      "isonIndicator": [
+        0.528,
+        1.241
+      ],
       "yfenAbove": [
         0.63,
         1.301
@@ -1447,10 +1451,6 @@
       "measureNumber": [
         0.172,
         1.233
-      ],
-      "isonIndicator": [
-        0.528,
-        1.369
       ],
       "heteronConnecting": [
         1.42,
@@ -1498,6 +1498,10 @@
       ]
     },
     "chamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.241
+      ],
       "yfenAbove": [
         0.63,
         1.251
@@ -1517,10 +1521,6 @@
       "measureNumber": [
         0.172,
         1.233
-      ],
-      "isonIndicator": [
-        0.528,
-        1.369
       ],
       "heteronConnecting": [
         1.42,
@@ -1568,6 +1568,10 @@
       ]
     },
     "doubleChamili": {
+      "isonIndicator": [
+        0.528,
+        1.237
+      ],
       "yfenAbove": [
         0.63,
         1.241
@@ -1587,10 +1591,6 @@
       "measureNumber": [
         0.172,
         1.223
-      ],
-      "isonIndicator": [
-        0.528,
-        1.386
       ],
       "heteronConnecting": [
         1.284,
@@ -1638,6 +1638,10 @@
       ]
     },
     "petastiIson": {
+      "isonIndicator": [
+        0.714,
+        1.096
+      ],
       "yfenAbove": [
         0.792,
         1.049
@@ -1670,10 +1674,6 @@
         0.172,
         1.073
       ],
-      "isonIndicator": [
-        0.714,
-        1.096
-      ],
       "apli": [
         0.765,
         -0.01
@@ -1704,6 +1704,10 @@
       ]
     },
     "petasti": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "yfenAbove": [
         0.792,
         1.049
@@ -1731,10 +1735,6 @@
       "measureNumber": [
         0.172,
         0.743
-      ],
-      "isonIndicator": [
-        0.664,
-        0.913
       ],
       "apli": [
         0.765,
@@ -1770,6 +1770,10 @@
       ]
     },
     "petastiOligon": {
+      "isonIndicator": [
+        0.724,
+        0.913
+      ],
       "yfenAbove": [
         0.792,
         1.049
@@ -1802,10 +1806,6 @@
         0.172,
         0.953
       ],
-      "isonIndicator": [
-        0.724,
-        0.913
-      ],
       "apli": [
         0.785,
         -0.08
@@ -1836,6 +1836,10 @@
       ]
     },
     "petastiKentima": {
+      "isonIndicator": [
+        0.664,
+        0.949
+      ],
       "yfenAbove": [
         0.792,
         1.049
@@ -1868,10 +1872,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        0.949
-      ],
       "apli": [
         0.765,
         -0.08
@@ -1902,6 +1902,10 @@
       ]
     },
     "petastiYpsiliRight": {
+      "isonIndicator": [
+        0.634,
+        1.129
+      ],
       "yfenAbove": [
         0.792,
         1.309
@@ -1934,10 +1938,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.634,
-        1.129
-      ],
       "apli": [
         0.765,
         -0.08
@@ -1968,6 +1968,10 @@
       ]
     },
     "petastiYpsiliLeft": {
+      "isonIndicator": [
+        0.664,
+        1.342
+      ],
       "yfenAbove": [
         0.792,
         1.299
@@ -2000,10 +2004,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.342
-      ],
       "apli": [
         0.765,
         -0.08
@@ -2034,6 +2034,10 @@
       ]
     },
     "petastiKentimaYpsiliRight": {
+      "isonIndicator": [
+        0.634,
+        1.129
+      ],
       "yfenAbove": [
         0.792,
         1.299
@@ -2066,10 +2070,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.634,
-        1.129
-      ],
       "apli": [
         0.765,
         -0.08
@@ -2100,6 +2100,10 @@
       ]
     },
     "petastiKentimaYpsiliMiddle": {
+      "isonIndicator": [
+        0.664,
+        1.39
+      ],
       "yfenAbove": [
         0.792,
         1.299
@@ -2132,10 +2136,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.39
-      ],
       "apli": [
         0.765,
         -0.08
@@ -2166,6 +2166,10 @@
       ]
     },
     "petastiApostrofos": {
+      "isonIndicator": [
+        0.664,
+        0.931
+      ],
       "yfenAbove": [
         0.792,
         1.049
@@ -2193,10 +2197,6 @@
       "measureNumber": [
         0.172,
         0.953
-      ],
-      "isonIndicator": [
-        0.664,
-        0.931
       ],
       "apli": [
         0.765,
@@ -2232,6 +2232,10 @@
       ]
     },
     "petastiElafron": {
+      "isonIndicator": [
+        0.66,
+        1.08
+      ],
       "yfenAbove": [
         0.712,
         1.109
@@ -2259,10 +2263,6 @@
       "measureNumber": [
         0.172,
         1.103
-      ],
-      "isonIndicator": [
-        0.66,
-        1.08
       ],
       "apli": [
         0.765,
@@ -2298,6 +2298,10 @@
       ]
     },
     "petastiElafronApostrofos": {
+      "isonIndicator": [
+        0.644,
+        1.075
+      ],
       "yfenAbove": [
         0.702,
         1.089
@@ -2325,10 +2329,6 @@
       "measureNumber": [
         0.172,
         1.103
-      ],
-      "isonIndicator": [
-        0.644,
-        1.075
       ],
       "apli": [
         0.765,
@@ -2364,6 +2364,10 @@
       ]
     },
     "petastiChamili": {
+      "isonIndicator": [
+        0.65,
+        1.221
+      ],
       "yfenAbove": [
         0.782,
         1.229
@@ -2391,10 +2395,6 @@
       "measureNumber": [
         0.172,
         1.243
-      ],
-      "isonIndicator": [
-        0.65,
-        1.221
       ],
       "apli": [
         0.765,
@@ -2430,6 +2430,10 @@
       ]
     },
     "kentimata": {
+      "isonIndicator": [
+        0.33,
+        0.913
+      ],
       "heteronConnecting": [
         0.806,
         0.034
@@ -2453,10 +2457,6 @@
       "gorgonBottom": [
         0.354,
         -0.018
-      ],
-      "isonIndicator": [
-        0.33,
-        0.913
       ],
       "noteTop": [
         0.125,
@@ -2484,6 +2484,10 @@
       ]
     },
     "oligonKentimataAbove": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "fthoraTopSecondary": [
         0.24,
         0.48
@@ -2511,10 +2515,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.71,
-        1.126
       ],
       "antikenoma": [
         0.82,
@@ -2550,6 +2550,10 @@
       ]
     },
     "oligonIsonKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.954
+      ],
       "diesisSecondary": [
         1.255,
         1.101
@@ -2586,10 +2590,6 @@
         0.194,
         0.961
       ],
-      "isonIndicator": [
-        0.71,
-        1.119
-      ],
       "antikenoma": [
         1.053,
         0.113
@@ -2624,6 +2624,10 @@
       ]
     },
     "oligonYpsiliLeftKentimata": {
+      "isonIndicator": [
+        1.13,
+        1.098
+      ],
       "yfenAbove": [
         0.93,
         1.201
@@ -2643,10 +2647,6 @@
       "measureNumber": [
         0.174,
         0.983
-      ],
-      "isonIndicator": [
-        1.13,
-        1.155
       ],
       "antikenoma": [
         0.82,
@@ -2682,6 +2682,10 @@
       ]
     },
     "oligonApostrofosKentimata": {
+      "isonIndicator": [
+        0.707,
+        0.926
+      ],
       "diesisSecondary": [
         0.965,
         1.154
@@ -2718,10 +2722,6 @@
         0.172,
         1.013
       ],
-      "isonIndicator": [
-        0.707,
-        1.099
-      ],
       "antikenoma": [
         0.82,
         0.165
@@ -2756,6 +2756,10 @@
       ]
     },
     "oligonElafronKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.974
+      ],
       "diesisSecondary": [
         1.325,
         1.163
@@ -2796,10 +2800,6 @@
         0.172,
         1.043
       ],
-      "isonIndicator": [
-        0.71,
-        1.092
-      ],
       "antikenoma": [
         1.093,
         0.153
@@ -2830,6 +2830,10 @@
       ]
     },
     "oligonYporroiKentimata": {
+      "isonIndicator": [
+        0.713,
+        0.913
+      ],
       "diesisSecondary": [
         0.965,
         1.153
@@ -2865,10 +2869,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.713,
-        1.092
       ],
       "antikenoma": [
         0.82,
@@ -2908,6 +2908,10 @@
       ]
     },
     "oligonKentimataBelow": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "diesisSecondary": [
         1.596,
         0.897
@@ -2956,10 +2960,6 @@
         0.71,
         0.133
       ],
-      "isonIndicator": [
-        0.71,
-        0.913
-      ],
       "omalonConnecting": [
         1.46,
         -0.04
@@ -3002,6 +3002,10 @@
       ]
     },
     "oligonKentimaTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.458
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -3025,10 +3029,6 @@
       "measureNumber": [
         0.172,
         1.213
-      ],
-      "isonIndicator": [
-        0.792,
-        1.458
       ],
       "heteronConnecting": [
         1.692,
@@ -3084,6 +3084,10 @@
       ]
     },
     "oligonIson": {
+      "isonIndicator": [
+        0.792,
+        0.96
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -3107,10 +3111,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.96
       ],
       "heteronConnecting": [
         1.692,
@@ -3166,6 +3166,10 @@
       ]
     },
     "oligonElafron": {
+      "isonIndicator": [
+        0.792,
+        0.987
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -3189,10 +3193,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.987
       ],
       "heteronConnecting": [
         1.692,
@@ -3248,6 +3248,10 @@
       ]
     },
     "petastiRunningElafron": {
+      "isonIndicator": [
+        0.832,
+        0.976
+      ],
       "diesisSecondary": [
         0.663,
         1.235
@@ -3288,10 +3292,6 @@
         0.173,
         0.92
       ],
-      "isonIndicator": [
-        0.832,
-        0.976
-      ],
       "apli": [
         1.095,
         -0.08
@@ -3330,6 +3330,10 @@
       ]
     },
     "oligonApostrofos": {
+      "isonIndicator": [
+        0.792,
+        0.944
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -3353,10 +3357,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.944
       ],
       "heteronConnecting": [
         1.692,
@@ -3412,6 +3412,10 @@
       ]
     },
     "oligonYporroi": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "barline": [
         0.997,
         0.878
@@ -3439,10 +3443,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "heteronConnecting": [
         1.692,
@@ -3498,6 +3498,10 @@
       ]
     },
     "petastiYporroi": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "barline": [
         0.702,
         0.816
@@ -3534,10 +3538,6 @@
         0.172,
         0.663
       ],
-      "isonIndicator": [
-        0.664,
-        1.117
-      ],
       "apli": [
         0.765,
         -0.08
@@ -3572,6 +3572,10 @@
       ]
     },
     "oligonRunningElafronKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "diesisTertiary": [
         0.701,
         1.183
@@ -3624,10 +3628,6 @@
         0.662,
         0.913
       ],
-      "isonIndicator": [
-        0.71,
-        1.099
-      ],
       "antikenoma": [
         1.253,
         0.153
@@ -3662,6 +3662,10 @@
       ]
     },
     "oligonElafronApostrofosKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.972
+      ],
       "diesisSecondary": [
         1.327,
         1.137
@@ -3698,10 +3702,6 @@
         0.172,
         1.013
       ],
-      "isonIndicator": [
-        0.71,
-        1.092
-      ],
       "antikenoma": [
         0.82,
         0.165
@@ -3736,6 +3736,10 @@
       ]
     },
     "oligonKentimaMiddleKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "yfenAbove": [
         0.93,
         1.101
@@ -3755,10 +3759,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.71,
-        1.126
       ],
       "antikenoma": [
         0.82,
@@ -3794,6 +3794,10 @@
       ]
     },
     "oligonYpsiliRightKentimata": {
+      "isonIndicator": [
+        0.71,
+        1.098
+      ],
       "yfenAbove": [
         0.93,
         1.251
@@ -3813,10 +3817,6 @@
       "measureNumber": [
         0.164,
         0.847
-      ],
-      "isonIndicator": [
-        0.71,
-        1.138
       ],
       "antikenoma": [
         0.82,
@@ -3852,6 +3852,10 @@
       ]
     },
     "petastiChamiliApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.221
+      ],
       "yfenAbove": [
         0.782,
         1.229
@@ -3879,10 +3883,6 @@
       "measureNumber": [
         0.172,
         1.243
-      ],
-      "isonIndicator": [
-        0.65,
-        1.221
       ],
       "apli": [
         0.765,
@@ -3918,6 +3918,10 @@
       ]
     },
     "apostrofos": {
+      "isonIndicator": [
+        0.366,
+        0.913
+      ],
       "omalonConnecting": [
         1.044,
         0.089
@@ -3945,10 +3949,6 @@
       "measureNumber": [
         0.172,
         0.783
-      ],
-      "isonIndicator": [
-        0.366,
-        0.939
       ],
       "gorgonBottom": [
         0.348,
@@ -3992,6 +3992,10 @@
       ]
     },
     "oligonKentimataTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.458
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -4015,10 +4019,6 @@
       "measureNumber": [
         0.172,
         1.213
-      ],
-      "isonIndicator": [
-        0.792,
-        1.458
       ],
       "heteronConnecting": [
         1.692,
@@ -4074,6 +4074,10 @@
       ]
     },
     "doubleChamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.237
+      ],
       "yfenAbove": [
         0.63,
         1.231
@@ -4093,10 +4097,6 @@
       "measureNumber": [
         0.172,
         1.223
-      ],
-      "isonIndicator": [
-        0.528,
-        1.406
       ],
       "heteronConnecting": [
         1.284,
@@ -4144,6 +4144,10 @@
       ]
     },
     "doubleChamiliElafron": {
+      "isonIndicator": [
+        0.528,
+        1.237
+      ],
       "yfenAbove": [
         0.63,
         1.231
@@ -4163,10 +4167,6 @@
       "measureNumber": [
         0.172,
         1.223
-      ],
-      "isonIndicator": [
-        0.528,
-        1.406
       ],
       "heteronConnecting": [
         1.284,
@@ -4214,6 +4214,10 @@
       ]
     },
     "doubleChamiliApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.237
+      ],
       "yfenAbove": [
         0.63,
         1.231
@@ -4233,10 +4237,6 @@
       "measureNumber": [
         0.172,
         1.223
-      ],
-      "isonIndicator": [
-        0.528,
-        1.406
       ],
       "heteronConnecting": [
         1.284,
@@ -4284,6 +4284,10 @@
       ]
     },
     "petastiKentimataDoubleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.468
+      ],
       "yfenAbove": [
         0.792,
         1.419
@@ -4316,10 +4320,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.468
-      ],
       "apli": [
         0.765,
         -0.08
@@ -4350,6 +4350,10 @@
       ]
     },
     "petastiKentimaDoubleYpsiliRight": {
+      "isonIndicator": [
+        0.664,
+        1.463
+      ],
       "yfenAbove": [
         0.792,
         1.449
@@ -4382,10 +4386,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.463
-      ],
       "apli": [
         0.765,
         -0.08
@@ -4416,6 +4416,10 @@
       ]
     },
     "petastiKentimaDoubleYpsiliLeft": {
+      "isonIndicator": [
+        0.664,
+        1.463
+      ],
       "yfenAbove": [
         0.792,
         1.449
@@ -4448,10 +4452,6 @@
         0.187,
         1.293
       ],
-      "isonIndicator": [
-        0.664,
-        1.463
-      ],
       "apli": [
         0.765,
         -0.08
@@ -4482,6 +4482,10 @@
       ]
     },
     "petastiKentimataTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.468
+      ],
       "yfenAbove": [
         0.792,
         1.439
@@ -4514,10 +4518,6 @@
         0.133,
         1.273
       ],
-      "isonIndicator": [
-        0.664,
-        1.468
-      ],
       "apli": [
         0.765,
         -0.08
@@ -4548,6 +4548,10 @@
       ]
     },
     "petastiTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.342
+      ],
       "yfenAbove": [
         0.792,
         1.379
@@ -4580,10 +4584,6 @@
         0.193,
         1.28
       ],
-      "isonIndicator": [
-        0.664,
-        1.342
-      ],
       "apli": [
         0.765,
         -0.08
@@ -4614,6 +4614,10 @@
       ]
     },
     "oligonKentimaDoubleYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.458
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -4637,10 +4641,6 @@
       "measureNumber": [
         0.172,
         0.853
-      ],
-      "isonIndicator": [
-        0.792,
-        1.458
       ],
       "heteronConnecting": [
         1.692,
@@ -4696,6 +4696,10 @@
       ]
     },
     "oligonKentimaDoubleYpsiliLeft": {
+      "isonIndicator": [
+        0.792,
+        1.458
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -4719,10 +4723,6 @@
       "measureNumber": [
         0.172,
         1.213
-      ],
-      "isonIndicator": [
-        0.792,
-        1.458
       ],
       "heteronConnecting": [
         1.692,
@@ -4778,6 +4778,10 @@
       ]
     },
     "oligonTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.283
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -4801,10 +4805,6 @@
       "measureNumber": [
         0.172,
         1.213
-      ],
-      "isonIndicator": [
-        0.792,
-        1.283
       ],
       "heteronConnecting": [
         1.692,
@@ -4860,6 +4860,10 @@
       ]
     },
     "oligonElafronApostrofos": {
+      "isonIndicator": [
+        0.792,
+        0.987
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -4883,10 +4887,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.987
       ],
       "heteronConnecting": [
         1.692,
@@ -4942,6 +4942,10 @@
       ]
     },
     "petastiDoubleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.345
+      ],
       "yfenAbove": [
         0.792,
         1.299
@@ -4974,10 +4978,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.345
-      ],
       "apli": [
         0.765,
         -0.08
@@ -5008,6 +5008,10 @@
       ]
     },
     "oligonChamili": {
+      "isonIndicator": [
+        0.792,
+        1.056
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -5031,10 +5035,6 @@
       "measureNumber": [
         0.172,
         0.513
-      ],
-      "isonIndicator": [
-        0.792,
-        1.056
       ],
       "heteronConnecting": [
         1.692,
@@ -5090,6 +5090,10 @@
       ]
     },
     "petastiChamiliElafron": {
+      "isonIndicator": [
+        0.65,
+        1.492
+      ],
       "yfenAbove": [
         0.782,
         1.429
@@ -5117,10 +5121,6 @@
       "measureNumber": [
         0.172,
         1.483
-      ],
-      "isonIndicator": [
-        0.65,
-        1.492
       ],
       "apli": [
         0.765,
@@ -5156,6 +5156,10 @@
       ]
     },
     "petastiChamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.492
+      ],
       "yfenAbove": [
         0.782,
         1.429
@@ -5183,10 +5187,6 @@
       "measureNumber": [
         0.172,
         1.483
-      ],
-      "isonIndicator": [
-        0.65,
-        1.492
       ],
       "apli": [
         0.765,
@@ -5222,6 +5222,10 @@
       ]
     },
     "petastiDoubleChamili": {
+      "isonIndicator": [
+        0.65,
+        1.35
+      ],
       "yfenAbove": [
         0.782,
         1.289
@@ -5249,10 +5253,6 @@
       "measureNumber": [
         0.172,
         1.333
-      ],
-      "isonIndicator": [
-        0.65,
-        1.35
       ],
       "apli": [
         0.765,
@@ -5288,6 +5288,10 @@
       ]
     },
     "petastiDoubleChamiliApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.35
+      ],
       "yfenAbove": [
         0.782,
         1.289
@@ -5315,10 +5319,6 @@
       "measureNumber": [
         0.172,
         1.333
-      ],
-      "isonIndicator": [
-        0.65,
-        1.35
       ],
       "apli": [
         0.765,
@@ -5378,6 +5378,10 @@
       ]
     },
     "oligonKentimaMiddle": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonBottom": [
         0.667,
         0.125
@@ -5401,10 +5405,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.792,
-        0.913
       ],
       "heteronConnecting": [
         1.97,
@@ -5476,6 +5476,10 @@
       ]
     },
     "tripleChamili": {
+      "isonIndicator": [
+        0.528,
+        1.35
+      ],
       "yfenAbove": [
         0.63,
         1.321
@@ -5495,10 +5499,6 @@
       "measureNumber": [
         0.172,
         1.363
-      ],
-      "isonIndicator": [
-        0.528,
-        1.556
       ],
       "heteronConnecting": [
         1.284,
@@ -5930,6 +5930,10 @@
       ]
     },
     "oligonKentimataBelow.alt01": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "barline": [
         0.277,
         0.59
@@ -5970,10 +5974,6 @@
         0.262,
         0.561
       ],
-      "isonIndicator": [
-        0.71,
-        0.913
-      ],
       "psifiston": [
         0.84,
         0.113
@@ -5992,6 +5992,10 @@
       ]
     },
     "petastiKentimaTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.468
+      ],
       "yfenAbove": [
         0.792,
         1.439
@@ -6023,10 +6027,6 @@
       "measureNumber": [
         0.173,
         1.24
-      ],
-      "isonIndicator": [
-        0.664,
-        1.468
       ],
       "fthoraTop": [
         1.224,
@@ -7062,6 +7062,10 @@
       ]
     },
     "oligonChamiliKentimata": {
+      "isonIndicator": [
+        0.71,
+        1.056
+      ],
       "diesisSecondary": [
         1.327,
         1.137
@@ -7097,10 +7101,6 @@
       "measureNumber": [
         0.172,
         0.993
-      ],
-      "isonIndicator": [
-        0.71,
-        1.099
       ],
       "antikenoma": [
         1.1,
@@ -7624,6 +7624,10 @@
       ]
     },
     "yporroi.gorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "diesisSecondary": [
         0.587,
         0.887
@@ -7664,10 +7668,6 @@
         0.072,
         0.483
       ],
-      "isonIndicator": [
-        0.212,
-        0.913
-      ],
       "heteron": [
         0.316,
         -0.086
@@ -7702,6 +7702,10 @@
       ]
     },
     "yporroi.digorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "diesisSecondary": [
         0.587,
         0.887
@@ -7742,10 +7746,6 @@
         0.072,
         0.483
       ],
-      "isonIndicator": [
-        0.212,
-        0.913
-      ],
       "heteron": [
         0.316,
         -0.086
@@ -7780,6 +7780,10 @@
       ]
     },
     "yporroi.trigorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "diesisSecondary": [
         0.587,
         0.887
@@ -7819,10 +7823,6 @@
       "measureNumber": [
         0.072,
         0.483
-      ],
-      "isonIndicator": [
-        0.212,
-        0.913
       ],
       "heteron": [
         0.316,

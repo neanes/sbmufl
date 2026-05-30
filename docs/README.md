@@ -39,6 +39,38 @@ Each category contains extra unused space to allow for future expansion.
 | Optional Glyphs                     | U+F000 | U+F00B |
 | Free Space                          | U+F00C | U+F8FF |
 
+## Mark Rendering Order
+
+When multiple marks are emitted for the same syllable, shaping behavior assumes
+the same glyph order used by Neanes:
+
+1. Left measure bar, when the bar is not above the syllable
+2. Vareia, except in Melkite RTL layout
+3. Quantitative character
+4. Stavros
+5. Vocal expression mark
+6. Time mark
+7. Koronis
+8. Primary gorgon-family mark
+9. Secondary gorgon-family mark
+10. Primary fthora or chroa mark
+11. Secondary fthora or chroa mark
+12. Tertiary fthora or chroa mark
+13. Primary accidental
+14. Secondary accidental
+15. Tertiary accidental
+16. Note indicator
+17. Ison indicator
+18. Measure number
+19. Left measure bar, when the bar is above the syllable
+20. Right measure bar
+21. Tie
+22. Vareia, in Melkite RTL layout
+
+Fonts are not required to support alternate orderings for contextual collision
+handling. For example, koronis stacking assumes the sequence "quantitative
+character + koronis + gorgon-family or fthora/chroa mark."
+
 ## List of Glyphs
 
 See the [full list of glyphs](tables/index.md).
