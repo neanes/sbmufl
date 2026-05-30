@@ -34916,7 +34916,7 @@ AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 400 877 basechar 0
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 LayerCount: 2
 Fore
@@ -34978,7 +34978,7 @@ AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 320 1018 basechar 0
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 LayerCount: 2
 Fore
@@ -35040,7 +35040,7 @@ AnchorPoint: "koronis" 210 881 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 400 1043 basechar 0
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 LayerCount: 2
 Fore

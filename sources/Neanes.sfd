@@ -27467,7 +27467,7 @@ VStem: 75 305.5
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 400 895 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
@@ -27498,7 +27498,7 @@ VStem: 75 305.5
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 320 1065 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
@@ -27529,7 +27529,7 @@ VStem: 75 305.5
 AnchorPoint: "diesisSecondary" 587 887 basechar 0
 AnchorPoint: "yfesisSecondary" -19 -223 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
-AnchorPoint: "barline" 286 590 basechar 0
+AnchorPoint: "barline" 382 1080 basechar 0
 AnchorPoint: "yfenAbove" 217 887 basechar 0
 AnchorPoint: "yfenBelow" 159 -40 basechar 0
 AnchorPoint: "koronis" 210 881 basechar 0
