@@ -150,6 +150,6 @@
 
 ## Implementation Details
 
-Ison indicators should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4).
+Ison indicators should be treated as marks and positioned using the Mark-to-Base Attachment Positioning Subtable (GPOS Lookup Type 4). Tall Ypsili bases use a midpoint compromise between the ison reference height and the base-outline clearance height. When an ison indicator shares a syllable with supported above-attaching gorgon, digorgon, trigorgon, fthora, or chroa marks, the production build adds contextual GPOS rules that raise only the ison indicator while preserving the base glyph's isonIndicator X anchor. See [Contextual Mark Positioning](../contextual-positioning.md) for the supported target groups, mark-order requirement, and maximum-clearance rule construction.
 
 </body></html>
