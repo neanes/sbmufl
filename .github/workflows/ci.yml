@@ -44,7 +44,7 @@ jobs:
         run: isort --check-only --profile black .
 
       - name: Run mypy
-        run: mypy --ignore-missing-imports tools/fontbakery/*.py
+        run: mypy --ignore-missing-imports scripts/generate-contextual-positioning.py tools/fontbakery/sbmufl_profile.py tools/fontbakery/sbmufl/
 
       - name: Build fonts
         working-directory: ./scripts
