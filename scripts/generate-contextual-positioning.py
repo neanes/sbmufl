@@ -1794,6 +1794,47 @@ def ison_expected_y_by_name(
     )
 
 
+def normalize_ison_base_anchor_y(
+    glyphs: GlyphIntrospector,
+    gpos: GposIntrospector,
+) -> bool:
+    encoded_ison_indicators = glyphs.encoded_glyph_names(
+        SBMUFL_ISON_INDICATOR_CODEPOINTS
+    )
+    anchors = gpos.mark_attachment_anchors(encoded_ison_indicators)
+    expected_y_by_name = ison_expected_y_by_name(glyphs, gpos)
+
+    changed = False
+    for subtable_index, subtable in gpos.mark_to_base_subtables():
+        ison_classes = [
+            mark_class
+            for class_subtable_index, mark_class in anchors.mark_classes
+            if class_subtable_index == subtable_index
+        ]
+        if not ison_classes:
+            continue
+
+        for glyph_name, base_record in zip(
+            subtable.BaseCoverage.glyphs,
+            subtable.BaseArray.BaseRecord,
+            strict=True,
+        ):
+            expected_y = expected_y_by_name.get(glyph_name)
+            if expected_y is None:
+                continue
+
+            for mark_class in ison_classes:
+                if mark_class >= len(base_record.BaseAnchor):
+                    continue
+
+                anchor = base_record.BaseAnchor[mark_class]
+                if anchor is not None and anchor.YCoordinate != expected_y:
+                    anchor.YCoordinate = expected_y
+                    changed = True
+
+    return changed
+
+
 def collect_contextual_deltas(
     glyphs: GlyphIntrospector,
     gpos: GposIntrospector,
@@ -2707,6 +2748,7 @@ def build_contextual_font(
     original_lookup_count = gpos_lookup_count(ttfont)
     glyphs = GlyphIntrospector(ttfont)
     gpos = GposIntrospector(ttfont)
+    normalize_ison_base_anchor_y(glyphs, gpos)
     deltas = collect_contextual_deltas(glyphs, gpos)
     targets = collect_contextual_targets(glyphs, deltas)
 
