@@ -8,6 +8,10 @@
   },
   "glyphsWithAnchors": {
     "ison": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonTop": [
         0.786,
         0.505
@@ -72,10 +76,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -94,6 +94,10 @@
       ]
     },
     "oligon": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonTop": [
         0.78,
         0.5
@@ -158,10 +162,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -180,6 +180,10 @@
       ]
     },
     "oligonKentimaMiddle": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonTop": [
         0.708,
         0.459
@@ -244,10 +248,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -266,6 +266,10 @@
       ]
     },
     "oligonKentimaBelow": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonTop": [
         0.78,
         0.5
@@ -330,10 +334,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -352,6 +352,10 @@
       ]
     },
     "oligonKentimaAbove": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "gorgonTop": [
         1.138,
         0.5
@@ -420,10 +424,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -442,6 +442,10 @@
       ]
     },
     "oligonYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.03
+      ],
       "gorgonTop": [
         0.708,
         0.5
@@ -510,10 +514,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        1.03
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -532,6 +532,10 @@
       ]
     },
     "oligonYpsiliLeft": {
+      "isonIndicator": [
+        1.122,
+        1.033
+      ],
       "gorgonTop": [
         1.102,
         0.5
@@ -600,10 +604,6 @@
         0.213,
         0.827
       ],
-      "isonIndicator": [
-        1.122,
-        1.033
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -622,6 +622,10 @@
       ]
     },
     "oligonKentimaYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.01
+      ],
       "gorgonTop": [
         0.708,
         0.839
@@ -690,10 +694,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        1.143
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -712,6 +712,10 @@
       ]
     },
     "oligonKentimaYpsiliMiddle": {
+      "isonIndicator": [
+        0.792,
+        1.386
+      ],
       "gorgonTop": [
         1.138,
         0.5
@@ -780,10 +784,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.792,
-        1.386
-      ],
       "koronis": [
         0.275,
         0.835
@@ -798,6 +798,10 @@
       ]
     },
     "oligonDoubleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.099
+      ],
       "gorgonTop": [
         0.76,
         1.08
@@ -862,10 +866,6 @@
         0.16,
         0.8
       ],
-      "isonIndicator": [
-        0.792,
-        1.444
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -884,6 +884,10 @@
       ]
     },
     "oligonKentimataDoubleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.42
+      ],
       "apli": [
         0.803,
         0.03
@@ -944,10 +948,6 @@
         0.172,
         0.875
       ],
-      "isonIndicator": [
-        0.792,
-        1.42
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -966,6 +966,10 @@
       ]
     },
     "oligonKentimaDoubleYpsiliRight": {
+      "isonIndicator": [
+        0.792,
+        1.404
+      ],
       "apli": [
         0.803,
         0.03
@@ -1026,10 +1030,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.792,
-        1.404
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1048,6 +1048,10 @@
       ]
     },
     "oligonKentimaDoubleYpsiliLeft": {
+      "isonIndicator": [
+        0.792,
+        1.405
+      ],
       "apli": [
         0.803,
         0.03
@@ -1108,10 +1112,6 @@
         0.172,
         1.213
       ],
-      "isonIndicator": [
-        0.792,
-        1.405
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1130,6 +1130,10 @@
       ]
     },
     "oligonTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.158
+      ],
       "apli": [
         0.803,
         0.03
@@ -1190,10 +1194,6 @@
         0.172,
         1.213
       ],
-      "isonIndicator": [
-        0.792,
-        1.158
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1212,6 +1212,10 @@
       ]
     },
     "oligonKentimataTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.37
+      ],
       "apli": [
         0.803,
         0.013
@@ -1272,10 +1276,6 @@
         0.172,
         1.213
       ],
-      "isonIndicator": [
-        0.792,
-        1.37
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1294,6 +1294,10 @@
       ]
     },
     "oligonKentimaTripleYpsili": {
+      "isonIndicator": [
+        0.792,
+        1.347
+      ],
       "apli": [
         0.803,
         0.03
@@ -1354,10 +1358,6 @@
         0.172,
         1.213
       ],
-      "isonIndicator": [
-        0.792,
-        1.347
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1376,6 +1376,10 @@
       ]
     },
     "oligonIson": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "apli": [
         0.803,
         0.03
@@ -1436,10 +1440,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1458,6 +1458,10 @@
       ]
     },
     "oligonApostrofos": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "apli": [
         0.803,
         0.03
@@ -1518,10 +1522,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1540,6 +1540,10 @@
       ]
     },
     "oligonYporroi": {
+      "isonIndicator": [
+        0.792,
+        0.913
+      ],
       "apli": [
         0.803,
         0.03
@@ -1600,10 +1604,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.792,
-        0.913
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1626,6 +1626,10 @@
       ]
     },
     "oligonElafron": {
+      "isonIndicator": [
+        0.792,
+        0.98
+      ],
       "apli": [
         0.803,
         0.03
@@ -1685,10 +1689,6 @@
       "measureNumber": [
         0.172,
         0.943
-      ],
-      "isonIndicator": [
-        0.792,
-        0.98
       ],
       "endofonon": [
         0.802,
@@ -1708,6 +1708,10 @@
       ]
     },
     "oligonElafronApostrofos": {
+      "isonIndicator": [
+        0.792,
+        0.984
+      ],
       "apli": [
         0.803,
         0.03
@@ -1768,10 +1772,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.792,
-        0.984
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1790,6 +1790,10 @@
       ]
     },
     "oligonChamili": {
+      "isonIndicator": [
+        0.792,
+        1.031
+      ],
       "apli": [
         0.803,
         0.03
@@ -1850,10 +1854,6 @@
         0.172,
         0.513
       ],
-      "isonIndicator": [
-        0.792,
-        1.031
-      ],
       "endofonon": [
         0.802,
         -0.062
@@ -1872,6 +1872,10 @@
       ]
     },
     "isonApostrofos": {
+      "isonIndicator": [
+        0.63,
+        0.913
+      ],
       "apli": [
         1.244,
         -0.424
@@ -1896,10 +1900,6 @@
         0.172,
         0.773
       ],
-      "isonIndicator": [
-        0.63,
-        0.913
-      ],
       "koronis": [
         0.63,
         0.881
@@ -1914,6 +1914,10 @@
       ]
     },
     "apostrofos": {
+      "isonIndicator": [
+        0.366,
+        0.913
+      ],
       "omalonConnecting": [
         1.044,
         0.089
@@ -1966,10 +1970,6 @@
         0.172,
         0.783
       ],
-      "isonIndicator": [
-        0.366,
-        0.944
-      ],
       "endofonon": [
         0.502,
         -0.126
@@ -1988,6 +1988,10 @@
       ]
     },
     "apostrofosSyndesmos": {
+      "isonIndicator": [
+        0.63,
+        0.913
+      ],
       "gorgonTop": [
         0.938,
         0.193
@@ -2016,10 +2020,6 @@
         0.172,
         0.803
       ],
-      "isonIndicator": [
-        0.63,
-        0.913
-      ],
       "koronis": [
         0.63,
         0.881
@@ -2034,6 +2034,10 @@
       ]
     },
     "yporroi": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "gorgonTop": [
         0.4,
         0.527
@@ -2078,10 +2082,6 @@
         0.072,
         0.483
       ],
-      "isonIndicator": [
-        0.212,
-        0.913
-      ],
       "endofonon": [
         0.192,
         -0.146
@@ -2112,6 +2112,10 @@
       ]
     },
     "elafron": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "gorgonTop": [
         0.627,
         0.58
@@ -2164,10 +2168,6 @@
         0.172,
         0.613
       ],
-      "isonIndicator": [
-        0.528,
-        0.944
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2186,6 +2186,10 @@
       ]
     },
     "runningElafron": {
+      "isonIndicator": [
+        1.018,
+        0.913
+      ],
       "gorgonTop": [
         1.147,
         0.58
@@ -2234,10 +2238,6 @@
         0.172,
         0.653
       ],
-      "isonIndicator": [
-        1.018,
-        0.944
-      ],
       "endofonon": [
         1.112,
         -0.037
@@ -2276,6 +2276,10 @@
       ]
     },
     "elafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "gorgonTop": [
         0.627,
         0.58
@@ -2328,10 +2332,6 @@
         0.172,
         0.643
       ],
-      "isonIndicator": [
-        0.528,
-        0.944
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2350,6 +2350,10 @@
       ]
     },
     "chamili": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "gorgonTop": [
         0.819,
         0.68
@@ -2402,10 +2406,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.528,
-        1.044
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2424,6 +2424,10 @@
       ]
     },
     "chamiliApostrofos": {
+      "isonIndicator": [
+        0.528,
+        0.913
+      ],
       "gorgonTop": [
         0.819,
         0.68
@@ -2472,10 +2476,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.528,
-        1.044
-      ],
       "endofonon": [
         0.632,
         -0.257
@@ -2494,6 +2494,10 @@
       ]
     },
     "chamiliElafron": {
+      "isonIndicator": [
+        0.528,
+        1.078
+      ],
       "gorgonTop": [
         0.819,
         1.01
@@ -2542,10 +2546,6 @@
         0.172,
         1.233
       ],
-      "isonIndicator": [
-        0.528,
-        1.374
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2564,6 +2564,10 @@
       ]
     },
     "chamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.078
+      ],
       "gorgonTop": [
         0.819,
         1.01
@@ -2612,10 +2616,6 @@
         0.172,
         1.233
       ],
-      "isonIndicator": [
-        0.528,
-        1.374
-      ],
       "endofonon": [
         0.632,
         -0.107
@@ -2634,6 +2634,10 @@
       ]
     },
     "doubleChamili": {
+      "isonIndicator": [
+        0.528,
+        1.123
+      ],
       "gorgonTop": [
         0.819,
         1.027
@@ -2682,10 +2686,6 @@
         0.172,
         1.223
       ],
-      "isonIndicator": [
-        0.528,
-        1.391
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2704,6 +2704,10 @@
       ]
     },
     "doubleChamiliApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.122
+      ],
       "gorgonTop": [
         0.819,
         1.047
@@ -2752,10 +2756,6 @@
         0.172,
         1.223
       ],
-      "isonIndicator": [
-        0.528,
-        1.411
-      ],
       "endofonon": [
         0.632,
         -0.297
@@ -2774,6 +2774,10 @@
       ]
     },
     "doubleChamiliElafron": {
+      "isonIndicator": [
+        0.528,
+        1.115
+      ],
       "gorgonTop": [
         0.819,
         1.047
@@ -2822,10 +2826,6 @@
         0.172,
         1.223
       ],
-      "isonIndicator": [
-        0.528,
-        1.411
-      ],
       "endofonon": [
         0.632,
         -0.267
@@ -2844,6 +2844,10 @@
       ]
     },
     "doubleChamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.528,
+        1.117
+      ],
       "gorgonTop": [
         0.819,
         1.047
@@ -2892,10 +2896,6 @@
         0.172,
         1.223
       ],
-      "isonIndicator": [
-        0.528,
-        1.411
-      ],
       "endofonon": [
         0.632,
         -0.347
@@ -2914,6 +2914,10 @@
       ]
     },
     "tripleChamili": {
+      "isonIndicator": [
+        0.528,
+        1.382
+      ],
       "gorgonTop": [
         0.779,
         1.197
@@ -2962,10 +2966,6 @@
         0.172,
         1.363
       ],
-      "isonIndicator": [
-        0.528,
-        1.561
-      ],
       "endofonon": [
         0.632,
         -0.037
@@ -2984,6 +2984,10 @@
       ]
     },
     "petastiIson": {
+      "isonIndicator": [
+        0.714,
+        1.0
+      ],
       "apli": [
         0.765,
         -0.01
@@ -3028,10 +3032,6 @@
         0.172,
         1.073
       ],
-      "isonIndicator": [
-        0.714,
-        1.0
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3050,6 +3050,10 @@
       ]
     },
     "petasti": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3094,10 +3098,6 @@
         0.172,
         0.743
       ],
-      "isonIndicator": [
-        0.664,
-        0.913
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3116,6 +3116,10 @@
       ]
     },
     "petastiOligon": {
+      "isonIndicator": [
+        0.724,
+        0.913
+      ],
       "apli": [
         0.785,
         -0.08
@@ -3160,10 +3164,6 @@
         0.172,
         0.953
       ],
-      "isonIndicator": [
-        0.724,
-        0.913
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3182,6 +3182,10 @@
       ]
     },
     "petastiKentima": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3226,10 +3230,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        0.913
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3248,6 +3248,10 @@
       ]
     },
     "petastiYpsiliRight": {
+      "isonIndicator": [
+        0.664,
+        1.044
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3292,10 +3296,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.044
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3314,6 +3314,10 @@
       ]
     },
     "petastiYpsiliLeft": {
+      "isonIndicator": [
+        0.664,
+        1.174
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3358,10 +3362,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.174
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3380,6 +3380,10 @@
       ]
     },
     "petastiKentimaYpsiliRight": {
+      "isonIndicator": [
+        0.664,
+        1.033
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3424,10 +3428,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.033
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3446,6 +3446,10 @@
       ]
     },
     "petastiKentimaYpsiliMiddle": {
+      "isonIndicator": [
+        0.664,
+        1.4
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3490,10 +3494,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.4
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3512,6 +3512,10 @@
       ]
     },
     "petastiDoubleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.146
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3556,10 +3560,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.146
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3578,6 +3578,10 @@
       ]
     },
     "petastiKentimataDoubleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.454
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3622,10 +3626,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.454
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3644,6 +3644,10 @@
       ]
     },
     "petastiKentimaDoubleYpsiliRight": {
+      "isonIndicator": [
+        0.664,
+        1.394
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3688,10 +3692,6 @@
         0.172,
         0.853
       ],
-      "isonIndicator": [
-        0.664,
-        1.394
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3710,6 +3710,10 @@
       ]
     },
     "petastiKentimaDoubleYpsiliLeft": {
+      "isonIndicator": [
+        0.664,
+        1.405
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3754,10 +3758,6 @@
         0.187,
         1.293
       ],
-      "isonIndicator": [
-        0.664,
-        1.405
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3776,6 +3776,10 @@
       ]
     },
     "petastiTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.127
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3820,10 +3824,6 @@
         0.193,
         1.28
       ],
-      "isonIndicator": [
-        0.664,
-        1.127
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3842,6 +3842,10 @@
       ]
     },
     "petastiKentimataTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.426
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3886,10 +3890,6 @@
         0.133,
         1.273
       ],
-      "isonIndicator": [
-        0.664,
-        1.426
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3908,6 +3908,10 @@
       ]
     },
     "petastiKentimaTripleYpsili": {
+      "isonIndicator": [
+        0.664,
+        1.391
+      ],
       "apli": [
         0.765,
         -0.08
@@ -3952,10 +3956,6 @@
         0.173,
         1.24
       ],
-      "isonIndicator": [
-        0.664,
-        1.391
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -3974,6 +3974,10 @@
       ]
     },
     "petastiApostrofos": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4018,10 +4022,6 @@
         0.172,
         0.953
       ],
-      "isonIndicator": [
-        0.664,
-        0.913
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4040,6 +4040,10 @@
       ]
     },
     "petastiYporroi": {
+      "isonIndicator": [
+        0.664,
+        0.913
+      ],
       "gorgonTop": [
         0.83,
         0.758
@@ -4088,10 +4092,6 @@
         0.172,
         0.663
       ],
-      "isonIndicator": [
-        0.664,
-        1.122
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4114,6 +4114,10 @@
       ]
     },
     "petastiElafron": {
+      "isonIndicator": [
+        0.66,
+        0.988
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4158,10 +4162,6 @@
         0.172,
         1.103
       ],
-      "isonIndicator": [
-        0.66,
-        0.988
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4180,6 +4180,10 @@
       ]
     },
     "petastiRunningElafron": {
+      "isonIndicator": [
+        0.832,
+        0.988
+      ],
       "apli": [
         1.095,
         -0.08
@@ -4224,10 +4228,6 @@
         0.173,
         0.92
       ],
-      "isonIndicator": [
-        0.832,
-        0.988
-      ],
       "endofonon": [
         1.052,
         -0.127
@@ -4262,6 +4262,10 @@
       ]
     },
     "petastiElafronApostrofos": {
+      "isonIndicator": [
+        0.644,
+        0.994
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4306,10 +4310,6 @@
         0.172,
         1.103
       ],
-      "isonIndicator": [
-        0.644,
-        0.994
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4328,6 +4328,10 @@
       ]
     },
     "petastiChamili": {
+      "isonIndicator": [
+        0.65,
+        1.159
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4371,10 +4375,6 @@
       "measureNumber": [
         0.172,
         1.243
-      ],
-      "isonIndicator": [
-        0.65,
-        1.159
       ],
       "endofonon": [
         0.772,
@@ -4394,6 +4394,10 @@
       ]
     },
     "petastiChamiliApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.256
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4438,10 +4442,6 @@
         0.172,
         1.243
       ],
-      "isonIndicator": [
-        0.65,
-        1.256
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4460,6 +4460,10 @@
       ]
     },
     "petastiChamiliElafron": {
+      "isonIndicator": [
+        0.65,
+        1.438
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4504,10 +4508,6 @@
         0.172,
         1.483
       ],
-      "isonIndicator": [
-        0.65,
-        1.438
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4526,6 +4526,10 @@
       ]
     },
     "petastiChamiliElafronApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.442
+      ],
       "apli": [
         0.765,
         -0.08
@@ -4570,10 +4574,6 @@
         0.172,
         1.483
       ],
-      "isonIndicator": [
-        0.65,
-        1.442
-      ],
       "endofonon": [
         0.772,
         -0.127
@@ -4592,6 +4592,10 @@
       ]
     },
     "petastiDoubleChamili": {
+      "isonIndicator": [
+        0.65,
+        1.339
+      ],
       "apli": [
         0.765,
         -0.25
@@ -4636,10 +4640,6 @@
         0.172,
         1.333
       ],
-      "isonIndicator": [
-        0.65,
-        1.339
-      ],
       "endofonon": [
         0.772,
         -0.277
@@ -4658,6 +4658,10 @@
       ]
     },
     "petastiDoubleChamiliApostrofos": {
+      "isonIndicator": [
+        0.65,
+        1.48
+      ],
       "apli": [
         0.765,
         -0.25
@@ -4702,10 +4706,6 @@
         0.172,
         1.333
       ],
-      "isonIndicator": [
-        0.65,
-        1.48
-      ],
       "endofonon": [
         0.772,
         -0.287
@@ -4724,6 +4724,10 @@
       ]
     },
     "kentimata": {
+      "isonIndicator": [
+        0.33,
+        0.913
+      ],
       "gorgonTop": [
         0.453,
         0.547
@@ -4760,10 +4764,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.33,
-        0.913
-      ],
       "endofonon": [
         0.452,
         -0.277
@@ -4778,6 +4778,10 @@
       ]
     },
     "oligonKentimataBelow": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "gorgonTop": [
         0.763,
         0.505
@@ -4838,10 +4842,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.71,
-        0.913
-      ],
       "endofonon": [
         0.772,
         -0.277
@@ -4872,6 +4872,10 @@
       ]
     },
     "oligonKentimataAbove": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "gorgonTop": [
         0.842,
         0.767
@@ -4916,10 +4920,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.71,
-        1.131
-      ],
       "endofonon": [
         0.772,
         -0.047
@@ -4938,6 +4938,10 @@
       ]
     },
     "oligonIsonKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "gorgonTop": [
         1.56,
         0.76
@@ -4982,10 +4986,6 @@
         0.194,
         0.961
       ],
-      "isonIndicator": [
-        0.71,
-        1.124
-      ],
       "endofonon": [
         1.102,
         -0.077
@@ -5012,6 +5012,10 @@
       ]
     },
     "oligonKentimaMiddleKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "gorgonTop": [
         0.842,
         0.767
@@ -5052,10 +5056,6 @@
         0.172,
         0.753
       ],
-      "isonIndicator": [
-        0.71,
-        1.131
-      ],
       "endofonon": [
         0.802,
         -0.037
@@ -5070,6 +5070,10 @@
       ]
     },
     "oligonYpsiliRightKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.994
+      ],
       "gorgonTop": [
         0.713,
         0.753
@@ -5110,10 +5114,6 @@
         0.164,
         0.847
       ],
-      "isonIndicator": [
-        0.71,
-        1.057
-      ],
       "endofonon": [
         0.802,
         -0.037
@@ -5128,6 +5128,10 @@
       ]
     },
     "oligonYpsiliLeftKentimata": {
+      "isonIndicator": [
+        0.71,
+        1.006
+      ],
       "gorgonTop": [
         1.0,
         0.787
@@ -5168,10 +5172,6 @@
         0.174,
         0.983
       ],
-      "isonIndicator": [
-        0.71,
-        1.091
-      ],
       "endofonon": [
         0.802,
         -0.037
@@ -5186,6 +5186,10 @@
       ]
     },
     "oligonApostrofosKentimata": {
+      "isonIndicator": [
+        0.707,
+        0.913
+      ],
       "gorgonTop": [
         1.213,
         0.74
@@ -5230,10 +5234,6 @@
         0.172,
         1.013
       ],
-      "isonIndicator": [
-        0.707,
-        1.104
-      ],
       "endofonon": [
         0.862,
         -0.037
@@ -5260,6 +5260,10 @@
       ]
     },
     "oligonYporroiKentimata": {
+      "isonIndicator": [
+        0.713,
+        0.913
+      ],
       "gorgonTop": [
         1.207,
         0.733
@@ -5304,10 +5308,6 @@
         0.172,
         0.943
       ],
-      "isonIndicator": [
-        0.713,
-        1.097
-      ],
       "endofonon": [
         0.852,
         -0.037
@@ -5338,6 +5338,10 @@
       ]
     },
     "oligonElafronKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.982
+      ],
       "gorgonTop": [
         1.647,
         0.733
@@ -5382,10 +5386,6 @@
         0.172,
         1.043
       ],
-      "isonIndicator": [
-        0.71,
-        1.097
-      ],
       "endofonon": [
         1.142,
         -0.037
@@ -5412,6 +5412,10 @@
       ]
     },
     "oligonRunningElafronKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.936
+      ],
       "gorgonTop": [
         1.86,
         0.74
@@ -5456,10 +5460,6 @@
         0.662,
         0.913
       ],
-      "isonIndicator": [
-        0.71,
-        1.104
-      ],
       "endofonon": [
         1.212,
         -0.037
@@ -5502,6 +5502,10 @@
       ]
     },
     "oligonElafronApostrofosKentimata": {
+      "isonIndicator": [
+        0.71,
+        0.974
+      ],
       "gorgonTop": [
         1.647,
         0.733
@@ -5546,10 +5550,6 @@
         0.172,
         1.013
       ],
-      "isonIndicator": [
-        0.71,
-        1.097
-      ],
       "endofonon": [
         1.122,
         -0.037
@@ -5576,6 +5576,10 @@
       ]
     },
     "oligonChamiliKentimata": {
+      "isonIndicator": [
+        0.71,
+        1.011
+      ],
       "gorgonTop": [
         1.58,
         0.74
@@ -5619,10 +5623,6 @@
       "measureNumber": [
         0.172,
         0.993
-      ],
-      "isonIndicator": [
-        0.71,
-        1.104
       ],
       "endofonon": [
         1.112,
@@ -7532,6 +7532,10 @@
       ]
     },
     "oligonKentimataBelow.alt01": {
+      "isonIndicator": [
+        0.71,
+        0.913
+      ],
       "gorgonTop": [
         0.763,
         0.505
@@ -7591,10 +7595,6 @@
       "measureNumber": [
         0.172,
         0.753
-      ],
-      "isonIndicator": [
-        0.71,
-        0.913
       ],
       "endofonon": [
         0.772,
@@ -7656,6 +7656,10 @@
       ]
     },
     "yporroi.gorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "gorgonTop": [
         0.4,
         0.527
@@ -7699,10 +7703,6 @@
       "measureNumber": [
         0.072,
         0.483
-      ],
-      "isonIndicator": [
-        0.212,
-        0.913
       ],
       "endofonon": [
         0.192,
@@ -7734,6 +7734,10 @@
       ]
     },
     "yporroi.digorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "gorgonTop": [
         0.32,
         0.527
@@ -7778,10 +7782,6 @@
         0.072,
         0.483
       ],
-      "isonIndicator": [
-        0.212,
-        0.913
-      ],
       "endofonon": [
         0.192,
         -0.146
@@ -7812,6 +7812,10 @@
       ]
     },
     "yporroi.trigorgon": {
+      "isonIndicator": [
+        0.212,
+        0.913
+      ],
       "gorgonTop": [
         0.4,
         0.527
@@ -7855,10 +7859,6 @@
       "measureNumber": [
         0.072,
         0.483
-      ],
-      "isonIndicator": [
-        0.212,
-        0.913
       ],
       "endofonon": [
         0.192,
