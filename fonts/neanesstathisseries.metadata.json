@@ -7928,6 +7928,51 @@
     {
       "inputGlyphs": [
         [
+          "antikenoma"
+        ]
+      ],
+      "backtrackGlyphs": [
+        [
+          "petasti",
+          "petastiApostrofos",
+          "petastiChamili",
+          "petastiChamiliApostrofos",
+          "petastiChamiliElafron",
+          "petastiChamiliElafronApostrofos",
+          "petastiDoubleChamili",
+          "petastiDoubleChamiliApostrofos",
+          "petastiDoubleYpsili",
+          "petastiElafron",
+          "petastiElafronApostrofos",
+          "petastiIson",
+          "petastiKentima",
+          "petastiKentimaDoubleYpsiliLeft",
+          "petastiKentimaDoubleYpsiliRight",
+          "petastiKentimaTripleYpsili",
+          "petastiKentimaYpsiliMiddle",
+          "petastiKentimaYpsiliRight",
+          "petastiKentimataDoubleYpsili",
+          "petastiKentimataTripleYpsili",
+          "petastiOligon",
+          "petastiRunningElafron",
+          "petastiTripleYpsili",
+          "petastiYporroi",
+          "petastiYpsiliLeft",
+          "petastiYpsiliRight"
+        ]
+      ],
+      "lookaheadGlyphs": [],
+      "substitutions": [
+        {
+          "index": 0,
+          "from": "antikenoma",
+          "to": "antikenoma.alt01"
+        }
+      ]
+    },
+    {
+      "inputGlyphs": [
+        [
           "yporroi"
         ]
       ],
@@ -7989,51 +8034,6 @@
           "index": 0,
           "from": "yporroi",
           "to": "yporroi.trigorgon"
-        }
-      ]
-    },
-    {
-      "inputGlyphs": [
-        [
-          "antikenoma"
-        ]
-      ],
-      "backtrackGlyphs": [
-        [
-          "petastiIson",
-          "petasti",
-          "petastiOligon",
-          "petastiKentima",
-          "petastiYpsiliRight",
-          "petastiYpsiliLeft",
-          "petastiKentimaYpsiliRight",
-          "petastiKentimaYpsiliMiddle",
-          "petastiDoubleYpsili",
-          "petastiKentimataDoubleYpsili",
-          "petastiKentimaDoubleYpsiliRight",
-          "petastiKentimaDoubleYpsiliLeft",
-          "petastiTripleYpsili",
-          "petastiKentimataTripleYpsili",
-          "petastiKentimaTripleYpsili",
-          "petastiApostrofos",
-          "petastiYporroi",
-          "petastiElafron",
-          "petastiRunningElafron",
-          "petastiElafronApostrofos",
-          "petastiChamili",
-          "petastiChamiliApostrofos",
-          "petastiChamiliElafron",
-          "petastiChamiliElafronApostrofos",
-          "petastiDoubleChamili",
-          "petastiDoubleChamiliApostrofos"
-        ]
-      ],
-      "lookaheadGlyphs": [],
-      "substitutions": [
-        {
-          "index": 0,
-          "from": "antikenoma",
-          "to": "antikenoma.alt01"
         }
       ]
     },

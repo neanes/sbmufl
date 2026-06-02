@@ -1,8 +1,32 @@
+from pathlib import Path
+
 import argparse
 import json
-import re
+import os
+import site
+import sys
+import tempfile
 
 import fontforge
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+VENV_DIR = REPO_ROOT / ".venv"
+
+site_packages = (
+    VENV_DIR
+    / "lib"
+    / f"python{sys.version_info.major}.{sys.version_info.minor}"
+    / "site-packages"
+)
+
+if site_packages.exists():
+    site.addsitedir(str(site_packages))
+else:
+    raise RuntimeError(f"Could not find venv site-packages: {site_packages}")
+
+from fontTools.feaLib import ast
+from fontTools.feaLib.parser import Parser
 
 
 def find_midpoint(glyph):
@@ -267,121 +291,122 @@ class _SbmuflMetadata(object):
         return all_alternates
 
     def contextual_substitutions(self):
-        with open(self.font.filepath) as infile:
-            source = infile.read()
+        with tempfile.NamedTemporaryFile(suffix=".fea", delete=False) as tmp:
+            fea_path = tmp.name
 
-        subtable_to_lookup = {}
-        for lookup in self.font.font.gsub_lookups:
-            for subtable in self.font.font.getLookupSubtables(lookup):
-                subtable_to_lookup[subtable] = lookup
+        try:
+            self.font.font.generateFeatureFile(fea_path)
+            feature_file = Parser(fea_path).parse()
+        finally:
+            os.unlink(fea_path)
 
-        substitutions_by_lookup = {}
-        for char in self.font.font.glyphs():
-            for table in (
-                table for table in char.getPosSub("*") if table[1] == "Substitution"
-            ):
-                lookup = subtable_to_lookup[table[0]]
-                substitutions_by_lookup.setdefault(lookup, []).append(
+        substitutions_by_lookup = self._substitutions_by_lookup(feature_file)
+        contextual_substitutions = []
+
+        for statement in self._walk_statements(feature_file):
+            if isinstance(statement, ast.ChainContextSubstStatement):
+                input_glyphs = [self._glyph_set(g) for g in statement.glyphs]
+                backtrack_glyphs = [self._glyph_set(g) for g in statement.prefix]
+                lookahead_glyphs = [self._glyph_set(g) for g in statement.suffix]
+
+                substitutions = []
+
+                for index, lookups in enumerate(statement.lookups):
+                    if not lookups:
+                        continue
+
+                    for lookup in lookups:
+                        substitutions.extend(
+                            self._substitutions_for_rule(
+                                substitutions_by_lookup,
+                                input_glyphs,
+                                index,
+                                lookup.name,
+                            )
+                        )
+
+            elif isinstance(statement, ast.SingleSubstStatement):
+                if not (statement.prefix or statement.suffix):
+                    continue
+
+                input_glyphs = [self._glyph_set(g) for g in statement.glyphs]
+                backtrack_glyphs = [self._glyph_set(g) for g in statement.prefix]
+                lookahead_glyphs = [self._glyph_set(g) for g in statement.suffix]
+                substitutions = []
+
+                for index, replacement in enumerate(statement.replacements):
+                    from_glyphs = input_glyphs[index]
+                    to_glyphs = self._glyph_set(replacement)
+
+                    for from_glyph, to_glyph in zip(from_glyphs, to_glyphs):
+                        substitutions.append(
+                            {
+                                "index": index,
+                                "from": from_glyph,
+                                "to": to_glyph,
+                            }
+                        )
+            else:
+                continue
+
+            if substitutions:
+                contextual_substitutions.append(
                     {
-                        "from": char.glyphname,
-                        "to": table[2],
+                        "inputGlyphs": input_glyphs,
+                        "backtrackGlyphs": backtrack_glyphs,
+                        "lookaheadGlyphs": lookahead_glyphs,
+                        "substitutions": substitutions,
                     }
                 )
 
-        contextual_substitutions = []
-        for match in re.finditer(
-            r'^ChainSub2: class "[^"]+".*?^EndFPST$', source, re.MULTILINE | re.DOTALL
-        ):
-            block = match.group()
-            input_classes = self._classes(block, "Class")
-            backtrack_classes = self._classes(block, "BClass")
-            lookahead_classes = self._classes(block, "FClass")
-
-            for rule_match in re.finditer(
-                r"^ \d+ \d+ \d+\n"
-                r"  ClsList:(.*)\n"
-                r"  BClsList:(.*)\n"
-                r"  FClsList:(.*)\n"
-                r" \d+\n"
-                r"((?:  SeqLookup:.*\n)+)",
-                block,
-                re.MULTILINE,
-            ):
-                input_glyphs = self._glyphs_for_class_list(
-                    input_classes, rule_match.group(1)
-                )
-                backtrack_glyphs = self._glyphs_for_class_list(
-                    backtrack_classes, rule_match.group(2)
-                )
-                lookahead_glyphs = self._glyphs_for_class_list(
-                    lookahead_classes, rule_match.group(3)
-                )
-                substitutions = []
-
-                for index, lookup in re.findall(
-                    r'^  SeqLookup: (\d+) "([^"]+)"$', rule_match.group(4), re.MULTILINE
-                ):
-                    substitutions.extend(
-                        self._substitutions_for_rule(
-                            substitutions_by_lookup, input_glyphs, index, lookup
-                        )
-                    )
-
-                if substitutions:
-                    contextual_substitutions.append(
-                        {
-                            "inputGlyphs": input_glyphs,
-                            "backtrackGlyphs": backtrack_glyphs,
-                            "lookaheadGlyphs": lookahead_glyphs,
-                            "substitutions": substitutions,
-                        }
-                    )
-
-        for match in re.finditer(
-            r"^ContextSub2: glyph .*?(?=^(?:ContextSub2:|ChainSub2:|MarkAttachClasses:|DEI:)|\Z)",
-            source,
-            re.MULTILINE | re.DOTALL,
-        ):
-            block = match.group()
-
-            for rule_match in re.finditer(
-                r"^ String: \d+(.*)\n"
-                r" BString: \d+(.*)\n"
-                r" FString: \d+(.*)\n"
-                r" \d+\n"
-                r"((?:  SeqLookup:.*\n)+)",
-                block,
-                re.MULTILINE,
-            ):
-                input_glyphs = self._glyphs_for_glyph_list(rule_match.group(1))
-                backtrack_glyphs = self._glyphs_for_glyph_list(rule_match.group(2))
-                lookahead_glyphs = self._glyphs_for_glyph_list(rule_match.group(3))
-                substitutions = []
-
-                for index, lookup in re.findall(
-                    r'^  SeqLookup: (\d+) "([^"]+)"$', rule_match.group(4), re.MULTILINE
-                ):
-                    substitutions.extend(
-                        self._substitutions_for_rule(
-                            substitutions_by_lookup, input_glyphs, index, lookup
-                        )
-                    )
-
-                if substitutions:
-                    contextual_substitutions.append(
-                        {
-                            "inputGlyphs": input_glyphs,
-                            "backtrackGlyphs": backtrack_glyphs,
-                            "lookaheadGlyphs": lookahead_glyphs,
-                            "substitutions": substitutions,
-                        }
-                    )
-
         return contextual_substitutions
+
+    def _substitutions_by_lookup(self, node):
+        substitutions_by_lookup = {}
+
+        for statement in self._walk_statements(node):
+            if not isinstance(statement, ast.LookupBlock):
+                continue
+
+            substitutions = []
+
+            for lookup_statement in statement.statements:
+                if not isinstance(lookup_statement, ast.SingleSubstStatement):
+                    continue
+
+                if lookup_statement.prefix or lookup_statement.suffix:
+                    continue
+
+                for index, replacement in enumerate(lookup_statement.replacements):
+                    from_glyphs = self._glyph_set(lookup_statement.glyphs[index])
+                    to_glyphs = self._glyph_set(replacement)
+
+                    for from_glyph, to_glyph in zip(from_glyphs, to_glyphs):
+                        substitutions.append(
+                            {
+                                "from": from_glyph,
+                                "to": to_glyph,
+                            }
+                        )
+
+            if substitutions:
+                substitutions_by_lookup.setdefault(statement.name, []).extend(
+                    substitutions
+                )
+
+        return substitutions_by_lookup
+
+    def _walk_statements(self, node):
+        for statement in getattr(node, "statements", []):
+            yield statement
+            yield from self._walk_statements(statement)
+
+    @staticmethod
+    def _glyph_set(glyph_expr):
+        return sorted(glyph_expr.glyphSet())
 
     @staticmethod
     def _substitutions_for_rule(substitutions_by_lookup, input_glyphs, index, lookup):
-        index = int(index)
         return [
             {
                 "index": index,
@@ -390,21 +415,6 @@ class _SbmuflMetadata(object):
             for substitution in substitutions_by_lookup.get(lookup, [])
             if substitution["from"] in input_glyphs[index]
         ]
-
-    @staticmethod
-    def _classes(block, prefix):
-        return [[]] + [
-            line.split()[2:]
-            for line in re.findall(rf"^  {prefix}:.*$", block, re.MULTILINE)
-        ]
-
-    @staticmethod
-    def _glyphs_for_class_list(classes, class_list):
-        return [classes[int(index)] for index in class_list.split()]
-
-    @staticmethod
-    def _glyphs_for_glyph_list(glyph_list):
-        return [[glyph] for glyph in glyph_list.split()]
 
     def bounding_boxes(self):
         all_bounding_boxes = {}
