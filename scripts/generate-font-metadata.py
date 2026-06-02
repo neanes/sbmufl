@@ -1,11 +1,10 @@
-from pathlib import Path
-
 import argparse
 import json
 import os
 import site
 import sys
 import tempfile
+from pathlib import Path
 
 import fontforge
 
