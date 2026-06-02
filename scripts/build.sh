@@ -8,14 +8,16 @@ REPO_ROOT=$(CDPATH= cd -- "$SCRIPT_DIR/.." && pwd)
 VENV_DIR="$REPO_ROOT/.venv"
 REQUIREMENTS="$REPO_ROOT/requirements.txt"
 
-if [ ! -d "$VENV_DIR" ]; then
-    echo "Creating virtual environment at $VENV_DIR"
-    python3 -m venv "$VENV_DIR"
+if [ -z "$CI" ]; then
+    if [ ! -d "$VENV_DIR" ]; then
+        echo "Creating virtual environment at $VENV_DIR"
+        python3 -m venv "$VENV_DIR"
+    fi
+
+    . "$VENV_DIR/bin/activate"
+
+    python -m pip install -q -r "$REQUIREMENTS"
 fi
-
-. "$VENV_DIR/bin/activate"
-
-python -m pip install -q -r "$REQUIREMENTS"
 
 ZERO_SPACE_DIR="$(mktemp -d)"
 trap 'rm -rf "$ZERO_SPACE_DIR"' EXIT
