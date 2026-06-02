@@ -338,7 +338,7 @@ class _SbmuflMetadata(object):
                     )
 
         for match in re.finditer(
-            r'^ContextSub2: glyph .*?(?=^(?:ContextSub2:|ChainSub2:|MarkAttachClasses:|DEI:)|\Z)',
+            r"^ContextSub2: glyph .*?(?=^(?:ContextSub2:|ChainSub2:|MarkAttachClasses:|DEI:)|\Z)",
             source,
             re.MULTILINE | re.DOTALL,
         ):
