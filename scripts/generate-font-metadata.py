@@ -21,8 +21,6 @@ site_packages = (
 
 if site_packages.exists():
     site.addsitedir(str(site_packages))
-else:
-    raise RuntimeError(f"Could not find venv site-packages: {site_packages}")
 
 from fontTools.feaLib import ast
 from fontTools.feaLib.parser import Parser
