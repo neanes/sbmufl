@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 
 import fontforge
 
@@ -79,6 +80,7 @@ class SbmuflFont(object):
             )
 
     def __init__(self, font_filepath, glyphnames_filepath="glyphnames.json", mode="w"):
+        self.filepath = font_filepath
         self.font = fontforge.open(font_filepath)
         self.read_only = mode == "r"
 
@@ -191,9 +193,17 @@ class _SbmuflMetadata(object):
         if alternates:
             d["glyphsWithAlternates"] = alternates
 
+        contextual_substitutions = self.contextual_substitutions()
+        if contextual_substitutions:
+            d["contextualSubstitutions"] = contextual_substitutions
+
         advance_widths = self.advance_widths()
         if advance_widths:
             d["glyphAdvanceWidths"] = advance_widths
+
+        spacing = self.spacing()
+        if spacing:
+            d["glyphSpacing"] = spacing
 
         optional_glyphs = self.optional_glyphs()
         if optional_glyphs:
@@ -256,6 +266,146 @@ class _SbmuflMetadata(object):
 
         return all_alternates
 
+    def contextual_substitutions(self):
+        with open(self.font.filepath) as infile:
+            source = infile.read()
+
+        subtable_to_lookup = {}
+        for lookup in self.font.font.gsub_lookups:
+            for subtable in self.font.font.getLookupSubtables(lookup):
+                subtable_to_lookup[subtable] = lookup
+
+        substitutions_by_lookup = {}
+        for char in self.font.font.glyphs():
+            for table in (
+                table for table in char.getPosSub("*") if table[1] == "Substitution"
+            ):
+                lookup = subtable_to_lookup[table[0]]
+                substitutions_by_lookup.setdefault(lookup, []).append(
+                    {
+                        "from": char.glyphname,
+                        "to": table[2],
+                    }
+                )
+
+        contextual_substitutions = []
+        for match in re.finditer(
+            r'^ChainSub2: class "[^"]+".*?^EndFPST$', source, re.MULTILINE | re.DOTALL
+        ):
+            block = match.group()
+            input_classes = self._classes(block, "Class")
+            backtrack_classes = self._classes(block, "BClass")
+            lookahead_classes = self._classes(block, "FClass")
+
+            for rule_match in re.finditer(
+                r"^ \d+ \d+ \d+\n"
+                r"  ClsList:(.*)\n"
+                r"  BClsList:(.*)\n"
+                r"  FClsList:(.*)\n"
+                r" \d+\n"
+                r"((?:  SeqLookup:.*\n)+)",
+                block,
+                re.MULTILINE,
+            ):
+                input_glyphs = self._glyphs_for_class_list(
+                    input_classes, rule_match.group(1)
+                )
+                backtrack_glyphs = self._glyphs_for_class_list(
+                    backtrack_classes, rule_match.group(2)
+                )
+                lookahead_glyphs = self._glyphs_for_class_list(
+                    lookahead_classes, rule_match.group(3)
+                )
+                substitutions = []
+
+                for index, lookup in re.findall(
+                    r'^  SeqLookup: (\d+) "([^"]+)"$', rule_match.group(4), re.MULTILINE
+                ):
+                    substitutions.extend(
+                        self._substitutions_for_rule(
+                            substitutions_by_lookup, input_glyphs, index, lookup
+                        )
+                    )
+
+                if substitutions:
+                    contextual_substitutions.append(
+                        {
+                            "inputGlyphs": input_glyphs,
+                            "backtrackGlyphs": backtrack_glyphs,
+                            "lookaheadGlyphs": lookahead_glyphs,
+                            "substitutions": substitutions,
+                        }
+                    )
+
+        for match in re.finditer(
+            r'^ContextSub2: glyph .*?(?=^(?:ContextSub2:|ChainSub2:|MarkAttachClasses:|DEI:)|\Z)',
+            source,
+            re.MULTILINE | re.DOTALL,
+        ):
+            block = match.group()
+
+            for rule_match in re.finditer(
+                r"^ String: \d+(.*)\n"
+                r" BString: \d+(.*)\n"
+                r" FString: \d+(.*)\n"
+                r" \d+\n"
+                r"((?:  SeqLookup:.*\n)+)",
+                block,
+                re.MULTILINE,
+            ):
+                input_glyphs = self._glyphs_for_glyph_list(rule_match.group(1))
+                backtrack_glyphs = self._glyphs_for_glyph_list(rule_match.group(2))
+                lookahead_glyphs = self._glyphs_for_glyph_list(rule_match.group(3))
+                substitutions = []
+
+                for index, lookup in re.findall(
+                    r'^  SeqLookup: (\d+) "([^"]+)"$', rule_match.group(4), re.MULTILINE
+                ):
+                    substitutions.extend(
+                        self._substitutions_for_rule(
+                            substitutions_by_lookup, input_glyphs, index, lookup
+                        )
+                    )
+
+                if substitutions:
+                    contextual_substitutions.append(
+                        {
+                            "inputGlyphs": input_glyphs,
+                            "backtrackGlyphs": backtrack_glyphs,
+                            "lookaheadGlyphs": lookahead_glyphs,
+                            "substitutions": substitutions,
+                        }
+                    )
+
+        return contextual_substitutions
+
+    @staticmethod
+    def _substitutions_for_rule(substitutions_by_lookup, input_glyphs, index, lookup):
+        index = int(index)
+        return [
+            {
+                "index": index,
+                **substitution,
+            }
+            for substitution in substitutions_by_lookup.get(lookup, [])
+            if substitution["from"] in input_glyphs[index]
+        ]
+
+    @staticmethod
+    def _classes(block, prefix):
+        return [[]] + [
+            line.split()[2:]
+            for line in re.findall(rf"^  {prefix}:.*$", block, re.MULTILINE)
+        ]
+
+    @staticmethod
+    def _glyphs_for_class_list(classes, class_list):
+        return [classes[int(index)] for index in class_list.split()]
+
+    @staticmethod
+    def _glyphs_for_glyph_list(glyph_list):
+        return [[glyph] for glyph in glyph_list.split()]
+
     def bounding_boxes(self):
         all_bounding_boxes = {}
         for char in self.font:
@@ -291,6 +441,37 @@ class _SbmuflMetadata(object):
             all_advance_widths[char_name] = round(char.width / self.font.em, 3)
 
         return all_advance_widths
+
+    def spacing(self):
+        spacing = {}
+
+        for char in self.font:
+            char_name = self.font.canonical_glyphname(char)
+
+            # boundingBox returns:
+            # (xmin, ymin, xmax, ymax)
+            bbox = char.boundingBox()
+
+            xmin, ymin, xmax, ymax = bbox
+
+            # If there are no contours, skip
+            if xmin == xmax and ymin == ymax:
+                continue
+
+            # Left whitespace:
+            # distance from glyph origin (0) to leftmost contour
+            before = xmin
+
+            # Right whitespace:
+            # distance from rightmost contour to glyph width
+            after = char.width - xmax
+
+            spacing[char_name] = {
+                "leading": round(before / self.font.em, 3),
+                "trailing": round(after / self.font.em, 3),
+            }
+
+        return spacing
 
     def optional_glyphs(self):
         all_optional_glyphs = {}

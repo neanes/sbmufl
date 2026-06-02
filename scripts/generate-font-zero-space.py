@@ -39,8 +39,10 @@ if __name__ == "__main__":
     font = fontforge.open(args.infile)
 
     for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
-        if char.width != 0:
+        if char.width != 0 and not (0xE2A0 <= char.unicode <= 0xE42F):
             print("Trimming ", canonical_glyphname(codepoint_to_name, char))
+            while char.references:
+                char.unlinkRef()
             font.selection.select(char)
             font.autoWidth(0)
 
