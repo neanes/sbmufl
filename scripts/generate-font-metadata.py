@@ -473,6 +473,10 @@ class _SbmuflMetadata(object):
             # distance from rightmost contour to glyph width
             after = char.width - xmax
 
+            # Hack to make the space to the left and right of martyria equal
+            if char_name.startswith("martyriaNote"):
+                after = before
+
             spacing[char_name] = {
                 "leading": round(before / self.font.em, 3),
                 "trailing": round(after / self.font.em, 3),
