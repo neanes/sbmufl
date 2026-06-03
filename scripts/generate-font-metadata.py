@@ -452,6 +452,10 @@ class _SbmuflMetadata(object):
     def spacing(self):
         spacing = {}
 
+        martyria_tick = self.font[0xE145]
+        xmin, ymin, xmax, ymax = martyria_tick.boundingBox()
+        martyria_tick_width = xmax - xmin
+
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
 
@@ -475,7 +479,11 @@ class _SbmuflMetadata(object):
 
             # Hack to make the space to the left and right of martyria equal
             if char_name.startswith("martyriaNote"):
+                before *= 0.80
                 after = before
+
+                if char_name.endswith("High"):
+                    after -= martyria_tick_width
 
             spacing[char_name] = {
                 "leading": round(before / self.font.em, 3),
