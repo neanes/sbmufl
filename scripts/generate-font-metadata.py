@@ -141,8 +141,21 @@ class SbmuflFont(object):
     def export_metadata(self, filename=None, indent=2, **kwargs):
         filename = filename or (self.font.fontname + ".metadata.json").lower()
 
-        with open(filename, "w") as outfile:
-            json.dump(self.generate_metadata(), outfile, indent=indent, **kwargs)
+        metadata = self.generate_metadata()
+
+        font_dir = os.path.dirname(os.path.abspath(self.filepath))
+        extra_filename = os.path.join(
+            font_dir,
+            f"{self.font.fontname}.extra.json",
+        )
+        if os.path.exists(extra_filename):
+            with open(extra_filename, "r", encoding="utf-8") as infile:
+                extra_metadata = json.load(infile)
+
+            metadata.update(extra_metadata)
+
+        with open(filename, "w", encoding="utf-8") as outfile:
+            json.dump(metadata, outfile, indent=indent, **kwargs)
 
     def generate_metadata(self):
         return _SbmuflMetadata(self).asdict()
@@ -221,10 +234,6 @@ class _SbmuflMetadata(object):
         advance_widths = self.advance_widths()
         if advance_widths:
             d["glyphAdvanceWidths"] = advance_widths
-
-        spacing = self.spacing()
-        if spacing:
-            d["glyphSpacing"] = spacing
 
         optional_glyphs = self.optional_glyphs()
         if optional_glyphs:
@@ -448,49 +457,6 @@ class _SbmuflMetadata(object):
             all_advance_widths[char_name] = round(char.width / self.font.em, 3)
 
         return all_advance_widths
-
-    def spacing(self):
-        spacing = {}
-
-        martyria_tick = self.font[0xE145]
-        xmin, ymin, xmax, ymax = martyria_tick.boundingBox()
-        martyria_tick_width = xmax - xmin
-
-        for char in self.font:
-            char_name = self.font.canonical_glyphname(char)
-
-            # boundingBox returns:
-            # (xmin, ymin, xmax, ymax)
-            bbox = char.boundingBox()
-
-            xmin, ymin, xmax, ymax = bbox
-
-            # If there are no contours, skip
-            if xmin == xmax and ymin == ymax:
-                continue
-
-            # Left whitespace:
-            # distance from glyph origin (0) to leftmost contour
-            before = xmin
-
-            # Right whitespace:
-            # distance from rightmost contour to glyph width
-            after = char.width - xmax
-
-            # Hack to make the space to the left and right of martyria equal
-            if char_name.startswith("martyriaNote"):
-                before *= 0.80
-                after = before
-
-                if char_name.endswith("High"):
-                    after -= martyria_tick_width
-
-            spacing[char_name] = {
-                "leading": round(before / self.font.em, 3),
-                "trailing": round(after / self.font.em, 3),
-            }
-
-        return spacing
 
     def optional_glyphs(self):
         all_optional_glyphs = {}

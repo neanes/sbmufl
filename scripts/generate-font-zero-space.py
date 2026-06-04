@@ -39,7 +39,12 @@ if __name__ == "__main__":
     font = fontforge.open(args.infile)
 
     for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
-        if char.width != 0 and not (0xE2A0 <= char.unicode <= 0xE42F):
+        if (
+            char.width != 0
+            and not (0xE2A0 <= char.unicode <= 0xE42F)
+            and not (0xF003 <= char.unicode <= 0xF004)
+            and not (0xF009 <= char.unicode <= 0xF00B)
+        ):
             # print("Trimming ", canonical_glyphname(codepoint_to_name, char))
             while char.references:
                 char.unlinkRef()
@@ -48,6 +53,6 @@ if __name__ == "__main__":
 
     font.generate(args.outfile_otf)
 
-    font.fontname = "NeanesEngraving"
+    font.fontname += "Engraving"
 
     font.save(args.outfile_sfd)

@@ -172,24 +172,6 @@ This section lists contextual substitutions. If OpenType contextual substitution
 }
 ```
 
-## glyphSpacing
-
-This section contains the leading and trailing whitespace for each glyph, including substituted glyphs.
-
-```js
-{
-  ...
-  "glyphSpacing": {
-    "yporroi.gorgon": {
-      "leading": 0.074,
-      "trailing": 0.163
-    },
-    ...
-  },
-  ...
-}
-```
-
 ## glyphBBoxes
 
 This section contains the bounding box of each glyph.
