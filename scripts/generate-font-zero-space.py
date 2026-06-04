@@ -3,6 +3,12 @@ import json
 
 import fontforge
 
+YPORROI_GORGON_MARKS = {
+    0xF009: "gorgonAbove",
+    0xF00A: "digorgon",
+    0xF00B: "trigorgon",
+}
+
 
 def format_codepoint(unicode_):
     return "U+" + hex(unicode_)[2:].upper()
@@ -38,18 +44,50 @@ if __name__ == "__main__":
 
     font = fontforge.open(args.infile)
 
+    TEMP_GLYPH_NAME = ".__temp_autowidth_measure"
+
     for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
         if (
             char.width != 0
             and not (0xE2A0 <= char.unicode <= 0xE42F)
             and not (0xF003 <= char.unicode <= 0xF004)
-            and not (0xF009 <= char.unicode <= 0xF00B)
         ):
-            # print("Trimming ", canonical_glyphname(codepoint_to_name, char))
+            mark_name = YPORROI_GORGON_MARKS.get(char.unicode)
+
+            if mark_name is not None:
+                if TEMP_GLYPH_NAME in font:
+                    font.removeGlyph(TEMP_GLYPH_NAME)
+
+                temp = font.createChar(-1, TEMP_GLYPH_NAME)
+                temp.addReference(char.glyphname)
+                temp.addReference(mark_name)
+
+                while temp.references:
+                    temp.unlinkRef()
+
+                combined_xmin, ymin, combined_xmax, ymax = temp.boundingBox()
+                combined_xmin = int(round(combined_xmin))
+                combined_xmax = int(round(combined_xmax))
+
+                while char.references:
+                    char.unlinkRef()
+
+                base_xmin, ymin, base_xmax, ymax = char.boundingBox()
+                base_xmin = int(round(base_xmin))
+                base_xmax = int(round(base_xmax))
+
+                char.left_side_bearing = combined_xmax - base_xmax
+                char.right_side_bearing = base_xmin - combined_xmin
+
+                font.removeGlyph(TEMP_GLYPH_NAME)
+                continue
+
             while char.references:
                 char.unlinkRef()
-            font.selection.select(char)
-            font.autoWidth(0)
+
+            if mark_name is None:
+                font.selection.select(char)
+                font.autoWidth(0)
 
     font.generate(args.outfile_otf)
 
