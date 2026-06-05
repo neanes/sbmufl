@@ -137,41 +137,6 @@ This section contains the advance widths of all the glyphs.
 }
 ```
 
-## contextualSubstitutions
-
-This section lists contextual substitutions. If OpenType contextual substitution support is unavailable, this section can be used to select replacement glyphs and their metadata. Each item in `inputGlyphs`, `backtrackGlyphs`, and `lookaheadGlyphs` is a class of matching glyphs. The `index` in a substitution identifies the item in `inputGlyphs` that should be replaced.
-
-```js
-{
-  ...
-  "contextualSubstitutions": [
-    {
-      "inputGlyphs": [
-        [
-          "yporroi"
-        ]
-      ],
-      "backtrackGlyphs": [],
-      "lookaheadGlyphs": [
-        [
-          "gorgonAbove",
-          "gorgonDottedLeft",
-          "gorgonDottedRight"
-        ]
-      ],
-      "substitutions": [
-        {
-          "index": 0,
-          "from": "yporroi",
-          "to": "yporroi.gorgon"
-        }
-      ]
-    }
-  ],
-  ...
-}
-```
-
 ## glyphBBoxes
 
 This section contains the bounding box of each glyph.

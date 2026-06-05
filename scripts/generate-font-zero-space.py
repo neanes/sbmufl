@@ -3,6 +3,8 @@ import json
 
 import fontforge
 
+STANDARD_GLUE_WIDTH = 130  # TODO this should be read from the metadata
+
 YPORROI_GORGON_MARKS = {
     0xF009: "gorgonAbove",
     0xF00A: "digorgon",
@@ -77,7 +79,9 @@ if __name__ == "__main__":
                 base_xmax = int(round(base_xmax))
 
                 char.left_side_bearing = combined_xmax - base_xmax
-                char.right_side_bearing = base_xmin - combined_xmin - 130
+                char.right_side_bearing = (
+                    base_xmin - combined_xmin - STANDARD_GLUE_WIDTH
+                )
 
                 font.removeGlyph(TEMP_GLYPH_NAME)
                 continue

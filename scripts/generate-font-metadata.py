@@ -227,9 +227,10 @@ class _SbmuflMetadata(object):
         if alternates:
             d["glyphsWithAlternates"] = alternates
 
-        contextual_substitutions = self.contextual_substitutions()
-        if contextual_substitutions:
-            d["contextualSubstitutions"] = contextual_substitutions
+        # Keeping this code around because it seems like it could be useful some day
+        # contextual_substitutions = self.contextual_substitutions()
+        # if contextual_substitutions:
+        #    d["contextualSubstitutions"] = contextual_substitutions
 
         advance_widths = self.advance_widths()
         if advance_widths:

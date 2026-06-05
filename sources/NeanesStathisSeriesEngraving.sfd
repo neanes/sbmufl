@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1780607977
+ModificationTime: 1780634417
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -35091,7 +35091,7 @@ EndChar
 
 StartChar: yporroi.gorgon
 Encoding: 61449 61449 439
-Width: 622
+Width: 492
 Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
@@ -35155,7 +35155,7 @@ EndChar
 
 StartChar: yporroi.digorgon
 Encoding: 61450 61450 440
-Width: 697
+Width: 567
 Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
@@ -35219,7 +35219,7 @@ EndChar
 
 StartChar: yporroi.trigorgon
 Encoding: 61451 61451 441
-Width: 773
+Width: 643
 Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
