@@ -4,6 +4,7 @@ import json
 import fontforge
 
 STANDARD_GLUE_WIDTH = 130  # TODO this should be read from the metadata
+GORGON_TOP_ANCHOR = "gorgonTop"
 
 YPORROI_GORGON_MARKS = {
     0xF009: "gorgonAbove",
@@ -26,6 +27,14 @@ def canonical_glyphname(codepoint_to_name, glyph, fallback=True):
         raise ValueError(
             f"There" "s no SBMuFL character defined at codepoint {codepoint}."
         )
+
+
+def get_anchor_position(glyph, anchor_name, anchor_types):
+    for anchor in glyph.anchorPoints:
+        if anchor[0] == anchor_name and anchor[1] in anchor_types:
+            return anchor[2], anchor[3]
+
+    raise ValueError(f"{glyph.glyphname} is missing a {anchor_name} anchor.")
 
 
 if __name__ == "__main__":
@@ -61,8 +70,24 @@ if __name__ == "__main__":
                     font.removeGlyph(TEMP_GLYPH_NAME)
 
                 temp = font.createChar(-1, TEMP_GLYPH_NAME)
+                mark = font[mark_name]
+                base_anchor_x, base_anchor_y = get_anchor_position(
+                    char, GORGON_TOP_ANCHOR, {"base", "basechar"}
+                )
+                mark_anchor_x, mark_anchor_y = get_anchor_position(
+                    mark, GORGON_TOP_ANCHOR, {"mark"}
+                )
+                mark_transform = (
+                    1,
+                    0,
+                    0,
+                    1,
+                    base_anchor_x - mark_anchor_x,
+                    base_anchor_y - mark_anchor_y,
+                )
+
                 temp.addReference(char.glyphname)
-                temp.addReference(mark_name)
+                temp.addReference(mark_name, mark_transform)
 
                 while temp.references:
                     temp.unlinkRef()
@@ -78,9 +103,9 @@ if __name__ == "__main__":
                 base_xmin = int(round(base_xmin))
                 base_xmax = int(round(base_xmax))
 
-                char.left_side_bearing = combined_xmax - base_xmax
+                char.left_side_bearing = base_xmin - combined_xmin
                 char.right_side_bearing = (
-                    base_xmin - combined_xmin - STANDARD_GLUE_WIDTH
+                    combined_xmax - base_xmax - STANDARD_GLUE_WIDTH
                 )
 
                 font.removeGlyph(TEMP_GLYPH_NAME)
