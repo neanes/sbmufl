@@ -77,7 +77,7 @@ if __name__ == "__main__":
                 base_xmax = int(round(base_xmax))
 
                 char.left_side_bearing = combined_xmax - base_xmax
-                char.right_side_bearing = base_xmin - combined_xmin
+                char.right_side_bearing = base_xmin - combined_xmin - 130
 
                 font.removeGlyph(TEMP_GLYPH_NAME)
                 continue
