@@ -7,7 +7,6 @@ import tempfile
 from pathlib import Path
 
 import fontforge
-
 from generate_collision_regions import (
     generate_collision_regions_for_glyph,
     write_debug_svg,
