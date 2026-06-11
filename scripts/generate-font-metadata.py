@@ -710,7 +710,7 @@ class _SbmuflMetadata(object):
             regions = []
 
             if char_name in barline_region_glyphs:
-                highest_ymax = max(bbox[3] for bbox in contour_bboxes)
+                highest_ymax = max(bbox[4] for bbox in contour_bboxes)
 
                 for contour, xmin, ymin, xmax, ymax in contour_bboxes:
                     name = "yfen" if ymax == highest_ymax else "barline"

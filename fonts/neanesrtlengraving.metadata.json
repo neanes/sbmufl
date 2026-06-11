@@ -15757,7 +15757,7 @@
     ],
     "barlineTheseos": [
       {
-        "name": "barline",
+        "name": "yfen",
         "bBoxNE": [
           0.215,
           0.812
@@ -15781,7 +15781,7 @@
     ],
     "barlineShortTheseos": [
       {
-        "name": "barline",
+        "name": "yfen",
         "bBoxNE": [
           0.161,
           0.99
