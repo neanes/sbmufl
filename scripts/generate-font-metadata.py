@@ -6,12 +6,12 @@ import sys
 import tempfile
 from pathlib import Path
 
+import fontforge
+
 from generate_collision_regions import (
     generate_collision_regions_for_glyph,
     write_debug_svg,
 )
-
-import fontforge
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent

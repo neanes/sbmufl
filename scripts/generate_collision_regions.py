@@ -1,9 +1,9 @@
 #!/usr/bin/env fontforge
 # generate-collision-regions.py
 
-import sys
-import json
 import argparse
+import json
+import sys
 import webbrowser
 from pathlib import Path
 
