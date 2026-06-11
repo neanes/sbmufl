@@ -32,6 +32,41 @@ from fontTools.feaLib.parser import Parser
 
 collision_regions_dir = str(SCRIPT_DIR.parent / "sources" / "collision_regions")
 
+DEFAULT_YPSILI_TOP_TOLERANCE_EM = 0.2
+DEFAULT_YPSILI_MIN_HEIGHT_EM = 0.3
+
+YPSILI_TOP_TOLERANCE_BY_FONT = {
+    "Neanes": 0.2,
+    "NeanesEngraving": 0.2,
+    "NeanesRTL": 0.2,
+    "NeanesRTLEngraving": 0.2,
+    "NeanesStathisSeries": 0.35,
+    "NeanesStathisSeriesEngraving": 0.35,
+}
+
+YPSILI_MIN_HEIGHT_BY_FONT = {
+    "Neanes": 0.3,
+    "NeanesEngraving": 0.3,
+    "NeanesRTL": 0.3,
+    "NeanesRTLEngraving": 0.2,
+    "NeanesStathisSeries": 0.35,
+    "NeanesStathisSeriesEngraving": 0.35,
+}
+
+
+def get_ypsili_top_tolerance_em(font):
+    return YPSILI_TOP_TOLERANCE_BY_FONT.get(
+        font.fontname,
+        DEFAULT_YPSILI_TOP_TOLERANCE_EM,
+    )
+
+
+def get_ypsili_min_height_em(font):
+    return YPSILI_MIN_HEIGHT_BY_FONT.get(
+        font.fontname,
+        DEFAULT_YPSILI_MIN_HEIGHT_EM,
+    )
+
 
 def find_midpoint(glyph):
     min_y = float("inf")
@@ -49,6 +84,108 @@ def find_midpoint(glyph):
         return None
 
     return (min_y + max_y) / 2
+
+
+def contour_bbox(contour):
+    xs = [p.x for p in contour]
+    ys = [p.y for p in contour]
+
+    if not xs:
+        return None
+
+    xmin = min(xs)
+    ymin = min(ys)
+    xmax = max(xs)
+    ymax = max(ys)
+
+    if xmin == xmax or ymin == ymax:
+        return None
+
+    return xmin, ymin, xmax, ymax
+
+
+def create_temp_glyph_from_contours(font, source_glyph, contours, name):
+    temp_glyph = font.createChar(-1, name)
+    temp_glyph.clear()
+
+    for contour in contours:
+        temp_glyph.foreground += contour
+
+    temp_glyph.width = source_glyph.width
+
+    return temp_glyph
+
+
+def get_highest_contours(
+    glyph,
+    font,
+    tolerance_em=None,
+    min_height_em=None,
+):
+    if tolerance_em is None:
+        tolerance_em = get_ypsili_top_tolerance_em(font)
+
+    if min_height_em is None:
+        min_height_em = get_ypsili_min_height_em(font)
+
+    contour_bboxes = []
+
+    for contour in glyph.foreground:
+        bbox = contour_bbox(contour)
+
+        if bbox is None:
+            continue
+
+        contour_bboxes.append((contour, bbox))
+
+    if not contour_bboxes:
+        return []
+
+    highest_ymax = max(bbox[3] for _, bbox in contour_bboxes)
+    tolerance = font.em * tolerance_em
+    min_height = font.em * min_height_em
+
+    results = []
+
+    for contour, bbox in contour_bboxes:
+        xmin, ymin, xmax, ymax = bbox
+
+        height = ymax - ymin
+
+        near_top = highest_ymax - ymax <= tolerance
+        tall_enough = height >= min_height
+
+        if near_top and tall_enough:
+            results.append(contour)
+
+    return results
+
+
+def generate_regions_for_ypsili_contours(font, source_glyph, contours):
+    regions = []
+
+    for index, contour in enumerate(contours, start=1):
+        temp_name = f"{source_glyph.glyphname}.ypsiliCollisionTemp{index}"
+
+        temp_glyph = create_temp_glyph_from_contours(
+            font,
+            source_glyph,
+            [contour],
+            temp_name,
+        )
+
+        contour_regions = generate_collision_regions_for_glyph(
+            font,
+            temp_glyph,
+            slice_count=3,
+            name=f"ypsili{index}",
+        )
+
+        regions.extend(contour_regions)
+
+        font.removeGlyph(temp_name)
+
+    return regions
 
 
 class SbmuflFont(object):
@@ -565,7 +702,7 @@ class _SbmuflMetadata(object):
                 if xmin == xmax or ymin == ymax:
                     continue
 
-                contour_bboxes.append((xmin, ymin, xmax, ymax))
+                contour_bboxes.append((contour, xmin, ymin, xmax, ymax))
 
             if not contour_bboxes:
                 continue
@@ -575,7 +712,7 @@ class _SbmuflMetadata(object):
             if char_name in barline_region_glyphs:
                 highest_ymax = max(bbox[3] for bbox in contour_bboxes)
 
-                for xmin, ymin, xmax, ymax in contour_bboxes:
+                for contour, xmin, ymin, xmax, ymax in contour_bboxes:
                     name = "yfen" if ymax == highest_ymax else "barline"
 
                     regions.append(
@@ -593,12 +730,20 @@ class _SbmuflMetadata(object):
                     )
 
             else:
-                for index, (xmin, ymin, xmax, ymax) in enumerate(
-                    contour_bboxes, start=1
-                ):
+                ypsili_contours = []
+
+                if "Ypsili" in char_name or "ypsili" in char_name:
+                    ypsili_contours = get_highest_contours(char, self.font)
+
+                region_index = 1
+
+                for contour, xmin, ymin, xmax, ymax in contour_bboxes:
+                    if contour in ypsili_contours:
+                        continue
+
                     regions.append(
                         {
-                            "name": f"{char_name}{index}",
+                            "name": f"{char_name}{region_index}",
                             "bBoxNE": (
                                 round(xmax / self.font.em, 3),
                                 round(ymax / self.font.em, 3),
@@ -610,39 +755,17 @@ class _SbmuflMetadata(object):
                         }
                     )
 
-                for glyph in [
-                    "digorgon",
-                    "digorgonDottedLeftBelow",
-                    "digorgonDottedLeftAbove",
-                    "digorgonDottedRight",
-                    "digorgonSecondary",
-                    "digorgonDottedLeftBelowSecondary",
-                    "digorgonDottedRightSecondary",
-                ]:
-                    all_regions[glyph] = generate_collision_regions_for_glyph(
-                        self.font,
-                        self.font[glyph],
-                        slice_count=2,
-                        name=glyph,
-                        output_svg_path=output_path,
+                    region_index += 1
+
+                if ypsili_contours:
+                    ypsili_regions = generate_regions_for_ypsili_contours(
+                        self.font.font,
+                        char,
+                        ypsili_contours,
                     )
 
-                for glyph in [
-                    "trigorgon",
-                    "trigorgonDottedLeftBelow",
-                    "trigorgonDottedLeftAbove",
-                    "trigorgonDottedRight",
-                    "trigorgonSecondary",
-                    "trigorgonDottedLeftBelowSecondary",
-                    "trigorgonDottedRightSecondary",
-                ]:
-                    all_regions[glyph] = generate_collision_regions_for_glyph(
-                        self.font,
-                        self.font[glyph],
-                        slice_count=3,
-                        name=glyph,
-                        output_svg_path=output_path,
-                    )
+                    regions.extend(ypsili_regions)
+
             all_regions[char_name] = regions
 
             svg_path = Path(output_path) / f"{char_name}.svg"
@@ -653,6 +776,41 @@ class _SbmuflMetadata(object):
                 regions,
                 svg_path,
             )
+
+        for glyph in [
+            "digorgon",
+            "digorgonDottedLeftBelow",
+            "digorgonDottedLeftAbove",
+            "digorgonDottedRight",
+            "digorgonSecondary",
+            "digorgonDottedLeftBelowSecondary",
+            "digorgonDottedRightSecondary",
+        ]:
+            all_regions[glyph] = generate_collision_regions_for_glyph(
+                self.font,
+                self.font[glyph],
+                slice_count=2,
+                name=glyph,
+                output_svg_path=output_path,
+            )
+
+        for glyph in [
+            "trigorgon",
+            "trigorgonDottedLeftBelow",
+            "trigorgonDottedLeftAbove",
+            "trigorgonDottedRight",
+            "trigorgonSecondary",
+            "trigorgonDottedLeftBelowSecondary",
+            "trigorgonDottedRightSecondary",
+        ]:
+            all_regions[glyph] = generate_collision_regions_for_glyph(
+                self.font,
+                self.font[glyph],
+                slice_count=3,
+                name=glyph,
+                output_svg_path=output_path,
+            )
+
         return all_regions
 
     def ligatures(self):
