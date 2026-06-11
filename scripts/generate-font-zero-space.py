@@ -18,6 +18,7 @@ BARLINE_THESEOS_CODEPOINTS = {
     0xE215,  # barlineShortTheseos
 }
 
+
 def format_codepoint(unicode_):
     return "U+" + hex(unicode_)[2:].upper()
 
@@ -66,6 +67,7 @@ def get_lowest_contour_bbox(glyph):
         return None
 
     return min(contour_bboxes, key=lambda bbox: bbox[1])  # lowest ymin
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate zero-space font")
@@ -146,19 +148,19 @@ if __name__ == "__main__":
 
             if mark_name is None:
                 if char.unicode in BARLINE_THESEOS_CODEPOINTS:
-                        barline_bbox = get_lowest_contour_bbox(char)
+                    barline_bbox = get_lowest_contour_bbox(char)
 
-                        if barline_bbox is None:
-                            font.selection.select(char)
-                            font.autoWidth(0)
-                        else:
-                            xmin, ymin, xmax, ymax = barline_bbox
-                            barline_width = round(xmax - xmin)
+                    if barline_bbox is None:
+                        font.selection.select(char)
+                        font.autoWidth(0)
+                    else:
+                        xmin, ymin, xmax, ymax = barline_bbox
+                        barline_width = round(xmax - xmin)
 
-                            # Move the glyph so the barline contour starts at x=0.
-                            # The yfen may remain outside the advance width.
-                            char.transform(psMat.translate(-xmin, 0))
-                            char.width = barline_width
+                        # Move the glyph so the barline contour starts at x=0.
+                        # The yfen may remain outside the advance width.
+                        char.transform(psMat.translate(-xmin, 0))
+                        char.width = barline_width
                 else:
                     font.selection.select(char)
                     font.autoWidth(0)

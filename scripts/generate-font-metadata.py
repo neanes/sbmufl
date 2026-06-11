@@ -6,6 +6,11 @@ import sys
 import tempfile
 from pathlib import Path
 
+from generate_collision_regions import (
+    generate_collision_regions_for_glyph,
+    write_debug_svg,
+)
+
 import fontforge
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -24,6 +29,8 @@ if site_packages.exists():
 
 from fontTools.feaLib import ast
 from fontTools.feaLib.parser import Parser
+
+collision_regions_dir = str(SCRIPT_DIR.parent / "sources" / "collision_regions")
 
 
 def find_midpoint(glyph):
@@ -229,7 +236,7 @@ class _SbmuflMetadata(object):
 
         contextual_substitutions = self.contextual_substitutions()
         if contextual_substitutions:
-           d["contextualSubstitutions"] = contextual_substitutions
+            d["contextualSubstitutions"] = contextual_substitutions
 
         advance_widths = self.advance_widths()
         if advance_widths:
@@ -437,16 +444,106 @@ class _SbmuflMetadata(object):
             all_bounding_boxes[char_name] = bounding_box
 
         return all_bounding_boxes
-    
+
     def collision_regions(self):
         all_regions = {}
+
+        output_path = Path(collision_regions_dir) / self.font.fontname
+
+        barline_region_glyphs = (
+            "barlineTheseos",
+            "barlineShortTheseos",
+        )
+
+        numbered_region_glyphs = (
+            "oligon",
+            "oligonKentimaMiddle",
+            "oligonKentimaBelow",
+            "oligonKentimaAbove",
+            "oligonYpsiliRight",
+            "oligonYpsiliLeft",
+            "oligonKentimaYpsiliRight",
+            "oligonKentimaYpsiliMiddle",
+            "oligonDoubleYpsili",
+            "oligonKentimataDoubleYpsili",
+            "oligonKentimaDoubleYpsiliRight",
+            "oligonKentimaDoubleYpsiliLeft",
+            "oligonTripleYpsili",
+            "oligonKentimataTripleYpsili",
+            "oligonKentimaTripleYpsili",
+            "oligonIson",
+            "oligonApostrofos",
+            "oligonYporroi",
+            "oligonElafron",
+            "oligonElafronApostrofos",
+            "oligonChamili",
+            "isonApostrofos",
+            "apostrofos",
+            "apostrofosSyndesmos",
+            "yporroi",
+            "elafron",
+            "runningElafron",
+            "elafronApostrofos",
+            "chamili",
+            "chamiliApostrofos",
+            "chamiliElafron",
+            "chamiliElafronApostrofos",
+            "doubleChamili",
+            "doubleChamiliApostrofos",
+            "doubleChamiliElafron",
+            "doubleChamiliElafronApostrofos",
+            "tripleChamili",
+            "petastiIson",
+            "petasti",
+            "petastiOligon",
+            "petastiKentima",
+            "petastiYpsiliRight",
+            "petastiYpsiliLeft",
+            "petastiKentimaYpsiliRight",
+            "petastiKentimaYpsiliMiddle",
+            "petastiDoubleYpsili",
+            "petastiKentimataDoubleYpsili",
+            "petastiKentimaDoubleYpsiliRight",
+            "petastiKentimaDoubleYpsiliLeft",
+            "petastiTripleYpsili",
+            "petastiKentimataTripleYpsili",
+            "petastiKentimaTripleYpsili",
+            "petastiApostrofos",
+            "petastiYporroi",
+            "petastiElafron",
+            "petastiRunningElafron",
+            "petastiElafronApostrofos",
+            "petastiChamili",
+            "petastiChamiliApostrofos",
+            "petastiChamiliElafron",
+            "petastiChamiliElafronApostrofos",
+            "petastiDoubleChamili",
+            "petastiDoubleChamiliApostrofos",
+            "kentima",
+            "kentimata",
+            "oligonKentimataBelow",
+            "oligonKentimataAbove",
+            "oligonIsonKentimata",
+            "oligonKentimaMiddleKentimata",
+            "oligonYpsiliRightKentimata",
+            "oligonYpsiliLeftKentimata",
+            "oligonApostrofosKentimata",
+            "oligonYporroiKentimata",
+            "oligonElafronKentimata",
+            "oligonRunningElafronKentimata",
+            "oligonElafronApostrofosKentimata",
+            "oligonChamiliKentimata",
+            "oligonKentimataBelow.alt01",
+            "oligonKentimataAbove.alt01",
+            "oligonKentimataBelow.alt02",
+        )
 
         for char in self.font:
             char_name = self.font.canonical_glyphname(char)
 
-            if char_name not in (
-                "barlineTheseos",
-                "barlineShortTheseos",
+            if (
+                char_name not in barline_region_glyphs
+                and char_name not in numbered_region_glyphs
             ):
                 continue
 
@@ -473,29 +570,89 @@ class _SbmuflMetadata(object):
             if not contour_bboxes:
                 continue
 
-            highest_ymax = max(bbox[3] for bbox in contour_bboxes)
-
             regions = []
 
-            for xmin, ymin, xmax, ymax in contour_bboxes:
-                name = "yfen" if ymax == highest_ymax else "barline"
+            if char_name in barline_region_glyphs:
+                highest_ymax = max(bbox[3] for bbox in contour_bboxes)
 
-                regions.append(
-                    {
-                        "name": name,
-                        "bBoxNE": (
-                            round(xmax / self.font.em, 3),
-                            round(ymax / self.font.em, 3),
-                        ),
-                        "bBoxSW": (
-                            round(xmin / self.font.em, 3),
-                            round(ymin / self.font.em, 3),
-                        ),
-                    }
-                )
+                for xmin, ymin, xmax, ymax in contour_bboxes:
+                    name = "yfen" if ymax == highest_ymax else "barline"
 
+                    regions.append(
+                        {
+                            "name": name,
+                            "bBoxNE": (
+                                round(xmax / self.font.em, 3),
+                                round(ymax / self.font.em, 3),
+                            ),
+                            "bBoxSW": (
+                                round(xmin / self.font.em, 3),
+                                round(ymin / self.font.em, 3),
+                            ),
+                        }
+                    )
+
+            else:
+                for index, (xmin, ymin, xmax, ymax) in enumerate(
+                    contour_bboxes, start=1
+                ):
+                    regions.append(
+                        {
+                            "name": f"{char_name}{index}",
+                            "bBoxNE": (
+                                round(xmax / self.font.em, 3),
+                                round(ymax / self.font.em, 3),
+                            ),
+                            "bBoxSW": (
+                                round(xmin / self.font.em, 3),
+                                round(ymin / self.font.em, 3),
+                            ),
+                        }
+                    )
+
+                for glyph in [
+                    "digorgon",
+                    "digorgonDottedLeftBelow",
+                    "digorgonDottedLeftAbove",
+                    "digorgonDottedRight",
+                    "digorgonSecondary",
+                    "digorgonDottedLeftBelowSecondary",
+                    "digorgonDottedRightSecondary",
+                ]:
+                    all_regions[glyph] = generate_collision_regions_for_glyph(
+                        self.font,
+                        self.font[glyph],
+                        slice_count=2,
+                        name=glyph,
+                        output_svg_path=output_path,
+                    )
+
+                for glyph in [
+                    "trigorgon",
+                    "trigorgonDottedLeftBelow",
+                    "trigorgonDottedLeftAbove",
+                    "trigorgonDottedRight",
+                    "trigorgonSecondary",
+                    "trigorgonDottedLeftBelowSecondary",
+                    "trigorgonDottedRightSecondary",
+                ]:
+                    all_regions[glyph] = generate_collision_regions_for_glyph(
+                        self.font,
+                        self.font[glyph],
+                        slice_count=3,
+                        name=glyph,
+                        output_svg_path=output_path,
+                    )
             all_regions[char_name] = regions
 
+            svg_path = Path(output_path) / f"{char_name}.svg"
+
+            write_debug_svg(
+                self.font,
+                char,
+                regions,
+                svg_path,
+            )
         return all_regions
 
     def ligatures(self):
