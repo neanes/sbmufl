@@ -243,6 +243,10 @@ class _SbmuflMetadata(object):
         if bounding_boxes:
             d["glyphBBoxes"] = bounding_boxes
 
+        collision_regions = self.collision_regions()
+        if collision_regions:
+            d["collisionRegions"] = collision_regions
+
         ligatures = self.ligatures()
         if ligatures:
             d["ligatures"] = ligatures
@@ -433,6 +437,66 @@ class _SbmuflMetadata(object):
             all_bounding_boxes[char_name] = bounding_box
 
         return all_bounding_boxes
+    
+    def collision_regions(self):
+        all_regions = {}
+
+        for char in self.font:
+            char_name = self.font.canonical_glyphname(char)
+
+            if char_name not in (
+                "barlineTheseos",
+                "barlineShortTheseos",
+            ):
+                continue
+
+            contour_bboxes = []
+
+            for contour in char.foreground:
+                xs = [p.x for p in contour]
+                ys = [p.y for p in contour]
+
+                if not xs:
+                    continue
+
+                xmin = min(xs)
+                ymin = min(ys)
+                xmax = max(xs)
+                ymax = max(ys)
+
+                # Skip degenerate regions
+                if xmin == xmax or ymin == ymax:
+                    continue
+
+                contour_bboxes.append((xmin, ymin, xmax, ymax))
+
+            if not contour_bboxes:
+                continue
+
+            highest_ymax = max(bbox[3] for bbox in contour_bboxes)
+
+            regions = []
+
+            for xmin, ymin, xmax, ymax in contour_bboxes:
+                name = "yfen" if ymax == highest_ymax else "barline"
+
+                regions.append(
+                    {
+                        "name": name,
+                        "bBoxNE": (
+                            round(xmax / self.font.em, 3),
+                            round(ymax / self.font.em, 3),
+                        ),
+                        "bBoxSW": (
+                            round(xmin / self.font.em, 3),
+                            round(ymin / self.font.em, 3),
+                        ),
+                    }
+                )
+
+            all_regions[char_name] = regions
+
+        return all_regions
 
     def ligatures(self):
         all_ligatures = {}

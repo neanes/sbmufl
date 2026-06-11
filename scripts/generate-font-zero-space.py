@@ -2,6 +2,7 @@ import argparse
 import json
 
 import fontforge
+import psMat
 
 STANDARD_GLUE_WIDTH = 130  # TODO this should be read from the metadata
 GORGON_TOP_ANCHOR = "gorgonTop"
@@ -12,6 +13,10 @@ YPORROI_GORGON_MARKS = {
     0xF00B: "trigorgon",
 }
 
+BARLINE_THESEOS_CODEPOINTS = {
+    0xE212,  # barlineTheseos
+    0xE215,  # barlineShortTheseos
+}
 
 def format_codepoint(unicode_):
     return "U+" + hex(unicode_)[2:].upper()
@@ -36,6 +41,31 @@ def get_anchor_position(glyph, anchor_name, anchor_types):
 
     raise ValueError(f"{glyph.glyphname} is missing a {anchor_name} anchor.")
 
+
+def get_lowest_contour_bbox(glyph):
+    contour_bboxes = []
+
+    for contour in glyph.foreground:
+        xs = [p.x for p in contour]
+        ys = [p.y for p in contour]
+
+        if not xs:
+            continue
+
+        xmin = min(xs)
+        ymin = min(ys)
+        xmax = max(xs)
+        ymax = max(ys)
+
+        if xmin == xmax or ymin == ymax:
+            continue
+
+        contour_bboxes.append((xmin, ymin, xmax, ymax))
+
+    if not contour_bboxes:
+        return None
+
+    return min(contour_bboxes, key=lambda bbox: bbox[1])  # lowest ymin
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate zero-space font")
@@ -115,8 +145,23 @@ if __name__ == "__main__":
                 char.unlinkRef()
 
             if mark_name is None:
-                font.selection.select(char)
-                font.autoWidth(0)
+                if char.unicode in BARLINE_THESEOS_CODEPOINTS:
+                        barline_bbox = get_lowest_contour_bbox(char)
+
+                        if barline_bbox is None:
+                            font.selection.select(char)
+                            font.autoWidth(0)
+                        else:
+                            xmin, ymin, xmax, ymax = barline_bbox
+                            barline_width = round(xmax - xmin)
+
+                            # Move the glyph so the barline contour starts at x=0.
+                            # The yfen may remain outside the advance width.
+                            char.transform(psMat.translate(-xmin, 0))
+                            char.width = barline_width
+                else:
+                    font.selection.select(char)
+                    font.autoWidth(0)
 
     font.generate(args.outfile_otf)
 
