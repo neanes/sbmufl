@@ -32,7 +32,7 @@ jobs:
           cache: "pip"
 
       - name: Install OS dependencies
-        run: sudo apt-get update && sudo apt-get install -y fontforge
+        run: sudo apt-get update && sudo apt-get install -y python3-fonttools fontforge
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
