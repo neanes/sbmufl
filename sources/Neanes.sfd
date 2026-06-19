@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.6
+Version: 1.0.7
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1780014823
+ModificationTime: 1781840516
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -159,7 +159,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57845 5 5
+WinInfo: 57340 5 5
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -10010,7 +10010,7 @@ AnchorPoint: "isonIndicator" 792 913 basechar 0
 AnchorPoint: "heteronConnecting" 1970 -19 basechar 0
 AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 1681 133 basechar 0
 AnchorPoint: "antikenoma" 820 165 basechar 0
 AnchorPoint: "apli" 803 30 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0

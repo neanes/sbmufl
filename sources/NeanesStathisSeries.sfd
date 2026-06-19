@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.6
+Version: 1.0.7
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -398,7 +398,7 @@ AnchorPoint: "heteron" 1087 227 basechar 0
 AnchorPoint: "fthoraTop" 788 507 basechar 0
 AnchorPoint: "fthoraBottom" 789 209 basechar 0
 AnchorPoint: "noteTop" 314 676 basechar 0
-AnchorPoint: "omalonConnecting" 1471 133 basechar 0
+AnchorPoint: "omalonConnecting" 1681 133 basechar 0
 AnchorPoint: "omalon" 1031 133 basechar 0
 AnchorPoint: "heteronConnecting" 1970 -19 basechar 0
 AnchorPoint: "measureNumber" 172 753 basechar 0
