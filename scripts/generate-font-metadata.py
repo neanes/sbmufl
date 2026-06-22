@@ -343,6 +343,14 @@ class SbmuflFont(object):
         return self.font.os2_windescent
 
     @property
+    def ascent(self):
+        return self.font.ascent
+
+    @property
+    def descent(self):
+        return self.font.descent
+
+    @property
     def oligon_midpoint(self):
         return find_midpoint(self.font[0xE001])
 
@@ -357,6 +365,8 @@ class _SbmuflMetadata(object):
         d["fontVersion"] = self.font.version
 
         d["metrics"] = {
+            "ascent": round(self.font.ascent / self.font.em, 3),
+            "descent": round(self.font.descent / self.font.em, 3),
             "winAscent": round(self.font.os2_winascent / self.font.em, 3),
             "winDescent": round(self.font.os2_windescent / self.font.em, 3),
             "oligonMidpoint": round(self.font.oligon_midpoint / self.font.em, 3),
