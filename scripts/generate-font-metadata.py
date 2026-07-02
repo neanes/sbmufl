@@ -289,7 +289,7 @@ class SbmuflFont(object):
         font_dir = os.path.dirname(os.path.abspath(self.filepath))
         extra_filename = os.path.join(
             font_dir,
-            f"{self.font.fontname}.extra.json",
+            f"{self.font.fontname.lower()}.extra.json",
         )
         if os.path.exists(extra_filename):
             with open(extra_filename, "r", encoding="utf-8") as infile:
