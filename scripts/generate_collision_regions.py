@@ -13,6 +13,15 @@ MIN_REGION_AREA = 1
 MERGE_GAP = 2
 
 
+def format_svg_number(value):
+    rounded = round(value, 3)
+
+    if rounded == 0:
+        return "0"
+
+    return f"{rounded:.3f}".rstrip("0").rstrip(".")
+
+
 def rect_to_region(font, rect, name=None):
     xmin, ymin, xmax, ymax = rect
 
@@ -222,6 +231,9 @@ def write_debug_svg(font, glyph, regions, output_path):
     def svg_y(y):
         return -y
 
+    def svg_point(x, y):
+        return f"{format_svg_number(x)} {format_svg_number(svg_y(y))}"
+
     path_parts = []
 
     for contour in glyph.foreground:
@@ -231,10 +243,10 @@ def write_debug_svg(font, glyph, regions, output_path):
             continue
 
         first = points[0]
-        path_parts.append(f"M {first.x} {svg_y(first.y)}")
+        path_parts.append(f"M {svg_point(first.x, first.y)}")
 
         for p in points[1:]:
-            path_parts.append(f"L {p.x} {svg_y(p.y)}")
+            path_parts.append(f"L {svg_point(p.x, p.y)}")
 
         path_parts.append("Z")
 
@@ -252,15 +264,19 @@ def write_debug_svg(font, glyph, regions, output_path):
         rh = (ne_y - sw_y) * font.em
 
         region_rects.append(
-            f'<rect x="{rx}" y="{svg_y(ry)}" '
-            f'width="{rw}" height="{rh}" '
-            f'fill="none" stroke="red" stroke-width="{font.em * 0.01}" />'
+            f'<rect x="{format_svg_number(rx)}" y="{format_svg_number(svg_y(ry))}" '
+            f'width="{format_svg_number(rw)}" height="{format_svg_number(rh)}" '
+            f'fill="none" stroke="red" stroke-width="{format_svg_number(font.em * 0.01)}" />'
         )
 
+    view_box = " ".join(
+        format_svg_number(value) for value in (view_x, view_y, view_width, view_height)
+    )
+
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
-  viewBox="{view_x} {view_y} {view_width} {view_height}">
-  <rect x="{view_x}" y="{view_y}" width="{view_width}" height="{view_height}" fill="white"/>
-  <path d="{path_data}" fill="black" fill-opacity="0.25" stroke="black" stroke-width="{font.em * 0.004}"/>
+  viewBox="{view_box}">
+  <rect x="{format_svg_number(view_x)}" y="{format_svg_number(view_y)}" width="{format_svg_number(view_width)}" height="{format_svg_number(view_height)}" fill="white"/>
+  <path d="{path_data}" fill="black" fill-opacity="0.25" stroke="black" stroke-width="{format_svg_number(font.em * 0.004)}"/>
   {''.join(region_rects)}
 </svg>
 """
