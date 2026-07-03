@@ -80,32 +80,37 @@ if __name__ == "__main__":
 
     TEMP_GLYPH_NAME = ".__temp_autowidth_measure"
 
-    for char in (char for char in font.glyphs() if 57344 <= char.unicode <= 63743):
-        if (
-            char.width != 0
-            and not (0xE2A0 <= char.unicode <= 0xE42F)
-            and not (0xF003 <= char.unicode <= 0xF004)
-        ):
-            while char.references:
-                char.unlinkRef()
+    chars_to_process = [
+        char
+        for char in font.glyphs()
+        if 57344 <= char.unicode <= 63743
+        and char.width != 0
+        and not (0xE2A0 <= char.unicode <= 0xE42F)
+        and not (0xF003 <= char.unicode <= 0xF004)
+    ]
 
-            if char.unicode in BARLINE_THESEOS_CODEPOINTS:
-                barline_bbox = get_lowest_contour_bbox(char)
+    for char in chars_to_process:
+        while char.references:
+            char.unlinkRef()
 
-                if barline_bbox is None:
-                    font.selection.select(char)
-                    font.autoWidth(0)
-                else:
-                    xmin, ymin, xmax, ymax = barline_bbox
-                    barline_width = round(xmax - xmin)
+    for char in chars_to_process:
+        if char.unicode in BARLINE_THESEOS_CODEPOINTS:
+            barline_bbox = get_lowest_contour_bbox(char)
 
-                    # Move the glyph so the barline contour starts at x=0.
-                    # The yfen may remain outside the advance width.
-                    char.transform(psMat.translate(-xmin, 0))
-                    char.width = barline_width
-            else:
+            if barline_bbox is None:
                 font.selection.select(char)
                 font.autoWidth(0)
+            else:
+                xmin, ymin, xmax, ymax = barline_bbox
+                barline_width = round(xmax - xmin)
+
+                # Move the glyph so the barline contour starts at x=0.
+                # The yfen may remain outside the advance width.
+                char.transform(psMat.translate(-xmin, 0))
+                char.width = barline_width
+        else:
+            font.selection.select(char)
+            font.autoWidth(0)
 
     font.generate(args.outfile_otf)
 
