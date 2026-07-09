@@ -5,7 +5,7 @@ FamilyName: Neanes
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.7
+Version: 1.0.8
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -2449,6 +2449,7 @@ Width: 1039
 VWidth: 345
 Flags: W
 HStem: -225 31<790.195 843.174> 95 29.5<459.811 653.296> 200 32<331.195 384.981> 519.5 30<0.811386 194.713>
+AnchorPoint: "diesisSecondary" 603.2 -272 basechar 0
 AnchorPoint: "yfenAbove" 851.2 891 basechar 0
 AnchorPoint: "yfenBelow" 850.2 -400 basechar 0
 AnchorPoint: "koronis" 551.2 881 basechar 0

@@ -5,7 +5,7 @@ FamilyName: NeanesRTL
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.4
+Version: 1.0.8
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1781842027
+ModificationTime: 1783619293
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2411,6 +2411,7 @@ Width: 1039
 VWidth: 345
 Flags: W
 HStem: -225 31<790.195 843.174> 95 29.5<459.811 653.296> 200 32<331.195 384.981> 519.5 30<0.811386 194.713>
+AnchorPoint: "diesisSecondary" 603.2 -272 basechar 0
 AnchorPoint: "yfenAbove" 168.2 891 basechar 0
 AnchorPoint: "yfenBelow" 169.2 -400 basechar 0
 AnchorPoint: "koronis" 551.2 881 basechar 0

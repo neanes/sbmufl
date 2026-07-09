@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.7
+Version: 1.0.8
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -4072,6 +4072,7 @@ GlyphClass: 2
 Flags: W
 HStem: 163 18<752.222 775.868> 438 19<36.6316 66.4062>
 VStem: 1240 188<-33.6631 30.0979>
+AnchorPoint: "diesisSecondary" 899 -134 basechar 0
 AnchorPoint: "gorgonTop" 1058 193 basechar 0
 AnchorPoint: "apli" 1064 -424 basechar 0
 AnchorPoint: "diesis" 453 127 basechar 0
