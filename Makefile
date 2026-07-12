@@ -4,10 +4,8 @@ UIDGID := $(shell id -u):$(shell id -g)
 # are not owned by root.
 TOOLCHAIN := docker compose run --rm --user $(UIDGID) toolchain
 
-# dockerfmt ships as a container image, so it runs on the host Docker
-# rather than inside the toolchain container.
-DOCKERFMT := docker run --rm --user $(UIDGID) --volume $(CURDIR):/work:Z \
-	--workdir /work ghcr.io/reteps/dockerfmt:latest
+DOCKERFMT := docker compose run --rm --user $(UIDGID) dockerfmt
+HADOLINT := docker compose run --rm -T hadolint
 
 # test reads the fonts that build rewrites, so keep the goals serial even
 # under -j.
@@ -39,7 +37,7 @@ test: image
 lint: image
 	$(TOOLCHAIN) sh -c 'black --check . && isort --check-only . && mypy && shfmt -s -d scripts && shellcheck scripts/*.sh && mbake format --check Makefile'
 	$(DOCKERFMT) -c -n Dockerfile
-	docker run --rm -i hadolint/hadolint <Dockerfile
+	$(HADOLINT) <Dockerfile
 
 lint-fix: image
 	$(TOOLCHAIN) sh -c 'black . && isort . && shfmt -s -w scripts && shellcheck scripts/*.sh && mbake format Makefile'
