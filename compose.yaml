@@ -1,0 +1,8 @@
+---
+services:
+  toolchain:
+    build:
+      context: .
+    image: sbmufl-build
+    volumes:
+      - .:/work:Z
