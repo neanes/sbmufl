@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1783619293
+ModificationTime: 1781842028
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -12603,7 +12603,7 @@ Encoding: 57536 57536 157
 Width: 346
 VWidth: 345
 Flags: W
-HStem: 276 45<1.5e-07 150 196 346>
+HStem: 276 45<0 150 196 346>
 VStem: 150 46<126.035 276 321 471>
 LayerCount: 2
 Fore
