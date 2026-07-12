@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1780015105
+ModificationTime: 1783897669
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -255,9 +255,9 @@ StartChar: ison
 Encoding: 57344 57344 5
 Width: 1524
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 786 505 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaTop" 873 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -328,9 +328,9 @@ StartChar: oligon
 Encoding: 57345 57345 6
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 780 500 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -385,9 +385,9 @@ StartChar: oligonKentimaMiddle
 Encoding: 57346 57346 7
 Width: 1794
 GlyphClass: 3
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 708 459 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -458,9 +458,9 @@ StartChar: oligonKentimaBelow
 Encoding: 57347 57347 8
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 780 500 basechar 0
-AnchorPoint: "apli" 763 -180 basechar 0
+AnchorPoint: "apli" 763 -167 basechar 0
 AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -534,9 +534,9 @@ StartChar: oligonKentimaAbove
 Encoding: 57348 57348 9
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 1138 500 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "klasmaTop" 383 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
@@ -605,9 +605,9 @@ StartChar: oligonYpsiliRight
 Encoding: 57349 57349 10
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 708 500 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "klasmaTop" 598 487 basechar 0
 AnchorPoint: "yfesis" 1310 1040 basechar 0
@@ -752,9 +752,9 @@ StartChar: oligonYpsiliLeft
 Encoding: 57350 57350 11
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 1102 500 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "klasmaTop" 980 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
@@ -904,9 +904,9 @@ StartChar: oligonKentimaYpsiliRight
 Encoding: 57351 57351 12
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 708 839 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "klasmaTop" 200 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
@@ -1074,9 +1074,9 @@ StartChar: oligonKentimaYpsiliMiddle
 Encoding: 57352 57352 13
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 1138 500 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "klasmaTop" 353 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
@@ -1246,9 +1246,9 @@ StartChar: oligonDoubleYpsili
 Encoding: 57353 57353 14
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 760 1080 basechar 0
-AnchorPoint: "apli" 803 30 basechar 0
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1380 640 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -1488,8 +1488,8 @@ StartChar: oligonKentimataDoubleYpsili
 Encoding: 57354 57354 15
 Width: 1596
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1368 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -1780,8 +1780,8 @@ StartChar: oligonKentimaDoubleYpsiliRight
 Encoding: 57355 57355 16
 Width: 1577
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1368 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -2045,8 +2045,8 @@ StartChar: oligonKentimaDoubleYpsiliLeft
 Encoding: 57356 57356 17
 Width: 1517
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -2301,8 +2301,8 @@ StartChar: oligonTripleYpsili
 Encoding: 57357 57357 18
 Width: 1580
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1470 670 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -2642,8 +2642,8 @@ StartChar: oligonKentimataTripleYpsili
 Encoding: 57358 57358 19
 Width: 1580
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 13 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1330 870 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3018,8 +3018,8 @@ StartChar: oligonKentimaTripleYpsili
 Encoding: 57359 57359 20
 Width: 1580
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1530 560 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3363,8 +3363,8 @@ StartChar: oligonIson
 Encoding: 57360 57360 21
 Width: 1515
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3460,8 +3460,8 @@ StartChar: oligonApostrofos
 Encoding: 57361 57361 22
 Width: 1515
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3538,8 +3538,8 @@ StartChar: oligonYporroi
 Encoding: 57362 57362 23
 Width: 1515
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3628,8 +3628,8 @@ StartChar: oligonElafron
 Encoding: 57363 57363 24
 Width: 1519
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3714,8 +3714,8 @@ StartChar: oligonElafronApostrofos
 Encoding: 57364 57364 25
 Width: 1515
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -3829,8 +3829,8 @@ StartChar: oligonChamili
 Encoding: 57365 57365 26
 Width: 1515
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 803 30 basechar 0
+Flags: HW
+AnchorPoint: "apli" 803 53 basechar 0
 AnchorPoint: "klasmaBottom" 785 160 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 400 133 basechar 0
@@ -4001,10 +4001,10 @@ StartChar: apostrofos
 Encoding: 57377 57377 28
 Width: 703
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "omalonConnecting" 1044 89 basechar 0
 AnchorPoint: "gorgonTop" 400 580 basechar 0
-AnchorPoint: "apli" 500 18 basechar 0
+AnchorPoint: "apli" 500 -11 basechar 0
 AnchorPoint: "klasmaTop" 408 567 basechar 0
 AnchorPoint: "yfesis" 648 557 basechar 0
 AnchorPoint: "diesis" 233 100 basechar 0
@@ -4113,9 +4113,9 @@ StartChar: yporroi
 Encoding: 57379 57379 30
 Width: 400
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 400 527 basechar 0
-AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "apli" 161 -12 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "diesis" 267 60 basechar 0
 AnchorPoint: "antikenoma" 197 100 basechar 0
@@ -4179,9 +4179,9 @@ StartChar: elafron
 Encoding: 57380 57380 31
 Width: 1243
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 627 580 basechar 0
-AnchorPoint: "apli" 588 -1 basechar 0
+AnchorPoint: "apli" 588 -42 basechar 0
 AnchorPoint: "klasmaTop" 560 620 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
@@ -4237,9 +4237,9 @@ StartChar: runningElafron
 Encoding: 57381 57381 32
 Width: 1752
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 1147 580 basechar 0
-AnchorPoint: "apli" 1132 13 basechar 0
+AnchorPoint: "apli" 1132 -11 basechar 0
 AnchorPoint: "klasmaTop" 1060 620 basechar 0
 AnchorPoint: "yfesis" 1490 536 basechar 0
 AnchorPoint: "diesis" 937 20 basechar 0
@@ -4318,9 +4318,9 @@ StartChar: elafronApostrofos
 Encoding: 57382 57382 33
 Width: 1243
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 627 580 basechar 0
-AnchorPoint: "apli" 600 -93 basechar 0
+AnchorPoint: "apli" 600 -141 basechar 0
 AnchorPoint: "klasmaTop" 560 620 basechar 0
 AnchorPoint: "yfesis" 980 536 basechar 0
 AnchorPoint: "diesis" 427 20 basechar 0
@@ -4403,9 +4403,9 @@ StartChar: chamili
 Encoding: 57383 57383 34
 Width: 1113
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 680 basechar 0
-AnchorPoint: "apli" 640 76 basechar 0
+AnchorPoint: "apli" 640 57 basechar 0
 AnchorPoint: "klasmaTop" 747 513 basechar 0
 AnchorPoint: "yfesis" 953 747 basechar 0
 AnchorPoint: "diesis" 393 201 basechar 0
@@ -4466,9 +4466,9 @@ StartChar: chamiliApostrofos
 Encoding: 57384 57384 35
 Width: 1113
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 680 basechar 0
-AnchorPoint: "apli" 576 -211 basechar 0
+AnchorPoint: "apli" 576 -241 basechar 0
 AnchorPoint: "klasmaTop" 747 513 basechar 0
 AnchorPoint: "yfesis" 953 747 basechar 0
 AnchorPoint: "diesis" 328 16 basechar 0
@@ -4548,9 +4548,9 @@ StartChar: chamiliElafron
 Encoding: 57385 57385 36
 Width: 1240
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1010 basechar 0
-AnchorPoint: "apli" 575 -10 basechar 0
+AnchorPoint: "apli" 575 -21 basechar 0
 AnchorPoint: "klasmaTop" 807 820 basechar 0
 AnchorPoint: "yfesis" 1005 1051 basechar 0
 AnchorPoint: "diesis" 458 16 basechar 0
@@ -4644,9 +4644,9 @@ StartChar: chamiliElafronApostrofos
 Encoding: 57386 57386 37
 Width: 1243
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1010 basechar 0
-AnchorPoint: "apli" 575 -110 basechar 0
+AnchorPoint: "apli" 575 -130 basechar 0
 AnchorPoint: "klasmaTop" 807 820 basechar 0
 AnchorPoint: "yfesis" 1005 1051 basechar 0
 AnchorPoint: "diesis" 458 16 basechar 0
@@ -4751,9 +4751,9 @@ StartChar: doubleChamili
 Encoding: 57387 57387 38
 Width: 1107
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1027 basechar 0
-AnchorPoint: "apli" 595 70 basechar 0
+AnchorPoint: "apli" 595 63 basechar 0
 AnchorPoint: "klasmaTop" 707 933 basechar 0
 AnchorPoint: "yfesis" 965 1097 basechar 0
 AnchorPoint: "diesis" 464 161 basechar 0
@@ -4847,9 +4847,9 @@ StartChar: doubleChamiliApostrofos
 Encoding: 57388 57388 39
 Width: 1107
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1047 basechar 0
-AnchorPoint: "apli" 575 -230 basechar 0
+AnchorPoint: "apli" 575 -232 basechar 0
 AnchorPoint: "klasmaTop" 707 933 basechar 0
 AnchorPoint: "yfesis" 965 1097 basechar 0
 AnchorPoint: "diesis" 458 16 basechar 0
@@ -4963,9 +4963,9 @@ StartChar: doubleChamiliElafron
 Encoding: 57389 57389 40
 Width: 1174
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1047 basechar 0
-AnchorPoint: "apli" 575 -200 basechar 0
+AnchorPoint: "apli" 575 -235 basechar 0
 AnchorPoint: "klasmaTop" 707 933 basechar 0
 AnchorPoint: "yfesis" 965 1097 basechar 0
 AnchorPoint: "diesis" 462 -191 basechar 0
@@ -5098,9 +5098,9 @@ StartChar: doubleChamiliElafronApostrofos
 Encoding: 57390 57390 41
 Width: 1174
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 819 1047 basechar 0
-AnchorPoint: "apli" 575 -320 basechar 0
+AnchorPoint: "apli" 575 -344 basechar 0
 AnchorPoint: "klasmaTop" 707 933 basechar 0
 AnchorPoint: "yfesis" 965 1097 basechar 0
 AnchorPoint: "diesis" 462 -191 basechar 0
@@ -5239,9 +5239,9 @@ StartChar: tripleChamili
 Encoding: 57391 57391 42
 Width: 1006
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 779 1197 basechar 0
-AnchorPoint: "apli" 575 10 basechar 0
+AnchorPoint: "apli" 575 19 basechar 0
 AnchorPoint: "klasmaTop" 687 1107 basechar 0
 AnchorPoint: "yfesis" 893 1227 basechar 0
 AnchorPoint: "diesis" 464 167 basechar 0
@@ -5369,8 +5369,8 @@ StartChar: petastiIson
 Encoding: 57408 57408 43
 Width: 1318
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -10 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1179 915 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -5476,8 +5476,8 @@ StartChar: petasti
 Encoding: 57409 57409 44
 Width: 1243
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -5542,8 +5542,8 @@ StartChar: petastiOligon
 Encoding: 57410 57410 45
 Width: 1367
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 785 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 785 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 991 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -5631,8 +5631,8 @@ StartChar: petastiKentima
 Encoding: 57411 57411 46
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -5714,8 +5714,8 @@ StartChar: petastiYpsiliRight
 Encoding: 57412 57412 47
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1060 1040 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -5892,8 +5892,8 @@ StartChar: petastiYpsiliLeft
 Encoding: 57413 57413 48
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -6066,8 +6066,8 @@ StartChar: petastiKentimaYpsiliRight
 Encoding: 57414 57414 49
 Width: 1234
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1060 1010 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -6250,8 +6250,8 @@ StartChar: petastiKentimaYpsiliMiddle
 Encoding: 57415 57415 50
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -6445,8 +6445,8 @@ StartChar: petastiDoubleYpsili
 Encoding: 57416 57416 51
 Width: 1232
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1010 1040 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -6714,8 +6714,8 @@ StartChar: petastiKentimataDoubleYpsili
 Encoding: 57417 57417 52
 Width: 1439
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1130 980 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -7014,8 +7014,8 @@ StartChar: petastiKentimaDoubleYpsiliRight
 Encoding: 57418 57418 53
 Width: 1313
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1090 1000 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -7301,8 +7301,8 @@ StartChar: petastiKentimaDoubleYpsiliLeft
 Encoding: 57419 57419 54
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1113 691 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -7581,8 +7581,8 @@ StartChar: petastiTripleYpsili
 Encoding: 57420 57420 55
 Width: 1360
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1210 1120 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -7938,8 +7938,8 @@ StartChar: petastiKentimataTripleYpsili
 Encoding: 57421 57421 56
 Width: 1439
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1240 980 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -8334,8 +8334,8 @@ StartChar: petastiKentimaTripleYpsili
 Encoding: 57422 57422 57
 Width: 1439
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1240 950 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -8694,8 +8694,8 @@ StartChar: petastiApostrofos
 Encoding: 57440 57440 58
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 802 879 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -8780,9 +8780,9 @@ StartChar: petastiYporroi
 Encoding: 57441 57441 59
 Width: 1164
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 830 758 basechar 0
-AnchorPoint: "apli" 765 -80 basechar 0
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 936 857 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -8881,8 +8881,8 @@ StartChar: petastiElafron
 Encoding: 57442 57442 60
 Width: 1242
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -8992,8 +8992,8 @@ StartChar: petastiRunningElafron
 Encoding: 57443 57443 61
 Width: 1514
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 1095 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 1095 -50 basechar 0
 AnchorPoint: "klasmaBottom" 1071 53 basechar 0
 AnchorPoint: "yfesis" 1222 911 basechar 0
 AnchorPoint: "diesis" 754 147 basechar 0
@@ -9112,8 +9112,8 @@ StartChar: petastiElafronApostrofos
 Encoding: 57444 57444 62
 Width: 1243
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -9251,8 +9251,8 @@ StartChar: petastiChamili
 Encoding: 57445 57445 63
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -9351,8 +9351,8 @@ StartChar: petastiChamiliApostrofos
 Encoding: 57446 57446 64
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 1028 1025 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -9471,8 +9471,8 @@ StartChar: petastiChamiliElafron
 Encoding: 57447 57447 65
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -9622,8 +9622,8 @@ StartChar: petastiChamiliElafronApostrofos
 Encoding: 57448 57448 66
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -80 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -50 basechar 0
 AnchorPoint: "klasmaBottom" 800 83 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
 AnchorPoint: "diesis" 464 147 basechar 0
@@ -9801,8 +9801,8 @@ StartChar: petastiDoubleChamili
 Encoding: 57449 57449 67
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -250 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -180 basechar 0
 AnchorPoint: "klasmaBottom" 800 -63 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
 AnchorPoint: "diesis" 464 4 basechar 0
@@ -9935,8 +9935,8 @@ StartChar: petastiDoubleChamiliApostrofos
 Encoding: 57450 57450 68
 Width: 1236
 GlyphClass: 2
-Flags: W
-AnchorPoint: "apli" 765 -250 basechar 0
+Flags: HW
+AnchorPoint: "apli" 765 -180 basechar 0
 AnchorPoint: "klasmaBottom" 800 -65 basechar 0
 AnchorPoint: "yfesis" 968 1337 basechar 0
 AnchorPoint: "diesis" 464 4 basechar 0
@@ -10172,9 +10172,9 @@ StartChar: oligonKentimataBelow
 Encoding: 57474 57474 71
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 763 505 basechar 0
-AnchorPoint: "apli" 803 -227 basechar 0
+AnchorPoint: "apli" 803 -197 basechar 0
 AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 710 133 basechar 0
@@ -30646,9 +30646,9 @@ StartChar: oligonKentimataBelow.alt01
 Encoding: 61440 61440 364
 Width: 1515
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 763 505 basechar 0
-AnchorPoint: "apli" 803 -227 basechar 0
+AnchorPoint: "apli" 803 -197 basechar 0
 AnchorPoint: "klasmaTop" 793 487 basechar 0
 AnchorPoint: "yfesis" 1316 619 basechar 0
 AnchorPoint: "diesis" 710 133 basechar 0
@@ -34899,9 +34899,9 @@ EndChar
 StartChar: yporroi.gorgon
 Encoding: 61449 61449 439
 Width: 544
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 400 527 basechar 0
-AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "apli" 161 -12 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "diesis" 267 60 basechar 0
 AnchorPoint: "antikenoma" 197 100 basechar 0
@@ -34961,9 +34961,9 @@ EndChar
 StartChar: yporroi.digorgon
 Encoding: 61450 61450 440
 Width: 513
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 320 527 basechar 0
-AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "apli" 161 -12 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "diesis" 267 60 basechar 0
 AnchorPoint: "antikenoma" 197 100 basechar 0
@@ -35023,9 +35023,9 @@ EndChar
 StartChar: yporroi.trigorgon
 Encoding: 61451 61451 441
 Width: 624
-Flags: W
+Flags: HW
 AnchorPoint: "gorgonTop" 400 527 basechar 0
-AnchorPoint: "apli" 161 42 basechar 0
+AnchorPoint: "apli" 161 -12 basechar 0
 AnchorPoint: "yfesis" 308 609 basechar 0
 AnchorPoint: "diesis" 267 60 basechar 0
 AnchorPoint: "antikenoma" 197 100 basechar 0
