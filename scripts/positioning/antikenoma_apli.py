@@ -4,10 +4,13 @@ from statistics import mean, stdev
 import sys
 
 if len(sys.argv) < 2:
-    print("Usage: fontforge -script antikenoma_apli.py <font.sfd|font.otf> <newY>")
+    print(
+        "Usage: fontforge -script antikenoma_apli.py <font.sfd|font.otf> [new_y] [new_y_petasti]"
+    )
     sys.exit(1)
 
 new_y = int(sys.argv[2]) if len(sys.argv) > 2 else None
+new_y_petasti = int(sys.argv[3]) if len(sys.argv) > 3 else None
 
 font = fontforge.open(sys.argv[1])
 
@@ -31,8 +34,17 @@ if new_y is not None:
             if name != "apli":
                 continue
 
+            actual_new_y = new_y
+
+            if new_y_petasti is not None and (
+                glyph.glyphname.startswith("petasti")
+                or glyph.glyphname == "apostrofos"
+                or glyph.glyphname == "yporroi"
+            ):
+                actual_new_y = new_y_petasti
+
             # Make the relative Y distance equal to new_y.
-            y = antikenoma[3] + new_y
+            y = antikenoma[3] + actual_new_y
 
             anchors[i] = (name, anchor_type, x, y)
             modified = True

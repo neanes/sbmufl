@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646795337
-ModificationTime: 1783897680
+ModificationTime: 1783911947
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -191,7 +191,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57729 7 6
+WinInfo: 112 7 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 7340 3670 2446 0 1048576 2446 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -259,7 +259,7 @@ Flags: W
 HStem: 250 70.5<338.68 644.884> 256 108<777.651 1168.58> 423 114<194.005 265.064> 436 101<213.72 279.962>
 VStem: 0 194<400 499.5>
 AnchorPoint: "gorgonTop" 743 505 basechar 0
-AnchorPoint: "apli" 760 53 basechar 0
+AnchorPoint: "apli" 760 47 basechar 0
 AnchorPoint: "klasmaTop" 830 487 basechar 0
 AnchorPoint: "yfesis" 1273 619 basechar 0
 AnchorPoint: "diesis" 357 133 basechar 0
@@ -333,7 +333,7 @@ GlyphClass: 2
 Flags: W
 HStem: 240 122<168.121 795.312> 248 116<513.835 981.224> 257 111<745.081 1155.72>
 AnchorPoint: "gorgonTop" 707 500 basechar 0
-AnchorPoint: "apli" 730 53 basechar 0
+AnchorPoint: "apli" 730 47 basechar 0
 AnchorPoint: "klasmaTop" 720 487 basechar 0
 AnchorPoint: "yfesis" 1243 619 basechar 0
 AnchorPoint: "diesis" 327 133 basechar 0
@@ -391,7 +391,7 @@ GlyphClass: 3
 Flags: W
 HStem: 236.5 122.5<172.617 808.75> 254 111<768.424 1183.75> 389 17<1389 1409.16>
 AnchorPoint: "gorgonTop" 645 459 basechar 0
-AnchorPoint: "apli" 740 53 basechar 0
+AnchorPoint: "apli" 740 47 basechar 0
 AnchorPoint: "klasmaTop" 730 487 basechar 0
 AnchorPoint: "yfesis" 1253 619 basechar 0
 AnchorPoint: "diesis" 337 133 basechar 0
@@ -465,7 +465,7 @@ GlyphClass: 2
 Flags: W
 HStem: 147 16<881 896.572> 242 115<142.921 790.656> 255 111<726.537 1157.08>
 AnchorPoint: "gorgonTop" 698 500 basechar 0
-AnchorPoint: "apli" 681 -167 basechar 0
+AnchorPoint: "apli" 681 -173 basechar 0
 AnchorPoint: "klasmaTop" 711 487 basechar 0
 AnchorPoint: "yfesis" 1234 619 basechar 0
 AnchorPoint: "diesis" 318 133 basechar 0
@@ -542,7 +542,7 @@ GlyphClass: 2
 Flags: W
 HStem: 243 125<180.82 801.783> 253 115<513.866 981.224> 262 111<726.537 1156.06> 687 17<550 566>
 AnchorPoint: "gorgonTop" 1052 500 basechar 0
-AnchorPoint: "apli" 717 53 basechar 0
+AnchorPoint: "apli" 717 47 basechar 0
 AnchorPoint: "klasmaBottom" 699 160 basechar 0
 AnchorPoint: "klasmaTop" 297 487 basechar 0
 AnchorPoint: "yfesis" 1230 619 basechar 0
@@ -614,7 +614,7 @@ GlyphClass: 2
 Flags: W
 HStem: 242 120<226.529 910.352> 261 110<703.525 1157.21> 562 10<928.408 932.906> 569 29<1108.41 1165.66>
 AnchorPoint: "gorgonTop" 610 500 basechar 0
-AnchorPoint: "apli" 705 53 basechar 0
+AnchorPoint: "apli" 705 47 basechar 0
 AnchorPoint: "klasmaBottom" 687 160 basechar 0
 AnchorPoint: "klasmaTop" 500 487 basechar 0
 AnchorPoint: "yfesis" 1212 1040 basechar 0
@@ -762,7 +762,7 @@ GlyphClass: 2
 Flags: W
 HStem: 240 123<223.692 912.385> 258 112<703.555 1155.97> 568 9<71.6426 75.9067> 574 30<253.375 316.803>
 AnchorPoint: "gorgonTop" 1001 500 basechar 0
-AnchorPoint: "apli" 702 53 basechar 0
+AnchorPoint: "apli" 702 47 basechar 0
 AnchorPoint: "klasmaBottom" 684 160 basechar 0
 AnchorPoint: "klasmaTop" 879 487 basechar 0
 AnchorPoint: "yfesis" 1215 619 basechar 0
@@ -915,7 +915,7 @@ GlyphClass: 2
 Flags: W
 HStem: 244 123<223.692 895.852> 264 110<703.555 1155.72> 522 10<738.408 743> 528 30<885.25 979.995> 738 20<277.097 316.609>
 AnchorPoint: "gorgonTop" 645 839 basechar 0
-AnchorPoint: "apli" 740 53 basechar 0
+AnchorPoint: "apli" 740 47 basechar 0
 AnchorPoint: "klasmaBottom" 722 160 basechar 0
 AnchorPoint: "klasmaTop" 137 487 basechar 0
 AnchorPoint: "yfesis" 1253 619 basechar 0
@@ -1086,7 +1086,7 @@ GlyphClass: 2
 Flags: W
 HStem: 244 120<226.705 909.352> 263 110<703.555 1155.72> 822 9<423.646 430.406> 828 24<431.249 450.937 451.188 481.576> 1245 14<1062.39 1080.19>
 AnchorPoint: "gorgonTop" 1034 500 basechar 0
-AnchorPoint: "apli" 699 53 basechar 0
+AnchorPoint: "apli" 699 47 basechar 0
 AnchorPoint: "klasmaBottom" 681 160 basechar 0
 AnchorPoint: "klasmaTop" 249 487 basechar 0
 AnchorPoint: "yfesis" 1212 619 basechar 0
@@ -1259,7 +1259,7 @@ GlyphClass: 2
 Flags: W
 HStem: 238 121.5<223.692 912.385> 257 111<703.555 1155.97> 507 10<74.4082 78.8757> 513 30<743.633 793.66> 515 9<738.625 742.876> 521 30<902.281 983.802>
 AnchorPoint: "gorgonTop" 679 1080 basechar 0
-AnchorPoint: "apli" 722 53 basechar 0
+AnchorPoint: "apli" 722 47 basechar 0
 AnchorPoint: "klasmaBottom" 704 160 basechar 0
 AnchorPoint: "yfesis" 1299 640 basechar 0
 AnchorPoint: "diesis" 319 133 basechar 0
@@ -1501,7 +1501,7 @@ Width: 1400
 GlyphClass: 2
 Flags: W
 HStem: 239 123<223.692 912.385> 257 112<703.555 1155.72> 476 25<382.82 417.407> 583 9<757.643 761.907> 589 31<902.816 1006.96> 695 19<143.066 179.58 378.095 404.623> 842 32<294.281 385.673>
-AnchorPoint: "apli" 713 53 basechar 0
+AnchorPoint: "apli" 713 47 basechar 0
 AnchorPoint: "klasmaBottom" 695 160 basechar 0
 AnchorPoint: "yfesis" 1278 619 basechar 0
 AnchorPoint: "diesis" 310 133 basechar 0
@@ -1792,7 +1792,7 @@ Width: 1386
 GlyphClass: 2
 Flags: W
 HStem: 243 124<220.855 914.371> 262 111<703.555 1155.72> 479 30<495.098 536.495> 573 9<743.643 747.907> 710 20<245.097 283.805> 820 9<130.643 134.907> 826 30<312.375 375.802>
-AnchorPoint: "apli" 710 53 basechar 0
+AnchorPoint: "apli" 710 47 basechar 0
 AnchorPoint: "klasmaBottom" 692 160 basechar 0
 AnchorPoint: "yfesis" 1275 619 basechar 0
 AnchorPoint: "diesis" 307 133 basechar 0
@@ -2056,7 +2056,7 @@ Width: 1368
 GlyphClass: 2
 Flags: W
 HStem: 245 124<232.855 926.371> 264 111<715.555 1167.72> 575 9<1.27002 5.90674> 710 21<762.097 800.912> 827 31<811.281 892.557>
-AnchorPoint: "apli" 741 53 basechar 0
+AnchorPoint: "apli" 741 47 basechar 0
 AnchorPoint: "klasmaBottom" 723 160 basechar 0
 AnchorPoint: "yfesis" 1254 619 basechar 0
 AnchorPoint: "diesis" 338 133 basechar 0
@@ -2311,7 +2311,7 @@ Width: 1495
 GlyphClass: 2
 Flags: W
 HStem: 242 121.5<224.358 912.385> 261 111<704.555 1156.72> 574 9<1.64258 5.90674 427.625 431.876 852.643 856.907> 580 32<591.281 680.094 1033.38 1106.08>
-AnchorPoint: "apli" 719 53 basechar 0
+AnchorPoint: "apli" 719 47 basechar 0
 AnchorPoint: "klasmaBottom" 701 160 basechar 0
 AnchorPoint: "yfesis" 1386 670 basechar 0
 AnchorPoint: "diesis" 316 133 basechar 0
@@ -2651,7 +2651,7 @@ Width: 1794
 GlyphClass: 2
 Flags: W
 HStem: 241 120<379.021 1062.35> 259 111<859.005 1307.72> 468 25<821.422 858.081 1032.94 1066.13> 476 9<1.5625 4.90674 1150.12 1154.91> 482 30<164.766 246.633 1332.38 1386.54> 666 17<607.032 640.882 829.414 856.186> 786 9<607.625 611.876> 792 30<770.766 852.625>
-AnchorPoint: "apli" 825 53 basechar 0
+AnchorPoint: "apli" 825 47 basechar 0
 AnchorPoint: "klasmaBottom" 807 160 basechar 0
 AnchorPoint: "yfesis" 1352 870 basechar 0
 AnchorPoint: "diesis" 422 133 basechar 0
@@ -3024,7 +3024,7 @@ Width: 1686
 GlyphClass: 2
 Flags: W
 HStem: 240 120<358.625 1042.35> 258 111<835.555 1288.72> 468 9<1.625 5.90649> 473 29<172.094 235.702> 499 9<1075.59 1079.91> 505 29.5<1232.77 1309.07> 699 19<704.066 738.212> 783 9<634.646 640.846>
-AnchorPoint: "apli" 859 53 basechar 0
+AnchorPoint: "apli" 859 47 basechar 0
 AnchorPoint: "klasmaBottom" 841 160 basechar 0
 AnchorPoint: "yfesis" 1586 560 basechar 0
 AnchorPoint: "diesis" 456 133 basechar 0
@@ -3371,7 +3371,7 @@ GlyphClass: 2
 Flags: W
 HStem: 242 125<226.233 844.875> 252 115<557.835 1025.22> 261 111<770.043 1200.04> 479 70<333.312 644.884> 484 108<777.651 1168.58> 651 114<194.005 265.064> 664 101<195.855 281.737>
 VStem: 0 194<629 727.5>
-AnchorPoint: "apli" 771 53 basechar 0
+AnchorPoint: "apli" 771 47 basechar 0
 AnchorPoint: "klasmaBottom" 753 160 basechar 0
 AnchorPoint: "yfesis" 1284 619 basechar 0
 AnchorPoint: "diesis" 368 133 basechar 0
@@ -3470,7 +3470,7 @@ GlyphClass: 2
 Flags: W
 HStem: 240 125<182.233 800.875> 250 115<513.835 981.224> 259 111<726.043 1156.04> 647 16<299.002 327.359>
 VStem: 705 156<484.198 543.825>
-AnchorPoint: "apli" 727 53 basechar 0
+AnchorPoint: "apli" 727 47 basechar 0
 AnchorPoint: "klasmaBottom" 709 160 basechar 0
 AnchorPoint: "yfesis" 1240 619 basechar 0
 AnchorPoint: "diesis" 324 133 basechar 0
@@ -3550,7 +3550,7 @@ GlyphClass: 2
 Flags: W
 HStem: 241 125<181.08 793.69> 251 115<509.773 972.747> 260 111<719.627 1145.83> 452 58<799 887> 666 41<932.222 1004.66> 676 40<926.001 986.686>
 VStem: 779 147<619.035 675.756> 832 160<514.657 580.67>
-AnchorPoint: "apli" 714 53 basechar 0
+AnchorPoint: "apli" 714 47 basechar 0
 AnchorPoint: "klasmaBottom" 696 160 basechar 0
 AnchorPoint: "yfesis" 1227 619 basechar 0
 AnchorPoint: "diesis" 311 133 basechar 0
@@ -3642,7 +3642,7 @@ GlyphClass: 2
 Flags: W
 HStem: 241 124<223.115 913.744> 260 111<703.524 1155.72> 788 72<302.078 527.093>
 VStem: 44 195<671.247 737.234>
-AnchorPoint: "apli" 727 53 basechar 0
+AnchorPoint: "apli" 727 47 basechar 0
 AnchorPoint: "klasmaBottom" 709 160 basechar 0
 AnchorPoint: "yfesis" 1240 619 basechar 0
 AnchorPoint: "diesis" 324 133 basechar 0
@@ -3730,7 +3730,7 @@ GlyphClass: 2
 Flags: W
 HStem: 239 124<223.115 913.744> 258 111<703.524 1155.72> 643 16<363.002 391.828> 792 72<322.5 555.835>
 VStem: 62 195<675.216 741.139> 769 156<480.198 540.949>
-AnchorPoint: "apli" 727 53 basechar 0
+AnchorPoint: "apli" 727 47 basechar 0
 AnchorPoint: "klasmaBottom" 709 160 basechar 0
 AnchorPoint: "yfesis" 1240 619 basechar 0
 AnchorPoint: "diesis" 324 133 basechar 0
@@ -3846,7 +3846,7 @@ Width: 1357
 GlyphClass: 2
 Flags: W
 HStem: 242 125<175.223 801.783> 261 111<746.081 1156.72> 545 54<732 973.875> 551 72.5<476.984 566.815>
-AnchorPoint: "apli" 716 53 basechar 0
+AnchorPoint: "apli" 716 47 basechar 0
 AnchorPoint: "klasmaBottom" 698 160 basechar 0
 AnchorPoint: "yfesis" 1229 619 basechar 0
 AnchorPoint: "diesis" 313 133 basechar 0
@@ -4023,7 +4023,7 @@ Flags: W
 HStem: 397 19<36.6316 63.2109>
 AnchorPoint: "omalonConnecting" 992 89 basechar 0
 AnchorPoint: "gorgonTop" 348 580 basechar 0
-AnchorPoint: "apli" 448 -11 basechar 0
+AnchorPoint: "apli" 448 5 basechar 0
 AnchorPoint: "klasmaTop" 356 567 basechar 0
 AnchorPoint: "yfesis" 596 557 basechar 0
 AnchorPoint: "diesis" 181 100 basechar 0
@@ -4138,7 +4138,7 @@ Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
 AnchorPoint: "gorgonTop" 344.571 527 basechar 0
-AnchorPoint: "apli" 105.571 -12 basechar 0
+AnchorPoint: "apli" 105.571 4 basechar 0
 AnchorPoint: "yfesis" 252.571 609 basechar 0
 AnchorPoint: "diesis" 211.571 60 basechar 0
 AnchorPoint: "antikenoma" 141.571 100 basechar 0
@@ -4206,7 +4206,7 @@ Flags: W
 HStem: 410 72<258.078 483.093>
 VStem: 0 195<293.247 359.234>
 AnchorPoint: "gorgonTop" 567 580 basechar 0
-AnchorPoint: "apli" 528 -42 basechar 0
+AnchorPoint: "apli" 528 -48 basechar 0
 AnchorPoint: "klasmaTop" 500 620 basechar 0
 AnchorPoint: "yfesis" 920 536 basechar 0
 AnchorPoint: "diesis" 367 20 basechar 0
@@ -4265,7 +4265,7 @@ GlyphClass: 2
 Flags: W
 HStem: 400 70<960.511 1171.5> 417 15<28.8 42.4294>
 AnchorPoint: "gorgonTop" 1147 580 basechar 0
-AnchorPoint: "apli" 1132 -11 basechar 0
+AnchorPoint: "apli" 1132 -17 basechar 0
 AnchorPoint: "klasmaTop" 1060 620 basechar 0
 AnchorPoint: "yfesis" 1490 536 basechar 0
 AnchorPoint: "diesis" 937 20 basechar 0
@@ -4348,7 +4348,7 @@ Flags: W
 HStem: 240 15<308.002 332.517> 416 72<259.892 488.354>
 VStem: 0 195<299.216 365.139>
 AnchorPoint: "gorgonTop" 545 580 basechar 0
-AnchorPoint: "apli" 518 -141 basechar 0
+AnchorPoint: "apli" 518 -147 basechar 0
 AnchorPoint: "klasmaTop" 478 620 basechar 0
 AnchorPoint: "yfesis" 898 536 basechar 0
 AnchorPoint: "diesis" 345 20 basechar 0
@@ -4434,7 +4434,7 @@ GlyphClass: 2
 Flags: W
 HStem: 308 55<692 850.25> 314 71<442.968 527>
 AnchorPoint: "gorgonTop" 790 680 basechar 0
-AnchorPoint: "apli" 611 57 basechar 0
+AnchorPoint: "apli" 611 51 basechar 0
 AnchorPoint: "klasmaTop" 718 513 basechar 0
 AnchorPoint: "yfesis" 924 747 basechar 0
 AnchorPoint: "diesis" 364 201 basechar 0
@@ -4498,7 +4498,7 @@ GlyphClass: 2
 Flags: W
 HStem: 102 19<48.6316 78.4062> 293 55<692 850.25> 299 71<442.968 526>
 AnchorPoint: "gorgonTop" 777 680 basechar 0
-AnchorPoint: "apli" 534 -241 basechar 0
+AnchorPoint: "apli" 534 -247 basechar 0
 AnchorPoint: "klasmaTop" 705 513 basechar 0
 AnchorPoint: "yfesis" 911 747 basechar 0
 AnchorPoint: "diesis" 286 16 basechar 0
@@ -4581,7 +4581,7 @@ GlyphClass: 2
 Flags: W
 HStem: 386 76<251.756 468.303> 496 242<535 625> 593 54<712 953.875>
 AnchorPoint: "gorgonTop" 756 1010 basechar 0
-AnchorPoint: "apli" 512 -21 basechar 0
+AnchorPoint: "apli" 512 -27 basechar 0
 AnchorPoint: "klasmaTop" 744 820 basechar 0
 AnchorPoint: "yfesis" 942 1051 basechar 0
 AnchorPoint: "diesis" 395 16 basechar 0
@@ -4679,7 +4679,7 @@ Flags: W
 HStem: 219 15<307.51 333.007> 396 71<262.727 493.594> 592 55<714 873.248>
 VStem: 0 196<277.217 343.619>
 AnchorPoint: "gorgonTop" 777 1010 basechar 0
-AnchorPoint: "apli" 533 -130 basechar 0
+AnchorPoint: "apli" 533 -136 basechar 0
 AnchorPoint: "klasmaTop" 765 820 basechar 0
 AnchorPoint: "yfesis" 963 1051 basechar 0
 AnchorPoint: "diesis" 416 16 basechar 0
@@ -4787,7 +4787,7 @@ GlyphClass: 2
 Flags: W
 HStem: 296 55<691 850.25> 637 54<737 978.875> 643 70<494.01 571>
 AnchorPoint: "gorgonTop" 780 1027 basechar 0
-AnchorPoint: "apli" 556 63 basechar 0
+AnchorPoint: "apli" 556 57 basechar 0
 AnchorPoint: "klasmaTop" 668 933 basechar 0
 AnchorPoint: "yfesis" 926 1097 basechar 0
 AnchorPoint: "diesis" 425 161 basechar 0
@@ -4884,11 +4884,11 @@ GlyphClass: 2
 Flags: W
 HStem: 105 18<47.8333 70.9272> 295 55<692 851.25> 302 70<442.968 527> 636 55<738 889.257> 642 70<495.251 572>
 AnchorPoint: "gorgonTop" 781 1047 basechar 0
-AnchorPoint: "apli" 537 -232 basechar 0
+AnchorPoint: "apli" 537 -288 basechar 0
 AnchorPoint: "klasmaTop" 669 933 basechar 0
 AnchorPoint: "yfesis" 927 1097 basechar 0
 AnchorPoint: "diesis" 420 16 basechar 0
-AnchorPoint: "antikenoma" 543 -120 basechar 0
+AnchorPoint: "antikenoma" 543 -170 basechar 0
 AnchorPoint: "fthoraTop" 735 1105 basechar 0
 AnchorPoint: "fthoraBottom" 571 -120 basechar 0
 AnchorPoint: "noteTop" 204 1223 basechar 0
@@ -5001,11 +5001,11 @@ GlyphClass: 2
 Flags: W
 HStem: 83 75<254.139 468.303> 192 242<535 625> 289 54<712 953.875> 630 54<758 998.938> 636 70<515.251 592>
 AnchorPoint: "gorgonTop" 756 1047 basechar 0
-AnchorPoint: "apli" 512 -235 basechar 0
+AnchorPoint: "apli" 512 -341 basechar 0
 AnchorPoint: "klasmaTop" 644 933 basechar 0
 AnchorPoint: "yfesis" 902 1097 basechar 0
 AnchorPoint: "diesis" 399 -191 basechar 0
-AnchorPoint: "antikenoma" 581 -123 basechar 0
+AnchorPoint: "antikenoma" 581 -223 basechar 0
 AnchorPoint: "fthoraTop" 710 1105 basechar 0
 AnchorPoint: "fthoraBottom" 546 -120 basechar 0
 AnchorPoint: "noteTop" 179 1223 basechar 0
@@ -5138,11 +5138,11 @@ Flags: W
 HStem: -83 16<307.502 336.359> 94 71<261.727 492.594> 290 55<713 872.248> 297 72.5<458.298 547.815> 631 54<759 999.938>
 VStem: 0 195<-23.7837 41.6191>
 AnchorPoint: "gorgonTop" 777 1047 basechar 0
-AnchorPoint: "apli" 533 -344 basechar 0
+AnchorPoint: "apli" 533 -410 basechar 0
 AnchorPoint: "klasmaTop" 665 933 basechar 0
 AnchorPoint: "yfesis" 923 1097 basechar 0
 AnchorPoint: "diesis" 420 -191 basechar 0
-AnchorPoint: "antikenoma" 530 -232 basechar 0
+AnchorPoint: "antikenoma" 530 -292 basechar 0
 AnchorPoint: "fthoraTop" 731 1105 basechar 0
 AnchorPoint: "fthoraBottom" 567 -230 basechar 0
 AnchorPoint: "noteTop" 200 1223 basechar 0
@@ -5280,11 +5280,11 @@ GlyphClass: 2
 Flags: W
 HStem: 193 54<702 942.938> 199 72.5<446.67 535.893> 555 55<692 851.248> 561 71<442.968 527> 896 54<738 978.938> 902 72.5<483.269 571.893>
 AnchorPoint: "gorgonTop" 758 1197 basechar 0
-AnchorPoint: "apli" 554 19 basechar 0
+AnchorPoint: "apli" 554 -57 basechar 0
 AnchorPoint: "klasmaTop" 666 1107 basechar 0
 AnchorPoint: "yfesis" 872 1227 basechar 0
 AnchorPoint: "diesis" 443 167 basechar 0
-AnchorPoint: "antikenoma" 550 131 basechar 0
+AnchorPoint: "antikenoma" 550 61 basechar 0
 AnchorPoint: "fthoraTop" 752 1235 basechar 0
 AnchorPoint: "fthoraBottom" 588 120 basechar 0
 AnchorPoint: "noteTop" 221 1363 basechar 0
@@ -5411,7 +5411,7 @@ GlyphClass: 2
 Flags: W
 HStem: 220 46<681.859 1005.06> 470 41<354.003 431.646> 592 71<301.434 581.25> 598 108<662.694 1041.79> 765 115<172.004 236.188> 778 102<110.672 249.614>
 VStem: 0 172<743 842> 1070 175<318.479 399>
-AnchorPoint: "apli" 726 -50 basechar 0
+AnchorPoint: "apli" 726 -34 basechar 0
 AnchorPoint: "klasmaBottom" 761 83 basechar 0
 AnchorPoint: "yfesis" 1140 915 basechar 0
 AnchorPoint: "diesis" 425 147 basechar 0
@@ -5519,7 +5519,7 @@ Width: 1126
 GlyphClass: 2
 Flags: W
 HStem: 165 47<556.984 888.815> 414.5 42<236.003 313.909>
-AnchorPoint: "apli" 697 -50 basechar 0
+AnchorPoint: "apli" 697 -34 basechar 0
 AnchorPoint: "klasmaBottom" 732 83 basechar 0
 AnchorPoint: "yfesis" 1045 691 basechar 0
 AnchorPoint: "diesis" 396 147 basechar 0
@@ -5587,7 +5587,7 @@ GlyphClass: 2
 Flags: W
 HStem: 183 47<562.984 894.815> 433 41<242.034 321.688> 613 98<149.062 502.77> 615 98<414.13 727.384 758.5 827.337> 628 88<570.931 948.011>
 VStem: 958 175<282.259 363>
-AnchorPoint: "apli" 633 -50 basechar 0
+AnchorPoint: "apli" 633 -34 basechar 0
 AnchorPoint: "klasmaBottom" 648 83 basechar 0
 AnchorPoint: "yfesis" 961 991 basechar 0
 AnchorPoint: "diesis" 312 147 basechar 0
@@ -5678,7 +5678,7 @@ GlyphClass: 2
 Flags: W
 HStem: 179 47<556.984 888.756> 430 40.5<236.003 313.646> 718 21<416.129 454.912>
 VStem: 952 175<278.587 359>
-AnchorPoint: "apli" 707 -50 basechar 0
+AnchorPoint: "apli" 707 -34 basechar 0
 AnchorPoint: "klasmaBottom" 742 83 basechar 0
 AnchorPoint: "yfesis" 1055 691 basechar 0
 AnchorPoint: "diesis" 406 147 basechar 0
@@ -5762,7 +5762,7 @@ Width: 1350
 GlyphClass: 2
 Flags: W
 HStem: 169 48<558.211 889.339> 590 9<707.259 710.978> 831 1<1227.1 1228.07>
-AnchorPoint: "apli" 682.071 -50 basechar 0
+AnchorPoint: "apli" 682.071 -34 basechar 0
 AnchorPoint: "klasmaBottom" 717.071 83 basechar 0
 AnchorPoint: "yfesis" 977.071 1040 basechar 0
 AnchorPoint: "diesis" 381.071 147 basechar 0
@@ -5941,7 +5941,7 @@ GlyphClass: 2
 Flags: W
 HStem: 168 48<558.975 889.02> 592 10<17.5801 22.9988> 595 33<182.281 287.148>
 VStem: 951 175<267.686 348>
-AnchorPoint: "apli" 687 -50 basechar 0
+AnchorPoint: "apli" 687 -34 basechar 0
 AnchorPoint: "klasmaBottom" 722 83 basechar 0
 AnchorPoint: "yfesis" 1035 691 basechar 0
 AnchorPoint: "diesis" 386 147 basechar 0
@@ -6116,7 +6116,7 @@ Width: 1406
 GlyphClass: 2
 Flags: W
 HStem: 174 48<558.798 889.02> 422 20<289.78 320> 424 42<239.609 313.889> 548 58<926.285 943.719 944.375 1072.63> 568 8<762.481 767.907> 752 16<420 432.703>
-AnchorPoint: "apli" 713 -50 basechar 0
+AnchorPoint: "apli" 713 -34 basechar 0
 AnchorPoint: "klasmaBottom" 748 83 basechar 0
 AnchorPoint: "yfesis" 1008 1010 basechar 0
 AnchorPoint: "diesis" 412 147 basechar 0
@@ -6301,7 +6301,7 @@ Width: 1126
 GlyphClass: 2
 Flags: W
 HStem: 172 47<558.798 889.02> 694 16<437 449.982> 816 9<288.643 292.907>
-AnchorPoint: "apli" 713 -50 basechar 0
+AnchorPoint: "apli" 713 -34 basechar 0
 AnchorPoint: "klasmaBottom" 748 83 basechar 0
 AnchorPoint: "yfesis" 1061 691 basechar 0
 AnchorPoint: "diesis" 412 147 basechar 0
@@ -6498,7 +6498,7 @@ GlyphClass: 2
 Flags: W
 HStem: 169 47<595.151 925.479> 419 41.5<275.125 347.986> 562 10<1.4082 5.87573 814.408 818.876> 568 31<147.331 250.779>
 VStem: 987 175<269.096 348>
-AnchorPoint: "apli" 763 -50 basechar 0
+AnchorPoint: "apli" 763 -34 basechar 0
 AnchorPoint: "klasmaBottom" 798 83 basechar 0
 AnchorPoint: "yfesis" 1008 1040 basechar 0
 AnchorPoint: "diesis" 462 147 basechar 0
@@ -6768,7 +6768,7 @@ GlyphClass: 2
 Flags: W
 HStem: 170 47<559.457 890.449> 551 27<485.047 523.081> 559 9<816.301 835.5> 750 17<273.098 306.003 494.376 522.117> 870 9<272.301 276.907> 876 29<417.816 509.25>
 VStem: 952 175<269.258 350>
-AnchorPoint: "apli" 696 -50 basechar 0
+AnchorPoint: "apli" 696 -34 basechar 0
 AnchorPoint: "klasmaBottom" 731 83 basechar 0
 AnchorPoint: "yfesis" 1061 980 basechar 0
 AnchorPoint: "diesis" 395 147 basechar 0
@@ -7069,7 +7069,7 @@ Width: 1400
 GlyphClass: 2
 Flags: W
 HStem: 166 47<558.798 889.02> 537 9<757.643 761.907> 543 30<921.25 1002.63> 688 16<437 449.982> 810 9<288.643 292.907>
-AnchorPoint: "apli" 713 -50 basechar 0
+AnchorPoint: "apli" 713 -34 basechar 0
 AnchorPoint: "klasmaBottom" 748 83 basechar 0
 AnchorPoint: "yfesis" 1038 1000 basechar 0
 AnchorPoint: "diesis" 412 147 basechar 0
@@ -7357,7 +7357,7 @@ Width: 1248
 GlyphClass: 2
 Flags: W
 HStem: 168 47<680.798 1011.02> 593 9<1.64258 5.90674> 707 16<666.344 677.572> 821 10<570.408 574.876> 827 30<733.766 816.245>
-AnchorPoint: "apli" 835 -50 basechar 0
+AnchorPoint: "apli" 835 -34 basechar 0
 AnchorPoint: "klasmaBottom" 870 83 basechar 0
 AnchorPoint: "yfesis" 1183 691 basechar 0
 AnchorPoint: "diesis" 534 147 basechar 0
@@ -7638,7 +7638,7 @@ Width: 1414
 GlyphClass: 2
 Flags: W
 HStem: 172 47<572.798 903.02> 541 9<1.1875 4.90674 387.735 391.999 773.129 775.907> 547 32<550.766 642.382 935.25 1039.89>
-AnchorPoint: "apli" 727 -50 basechar 0
+AnchorPoint: "apli" 727 -34 basechar 0
 AnchorPoint: "klasmaBottom" 762 83 basechar 0
 AnchorPoint: "yfesis" 1172 1120 basechar 0
 AnchorPoint: "diesis" 426 147 basechar 0
@@ -7996,7 +7996,7 @@ Width: 1859
 GlyphClass: 2
 Flags: W
 HStem: 144 49<909.974 1266.46> 396 44.5<487.002 583.364> 535 9<1.625 5.87573> 539 33.5<166.797 274.965> 547 25<873.82 907.643> 566 9<1216 1219.91> 572 29<1360.75 1460.41> 766 19<634.066 670.58 866.528 896> 863 9<641.38 647.695> 947 3<982 986.457>
-AnchorPoint: "apli" 910 -50 basechar 0
+AnchorPoint: "apli" 910 -34 basechar 0
 AnchorPoint: "klasmaBottom" 945 83 basechar 0
 AnchorPoint: "yfesis" 1385 980 basechar 0
 AnchorPoint: "diesis" 609 147 basechar 0
@@ -8393,7 +8393,7 @@ GlyphClass: 2
 Flags: W
 HStem: 126 49<944.089 1301.54> 378 44.5<522.002 616.975> 512 9<1.625 5.90649> 517.5 29.5<146.754 252.096 1009 1036> 524 57<1388.25 1488.24> 543 10<1178.02 1182.88> 744 18<770.066 805.461> 828 9<697.883 704.406>
 VStem: 1372 208<233.094 309>
-AnchorPoint: "apli" 936 -50 basechar 0
+AnchorPoint: "apli" 936 -34 basechar 0
 AnchorPoint: "klasmaBottom" 971 83 basechar 0
 AnchorPoint: "yfesis" 1411 950 basechar 0
 AnchorPoint: "diesis" 635 147 basechar 0
@@ -8754,7 +8754,7 @@ GlyphClass: 2
 Flags: W
 HStem: 163 47<556.984 888.815> 412.5 42<236.003 314.76> 639 18<88.4444 110.927>
 VStem: 575 189<440.463 505.276> 952 175<262.479 343>
-AnchorPoint: "apli" 687 -50 basechar 0
+AnchorPoint: "apli" 687 -34 basechar 0
 AnchorPoint: "klasmaBottom" 722 83 basechar 0
 AnchorPoint: "yfesis" 724 879 basechar 0
 AnchorPoint: "diesis" 386 147 basechar 0
@@ -8843,7 +8843,7 @@ Flags: W
 HStem: 153 47<556.984 888.501> 380 58<525.812 652.5> 403 40.5<235.034 313.819> 594 41<683.253 755.624> 604 40<676.032 736.717>
 VStem: 583 159<446.189 511.148> 951 175<250.98 333>
 AnchorPoint: "gorgonTop" 813 758 basechar 0
-AnchorPoint: "apli" 748 -50 basechar 0
+AnchorPoint: "apli" 748 -34 basechar 0
 AnchorPoint: "klasmaBottom" 783 83 basechar 0
 AnchorPoint: "yfesis" 919 857 basechar 0
 AnchorPoint: "diesis" 447 147 basechar 0
@@ -8945,7 +8945,7 @@ GlyphClass: 2
 Flags: W
 HStem: 169 47<571.975 903.449> 419 41.5<253.125 325.986> 796 72<260.5 488.434>
 VStem: 0 196<678.247 745.87> 965 175<269.096 349>
-AnchorPoint: "apli" 715 -50 basechar 0
+AnchorPoint: "apli" 715 -34 basechar 0
 AnchorPoint: "klasmaBottom" 750 83 basechar 0
 AnchorPoint: "yfesis" 978 1025 basechar 0
 AnchorPoint: "diesis" 414 147 basechar 0
@@ -9058,7 +9058,7 @@ GlyphClass: 2
 Flags: W
 HStem: 139 46<1283.85 1607.82> 389 41<956.034 1033.93> 796 72<962.5 1190.43> 798 15<29.3333 42.4647>
 VStem: 702 196<678.247 745.87> 1672 175<238.259 318>
-AnchorPoint: "apli" 1427 -50 basechar 0
+AnchorPoint: "apli" 1427 -34 basechar 0
 AnchorPoint: "klasmaBottom" 1403 53 basechar 0
 AnchorPoint: "yfesis" 1554 911 basechar 0
 AnchorPoint: "diesis" 1086 147 basechar 0
@@ -9180,7 +9180,7 @@ GlyphClass: 2
 Flags: W
 HStem: 180 46<634.537 962.311> 430 42<312.609 387.234> 654 8<279.617 302.537> 804 70<261.953 490.969>
 VStem: 0 195<685.247 753.619> 1025 175<278.83 360>
-AnchorPoint: "apli" 747 -50 basechar 0
+AnchorPoint: "apli" 747 -34 basechar 0
 AnchorPoint: "klasmaBottom" 782 83 basechar 0
 AnchorPoint: "yfesis" 1010 1025 basechar 0
 AnchorPoint: "diesis" 446 147 basechar 0
@@ -9320,7 +9320,7 @@ Width: 1128
 GlyphClass: 2
 Flags: W
 HStem: 171 47<559.311 888.739> 420.5 42<239.122 312.909> 673 54<714 954.938> 679 70<470.01 548>
-AnchorPoint: "apli" 709 -50 basechar 0
+AnchorPoint: "apli" 709 -34 basechar 0
 AnchorPoint: "klasmaBottom" 744 83 basechar 0
 AnchorPoint: "yfesis" 972 1025 basechar 0
 AnchorPoint: "diesis" 408 147 basechar 0
@@ -9422,7 +9422,7 @@ GlyphClass: 2
 Flags: W
 HStem: 147 47<556.984 889.053> 397 41<236.003 313.909> 622 18<88.4444 110.927> 770 55<734 892.25> 776 71<484.68 568>
 VStem: 952 175<246.259 327>
-AnchorPoint: "apli" 713 -50 basechar 0
+AnchorPoint: "apli" 713 -34 basechar 0
 AnchorPoint: "klasmaBottom" 748 83 basechar 0
 AnchorPoint: "yfesis" 976 1025 basechar 0
 AnchorPoint: "diesis" 412 147 basechar 0
@@ -9544,7 +9544,7 @@ GlyphClass: 2
 Flags: W
 HStem: 171 47<632.975 963.02> 795 72<260.5 493.684> 953 54<795 1031.06> 959 70<552.251 630>
 VStem: 0 195<677.247 743.98>
-AnchorPoint: "apli" 724 -50 basechar 0
+AnchorPoint: "apli" 724 -34 basechar 0
 AnchorPoint: "klasmaBottom" 759 83 basechar 0
 AnchorPoint: "yfesis" 927 1337 basechar 0
 AnchorPoint: "diesis" 423 147 basechar 0
@@ -9697,7 +9697,7 @@ GlyphClass: 2
 Flags: W
 HStem: 175 47<632.975 963.02> 650 16<301.002 329.828> 799 72<260.5 493.684> 957 54<795 1031.06> 963 70<552.251 630>
 VStem: 0 195<681.247 747.98> 707 156<487.198 547.697>
-AnchorPoint: "apli" 724 -50 basechar 0
+AnchorPoint: "apli" 724 -34 basechar 0
 AnchorPoint: "klasmaBottom" 759 83 basechar 0
 AnchorPoint: "yfesis" 927 1337 basechar 0
 AnchorPoint: "diesis" 423 147 basechar 0
@@ -9878,7 +9878,7 @@ GlyphClass: 2
 Flags: W
 HStem: 26 47<609.311 938.739> 276 41<285.003 362.909> 523 55<692 933.875> 530 72.5<436.984 526.872> 854 54<738 978.938> 860 70<494.748 572>
 VStem: 1001 175<125.259 206>
-AnchorPoint: "apli" 756 -180 basechar 0
+AnchorPoint: "apli" 756 -164 basechar 0
 AnchorPoint: "klasmaBottom" 791 -63 basechar 0
 AnchorPoint: "yfesis" 959 1337 basechar 0
 AnchorPoint: "diesis" 455 4 basechar 0
@@ -10013,7 +10013,7 @@ Width: 1193
 GlyphClass: 2
 Flags: W
 HStem: 31 47<559.311 889.053> 280.5 42<238.93 313.909> 506 18<87.8333 110.927> 654 55<733 892.248> 660 71<483.968 568> 995 55<779 950.965> 1001 72.5<523.67 612.893>
-AnchorPoint: "apli" 741 -180 basechar 0
+AnchorPoint: "apli" 741 -164 basechar 0
 AnchorPoint: "klasmaBottom" 776 -65 basechar 0
 AnchorPoint: "yfesis" 944 1337 basechar 0
 AnchorPoint: "diesis" 440 4 basechar 0
@@ -10255,7 +10255,7 @@ GlyphClass: 2
 Flags: W
 HStem: -5 25<1036 1121.18 1298.25 1331.32> 193 17<872.067 905.465 1094.81 1121.12> 241 115<142.921 790.656> 254 111<726.537 1156.04>
 AnchorPoint: "gorgonTop" 691 505 basechar 0
-AnchorPoint: "apli" 731 -197 basechar 0
+AnchorPoint: "apli" 731 -203 basechar 0
 AnchorPoint: "klasmaTop" 721 487 basechar 0
 AnchorPoint: "yfesis" 1244 619 basechar 0
 AnchorPoint: "diesis" 638 133 basechar 0
@@ -30808,7 +30808,7 @@ GlyphClass: 2
 Flags: W
 HStem: -20 24<749.75 783.697> -18 204<855 950> 178 18<534.098 568.115 756.67 783.182> 242 114<138.809 790.656> 254 112<746.081 1156.72>
 AnchorPoint: "gorgonTop" 693 505 basechar 0
-AnchorPoint: "apli" 733 -197 basechar 0
+AnchorPoint: "apli" 733 -203 basechar 0
 AnchorPoint: "klasmaTop" 723 487 basechar 0
 AnchorPoint: "yfesis" 1246 619 basechar 0
 AnchorPoint: "diesis" 640 133 basechar 0
@@ -35097,7 +35097,7 @@ Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
 AnchorPoint: "gorgonTop" 344.571 527 basechar 0
-AnchorPoint: "apli" 105.571 -12 basechar 0
+AnchorPoint: "apli" 105.571 -18 basechar 0
 AnchorPoint: "yfesis" 252.571 609 basechar 0
 AnchorPoint: "diesis" 211.571 60 basechar 0
 AnchorPoint: "antikenoma" 141.571 100 basechar 0
@@ -35161,7 +35161,7 @@ Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
 AnchorPoint: "gorgonTop" 264.571 527 basechar 0
-AnchorPoint: "apli" 105.571 -12 basechar 0
+AnchorPoint: "apli" 105.571 -18 basechar 0
 AnchorPoint: "yfesis" 252.571 609 basechar 0
 AnchorPoint: "diesis" 211.571 60 basechar 0
 AnchorPoint: "antikenoma" 141.571 100 basechar 0
@@ -35225,7 +35225,7 @@ Flags: W
 HStem: 176 58<108.198 234.571> 390 41<264.824 337.231> 399 41<258.573 319.288>
 VStem: 111.571 147<342.094 398.95> 164.571 160<238.672 305.396>
 AnchorPoint: "gorgonTop" 344.571 527 basechar 0
-AnchorPoint: "apli" 105.571 -12 basechar 0
+AnchorPoint: "apli" 105.571 -18 basechar 0
 AnchorPoint: "yfesis" 252.571 609 basechar 0
 AnchorPoint: "diesis" 211.571 60 basechar 0
 AnchorPoint: "antikenoma" 141.571 100 basechar 0
