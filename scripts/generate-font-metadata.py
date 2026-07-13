@@ -1,33 +1,18 @@
 import argparse
 import json
 import os
-import site
-import sys
 import tempfile
 from pathlib import Path
 
 import fontforge
+from fontTools.feaLib import ast
+from fontTools.feaLib.parser import Parser
 from generate_collision_regions import (
     generate_collision_regions_for_glyph,
     write_debug_svg,
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parent
-VENV_DIR = REPO_ROOT / ".venv"
-
-site_packages = (
-    VENV_DIR
-    / "lib"
-    / f"python{sys.version_info.major}.{sys.version_info.minor}"
-    / "site-packages"
-)
-
-if site_packages.exists():
-    site.addsitedir(str(site_packages))
-
-from fontTools.feaLib import ast
-from fontTools.feaLib.parser import Parser
 
 collision_regions_dir = str(SCRIPT_DIR.parent / "sources" / "collision_regions")
 

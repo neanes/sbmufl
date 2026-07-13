@@ -20,48 +20,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v6.0.3
 
       - name: Lint Markdown
         uses: DavidAnson/markdownlint-cli2-action@v23.2.0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6.2.0
-        with:
-          python-version: "3.14"
-          cache: "pip"
+      - name: Build toolchain image
+        run: make image
 
-      - name: Install OS dependencies
-        run: sudo apt-get update && sudo apt-get install -y python3-fonttools fontforge
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run black
-        run: black --check .
-
-      - name: Run isort
-        run: isort --check-only --profile black .
-
-      - name: Run mypy
-        run: mypy --ignore-missing-imports tools/fontbakery/*.py
+      - name: Lint
+        run: make lint
 
       - name: Build fonts
-        working-directory: ./scripts
-        run: ./build.sh
+        run: make build
 
-      - name: Font Bakery universal checks
-        uses: f-actions/font-bakery@v3.2.0
-        with:
-          subcmd: "check-universal"
-          args: "--error-code-on FATAL"
-          path: "fonts/*.otf"
-          version: "1.1.0"
+      - name: Check that the committed build outputs are up to date
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git status
+            git diff --stat
+            echo "::error::Building the fonts changed the committed outputs. Rebuild with make build and commit the result."
+            exit 1
+          fi
 
-      - name: Font Bakery SBMuFL checks
-        uses: f-actions/font-bakery@v3.2.0
-        with:
-          subcmd: "check-profile"
-          args: "tools/fontbakery/sbmufl_profile.py"
-          path: "fonts/*.otf"
-          version: "1.1.0"
+      - name: Font Bakery checks
+        run: make test

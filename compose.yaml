@@ -1,0 +1,17 @@
+---
+services:
+  dockerfmt:
+    image: ghcr.io/reteps/dockerfmt:v0.5.4
+    volumes:
+      - .:/work:Z
+    working_dir: /work
+
+  hadolint:
+    image: hadolint/hadolint:v2.14.0
+
+  toolchain:
+    build:
+      context: .
+    image: sbmufl-build
+    volumes:
+      - .:/work:Z

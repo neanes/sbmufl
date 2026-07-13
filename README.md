@@ -26,6 +26,16 @@ Example fonts are included in the `fonts` directory.
 
 ## Development
 
+### Building the Fonts
+
+The toolchain runs in Docker. With Docker and GNU Make installed, run:
+
+```bash
+make
+```
+
+to lint, build the fonts, and run the Font Bakery checks. The individual targets are `make lint`, `make build`, `make test`, `make lint-fix` (apply formatting fixes), and `make shell` (interactive shell inside the toolchain container).
+
 ### Developing the Documentation
 
 1. Install docsify.
