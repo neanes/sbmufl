@@ -10,6 +10,7 @@ services:
     image: hadolint/hadolint:v2.14.0
 
   toolchain:
+    platform: linux/amd64
     build:
       context: .
     image: sbmufl-build
