@@ -5,7 +5,7 @@ FamilyName: NeanesRTL
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.8
+Version: 1.0.9
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -1425,7 +1425,7 @@ AnchorPoint: "heteronConnecting" -257.982 -19 basechar 0
 AnchorPoint: "heteron" 945.018 207 basechar 0
 AnchorPoint: "omalonConnecting" -28.9824 133 basechar 0
 AnchorPoint: "omalon" 949.018 133 basechar 0
-AnchorPoint: "apli" 721.018 30 basechar 0
+AnchorPoint: "apli" 721.018 52 basechar 0
 AnchorPoint: "antikenoma" 738.018 165 basechar 0
 AnchorPoint: "noteTop" 232.018 676 basechar 0
 AnchorPoint: "fthoraBottom" 707.018 209 basechar 0
@@ -1485,7 +1485,7 @@ Width: 1337
 VWidth: 345
 Flags: W
 HStem: -17 19<1023.14 1050.62> 157 23<759.643 804.189> 246 121<100.497 1243.82>
-AnchorPoint: "apli" 680.777 -180 basechar 0
+AnchorPoint: "apli" 680.777 -168 basechar 0
 AnchorPoint: "gorgonBottom" 367.777 125 basechar 0
 AnchorPoint: "yfenAbove" 502.777 641 basechar 0
 AnchorPoint: "yfenBelow" 503.777 -200 basechar 0
@@ -1570,7 +1570,7 @@ AnchorPoint: "heteronConnecting" -259.223 -19 basechar 0
 AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 705.777 507 basechar 0
@@ -1630,7 +1630,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 1170.78 440 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -1706,7 +1706,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 474.777 489 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -1793,7 +1793,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 105.777 750 basechar 0
 AnchorPoint: "fthoraTop" 806.777 501 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -1880,7 +1880,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 275.777 507 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -1983,7 +1983,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 1144.78 447 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -2084,7 +2084,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 111.777 772 basechar 0
 AnchorPoint: "fthoraTop" 595.777 507 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -2197,7 +2197,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" 42.7773 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 73.7773 680 basechar 0
 AnchorPoint: "fthoraTop" 231.777 1071 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -2494,7 +2494,7 @@ AnchorPoint: "heteronConnecting" -256.75 -19 basechar 0
 AnchorPoint: "measureNumber" -1.75 483 basechar 0
 AnchorPoint: "isonIndicator" 138.25 913 basechar 0
 AnchorPoint: "heteron" 242.25 -86 basechar 0
-AnchorPoint: "apli" 87.25 42 basechar 0
+AnchorPoint: "apli" 87.25 12 basechar 0
 AnchorPoint: "antikenoma" 123.25 100 basechar 0
 AnchorPoint: "noteTop" 82.25 675 basechar 0
 AnchorPoint: "fthoraTop" 234.25 609 basechar 0
@@ -2542,7 +2542,7 @@ AnchorPoint: "measureNumber" 90.25 653 basechar 0
 AnchorPoint: "isonIndicator" 936.25 939 basechar 0
 AnchorPoint: "heteronConnecting" -258.75 -19 basechar 0
 AnchorPoint: "omalonConnecting" -80.75 89 basechar 0
-AnchorPoint: "apli" 540.25 13 basechar 0
+AnchorPoint: "apli" 540.25 -12 basechar 0
 AnchorPoint: "antikenoma" 1109.25 101 basechar 0
 AnchorPoint: "noteTop" 660.25 703 basechar 0
 AnchorPoint: "fthoraTop" 506.25 660 basechar 0
@@ -2639,7 +2639,7 @@ AnchorPoint: "isonIndicator" 449.25 939 basechar 0
 AnchorPoint: "gorgonBottom" 408.25 -18 basechar 0
 AnchorPoint: "heteronConnecting" -255.75 -19 basechar 0
 AnchorPoint: "omalonConnecting" -76.75 89 basechar 0
-AnchorPoint: "apli" 509.25 -1 basechar 0
+AnchorPoint: "apli" 509.25 -43 basechar 0
 AnchorPoint: "antikenoma" 487.25 70 basechar 0
 AnchorPoint: "noteTop" 163.25 703 basechar 0
 AnchorPoint: "fthoraTop" 439.25 660 basechar 0
@@ -2714,7 +2714,7 @@ AnchorPoint: "measureNumber" 93.25 643 basechar 0
 AnchorPoint: "isonIndicator" 449.25 939 basechar 0
 AnchorPoint: "heteronConnecting" -255.75 -19 basechar 0
 AnchorPoint: "omalonConnecting" -76.75 89 basechar 0
-AnchorPoint: "apli" 521.25 -93 basechar 0
+AnchorPoint: "apli" 521.25 -142 basechar 0
 AnchorPoint: "antikenoma" 502.25 -29 basechar 0
 AnchorPoint: "noteTop" 153.25 703 basechar 0
 AnchorPoint: "fthoraTop" 439.25 660 basechar 0
@@ -2811,7 +2811,7 @@ AnchorPoint: "measureNumber" 100.266 943 basechar 0
 AnchorPoint: "isonIndicator" 456.266 1039 basechar 0
 AnchorPoint: "heteronConnecting" -242.734 -180 basechar 0
 AnchorPoint: "omalonConnecting" -65.7344 -40 basechar 0
-AnchorPoint: "apli" 504.266 -211 basechar 0
+AnchorPoint: "apli" 504.266 -242 basechar 0
 AnchorPoint: "antikenoma" 507.266 -129 basechar 0
 AnchorPoint: "noteTop" 170.266 933 basechar 0
 AnchorPoint: "fthoraTop" 701.266 765 basechar 0
@@ -2905,7 +2905,7 @@ AnchorPoint: "isonIndicator" 456.266 1039 basechar 0
 AnchorPoint: "gorgonBottom" 321.266 125 basechar 0
 AnchorPoint: "heteronConnecting" -242.734 -19 basechar 0
 AnchorPoint: "omalonConnecting" -69.7344 89 basechar 0
-AnchorPoint: "apli" 568.266 76 basechar 0
+AnchorPoint: "apli" 568.266 56 basechar 0
 AnchorPoint: "antikenoma" 570.266 169 basechar 0
 AnchorPoint: "noteTop" 170.266 923 basechar 0
 AnchorPoint: "fthoraTop" 701.266 765 basechar 0
@@ -2977,7 +2977,7 @@ AnchorPoint: "measureNumber" 93.25 1233 basechar 0
 AnchorPoint: "isonIndicator" 449.25 1369 basechar 0
 AnchorPoint: "heteronConnecting" -258.75 -19 basechar 0
 AnchorPoint: "omalonConnecting" -78.75 89 basechar 0
-AnchorPoint: "apli" 496.25 -10 basechar 0
+AnchorPoint: "apli" 496.25 -22 basechar 0
 AnchorPoint: "antikenoma" 490.25 91 basechar 0
 AnchorPoint: "noteTop" 163.25 1223 basechar 0
 AnchorPoint: "fthoraTop" 694.25 1065 basechar 0
@@ -3093,7 +3093,7 @@ AnchorPoint: "measureNumber" 93.25 1233 basechar 0
 AnchorPoint: "isonIndicator" 449.25 1369 basechar 0
 AnchorPoint: "heteronConnecting" -255.75 -19 basechar 0
 AnchorPoint: "omalonConnecting" -75.75 89 basechar 0
-AnchorPoint: "apli" 496.25 -110 basechar 0
+AnchorPoint: "apli" 496.25 -131 basechar 0
 AnchorPoint: "antikenoma" 498.25 -18 basechar 0
 AnchorPoint: "noteTop" 163.25 1223 basechar 0
 AnchorPoint: "fthoraTop" 694.25 1085 basechar 0
@@ -3232,7 +3232,7 @@ AnchorPoint: "measureNumber" 103.728 1223 basechar 0
 AnchorPoint: "isonIndicator" 459.728 1386 basechar 0
 AnchorPoint: "heteronConnecting" -245.272 -19 basechar 0
 AnchorPoint: "omalonConnecting" -69.2725 89 basechar 0
-AnchorPoint: "apli" 526.728 70 basechar 0
+AnchorPoint: "apli" 526.728 62 basechar 0
 AnchorPoint: "antikenoma" 525.728 175 basechar 0
 AnchorPoint: "noteTop" 173.728 1223 basechar 0
 AnchorPoint: "fthoraTop" 704.728 1105 basechar 0
@@ -3345,7 +3345,7 @@ AnchorPoint: "yfesis" 1102.02 915 basechar 0
 AnchorPoint: "psifiston" 777.018 140 basechar 0
 AnchorPoint: "measureNumber" 95.0176 1073 basechar 0
 AnchorPoint: "isonIndicator" 637.018 1096 basechar 0
-AnchorPoint: "apli" 688.018 -10 basechar 0
+AnchorPoint: "apli" 688.018 -26 basechar 0
 AnchorPoint: "antikenoma" 636.018 62 basechar 0
 AnchorPoint: "fthoraBottom" 275.018 162 basechar 0
 AnchorPoint: "noteTop" 221.018 1040 basechar 0
@@ -3454,7 +3454,7 @@ AnchorPoint: "heteronConnecting" -151.887 -19 basechar 0
 AnchorPoint: "yfesis" 1034.11 691 basechar 0
 AnchorPoint: "measureNumber" 93.1133 743 basechar 0
 AnchorPoint: "isonIndicator" 585.113 913 basechar 0
-AnchorPoint: "apli" 686.113 -80 basechar 0
+AnchorPoint: "apli" 686.113 -26 basechar 0
 AnchorPoint: "antikenoma" 634.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 273.113 162 basechar 0
 AnchorPoint: "noteTop" 135.113 636 basechar 0
@@ -3528,7 +3528,7 @@ AnchorPoint: "yfesis" 1040.78 991 basechar 0
 AnchorPoint: "psifiston" 787.777 140 basechar 0
 AnchorPoint: "measureNumber" 99.7773 953 basechar 0
 AnchorPoint: "isonIndicator" 651.777 913 basechar 0
-AnchorPoint: "apli" 712.777 -80 basechar 0
+AnchorPoint: "apli" 712.777 -26 basechar 0
 AnchorPoint: "antikenoma" 640.777 62 basechar 0
 AnchorPoint: "fthoraBottom" 279.777 162 basechar 0
 AnchorPoint: "noteTop" 141.777 916 basechar 0
@@ -3627,7 +3627,7 @@ AnchorPoint: "yfesis" 1034.11 691 basechar 0
 AnchorPoint: "psifiston" 716.113 140 basechar 0
 AnchorPoint: "measureNumber" 93.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 585.113 949 basechar 0
-AnchorPoint: "apli" 686.113 -80 basechar 0
+AnchorPoint: "apli" 686.113 -26 basechar 0
 AnchorPoint: "antikenoma" 634.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 273.113 162 basechar 0
 AnchorPoint: "noteTop" 79.1133 670 basechar 0
@@ -3716,7 +3716,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 560.113 1129 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 140.113 676 basechar 0
@@ -3816,7 +3816,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 590.113 1342 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 120.113 956 basechar 0
@@ -3916,7 +3916,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 560.113 1129 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 140.113 676 basechar 0
@@ -4032,7 +4032,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 590.113 1390 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 140.113 676 basechar 0
@@ -4147,7 +4147,7 @@ AnchorPoint: "heteronConnecting" -153.887 -19 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 953 basechar 0
 AnchorPoint: "isonIndicator" 590.113 931 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "fthoraTop" 415.113 911 basechar 0
@@ -4244,7 +4244,7 @@ AnchorPoint: "heteronConnecting" -152.75 -19 basechar 0
 AnchorPoint: "psifiston" 716.25 140 basechar 0
 AnchorPoint: "measureNumber" 93.25 1103 basechar 0
 AnchorPoint: "isonIndicator" 581.25 1080 basechar 0
-AnchorPoint: "apli" 686.25 -80 basechar 0
+AnchorPoint: "apli" 686.25 -26 basechar 0
 AnchorPoint: "antikenoma" 634.25 62 basechar 0
 AnchorPoint: "fthoraBottom" 273.25 162 basechar 0
 AnchorPoint: "fthoraTop" 410.25 1051 basechar 0
@@ -4361,7 +4361,7 @@ AnchorPoint: "heteronConnecting" -151.75 -19 basechar 0
 AnchorPoint: "psifiston" 716.25 140 basechar 0
 AnchorPoint: "measureNumber" 93.25 1103 basechar 0
 AnchorPoint: "isonIndicator" 565.25 1075 basechar 0
-AnchorPoint: "apli" 686.25 -80 basechar 0
+AnchorPoint: "apli" 686.25 -26 basechar 0
 AnchorPoint: "antikenoma" 634.25 62 basechar 0
 AnchorPoint: "fthoraBottom" 273.25 162 basechar 0
 AnchorPoint: "fthoraTop" 410.25 1031 basechar 0
@@ -4502,7 +4502,7 @@ AnchorPoint: "heteronConnecting" -148.272 -19 basechar 0
 AnchorPoint: "psifiston" 726.728 140 basechar 0
 AnchorPoint: "measureNumber" 103.728 1243 basechar 0
 AnchorPoint: "isonIndicator" 581.728 1221 basechar 0
-AnchorPoint: "apli" 696.728 -80 basechar 0
+AnchorPoint: "apli" 696.728 -26 basechar 0
 AnchorPoint: "antikenoma" 644.728 62 basechar 0
 AnchorPoint: "fthoraBottom" 283.728 162 basechar 0
 AnchorPoint: "fthoraTop" 580.728 971 basechar 0
@@ -5374,7 +5374,7 @@ AnchorPoint: "koronis" 603.777 801 basechar 0
 AnchorPoint: "endofonon" 689.777 -277 basechar 0
 AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "heteronConnecting" -251.223 -138 basechar 0
-AnchorPoint: "apli" 720.777 -227 basechar 0
+AnchorPoint: "apli" 720.777 -198 basechar 0
 AnchorPoint: "measureNumber" 89.7773 753 basechar 0
 AnchorPoint: "diesis" 627.777 133 basechar 0
 AnchorPoint: "isonIndicator" 627.777 913 basechar 0
@@ -5471,7 +5471,7 @@ AnchorPoint: "heteron" 1028 227 basechar 0
 AnchorPoint: "omalon" 972 133 basechar 0
 AnchorPoint: "omalonConnecting" 50 133 basechar 0
 AnchorPoint: "antikenoma" 761 165 basechar 0
-AnchorPoint: "apli" 744 30 basechar 0
+AnchorPoint: "apli" 744 52 basechar 0
 AnchorPoint: "noteTop" 57 820 basechar 0
 AnchorPoint: "fthoraTop" 1281 1293 basechar 0
 AnchorPoint: "fthoraBottom" 730 209 basechar 0
@@ -5626,7 +5626,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 255.777 878 basechar 0
 AnchorPoint: "fthoraTop" 705.777 717 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -5722,7 +5722,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -34.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 131.777 912 basechar 0
 AnchorPoint: "fthoraTop" 519.777 1035 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -5824,7 +5824,7 @@ AnchorPoint: "endofonon" 985.657 -127 basechar 0
 AnchorPoint: "heteronConnecting" -138.343 -19 basechar 0
 AnchorPoint: "measureNumber" 106.657 920 basechar 0
 AnchorPoint: "isonIndicator" 765.657 976 basechar 0
-AnchorPoint: "apli" 688.657 -80 basechar 0
+AnchorPoint: "apli" 688.657 -26 basechar 0
 AnchorPoint: "antikenoma" 936.657 62 basechar 0
 AnchorPoint: "fthoraBottom" 135.657 162 basechar 0
 AnchorPoint: "fthoraTop" 352.657 911 basechar 0
@@ -5965,7 +5965,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 113.777 674 basechar 0
 AnchorPoint: "fthoraTop" 663.777 882 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -6048,7 +6048,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 113.777 674 basechar 0
 AnchorPoint: "fthoraTop" 906.777 924 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -6120,7 +6120,7 @@ AnchorPoint: "heteronConnecting" -229.467 -19 basechar 0
 AnchorPoint: "psifiston" 667.533 140 basechar 0
 AnchorPoint: "measureNumber" 94.5332 663 basechar 0
 AnchorPoint: "isonIndicator" 586.533 1117 basechar 0
-AnchorPoint: "apli" 687.533 -80 basechar 0
+AnchorPoint: "apli" 687.533 -26 basechar 0
 AnchorPoint: "antikenoma" 635.533 62 basechar 0
 AnchorPoint: "fthoraBottom" 274.533 162 basechar 0
 AnchorPoint: "fthoraTop" 611.533 781 basechar 0
@@ -6735,7 +6735,7 @@ AnchorPoint: "heteronConnecting" -148.272 -19 basechar 0
 AnchorPoint: "psifiston" 726.728 140 basechar 0
 AnchorPoint: "measureNumber" 103.728 1243 basechar 0
 AnchorPoint: "isonIndicator" 581.728 1221 basechar 0
-AnchorPoint: "apli" 696.728 -80 basechar 0
+AnchorPoint: "apli" 696.728 -26 basechar 0
 AnchorPoint: "antikenoma" 644.728 62 basechar 0
 AnchorPoint: "fthoraBottom" 283.728 162 basechar 0
 AnchorPoint: "fthoraTop" 580.728 971 basechar 0
@@ -6871,7 +6871,7 @@ AnchorPoint: "heteronConnecting" -260.8 -19 basechar 0
 AnchorPoint: "measureNumber" 87.2002 783 basechar 0
 AnchorPoint: "isonIndicator" 281.2 939 basechar 0
 AnchorPoint: "gorgonBottom" 263.2 -18 basechar 0
-AnchorPoint: "apli" 415.2 18 basechar 0
+AnchorPoint: "apli" 415.2 13 basechar 0
 AnchorPoint: "antikenoma" 376.2 101 basechar 0
 AnchorPoint: "noteTop" 85.2002 643 basechar 0
 AnchorPoint: "fthoraTop" 301.2 642 basechar 0
@@ -6927,7 +6927,7 @@ AnchorPoint: "heteron" 1028 227 basechar 0
 AnchorPoint: "omalon" 972 133 basechar 0
 AnchorPoint: "omalonConnecting" 50 133 basechar 0
 AnchorPoint: "antikenoma" 761 165 basechar 0
-AnchorPoint: "apli" 744 13 basechar 0
+AnchorPoint: "apli" 744 52 basechar 0
 AnchorPoint: "noteTop" 57 820 basechar 0
 AnchorPoint: "fthoraTop" 1221 1329 basechar 0
 AnchorPoint: "fthoraBottom" 730 209 basechar 0
@@ -7095,7 +7095,7 @@ AnchorPoint: "measureNumber" 103.728 1223 basechar 0
 AnchorPoint: "isonIndicator" 459.728 1406 basechar 0
 AnchorPoint: "heteronConnecting" -178.272 -240 basechar 0
 AnchorPoint: "omalonConnecting" -54.2725 -180 basechar 0
-AnchorPoint: "apli" 506.728 -320 basechar 0
+AnchorPoint: "apli" 506.728 -345 basechar 0
 AnchorPoint: "antikenoma" 503.728 -232 basechar 0
 AnchorPoint: "noteTop" 173.728 1223 basechar 0
 AnchorPoint: "fthoraTop" 704.728 1105 basechar 0
@@ -7275,7 +7275,7 @@ AnchorPoint: "measureNumber" 103.728 1223 basechar 0
 AnchorPoint: "isonIndicator" 459.728 1406 basechar 0
 AnchorPoint: "heteronConnecting" -178.272 -240 basechar 0
 AnchorPoint: "omalonConnecting" -47.2725 -140 basechar 0
-AnchorPoint: "apli" 506.728 -200 basechar 0
+AnchorPoint: "apli" 506.728 -236 basechar 0
 AnchorPoint: "antikenoma" 575.728 -123 basechar 0
 AnchorPoint: "noteTop" 173.728 1223 basechar 0
 AnchorPoint: "fthoraTop" 704.728 1105 basechar 0
@@ -7430,7 +7430,7 @@ AnchorPoint: "measureNumber" 103.728 1223 basechar 0
 AnchorPoint: "isonIndicator" 459.728 1406 basechar 0
 AnchorPoint: "heteronConnecting" -245.272 -180 basechar 0
 AnchorPoint: "omalonConnecting" -48.2725 -113 basechar 0
-AnchorPoint: "apli" 506.728 -230 basechar 0
+AnchorPoint: "apli" 506.728 -233 basechar 0
 AnchorPoint: "antikenoma" 512.728 -120 basechar 0
 AnchorPoint: "noteTop" 173.728 1223 basechar 0
 AnchorPoint: "fthoraTop" 704.728 1105 basechar 0
@@ -7565,7 +7565,7 @@ AnchorPoint: "yfesis" 1146.11 627 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 590.113 1468 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 153.113 927 basechar 0
@@ -7724,7 +7724,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 590.113 1463 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 133.113 913 basechar 0
@@ -7867,7 +7867,7 @@ AnchorPoint: "yfesis" 1069 691 basechar 0
 AnchorPoint: "psifiston" 751 140 basechar 0
 AnchorPoint: "measureNumber" 143 1293 basechar 0
 AnchorPoint: "isonIndicator" 620 1463 basechar 0
-AnchorPoint: "apli" 721 -80 basechar 0
+AnchorPoint: "apli" 721 -26 basechar 0
 AnchorPoint: "antikenoma" 669 62 basechar 0
 AnchorPoint: "fthoraBottom" 308 162 basechar 0
 AnchorPoint: "noteTop" 88 1142 basechar 0
@@ -8010,7 +8010,7 @@ AnchorPoint: "yfesis" 1256 600 basechar 0
 AnchorPoint: "psifiston" 824 140 basechar 0
 AnchorPoint: "measureNumber" 162 1273 basechar 0
 AnchorPoint: "isonIndicator" 693 1468 basechar 0
-AnchorPoint: "apli" 794 -80 basechar 0
+AnchorPoint: "apli" 794 -26 basechar 0
 AnchorPoint: "antikenoma" 742 62 basechar 0
 AnchorPoint: "fthoraBottom" 381 162 basechar 0
 AnchorPoint: "noteTop" 161 1272 basechar 0
@@ -8196,7 +8196,7 @@ AnchorPoint: "yfesis" 1149 660 basechar 0
 AnchorPoint: "psifiston" 751 140 basechar 0
 AnchorPoint: "measureNumber" 149 1280 basechar 0
 AnchorPoint: "isonIndicator" 620 1342 basechar 0
-AnchorPoint: "apli" 721 -80 basechar 0
+AnchorPoint: "apli" 721 -26 basechar 0
 AnchorPoint: "antikenoma" 669 62 basechar 0
 AnchorPoint: "fthoraBottom" 308 162 basechar 0
 AnchorPoint: "noteTop" 88 1142 basechar 0
@@ -8352,7 +8352,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" 23.7773 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 73.7773 680 basechar 0
 AnchorPoint: "fthoraTop" 162.777 1056 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -8480,7 +8480,7 @@ AnchorPoint: "heteron" 1028 227 basechar 0
 AnchorPoint: "omalon" 972 133 basechar 0
 AnchorPoint: "omalonConnecting" -13 133 basechar 0
 AnchorPoint: "antikenoma" 761 165 basechar 0
-AnchorPoint: "apli" 744 30 basechar 0
+AnchorPoint: "apli" 744 52 basechar 0
 AnchorPoint: "noteTop" 57 820 basechar 0
 AnchorPoint: "fthoraTop" 1203 861 basechar 0
 AnchorPoint: "fthoraBottom" 730 209 basechar 0
@@ -8608,7 +8608,7 @@ AnchorPoint: "heteron" 1028 227 basechar 0
 AnchorPoint: "omalon" 972 133 basechar 0
 AnchorPoint: "omalonConnecting" 50 133 basechar 0
 AnchorPoint: "antikenoma" 761 165 basechar 0
-AnchorPoint: "apli" 744 30 basechar 0
+AnchorPoint: "apli" 744 52 basechar 0
 AnchorPoint: "noteTop" 57 820 basechar 0
 AnchorPoint: "fthoraTop" 804 1239 basechar 0
 AnchorPoint: "fthoraBottom" 730 209 basechar 0
@@ -8748,7 +8748,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 131.777 912 basechar 0
 AnchorPoint: "fthoraTop" 519.777 1035 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -8872,7 +8872,7 @@ AnchorPoint: "yfesis" 1039.11 691 basechar 0
 AnchorPoint: "psifiston" 721.113 140 basechar 0
 AnchorPoint: "measureNumber" 98.1133 853 basechar 0
 AnchorPoint: "isonIndicator" 590.113 1345 basechar 0
-AnchorPoint: "apli" 691.113 -80 basechar 0
+AnchorPoint: "apli" 691.113 -26 basechar 0
 AnchorPoint: "antikenoma" 639.113 62 basechar 0
 AnchorPoint: "fthoraBottom" 278.113 162 basechar 0
 AnchorPoint: "noteTop" 139.113 960 basechar 0
@@ -9001,7 +9001,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" -38.2227 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 157.777 1020 basechar 0
 AnchorPoint: "fthoraTop" 675.777 927 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -9098,7 +9098,7 @@ AnchorPoint: "heteronConnecting" -129.75 -19 basechar 0
 AnchorPoint: "psifiston" 745.25 140 basechar 0
 AnchorPoint: "measureNumber" 122.25 1483 basechar 0
 AnchorPoint: "isonIndicator" 600.25 1492 basechar 0
-AnchorPoint: "apli" 715.25 -80 basechar 0
+AnchorPoint: "apli" 715.25 -26 basechar 0
 AnchorPoint: "antikenoma" 663.25 62 basechar 0
 AnchorPoint: "fthoraBottom" 302.25 162 basechar 0
 AnchorPoint: "fthoraTop" 599.25 1221 basechar 0
@@ -9254,7 +9254,7 @@ AnchorPoint: "heteronConnecting" -129.75 -19 basechar 0
 AnchorPoint: "psifiston" 745.25 140 basechar 0
 AnchorPoint: "measureNumber" 122.25 1483 basechar 0
 AnchorPoint: "isonIndicator" 600.25 1492 basechar 0
-AnchorPoint: "apli" 715.25 -80 basechar 0
+AnchorPoint: "apli" 715.25 -26 basechar 0
 AnchorPoint: "antikenoma" 663.25 62 basechar 0
 AnchorPoint: "fthoraBottom" 302.25 162 basechar 0
 AnchorPoint: "fthoraTop" 599.25 1261 basechar 0
@@ -9432,7 +9432,7 @@ AnchorPoint: "heteronConnecting" -137.982 -49 basechar 0
 AnchorPoint: "psifiston" 726.018 1 basechar 0
 AnchorPoint: "measureNumber" 114.018 1333 basechar 0
 AnchorPoint: "isonIndicator" 592.018 1350 basechar 0
-AnchorPoint: "apli" 707.018 -250 basechar 0
+AnchorPoint: "apli" 707.018 -156 basechar 0
 AnchorPoint: "antikenoma" 655.018 -68 basechar 0
 AnchorPoint: "fthoraBottom" 294.018 42 basechar 0
 AnchorPoint: "fthoraTop" 591.018 1101 basechar 0
@@ -9581,7 +9581,7 @@ AnchorPoint: "heteronConnecting" -137.982 -19 basechar 0
 AnchorPoint: "psifiston" 723.018 2 basechar 0
 AnchorPoint: "measureNumber" 114.018 1333 basechar 0
 AnchorPoint: "isonIndicator" 592.018 1350 basechar 0
-AnchorPoint: "apli" 707.018 -250 basechar 0
+AnchorPoint: "apli" 707.018 -156 basechar 0
 AnchorPoint: "antikenoma" 655.018 -68 basechar 0
 AnchorPoint: "fthoraBottom" 294.018 42 basechar 0
 AnchorPoint: "fthoraTop" 591.018 1101 basechar 0
@@ -10085,7 +10085,7 @@ AnchorPoint: "heteron" 1004.78 227 basechar 0
 AnchorPoint: "omalon" 948.777 133 basechar 0
 AnchorPoint: "omalonConnecting" 240.777 133 basechar 0
 AnchorPoint: "antikenoma" 737.777 165 basechar 0
-AnchorPoint: "apli" 720.777 30 basechar 0
+AnchorPoint: "apli" 720.777 52 basechar 0
 AnchorPoint: "noteTop" 231.777 676 basechar 0
 AnchorPoint: "fthoraTop" 705.777 507 basechar 0
 AnchorPoint: "fthoraBottom" 706.777 209 basechar 0
@@ -10260,7 +10260,7 @@ AnchorPoint: "measureNumber" 114.018 1363 basechar 0
 AnchorPoint: "isonIndicator" 470.018 1556 basechar 0
 AnchorPoint: "heteronConnecting" -335.982 -19 basechar 0
 AnchorPoint: "omalonConnecting" -52.9824 89 basechar 0
-AnchorPoint: "apli" 517.018 10 basechar 0
+AnchorPoint: "apli" 517.018 18 basechar 0
 AnchorPoint: "antikenoma" 513.018 131 basechar 0
 AnchorPoint: "noteTop" 184.018 1363 basechar 0
 AnchorPoint: "fthoraTop" 715.018 1235 basechar 0
@@ -12169,7 +12169,7 @@ AnchorPoint: "diesis" 493 147 basechar 0
 AnchorPoint: "fthoraBottom" 381 162 basechar 0
 AnchorPoint: "klasmaBottom" 829 83 basechar 0
 AnchorPoint: "antikenoma" 742 62 basechar 0
-AnchorPoint: "apli" 794 -80 basechar 0
+AnchorPoint: "apli" 794 -26 basechar 0
 LayerCount: 2
 Fore
 SplineSet
