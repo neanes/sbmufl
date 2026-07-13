@@ -1,7 +1,6 @@
-#!/usr/bin/env fontforge
-import fontforge
-from statistics import mean, stdev
 import sys
+
+import fontforge
 
 if len(sys.argv) < 2:
     print(
