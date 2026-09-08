@@ -4,6 +4,40 @@ Each font can optionally provide a metadata file containing information that can
 
 All positions and widths are specified in ems.
 
+## metrics
+
+This section contains font-wide measurements and adjustments. The
+`elafronBounds` object gives the horizontal outline bounds of the elafron
+component in composite glyphs.
+
+```js
+{
+  "metrics": {
+    "ascent": 0.8,
+    "descent": 0.2,
+    "winAscent": 1.4,
+    "winDescent": 0.466,
+    "oligonMidpoint": 0.307,
+    "elafronBounds": {
+      "runningElafron": {
+        "left": 0.59,
+        "right": 1.696
+      },
+      "petastiRunningElafron": {
+        "left": 0.425,
+        "right": 1.431
+      }
+    }
+  },
+  ...
+}
+```
+
+These bounds can be used to terminate a melisma at the component's edge
+without assuming that it matches the stand-alone glyph. Given the composite
+glyph's advance width, the signed offset needed to center lyrics beneath its
+elafron is `left + right - advanceWidth`.
+
 ## glyphsWithAnchors
 
 This section contains the anchor points for all glyphs that contain anchors. If mark-to-base positioning is not available, marks can be positioned using the data in this section.
