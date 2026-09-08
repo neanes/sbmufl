@@ -365,7 +365,12 @@ class _SbmuflMetadata(object):
         if alternates:
             d["glyphsWithAlternates"] = alternates
 
-        contextual_substitutions = self.contextual_substitutions()
+        contextual_substitutions, mark_attachment_classes = (
+            self.contextual_substitutions()
+        )
+        if mark_attachment_classes:
+            d["markAttachmentClasses"] = mark_attachment_classes
+
         if contextual_substitutions:
             d["contextualSubstitutions"] = contextual_substitutions
 
@@ -450,8 +455,11 @@ class _SbmuflMetadata(object):
 
         substitutions_by_lookup = self._substitutions_by_lookup(feature_file)
         contextual_substitutions = []
+        mark_attachment_classes = {}
 
-        for statement in self._walk_statements(feature_file):
+        for statement, lookup_flag in self._walk_statements_with_lookup_flags(
+            feature_file
+        ):
             if isinstance(statement, ast.ChainContextSubstStatement):
                 input_glyphs = [self._glyph_set(g) for g in statement.glyphs]
                 backtrack_glyphs = [self._glyph_set(g) for g in statement.prefix]
@@ -498,16 +506,25 @@ class _SbmuflMetadata(object):
                 continue
 
             if substitutions:
-                contextual_substitutions.append(
-                    {
-                        "inputGlyphs": input_glyphs,
-                        "backtrackGlyphs": backtrack_glyphs,
-                        "lookaheadGlyphs": lookahead_glyphs,
-                        "substitutions": substitutions,
-                    }
-                )
+                contextual_substitution = {
+                    "inputGlyphs": input_glyphs,
+                    "backtrackGlyphs": backtrack_glyphs,
+                    "lookaheadGlyphs": lookahead_glyphs,
+                    "substitutions": substitutions,
+                }
 
-        return contextual_substitutions
+                if lookup_flag is not None and lookup_flag.markAttachment is not None:
+                    mark_attachment_class = lookup_flag.markAttachment.glyphclass.name
+                    mark_attachment_classes[mark_attachment_class] = self._glyph_set(
+                        lookup_flag.markAttachment
+                    )
+                    contextual_substitution["markAttachmentClass"] = (
+                        mark_attachment_class
+                    )
+
+                contextual_substitutions.append(contextual_substitution)
+
+        return contextual_substitutions, mark_attachment_classes
 
     def _substitutions_by_lookup(self, node):
         substitutions_by_lookup = {}
@@ -548,6 +565,19 @@ class _SbmuflMetadata(object):
         for statement in getattr(node, "statements", []):
             yield statement
             yield from self._walk_statements(statement)
+
+    def _walk_statements_with_lookup_flags(self, node, lookup_flag=None):
+        current_lookup_flag = lookup_flag
+
+        for statement in getattr(node, "statements", []):
+            if isinstance(statement, ast.LookupFlagStatement):
+                current_lookup_flag = statement
+                continue
+
+            yield statement, current_lookup_flag
+            yield from self._walk_statements_with_lookup_flags(
+                statement, current_lookup_flag
+            )
 
     @staticmethod
     def _glyph_set(glyph_expr):
