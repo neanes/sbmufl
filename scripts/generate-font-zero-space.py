@@ -83,10 +83,7 @@ if __name__ == "__main__":
     chars_to_process = [
         char
         for char in font.glyphs()
-        if 57344 <= char.unicode <= 63743
-        and char.width != 0
-        and not (0xE2A0 <= char.unicode <= 0xE42F)
-        and not (0xF003 <= char.unicode <= 0xF004)
+        if 57344 <= char.unicode <= 63743 and char.width != 0
     ]
 
     for char in chars_to_process:

@@ -70,6 +70,22 @@ def find_midpoint(glyph):
     return (min_y + max_y) / 2
 
 
+def glyph_height(glyph):
+    """
+    Returns the height of the glyph's outlines.
+    Empty glyphs return 0.
+    """
+    if glyph.isWorthOutputting() is False:
+        return 0
+
+    bbox = glyph.boundingBox()
+    if bbox is None:
+        return 0
+
+    xmin, ymin, xmax, ymax = bbox
+    return ymax - ymin
+
+
 def contour_bbox(contour):
     xs = [p.x for p in contour]
     ys = [p.y for p in contour]
@@ -339,6 +355,16 @@ class SbmuflFont(object):
     def oligon_midpoint(self):
         return find_midpoint(self.font[0xE001])
 
+    @property
+    def capital_height(self):
+        return glyph_height(self.font[0xE2E1])
+
+    @property
+    def initial_martyria_baseline(self):
+        bbox = self.font[0xE2E1].boundingBox()
+        xmin, ymin, xmax, ymax = bbox
+        return ymin
+
 
 class _SbmuflMetadata(object):
     def __init__(self, font):
@@ -355,6 +381,10 @@ class _SbmuflMetadata(object):
             "winAscent": round(self.font.os2_winascent / self.font.em, 3),
             "winDescent": round(self.font.os2_windescent / self.font.em, 3),
             "oligonMidpoint": round(self.font.oligon_midpoint / self.font.em, 3),
+            "initialMartyriaBaseline": round(
+                self.font.initial_martyria_baseline / self.font.em, 3
+            ),
+            "capitalHeight": round(self.font.capital_height / self.font.em, 3),
         }
 
         anchors = self.anchors()
