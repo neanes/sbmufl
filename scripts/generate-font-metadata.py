@@ -88,6 +88,24 @@ def contour_bbox(contour):
     return xmin, ymin, xmax, ymax
 
 
+def find_widest_contour_bbox(glyph):
+    bboxes = [bbox for contour in glyph.foreground if (bbox := contour_bbox(contour))]
+
+    if not bboxes:
+        return None
+
+    return max(bboxes, key=lambda bbox: bbox[2] - bbox[0])
+
+
+def find_lowest_contour_bbox(glyph):
+    bboxes = [bbox for contour in glyph.foreground if (bbox := contour_bbox(contour))]
+
+    if not bboxes:
+        return None
+
+    return min(bboxes, key=lambda bbox: bbox[1])
+
+
 def create_temp_glyph_from_contours(font, source_glyph, contours, name):
     temp_glyph = font.createChar(-1, name)
     temp_glyph.clear()
@@ -355,6 +373,7 @@ class _SbmuflMetadata(object):
             "winAscent": round(self.font.os2_winascent / self.font.em, 3),
             "winDescent": round(self.font.os2_windescent / self.font.em, 3),
             "oligonMidpoint": round(self.font.oligon_midpoint / self.font.em, 3),
+            "elafronBounds": self.elafron_bounds(),
         }
 
         anchors = self.anchors()
@@ -395,6 +414,32 @@ class _SbmuflMetadata(object):
             d["ligatures"] = ligatures
 
         return d
+
+    def elafron_bounds(self):
+        # In runningElafron the wider of the two adjacent contours is the
+        # elafron. In petastiRunningElafron the elafron is the contour below
+        # the petasti. Derive the component bounds from those outlines instead
+        # of assuming they match the stand-alone elafron.
+        contour_bboxes = {
+            "runningElafron": find_widest_contour_bbox(self.font["runningElafron"]),
+            "petastiRunningElafron": find_lowest_contour_bbox(
+                self.font["petastiRunningElafron"]
+            ),
+        }
+
+        bounds = {}
+
+        for glyph_name, bbox in contour_bboxes.items():
+            if bbox is None:
+                raise ValueError(f"Cannot locate the elafron in {glyph_name}")
+
+            elafron_left, _, elafron_right, _ = bbox
+            bounds[glyph_name] = {
+                "left": round(elafron_left / self.font.em, 3),
+                "right": round(elafron_right / self.font.em, 3),
+            }
+
+        return bounds
 
     def anchors(self):
         all_anchors = {}
