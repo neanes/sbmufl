@@ -141,9 +141,25 @@ This section contains the advance widths of all the glyphs.
 
 This section lists contextual substitutions. If OpenType contextual substitution support is unavailable, this section can be used to select replacement glyphs and their metadata. Each item in `inputGlyphs`, `backtrackGlyphs`, and `lookaheadGlyphs` is a class of matching glyphs. The `index` in a substitution identifies the item in `inputGlyphs` that should be replaced.
 
+When a contextual lookup uses an OpenType `MarkAttachmentType`, `markAttachmentClasses` lists the glyphs in each attachment class and the rule's `markAttachmentClass` identifies the applicable class. Marks outside that class are ignored while matching the rule.
+
 ```js
 {
   ...
+  "markAttachmentClasses": {
+    "gorgon": [
+      "digorgon",
+      "digorgonDottedLeftAbove",
+      "digorgonDottedLeftBelow",
+      "digorgonDottedRight",
+      "gorgonAbove",
+      "gorgonDottedLeft",
+      "gorgonDottedRight",
+      "trigorgon",
+      "trigorgonDottedLeftAbove",
+      "trigorgonDottedRight"
+    ]
+  },
   "contextualSubstitutions": [
     {
       "inputGlyphs": [
@@ -165,7 +181,8 @@ This section lists contextual substitutions. If OpenType contextual substitution
           "from": "yporroi",
           "to": "yporroi.gorgon"
         }
-      ]
+      ],
+      "markAttachmentClass": "gorgon"
     }
   ],
   ...
