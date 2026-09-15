@@ -2,5 +2,5 @@ black==26.5.1
 fontbakery==1.1.0
 isort==8.0.1
 mbake==1.4.6
-mypy==2.2.0
+mypy==2.3.0
 opentype-sanitizer==9.2.0
