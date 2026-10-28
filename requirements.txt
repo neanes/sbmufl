@@ -1,4 +1,4 @@
-black==26.5.1
+black==26.10.1
 fontbakery==1.1.0
 isort==8.0.1
 mbake==1.4.6
