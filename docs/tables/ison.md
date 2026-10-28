@@ -146,6 +146,19 @@
         </div>
     </td>
 </tr>
+<tr>
+    <td>
+        <span class="neanes">&#xE26B;</span>
+    </td>
+    <td>
+        <div class="code-point">
+            U+E26B
+        </div>
+        <div class="glyph-name">
+            isonIndicatorGaLow
+        </div>
+    </td>
+</tr>
 </table>
 
 ## Implementation Details

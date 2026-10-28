@@ -5,7 +5,7 @@ FamilyName: NeanesRTL
 Weight: Regular
 Copyright: Copyright (c) 2022, Daniel
 UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
-Version: 1.0.9
+Version: 1.0.10
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -124,7 +124,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "barlineAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "stavros" "'mark' Mark Positioning lookup 0-1" "diesisTertiary" "'mark' Mark Positioning lookup 0-1" "diesisSecondary" "'mark' Mark Positioning lookup 0-1" "barline" "'mark' Mark Positioning lookup 0-1" "yfesisTertiary" "'mark' Mark Positioning lookup 0-1" "yfesisSecondary" "'mark' Mark Positioning lookup 0-1" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0-1" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0-1" "yfenBelow" "'mark' Mark Positioning lookup 0-1" "yfenAbove" "'mark' Mark Positioning lookup 0-1" "koronis" "'mark' Mark Positioning lookup 0-1" "endofonon" "'mark' Mark Positioning lookup 0-1" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1-1" "agogi" "'mark' Mark Positioning lookup 0-1" "modeTop" "'mark' Mark Positioning lookup 0-1" "isonIndicator" "'mark' Mark Positioning lookup 0-1" "measureNumber" "'mark' Mark Positioning lookup 0-1" "heteronConnecting" "'mark' Mark Positioning lookup 0-1" "omalon" "'mark' Mark Positioning lookup 0-1" "omalonConnecting" "'mark' Mark Positioning lookup 0-1" "martyriaTop" "'mark' Mark Positioning lookup 0-1" "martyriaBottom" "'mark' Mark Positioning lookup 0-1" "noteTop" "'mark' Mark Positioning lookup 0-1" "fthoraBottom" "'mark' Mark Positioning lookup 0-1" "fthoraTop" "'mark' Mark Positioning lookup 0-1" "heteron" "'mark' Mark Positioning lookup 0-1" "gorgonSecondary" "'mark' Mark Positioning lookup 0-1" "antikenoma" "'mark' Mark Positioning lookup 0-1" "gorgonBottom" "'mark' Mark Positioning lookup 0-1" "psifiston" "'mark' Mark Positioning lookup 0-1" "diesis" "'mark' Mark Positioning lookup 0-1" "yfesis" "'mark' Mark Positioning lookup 0-1" "klasmaTop" "'mark' Mark Positioning lookup 0-1" "klasmaBottom" "'mark' Mark Positioning lookup 0-1" "apli-bottom"""  "apli" "'mark' Mark Positioning lookup 0-1" "gorgonTop" "'mark' Mark Positioning lookup 0-1"
-BeginChars: 1114112 436
+BeginChars: 1114112 437
 
 StartChar: u1D046
 Encoding: 118854 118854 0
@@ -27843,6 +27843,60 @@ SplineSet
  630 1065 l 2
  636.666015625 1065 640 1060 640 1050 c 2
  639 972 l 1
+EndSplineSet
+EndChar
+
+StartChar: isonIndicatorGaLow
+Encoding: 57963 57963 436
+Width: 0
+VWidth: 345
+Flags: W
+HStem: 1213 46<-228 25.6084>
+VStem: -456 41<1039.73 1219.23> -302 74<1002 1213> 184 37<1040 1298> 414 42<1039.73 1219.27>
+AnchorPoint: "isonIndicator" 0 996 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-384 964 m 1
+ -432 1016 -456 1071.66699219 -456 1131 c 0
+ -456 1186.33300781 -432 1242 -384 1298 c 1
+ -353 1298 l 1
+ -368.333007812 1275.33300781 -379.333007812 1257.66699219 -386 1245 c 0
+ -405.333007812 1208.33300781 -415 1170.33300781 -415 1131 c 0
+ -415 1075.66699219 -394.333007812 1020 -353 964 c 1
+ -384 964 l 1
+384 964 m 1
+ 353 964 l 1
+ 393.666992188 1019.33300781 414 1075 414 1131 c 0
+ 414 1171 404.666992188 1209 386 1245 c 0
+ 377.333007812 1260.33300781 366.333007812 1277.66699219 353 1297 c 1
+ 384 1297 l 1
+ 432 1241.66699219 456 1186.33300781 456 1131 c 0
+ 456 1072.33300781 432 1016.66699219 384 964 c 1
+-302 1002 m 1
+ -302 1259 l 1
+ 27 1259 l 1
+ 27.666992188 1246.33300781 27 1229.66699219 25 1209 c 1
+ 25 1209 25 1209 18.5 1209 c 0
+ 14.166992188 1209 10.666992188 1209.33300781 8 1210 c 0
+ -21.333007812 1212.66699219 -58.5 1213.83300781 -103.5 1213.5 c 0
+ -148.5 1213.16699219 -190 1213 -228 1213 c 1
+ -228 1002 l 1
+ -302 1002 l 1
+70 1084 m 1
+ 70 1112 l 1
+ 99.3330078125 1097.33300781 119.833007812 1086.33300781 131.5 1079 c 0
+ 143.166992188 1071.66699219 160.666992188 1058.66699219 184 1040 c 1
+ 184 1298 l 1
+ 221 1298 l 1
+ 221 1040 l 1
+ 247.666992188 1065.33300781 286 1089.66699219 336 1113 c 1
+ 336 1084 l 1
+ 300.666992188 1052 273.666992188 1024.66699219 255 1002 c 0
+ 236.333007812 979.333007812 221.333007812 955.666992188 210 931 c 1
+ 193 931 l 1
+ 183.666992188 952.333007812 169.833007812 975 151.5 999 c 0
+ 133.166992188 1023 106 1051.33300781 70 1084 c 1
 EndSplineSet
 EndChar
 EndChars

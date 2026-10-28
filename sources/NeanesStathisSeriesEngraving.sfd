@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.9
+Version: 1.0.10
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -183,7 +183,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : Neanes : 12-3-2024" "" "Version 001.000"
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Neanes : 12-3-2024" "" "Version 1.0.10"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -196,7 +196,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 7340 3670 2446 0 1048576 2446 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "barlineAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable" "stavros" "'mark' Mark Positioning lookup 0 subtable" "diesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "diesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "barline" "'mark' Mark Positioning lookup 0 subtable" "yfesisTertiary" "'mark' Mark Positioning lookup 0 subtable" "yfesisSecondary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopTertiary" "'mark' Mark Positioning lookup 0 subtable" "fthoraTopSecondary" "'mark' Mark Positioning lookup 0 subtable" "yfenBelow" "'mark' Mark Positioning lookup 0 subtable" "yfenAbove" "'mark' Mark Positioning lookup 0 subtable" "koronis" "'mark' Mark Positioning lookup 0 subtable" "endofonon" "'mark' Mark Positioning lookup 0 subtable" "agogi" "'mark' Mark Positioning lookup 0 subtable" "modeTop" "'mark' Mark Positioning lookup 0 subtable" "isonIndicator" "'mark' Mark Positioning lookup 0 subtable" "measureNumber" "'mark' Mark Positioning lookup 0 subtable" "heteronConnecting" "'mark' Mark Positioning lookup 0 subtable" "omalon" "'mark' Mark Positioning lookup 0 subtable" "omalonConnecting" "'mark' Mark Positioning lookup 0 subtable" "martyriaTop" "'mark' Mark Positioning lookup 0 subtable" "martyriaBottom" "'mark' Mark Positioning lookup 0 subtable" "noteTop" "'mark' Mark Positioning lookup 0 subtable" "fthoraBottom" "'mark' Mark Positioning lookup 0 subtable" "fthoraTop" "'mark' Mark Positioning lookup 0 subtable" "heteron" "'mark' Mark Positioning lookup 0 subtable" "gorgonSecondary" "'mark' Mark Positioning lookup 0 subtable" "antikenoma" "'mark' Mark Positioning lookup 0 subtable" "gorgonBottom" "'mark' Mark Positioning lookup 0 subtable" "psifiston" "'mark' Mark Positioning lookup 0 subtable" "diesis" "'mark' Mark Positioning lookup 0 subtable" "yfesis" "'mark' Mark Positioning lookup 0 subtable" "klasmaTop" "'mark' Mark Positioning lookup 0 subtable" "klasmaBottom" "'mark' Mark Positioning lookup 0 subtable" "apli" "'mark' Mark Positioning lookup 0 subtable" "gorgonTop" "'mark' Mark Positioning lookup 0 subtable" "agogiAboveFthora" "'mkmk' Mark to Mark lookup 1 subtable"
-BeginChars: 1114115 442
+BeginChars: 1114115 443
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -35279,6 +35279,77 @@ SplineSet
  258.571289062 375 258.571289062 375 291.571289062 324 c 256,54,55
  324.571289062 273 324.571289062 273 324.571289062 245 c 0,56,57
  323.571289062 224 323.571289062 224 306.571289062 203 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: isonIndicatorGaLow
+Encoding: 57963 57963 442
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "isonIndicator" 0 996 mark 0
+LayerCount: 2
+Fore
+SplineSet
+112 1228 m 1,0,1
+ 110 1251 110 1251 104 1273 c 128,-1,2
+ 98 1295 98 1295 87 1307 c 0,3,4
+ 79 1316 79 1316 65 1321 c 128,-1,5
+ 51 1326 51 1326 38 1326 c 2,6,-1
+ 1 1326 l 2,7,8
+ -8 1326 -8 1326 -8 1314 c 2,9,-1
+ -8 1089 l 2,10,11
+ -8 1073 -8 1073 11 1073 c 0,12,13
+ 19 1072 19 1072 27.5 1071.5 c 128,-1,14
+ 36 1071 36 1071 48 1071 c 1,15,-1
+ 48 1049 l 1,16,-1
+ -108 1049 l 1,17,-1
+ -108 1071 l 1,18,-1
+ -85 1071 l 2,19,20
+ -60 1071 -60 1071 -60 1087 c 2,21,-1
+ -60 1312 l 2,22,23
+ -60 1320 -60 1320 -63 1323 c 0,24,25
+ -64 1324 -64 1324 -71.5 1325 c 128,-1,26
+ -79 1326 -79 1326 -86.5 1326 c 128,-1,27
+ -94 1326 -94 1326 -102 1326 c 128,-1,28
+ -110 1326 -110 1326 -111 1326 c 1,29,-1
+ -111 1348 l 1,30,-1
+ 134 1348 l 1,31,-1
+ 134 1228 l 1,32,-1
+ 112 1228 l 1,0,1
+350 1203 m 1,33,34
+ 332 1187 332 1187 319.5 1173.5 c 128,-1,35
+ 307 1160 307 1160 297.5 1148 c 128,-1,36
+ 288 1136 288 1136 280.5 1125 c 128,-1,37
+ 273 1114 273 1114 268 1102 c 1,38,-1
+ 256 1102 l 1,39,40
+ 247 1123 247 1123 228.5 1147 c 128,-1,41
+ 210 1171 210 1171 175 1203 c 1,42,-1
+ 175 1222 l 1,43,44
+ 187 1216 187 1216 196.5 1211 c 128,-1,45
+ 206 1206 206 1206 214.5 1200.5 c 128,-1,46
+ 223 1195 223 1195 231.5 1188 c 128,-1,47
+ 240 1181 240 1181 251 1173 c 1,48,-1
+ 252 1327 l 1,49,-1
+ 276 1327 l 1,50,-1
+ 275 1173 l 1,51,52
+ 289 1186 289 1186 307.5 1198 c 128,-1,53
+ 326 1210 326 1210 350 1221 c 1,54,-1
+ 350 1203 l 1,33,34
+-262 1000 m 1,55,-1
+ -258 1048 l 1,56,57
+ -162 983 -162 983 -160 983 c 0,58,59
+ -82 939 -82 939 -2 939 c 0,60,61
+ 76 939 76 939 136 971 c 0,62,63
+ 166 987 166 987 196 1007.5 c 128,-1,64
+ 226 1028 226 1028 254 1053 c 1,65,-1
+ 260 1012 l 1,66,67
+ 230 987 230 987 199 965.5 c 128,-1,68
+ 168 944 168 944 134 928 c 128,-1,69
+ 100 912 100 912 64 903 c 128,-1,70
+ 28 894 28 894 -12 894 c 0,71,72
+ -80 894 -80 894 -138 923 c 1,73,-1
+ -262 1000 l 1,55,-1
 EndSplineSet
 EndChar
 EndChars
