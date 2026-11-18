@@ -1,6 +1,6 @@
 {
   "fontName": "NeanesEngraving",
-  "fontVersion": "1.0.9",
+  "fontVersion": "1.0.10",
   "metrics": {
     "ascent": 0.8,
     "descent": 0.2,
@@ -8,7 +8,17 @@
     "winDescent": 0.466,
     "oligonMidpoint": 0.307,
     "initialMartyriaBaseline": 0.366,
-    "capitalHeight": 0.5
+    "capitalHeight": 0.5,
+    "elafronBounds": {
+      "runningElafron": {
+        "left": 0.542,
+        "right": 1.648
+      },
+      "petastiRunningElafron": {
+        "left": 0.502,
+        "right": 1.508
+      }
+    }
   },
   "glyphsWithAnchors": {
     "ison": {
@@ -7864,6 +7874,12 @@
         0.308,
         0.527
       ]
+    },
+    "isonIndicatorGaLow": {
+      "isonIndicator": [
+        0.0,
+        0.996
+      ]
     }
   },
   "glyphsWithAlternates": {
@@ -7899,6 +7915,20 @@
         }
       ]
     }
+  },
+  "markAttachmentClasses": {
+    "gorgon": [
+      "digorgon",
+      "digorgonDottedLeftAbove",
+      "digorgonDottedLeftBelow",
+      "digorgonDottedRight",
+      "gorgonAbove",
+      "gorgonDottedLeft",
+      "gorgonDottedRight",
+      "trigorgon",
+      "trigorgonDottedLeftAbove",
+      "trigorgonDottedRight"
+    ]
   },
   "contextualSubstitutions": [
     {
@@ -7966,7 +7996,8 @@
           "from": "yporroi",
           "to": "yporroi.gorgon"
         }
-      ]
+      ],
+      "markAttachmentClass": "gorgon"
     },
     {
       "inputGlyphs": [
@@ -7989,7 +8020,8 @@
           "from": "yporroi",
           "to": "yporroi.digorgon"
         }
-      ]
+      ],
+      "markAttachmentClass": "gorgon"
     },
     {
       "inputGlyphs": [
@@ -8011,7 +8043,8 @@
           "from": "yporroi",
           "to": "yporroi.trigorgon"
         }
-      ]
+      ],
+      "markAttachmentClass": "gorgon"
     },
     {
       "inputGlyphs": [
@@ -8572,7 +8605,8 @@
     "chroaSpathi": 0.837,
     "yporroi.gorgon": 0.307,
     "yporroi.digorgon": 0.307,
-    "yporroi.trigorgon": 0.307
+    "yporroi.trigorgon": 0.307,
+    "isonIndicatorGaLow": 0.0
   },
   "optionalGlyphs": {
     "oligonKentimataBelow.alt01": {
@@ -12481,6 +12515,16 @@
       "bBoxSW": [
         0.0,
         0.161
+      ]
+    },
+    "isonIndicatorGaLow": {
+      "bBoxNE": [
+        0.456,
+        1.298
+      ],
+      "bBoxSW": [
+        -0.456,
+        0.931
       ]
     }
   },

@@ -339,6 +339,7 @@ Based: AGL For New Fonts
 0xE268 isonIndicatorDi
 0xE269 isonIndicatorKe
 0xE26A isonIndicatorZoHigh
+0xE26B isonIndicatorGaLow
 0xE280 gorthmikon
 0xE281 pelastikon
 0xE2A0 modeFirst

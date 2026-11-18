@@ -103,7 +103,7 @@ SBMUFL_MARK_CODEPOINTS: Final[set[int]] = {
     *range(0xE220, 0xE227),
     # Note indicators and ison indicators
     *range(0xE250, 0xE257),
-    *range(0xE260, 0xE26B),
+    *range(0xE260, 0xE26C),
     # Martyria of the tones
     *range(0xE2E7, 0xE2EB),
     # Optional mark alternates. U+F003..U+F005 are spacing glyphs.
@@ -129,6 +129,7 @@ SBMUFL_ISON_INDICATOR_CODEPOINTS: Final[set[int]] = {
     0xE268,  # U+E268 isonIndicatorDi
     0xE269,  # U+E269 isonIndicatorKe
     0xE26A,  # U+E26A isonIndicatorZoHigh
+    0xE26B,  # U+E26B isonIndicatorGaLow
 }
 SBMUFL_ISON_INDICATOR_CLEARANCE: Final = 120
 SBMUFL_GORGON_TOP_CODEPOINTS: Final[set[int]] = {

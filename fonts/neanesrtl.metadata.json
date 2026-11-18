@@ -1,6 +1,6 @@
 {
   "fontName": "NeanesRTL",
-  "fontVersion": "1.0.9",
+  "fontVersion": "1.0.10",
   "metrics": {
     "ascent": 0.8,
     "descent": 0.2,
@@ -8,7 +8,17 @@
     "winDescent": 0.466,
     "oligonMidpoint": 0.307,
     "initialMartyriaBaseline": 0.366,
-    "capitalHeight": 0.5
+    "capitalHeight": 0.5,
+    "elafronBounds": {
+      "runningElafron": {
+        "left": 0.08,
+        "right": 1.185
+      },
+      "petastiRunningElafron": {
+        "left": 0.085,
+        "right": 1.091
+      }
+    }
   },
   "glyphsWithAnchors": {
     "ison": {
@@ -7630,6 +7640,12 @@
         -0.002,
         0.124
       ]
+    },
+    "isonIndicatorGaLow": {
+      "isonIndicator": [
+        0.0,
+        0.996
+      ]
     }
   },
   "glyphsWithAlternates": {
@@ -8268,7 +8284,8 @@
     "fthoraEnharmonic": 0.528,
     "chroaZygos": 0.582,
     "chroaKliton": 0.63,
-    "chroaSpathi": 0.954
+    "chroaSpathi": 0.954,
+    "isonIndicatorGaLow": 0.0
   },
   "optionalGlyphs": {
     "oligonKentimataBelow.alt01": {
@@ -12138,6 +12155,16 @@
       "bBoxSW": [
         0.058,
         0.798
+      ]
+    },
+    "isonIndicatorGaLow": {
+      "bBoxNE": [
+        0.456,
+        1.298
+      ],
+      "bBoxSW": [
+        -0.456,
+        0.931
       ]
     }
   },
