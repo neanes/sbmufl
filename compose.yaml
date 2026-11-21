@@ -12,6 +12,7 @@ services:
   toolchain:
     build:
       context: .
-    image: sbmufl-build
+    image: sbmufl-build:${SBMUFL_TOOLCHAIN_ARCH:-amd64}
+    platform: linux/${SBMUFL_TOOLCHAIN_ARCH:-amd64}
     volumes:
       - .:/work:Z

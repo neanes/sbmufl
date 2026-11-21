@@ -1,4 +1,4 @@
-FROM ubuntu:26.04
+FROM ubuntu:26.04@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
 
 # hadolint ignore=DL3008
 RUN apt-get update \
@@ -23,12 +23,14 @@ COPY requirements.txt /tmp/requirements.txt
 # build: the sed drops copy_file()'s dry_run argument, which current setuptools'
 # distutils no longer accepts, and the forced <cstdint> include supplies the
 # uint*_t declarations that the bundled ots sources are missing under GCC 13+.
+# Use Python to extract the archive because Ubuntu's tar can fail under amd64
+# emulation on ARM64 hosts.
 RUN set -eu; \
     ots_version="$(sed -n 's/^opentype-sanitizer==//p' /tmp/requirements.txt)"; \
     test -n "${ots_version}"; \
     python3 -m pip download --no-deps --no-binary=opentype-sanitizer --dest /tmp "opentype-sanitizer==${ots_version}" \
-    && mkdir -p /tmp/opentype-sanitizer \
-    && tar -xf "/tmp/opentype_sanitizer-${ots_version}.tar.gz" -C /tmp/opentype-sanitizer --strip-components=1 \
+    && python3 -m tarfile -e "/tmp/opentype_sanitizer-${ots_version}.tar.gz" /tmp \
+    && mv "/tmp/opentype_sanitizer-${ots_version}" /tmp/opentype-sanitizer \
     && sed -i 's|copy_file(exe_fullpath, dest_path, verbose=self.verbose, dry_run=self.dry_run)|copy_file(exe_fullpath, dest_path, verbose=self.verbose)|' /tmp/opentype-sanitizer/setup.py \
     && CXXFLAGS="-include cstdint" python3 -m pip wheel --wheel-dir /tmp/wheelhouse /tmp/opentype-sanitizer \
     && rm -rf /tmp/opentype-sanitizer "/tmp/opentype_sanitizer-${ots_version}.tar.gz"

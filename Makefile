@@ -11,24 +11,20 @@ HADOLINT := docker compose run --rm -T hadolint
 # under -j.
 .NOTPARALLEL:
 
-.PHONY: all image build test lint lint-fix shell
+.PHONY: all image build sync-neanes test lint lint-fix shell
 
 all: lint build test
 
 image:
-	docker compose build
+	docker compose build toolchain
 
-# The copies into a sibling neanes checkout happen here, not in build.sh:
-# inside the container the sibling path cannot exist, only the host can
-# see it.
 build: image
 	$(TOOLCHAIN) scripts/build.sh
-	if [ -d ../neanes/src/assets/fonts ]; then \
-		cp fonts/Neanes*.otf fonts/*.metadata.json ../neanes/src/assets/fonts; \
-	fi
-	if [ -d ../neanes/docs/.vitepress/theme/assets/fonts ]; then \
-		cp fonts/Neanes.otf ../neanes/docs/.vitepress/theme/assets/fonts; \
-	fi
+
+sync-neanes:
+	test -d ../neanes/src/assets/fonts && test -d ../neanes/docs/.vitepress/theme/assets/fonts
+	cp fonts/Neanes*.otf fonts/*.metadata.json ../neanes/src/assets/fonts/
+	cp fonts/Neanes.otf ../neanes/docs/.vitepress/theme/assets/fonts/
 
 test: image
 	$(TOOLCHAIN) fontbakery check-universal --error-code-on FATAL fonts/*.otf
