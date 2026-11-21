@@ -1,0 +1,61 @@
+---
+name: Publish font toolchain
+
+on:
+  push:
+    paths:
+      - .dockerignore
+      - .github/workflows/publish-toolchain.yml
+      - Dockerfile
+      - requirements.txt
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE: ghcr.io/neanes/sbmufl-toolchain
+
+jobs:
+  publish-platform:
+    strategy:
+      matrix:
+        include:
+          - runner: ubuntu-26.04
+            arch: amd64
+          - runner: ubuntu-26.04-arm
+            arch: arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Log in to GitHub Container Registry
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: printf '%s' "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+      - name: Build and publish toolchain
+        env:
+          ARCH: ${{ matrix.arch }}
+        run: |
+          ref="$IMAGE:run-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$ARCH"
+          docker build --platform "linux/$ARCH" --tag "$ref" \
+            --label "org.opencontainers.image.source=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" .
+          docker push "$ref"
+
+  publish-index:
+    needs: publish-platform
+    runs-on: ubuntu-26.04
+    steps:
+      - name: Log in to GitHub Container Registry
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: printf '%s' "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+      - name: Publish the multi-platform index
+        run: |
+          ref="$IMAGE:run-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          docker buildx imagetools create --tag "$ref" "$ref-amd64" "$ref-arm64"
+          digest=$(docker buildx imagetools inspect "$ref" | awk '/^Digest:/ {print $2; exit}')
+          test -n "$digest"
+          printf 'Toolchain image for compose.yaml: `%s@%s`\n' "$IMAGE" "$digest" >> "$GITHUB_STEP_SUMMARY"
