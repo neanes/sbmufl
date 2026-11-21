@@ -4,7 +4,7 @@ FullName: NeanesStathisSeries
 FamilyName: NeanesStathisSeries
 Weight: Book
 Copyright: 
-Version: 1.0.10
+Version: 1.0.11
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -183,7 +183,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : Neanes : 12-3-2024" "" "Version 1.0.10"
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Neanes : 12-3-2024" "" "Version 1.0.11"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeFull
 UnicodeInterp: none
