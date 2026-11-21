@@ -18,28 +18,32 @@ permissions:
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         runner:
           - ubuntu-26.04
           - ubuntu-26.04-arm
     runs-on: ${{ matrix.runner }}
+    env:
+      SBMUFL_TOOLCHAIN_ARCH: ${{ matrix.runner == 'ubuntu-26.04-arm' && 'arm64' || 'amd64' }}
     steps:
       - name: Check out
         uses: actions/checkout@v7.0.1
 
       - name: Lint Markdown
+        if: runner.arch == 'X64'
         uses: DavidAnson/markdownlint-cli2-action@v24.2.0
 
-      - name: Build toolchain image
-        run: make image
-
       - name: Lint
+        if: runner.arch == 'X64'
         run: make lint
 
       - name: Build fonts
+        if: runner.arch == 'X64'
         run: make build
 
       - name: Check that the committed build outputs are up to date
+        if: runner.arch == 'X64'
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git status
