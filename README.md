@@ -28,13 +28,35 @@ Example fonts are included in the `fonts` directory.
 
 ### Building the Fonts
 
-The toolchain runs in Docker. With Docker and GNU Make installed, run:
+Install Docker with Compose. On Windows, use Docker Desktop in Linux
+container mode. From the repository root, run this in PowerShell or a
+macOS or Linux shell:
 
-```bash
-make
+```sh
+docker compose run --build --rm toolchain sh scripts/build.sh
 ```
 
-to lint, build the fonts, and run the Font Bakery checks. The individual targets are `make lint`, `make build`, `make test`, `make lint-fix` (apply formatting fixes), and `make shell` (interactive shell inside the toolchain container).
+Compose builds and runs the project's Dockerfile for Linux x86-64. Docker
+emulates x86-64 on ARM64 hosts. CI uses the same Dockerfile to verify the
+committed outputs and runs Font Bakery against those files on both
+x86-64 and ARM64.
+
+On macOS and Linux, `make build` runs the same build under your user ID to
+preserve file ownership. Use `make` to lint, build, and run Font Bakery, or
+run the steps separately with `make lint`, `make build`, and `make test`.
+Use `make lint-fix` to apply formatting fixes and `make shell` to open a
+shell in the toolchain.
+
+#### Updating a local Neanes checkout
+
+Build the fonts first. If Neanes is checked out at `../neanes`, run
+`make sync-neanes` or copy the six `Neanes*.otf` files and six
+`*.metadata.json` files from `fonts/` to `../neanes/src/assets/fonts/`.
+Also copy `fonts/Neanes.otf` to
+`../neanes/docs/.vitepress/theme/assets/fonts/`.
+
+In the Neanes checkout, refresh its bundled font catalog with
+`npx vitest run src/services/FontAlternatesService.test.ts -u`.
 
 ### Developing the Documentation
 
