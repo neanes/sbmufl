@@ -6,8 +6,13 @@ All positions and widths are specified in ems.
 
 ## metrics
 
-This section contains font-wide measurements and adjustments. The
-`elafronBounds` object gives the horizontal outline bounds of the elafron
+This section contains font-wide measurements and adjustments.
+`modeKeyQuantitativeBaseline` is the vertical anchor for trailing quantitative
+neumes in mode keys. It is positive upward from the font origin and is derived
+from the bottom of the oligon outline. Position that anchor on the text baseline,
+moving each neume together with its attached marks.
+
+The `elafronBounds` object gives the horizontal outline bounds of the elafron
 component in composite glyphs.
 
 ```js
@@ -18,6 +23,7 @@ component in composite glyphs.
     "winAscent": 1.4,
     "winDescent": 0.466,
     "oligonMidpoint": 0.307,
+    "modeKeyQuantitativeBaseline": 0.222,
     "elafronBounds": {
       "runningElafron": {
         "left": 0.59,

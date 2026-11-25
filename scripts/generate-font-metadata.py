@@ -378,6 +378,10 @@ class SbmuflFont(object):
         return glyph_height(self.font[0xE2E1])
 
     @property
+    def mode_key_quantitative_baseline(self):
+        return self.font[0xE001].boundingBox()[1]
+
+    @property
     def initial_martyria_baseline(self):
         bbox = self.font[0xE2E1].boundingBox()
         xmin, ymin, xmax, ymax = bbox
@@ -401,6 +405,9 @@ class _SbmuflMetadata(object):
             "oligonMidpoint": round(self.font.oligon_midpoint / self.font.em, 3),
             "initialMartyriaBaseline": round(
                 self.font.initial_martyria_baseline / self.font.em, 3
+            ),
+            "modeKeyQuantitativeBaseline": round(
+                self.font.mode_key_quantitative_baseline / self.font.em, 3
             ),
             "capitalHeight": round(self.font.capital_height / self.font.em, 3),
             "elafronBounds": self.elafron_bounds(),
